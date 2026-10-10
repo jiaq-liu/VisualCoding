@@ -1,4 +1,4 @@
-# VisualCoding — executable skills for reliable agentic visual reasoning
+# VisualCoding — Learning executable skills for reliable agentic visual reasoning
 
 ![VisualCoding overview](assets/overview.png)
 
