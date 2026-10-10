@@ -149,8 +149,8 @@ class Instrument:
             return int(norm_text(a) == norm_text(g))
 
     def range_from_row(self, row: dict, task: Task) -> bool | None:
-        """Recompute the range flag of a stored reading from its diag (train-fitted rules applied post hoc by
-        `instrument_eval refresh`); None = keep the stored flag."""
+        """Range flag of a stored reading recomputed from its diag by the fitted rule (overridden by the deployed
+        program); None = keep the stored flag."""
         return None
 
     # range: default = the reading parsed

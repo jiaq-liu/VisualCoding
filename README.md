@@ -1,14 +1,8 @@
 # VisualCoding — executable skills for reliable agentic visual reasoning
 
-Code, data split and baselines of the paper.
+![VisualCoding overview](assets/overview.png)
 
-```
-visualcoding/verify/            executor harness (verify.run), program evaluation, acquisition loop, text skills
-visualcoding/scripts/pipeline/  end-to-end pipeline (chain.sh)
-data/                           frozen train / test split (records in git; images rebuilt from the public releases)
-baselines/                      XSkill, Trace2Skill, SkillOpt, GEPA, TextGrad
-environment/                    dependency pins
-```
+*VisualCoding overview*. **Program acquisition**: training examples, baseline statistics, and visual primitives support program search. Execution feedback guides revision, and scope fitting and selection retain a frozen program $P$ and scope $g$. **Direct execution**: valid in-scope outputs directly supply the answer through an adapter.
 
 ## Setup
 
