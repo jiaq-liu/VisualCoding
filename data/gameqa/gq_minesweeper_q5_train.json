@@ -1,0 +1,402 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00001.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1000",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 4x4, and there are a total of 3 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (0,2)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "E",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00001-8",
+  "image": "games_images_test/minesweeper/board_00001.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00004.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1006",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 4x4, and there are a total of 3 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (0,3)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "E",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00004-8",
+  "image": "games_images_test/minesweeper/board_00004.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00004.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1007",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 4x4, and there are a total of 3 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (0,0)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "E",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00004-9",
+  "image": "games_images_test/minesweeper/board_00004.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00015.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1029",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 6x6, and there are a total of 8 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (2,2)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "C",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00015-9",
+  "image": "games_images_test/minesweeper/board_00015.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00018.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1035",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 6x6, and there are a total of 8 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (1,0)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "D",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00018-9",
+  "image": "games_images_test/minesweeper/board_00018.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00020.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1038",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 5x5, and there are a total of 5 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (3,3)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "C",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00020-8",
+  "image": "games_images_test/minesweeper/board_00020.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00020.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1039",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 5x5, and there are a total of 5 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (4,1)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "A",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00020-9",
+  "image": "games_images_test/minesweeper/board_00020.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00021.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1040",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 6x6, and there are a total of 8 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (2,0)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "B",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00021-8",
+  "image": "games_images_test/minesweeper/board_00021.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00025.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1048",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 4x4, and there are a total of 3 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (1,2)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "C",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00025-8",
+  "image": "games_images_test/minesweeper/board_00025.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00026.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1050",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 5x5, and there are a total of 5 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (3,0)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "D",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00026-8",
+  "image": "games_images_test/minesweeper/board_00026.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00028.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1055",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 4x4, and there are a total of 3 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (1,1)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "C",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00028-9",
+  "image": "games_images_test/minesweeper/board_00028.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00029.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1056",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 5x5, and there are a total of 5 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (3,2)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "C",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00029-8",
+  "image": "games_images_test/minesweeper/board_00029.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00030.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1058",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 6x6, and there are a total of 8 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (4,2)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "E",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00030-8",
+  "image": "games_images_test/minesweeper/board_00030.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00030.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1059",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 6x6, and there are a total of 8 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (0,5)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "A",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00030-9",
+  "image": "games_images_test/minesweeper/board_00030.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00032.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1062",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 5x5, and there are a total of 5 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (0,4)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "E",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00032-8",
+  "image": "games_images_test/minesweeper/board_00032.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00039.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1077",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 6x6, and there are a total of 8 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (1,5)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "D",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00039-9",
+  "image": "games_images_test/minesweeper/board_00039.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00041.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1081",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 5x5, and there are a total of 5 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (0,2)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "E",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00041-9",
+  "image": "games_images_test/minesweeper/board_00041.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00043.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1084",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 4x4, and there are a total of 3 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (3,3)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "E",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00043-8",
+  "image": "games_images_test/minesweeper/board_00043.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00045.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1089",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 6x6, and there are a total of 8 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (0,4)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "F",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00045-9",
+  "image": "games_images_test/minesweeper/board_00045.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/minesweeper__board_00047.png"
+  ],
+  "doc_id": "gameqa_gq_minesweeper_q5_1093",
+  "problem": "<image>\nThis is a Minesweeper game. The size of the chessboard is 5x5, and there are a total of 5 mines hidden on the board.\n\nThe numbers on the board indicate how many mines are adjacent to that cell, including diagonals. Cells marked with \"F\" (flagged) are identified as potential locations of mines based on logical deduction or prior knowledge. These flagged cells play a critical role in guiding your reasoning for answering the questions. Cells with no numbers and no flags are safe and contain no adjacent mines.\n\nThe board uses a coordinate system where the top-left cell corresponds to (0,0), and the rows and columns are numbered starting from 0.\n\nPlease use the provided board configuration and logical reasoning to deduce the correct answers to the following questions:\n\n**Question:** What is the best next move at (0,1)? \n\n**Options:** \nA. Flag this cell as a mine. \nB. Reveal this cell. \nC. Analyze adjacent cells for potential mines according to the number on it. \nD. Skip this move and wait for more information. \nE. This cell has already been revealed, and no further action is required. \nF. This cell has already been flagged as a mine, and no further action is needed.\n\nAnswer with the option letter.",
+  "solution": "E",
+  "data_source": "gameqa",
+  "game": "minesweeper",
+  "question_id": 5,
+  "data_id": "minesweeper-test-00047-9",
+  "image": "games_images_test/minesweeper/board_00047.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Determine optimal move",
+  "dataset": "gameqa",
+  "family": "gq_minesweeper_q5",
+  "split": "train"
+ }
+]

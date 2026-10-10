@@ -1,0 +1,806 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/849.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_849",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. hexagon\nC. square\nD. triangle",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/151.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_151",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. triangle\nC. hexagon\nD. pentagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1813.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1813",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. triangle\nD. hexagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1285.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1285",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. pentagon\nD. square",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1175.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1175",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. pentagon\nC. triangle\nD. square",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/863.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_863",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. square\nD. pentagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/927.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_927",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. pentagon\nC. square\nD. triangle",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/900.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_900",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. pentagon\nD. square",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/749.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_749",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. square\nC. hexagon\nD. pentagon",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/8.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_8",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. triangle\nC. pentagon\nD. hexagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/424.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_424",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. triangle\nC. hexagon\nD. pentagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1439.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1439",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. square\nD. pentagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1058.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1058",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. pentagon\nC. triangle\nD. square",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1169.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1169",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. square\nC. hexagon\nD. pentagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/670.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_670",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. square\nC. triangle\nD. pentagon",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/758.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_758",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. square\nC. triangle\nD. pentagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/122.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_122",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. triangle\nC. pentagon\nD. hexagon",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/974.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_974",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. hexagon\nC. pentagon\nD. triangle",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1492.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1492",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. triangle\nD. hexagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/735.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_735",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. hexagon\nD. triangle",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1381.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1381",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. square\nD. pentagon",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/336.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_336",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. square\nD. pentagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1448.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1448",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. square\nC. pentagon\nD. hexagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1336.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1336",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. pentagon\nD. square",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/523.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_523",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. square\nD. pentagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1564.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1564",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. square\nC. triangle\nD. pentagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/298.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_298",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. triangle\nC. square\nD. hexagon",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1110.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1110",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. hexagon\nC. pentagon\nD. triangle",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/615.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_615",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. triangle\nC. hexagon\nD. square",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1668.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1668",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. square\nC. pentagon\nD. hexagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/536.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_536",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. pentagon\nC. triangle\nD. hexagon",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/606.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_606",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. pentagon\nC. hexagon\nD. triangle",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/694.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_694",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. pentagon\nD. square",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/923.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_923",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. square\nC. pentagon\nD. triangle",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/475.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_475",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. triangle\nC. hexagon\nD. square",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1379.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1379",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. pentagon\nC. square\nD. triangle",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1848.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1848",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. pentagon\nC. square\nD. hexagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1780.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1780",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. triangle\nC. hexagon\nD. square",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1230.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1230",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. triangle\nC. hexagon\nD. square",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/33.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_33",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. square\nC. hexagon\nD. pentagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/765.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_765",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. pentagon\nC. triangle\nD. square",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/399.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_399",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. pentagon\nD. square",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1446.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1446",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. pentagon\nC. square\nD. triangle",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/470.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_470",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. triangle\nC. hexagon\nD. pentagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/96.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_96",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. hexagon\nC. pentagon\nD. triangle",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1704.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1704",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. square\nC. triangle\nD. pentagon",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/16.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_16",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. square\nD. pentagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1059.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1059",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. square\nC. hexagon\nD. pentagon",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1198.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1198",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. triangle\nD. hexagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/552.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_552",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. square\nC. hexagon\nD. pentagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1952.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1952",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. square\nD. pentagon",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/544.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_544",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. hexagon\nC. triangle\nD. pentagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1376.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1376",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. square\nD. pentagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1406.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1406",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. hexagon\nD. triangle",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/871.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_871",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. square\nC. hexagon\nD. pentagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1426.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1426",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. square\nD. pentagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1003.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1003",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. pentagon\nD. square",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/425.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_425",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. hexagon\nD. triangle",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. hexagon\nC. triangle\nD. square",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/669.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_669",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. pentagon\nD. square",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1437.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1437",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. triangle\nC. hexagon\nD. pentagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/710.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_710",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. hexagon\nD. triangle",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/779.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_779",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. pentagon\nC. square\nD. triangle",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1949.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1949",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. hexagon\nC. pentagon\nD. triangle",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1666.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1666",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. hexagon\nB. square\nC. triangle\nD. pentagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/412.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_412",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. hexagon\nD. triangle",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_reflect/1543.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_reflect_1543",
+  "problem": "<image>\nWhat is the missing shape denoted by a question mark?\n\nOptions:\nA. square\nB. triangle\nC. hexagon\nD. pentagon",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_reflect",
+  "split": "test"
+ }
+]

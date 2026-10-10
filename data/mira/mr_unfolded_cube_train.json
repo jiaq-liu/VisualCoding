@@ -1,0 +1,119 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__0.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_0",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, moon); (2, triangle); (3, heart); (4, star); (5, circle)",
+  "data_source": "mira",
+  "uid": "0",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__1.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_1",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, triangle); (2, star); (3, circle); (4, arrow); (5, moon)",
+  "data_source": "mira",
+  "uid": "1",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__8.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_8",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, circle); (2, triangle); (3, heart); (4, star); (5, arrow)",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__9.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_9",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, moon); (2, star); (3, arrow); (4, circle); (5, heart)",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__12.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_12",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, moon); (2, arrow); (3, circle); (4, triangle); (5, heart)",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__19.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_19",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, arrow); (2, heart); (3, star); (4, circle); (5, moon)",
+  "data_source": "mira",
+  "uid": "19",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__23.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_23",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, moon); (2, heart); (3, triangle); (4, star); (5, circle)",
+  "data_source": "mira",
+  "uid": "23",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__24.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_24",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, star); (2, circle); (3, heart); (4, arrow); (5, moon)",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__25.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_25",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, moon); (2, heart); (3, triangle); (4, arrow); (5, circle)",
+  "data_source": "mira",
+  "uid": "25",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ }
+]

@@ -1,0 +1,482 @@
+[
+ {
+  "images": [
+   "tirbench/data/visual_search/new_14.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_149",
+  "problem": "<image>\nWhat is the price for the skittles candy?\nA. 12\nB. 6.5\nC. 6,9\nD. 4.5",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-28.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_892",
+  "problem": "<image>\nHow many people are there in total on the boat in the picture?\n",
+  "solution": "20",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_23.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_988",
+  "problem": "<image>\nWhich lantern text listed below is furthest from the woman dressed in purple?\nA The leftmost lantern labeled ブリエ\nB The rightmost lantern labeled 株式会社 牛長\nC The fifth lantern from the right labeled 御神燈\nD The leftmost lantern labeled 甚政\nE The rightmost lantern labeled 御神燈",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-27.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1135",
+  "problem": "<image>\nHow many cows are there in total in the picture?\n",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-34.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_945",
+  "problem": "<image>\nHow many boats are there in the picture?\n",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_10.png"
+  ],
+  "doc_id": "tirbench_visual_search_360",
+  "problem": "<image>\nWhat color is the neon \"OPEN\" sign hanging above the items for sale?\nA. Yellow and green\nB. Red and blue\nC. Blue and green\nD. White and blue",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-10.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_948",
+  "problem": "<image>\nWhat are the numbers shown on the sign attached to the traffic light pole?\nA) 8-20\nB) 7-20\nC) 8-10\nD) 8-50\nE) 0-20\nF) 6-20\n",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_29.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_919",
+  "problem": "<image>\nHow many aircraft can you spot in this image?\nA. 7\nB. 8\nC. 9\nD. 6",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_12.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_989",
+  "problem": "<image>\nTo what number is the hour hand of the clock pointing closest? Answer 1-12.",
+  "solution": "1",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_48.png"
+  ],
+  "doc_id": "tirbench_visual_search_1125",
+  "problem": "<image>\nWhat is written on the black and white sign above the parking garage entrance?\nA. Reserved Parking\nB. No Entry\nC. Loading Zone\nD. Public Parking",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-21.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_501",
+  "problem": "<image>\nWhat are the last two digits of the taxi’s license plate number 63-____ in the picture? Answer with an integer.\n",
+  "solution": "92",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_17.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_848",
+  "problem": "<image>\nTo what number is the hour hand of the clock pointing closest? Answer 1-12.",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_2.png"
+  ],
+  "doc_id": "tirbench_visual_search_925",
+  "problem": "<image>\nWhat is the license plate number of the car?\nA. RK 879\nB. RK 789\nC. PK 879\nD. RK 876",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_8.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_393",
+  "problem": "<image>\nTo what number is the hour hand of the clock pointing closest?",
+  "solution": "2",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_17.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_207",
+  "problem": "<image>\nWhat is the hours of operation for the parking lot on the left based on the image?\nA. Cannot be determined\nB. 7AM-10PM\nC. 9AM-11PM\nD. 24 hours a day",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_6.png"
+  ],
+  "doc_id": "tirbench_visual_search_680",
+  "problem": "<image>\nWhat is the color of the sign in the image?\nA. Yellow and green\nB. Yellow and white\nC. Green and white\nD. White and red",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_19.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_879",
+  "problem": "<image>\nThere are three wine bottles on the table filled with liquor, right?\nA.Yes\nB.No",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_11.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_990",
+  "problem": "<image>\nWhich one of the following is a sponsor for the runners?\nA. Addidas\nB. Nike\nC. Puma\nD. Cannot be determined",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_27.png"
+  ],
+  "doc_id": "tirbench_visual_search_532",
+  "problem": "<image>\nWhat is the speed limit indicated on the sign in the image?\nA. 40 km/h\nB. 20 km/h\nC. 60 km/h\nD. 30 km/h",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-14.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_759",
+  "problem": "<image>\nOn the street shown in the picture, riding bicycles and skateboards is prohibited on the sidewalk from what time to what time?\nA) 8 AM – 8 PM\nB) 8 AM – 12 PM\nC) 8 AM – 6 PM\nD) 6 AM – 6 PM\nE) 6 AM – 9 PM\nF) 6 AM – 8 PM\n",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_1.png"
+  ],
+  "doc_id": "tirbench_visual_search_148",
+  "problem": "<image>\nHow many horses are pulling the carriage loaded with red cargo in the picture?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-32.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_668",
+  "problem": "<image>\nWhat color is the hat worn by the person with a cane in the picture?\nA) Red\nB) Blue\nC) Yellow\nD) Green\nE) Black\n",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-12.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1020",
+  "problem": "<image>\nWhat is the four-digit number following 30-() on the license plate of the bus on the left-hand side?\n",
+  "solution": "3549",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-25.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1124",
+  "problem": "<image>\nHow many grapes are on the table?\n",
+  "solution": "11",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_3.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_141",
+  "problem": "<image>\nWhat is the registration of the Delta Airlines aircraft in this image?\nA. N620CZ\nB. N265SY\nC. N620SY\nD. N520CZ",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-8.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_42",
+  "problem": "<image>\nWhich of the following number strings do not appear in any license plate in the picture?\nA) 9113\nB) 9360\nC) 874\nD) 1690\nE) 2278\n",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-2.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_842",
+  "problem": "<image>\nWhat is the license plate number of the car in the upper left corner of the picture?\nA) 8334\nB) 6333\nC) 8333\nD) 4331\nE) 8664\n",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_7.png"
+  ],
+  "doc_id": "tirbench_visual_search_779",
+  "problem": "<image>\nWhat is the color of the umbrella?\nA. Black\nB. Blue\nC. Red\nD. Green",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_3.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_317",
+  "problem": "<image>\nHow many grapes are there in the picture?\nA.27\nB.28\nC.29\nD.30",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_43.png"
+  ],
+  "doc_id": "tirbench_visual_search_856",
+  "problem": "<image>\nWhat is the position of the blue backpack relative to the warning sign?\nA. Below the warning sign\nB. To the right of the warning sign\nC. On top of the warning sign\nD. To the left of the warning sign",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_8.png"
+  ],
+  "doc_id": "tirbench_visual_search_295",
+  "problem": "<image>\nWhat is the title of the framed poster visible in the image?\nA. Ely Division\nB. Ely Cathedral\nC. Ely Diocess\nD. Ely Diocese",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_6.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_544",
+  "problem": "<image>\nWhat is the score of the match at the moment when this photo is taken?\nA. 0-0\nB. 0-1\nC. 1-1\nD. It cannot be determined",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_23.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_458",
+  "problem": "<image>\nWhich section is the book 'You have to stop this - secret series' located in?\nA. Adolescentl/Teenagers\nB. Cannot be determined\nC. Fictune/Fiction\nD. Game/Puzzle",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-25.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_526",
+  "problem": "<image>\n目昇海鲜的服务费是多少元？填写一个整数。\n",
+  "solution": "0",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_4.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_735",
+  "problem": "<image>\nWhat are the three key features/benefits of lavender essential oil for personal care as advertised in the image?\nA. Antiseptic, Anesthetic, Sedative\nB. Fragrance, Cleansing, Protecting\nC. Smooth, Cleansing, Sedative\nD. Fragrance, Antiseptic, Long-lasting",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_1.png"
+  ],
+  "doc_id": "tirbench_visual_search_430",
+  "problem": "<image>\nWhat is the text written on the blue golf ball holder?\nA. NEW MEXICO MUTUAL\nB. MUTUAL INSURANCE\nC. NEW MEXICO INSURANCE\nD. NEW YORK MUTUAL",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_18.png"
+  ],
+  "doc_id": "tirbench_visual_search_742",
+  "problem": "<image>\nWhat's the number written on the boat?\nA. 10\nB. 5\nC. 25\nD. 15",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_12.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_399",
+  "problem": "<image>\nWhat number can you call if you wish to buy some protective equipments?\nA. Cannot be determined\nB. 02-363-7666\nC. 43-222-5939\nD. 00-000-0000",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-7.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_653",
+  "problem": "<image>\nWhat are the four digits of the license plate number of the black car that is second closest to the red car in the picture?\nA) 1587\nB) 1597\nC) 1674\nD) 2818\nE) 2278\n",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_35.png"
+  ],
+  "doc_id": "tirbench_visual_search_426",
+  "problem": "<image>\nWhat is the relative position of the black motorcycle compared to the silver car?\nA. To the right of the silver car\nB. Behind the silver car\nC. To the left of the silver car\nD. In front of the silver car",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "train"
+ }
+]

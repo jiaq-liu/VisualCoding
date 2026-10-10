@@ -1,0 +1,402 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00002.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1001",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Down → Left → Left → Right → Right → Down → Right → Right → Left → Left → Down → Right, where will player end up?\n\nOptions:\n[1] (6, 1)\n[2] (8, 10)\n[3] (6, 2)\n[4] (5, 3)\n[5] (3, 9)\n[6] (10, 2)\n[7] (5, 9)\n[8] (1, 9)\n\nAnswer with the option number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00002-00001",
+  "image": "games_images_test/sokoban/board_00002.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00008.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1007",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Right → Down → Right → Right → Left → Left → Up → Up → Left → Down → Right → Down, where will player end up?\n\nOptions:\n[1] (3, 9)\n[2] (5, 10)\n[3] (1, 4)\n[4] (5, 4)\n[5] (8, 8)\n[6] (3, 4)\n[7] (1, 5)\n[8] (1, 3)\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00008-00001",
+  "image": "games_images_test/sokoban/board_00008.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00018.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1015",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Left → Left → Left → Down → Right, where will player end up?\n\nOptions:\n[1] (1, 2)\n[2] (1, 3)\n[3] (2, 2)\n[4] (2, 3)\n[5] (3, 2)\n[6] (1, 1)\n[7] (2, 1)\n[8] (3, 3)\n\nAnswer with the option number.",
+  "solution": "8",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00018-00001",
+  "image": "games_images_test/sokoban/board_00018.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00021.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1018",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Right → Left → Right → Right → Up, where will player end up?\n\nOptions:\n[1] (3, 2)\n[2] (2, 1)\n[3] (1, 2)\n[4] (3, 1)\n[5] (1, 3)\n[6] (2, 3)\n[7] (1, 1)\n[8] (3, 3)\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00021-00001",
+  "image": "games_images_test/sokoban/board_00021.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00046.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1042",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Up → Left → Left → Down → Down → Left → Down → Up, where will player end up?\n\nOptions:\n[1] (1, 6)\n[2] (5, 4)\n[3] (1, 5)\n[4] (2, 4)\n[5] (6, 2)\n[6] (4, 3)\n[7] (2, 3)\n[8] (5, 3)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00046-00001",
+  "image": "games_images_test/sokoban/board_00046.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00048.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1044",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Left → Left → Left → Left → Down, where will player end up?\n\nOptions:\n[1] (2, 1)\n[2] (3, 1)\n[3] (2, 3)\n[4] (1, 1)\n[5] (3, 2)\n[6] (1, 2)\n[7] (3, 3)\n[8] (2, 2)\n\nAnswer with the option number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00048-00001",
+  "image": "games_images_test/sokoban/board_00048.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00055.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1051",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Left → Right → Up → Left → Up → Up → Left → Up, where will player end up?\n\nOptions:\n[1] (1, 1)\n[2] (6, 3)\n[3] (2, 2)\n[4] (3, 4)\n[5] (5, 3)\n[6] (4, 3)\n[7] (3, 3)\n[8] (4, 4)\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00055-00001",
+  "image": "games_images_test/sokoban/board_00055.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00059.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1055",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Right → Up → Down → Right → Left → Left → Left → Right → Down → Right → Left → Right, where will player end up?\n\nOptions:\n[1] (3, 4)\n[2] (10, 10)\n[3] (4, 8)\n[4] (2, 3)\n[5] (2, 7)\n[6] (6, 4)\n[7] (10, 2)\n[8] (3, 5)\n\nAnswer with the option number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00059-00001",
+  "image": "games_images_test/sokoban/board_00059.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00072.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1067",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Up → Right → Up → Up → Down, where will player end up?\n\nOptions:\n[1] (2, 1)\n[2] (1, 3)\n[3] (3, 2)\n[4] (3, 3)\n[5] (3, 1)\n[6] (1, 2)\n[7] (2, 2)\n[8] (1, 1)\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00072-00001",
+  "image": "games_images_test/sokoban/board_00072.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00076.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1071",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Left → Right → Right → Right → Down → Up → Right → Right, where will player end up?\n\nOptions:\n[1] (1, 6)\n[2] (5, 6)\n[3] (3, 6)\n[4] (5, 3)\n[5] (3, 2)\n[6] (1, 1)\n[7] (1, 3)\n[8] (6, 1)\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00076-00001",
+  "image": "games_images_test/sokoban/board_00076.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00085.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1078",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Down → Down → Left → Up → Right → Right → Down → Down, where will player end up?\n\nOptions:\n[1] (5, 2)\n[2] (1, 4)\n[3] (6, 6)\n[4] (5, 3)\n[5] (2, 1)\n[6] (6, 5)\n[7] (2, 2)\n[8] (6, 2)\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00085-00001",
+  "image": "games_images_test/sokoban/board_00085.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00086.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1079",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Up → Down → Up → Left → Up → Left → Left → Left → Up → Up → Down → Down, where will player end up?\n\nOptions:\n[1] (1, 2)\n[2] (6, 6)\n[3] (3, 4)\n[4] (2, 1)\n[5] (2, 9)\n[6] (4, 1)\n[7] (7, 10)\n[8] (9, 8)\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00086-00001",
+  "image": "games_images_test/sokoban/board_00086.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00087.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1080",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Down → Down → Left → Left → Up, where will player end up?\n\nOptions:\n[1] (3, 3)\n[2] (3, 1)\n[3] (1, 1)\n[4] (1, 3)\n[5] (2, 2)\n[6] (1, 2)\n[7] (2, 3)\n[8] (2, 1)\n\nAnswer with the option number.",
+  "solution": "8",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00087-00001",
+  "image": "games_images_test/sokoban/board_00087.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00088.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1081",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Down → Up → Left → Right → Left → Down → Left → Down, where will player end up?\n\nOptions:\n[1] (4, 3)\n[2] (2, 5)\n[3] (6, 3)\n[4] (5, 2)\n[5] (1, 3)\n[6] (4, 1)\n[7] (3, 6)\n[8] (6, 2)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00088-00001",
+  "image": "games_images_test/sokoban/board_00088.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00102.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1093",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Left → Left → Left → Left → Right, where will player end up?\n\nOptions:\n[1] (1, 3)\n[2] (3, 1)\n[3] (1, 1)\n[4] (2, 3)\n[5] (3, 3)\n[6] (2, 1)\n[7] (3, 2)\n[8] (1, 2)\n\nAnswer with the option number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00102-00001",
+  "image": "games_images_test/sokoban/board_00102.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00104.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1095",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Left → Left → Right → Left → Down → Up → Up → Right → Right → Left → Left → Down, where will player end up?\n\nOptions:\n[1] (1, 8)\n[2] (9, 6)\n[3] (4, 5)\n[4] (2, 7)\n[5] (8, 3)\n[6] (7, 5)\n[7] (2, 9)\n[8] (1, 9)\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00104-00001",
+  "image": "games_images_test/sokoban/board_00104.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00106.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1097",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Down → Left → Left → Up → Left → Up → Right → Right, where will player end up?\n\nOptions:\n[1] (2, 2)\n[2] (4, 5)\n[3] (4, 6)\n[4] (1, 3)\n[5] (4, 3)\n[6] (2, 4)\n[7] (1, 5)\n[8] (6, 5)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00106-00001",
+  "image": "games_images_test/sokoban/board_00106.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00107.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1098",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Left → Up → Up → Left → Left → Left → Up → Right → Down → Down → Right → Down, where will player end up?\n\nOptions:\n[1] (4, 2)\n[2] (4, 3)\n[3] (1, 9)\n[4] (4, 1)\n[5] (5, 1)\n[6] (10, 10)\n[7] (1, 10)\n[8] (8, 10)\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00107-00001",
+  "image": "games_images_test/sokoban/board_00107.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00114.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1105",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Down → Down → Up → Right, where will player end up?\n\nOptions:\n[1] (1, 1)\n[2] (3, 1)\n[3] (2, 1)\n[4] (3, 2)\n[5] (1, 3)\n[6] (2, 3)\n[7] (1, 2)\n[8] (2, 2)\n\nAnswer with the option number.",
+  "solution": "8",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00114-00001",
+  "image": "games_images_test/sokoban/board_00114.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00120.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q1_1111",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.If the player makes these moves: Right → Left → Right → Up → Down, where will player end up?\n\nOptions:\n[1] (2, 1)\n[2] (3, 2)\n[3] (2, 2)\n[4] (1, 2)\n[5] (2, 3)\n[6] (3, 1)\n[7] (3, 3)\n[8] (1, 1)\n\nAnswer with the option number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 1,
+  "data_id": "sokoban-data-00120-00001",
+  "image": "games_images_test/sokoban/board_00120.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of player moves, predict the final position of the player",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q1",
+  "split": "train"
+ }
+]

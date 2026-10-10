@@ -1,0 +1,962 @@
+[
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_99.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_616",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[25, 20, 22, 3, 4, 35, 34, 28, 36, 21, 7, 12, 29, 15, 2, 6, 10, 30, 32, 18, 31, 27, 19, 26, 33, 13, 16, 14, 9, 23, 11, 24, 5, 8, 17, 1]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_76.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_556",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[22, 23, 18, 15, 17, 13, 19, 16, 6, 2, 1, 14, 8, 4, 10, 9, 11, 20, 12, 5, 7, 24, 3, 25, 21]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_108.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_825",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[21, 30, 35, 27, 24, 8, 2, 5, 10, 6, 14, 26, 12, 20, 13, 18, 33, 34, 28, 11, 23, 4, 1, 31, 7, 36, 17, 22, 16, 15, 32, 9, 29, 25, 19, 3]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_41.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_160",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[3, 13, 11, 9, 10, 14, 6, 2, 8, 7, 15, 16, 12, 4, 1, 5]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_44.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_665",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[9, 10, 16, 11, 13, 1, 5, 6, 2, 8, 15, 4, 14, 3, 7, 12]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_29.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_682",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[7, 4, 2, 8, 3, 1, 5, 9, 6]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_68.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_177",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[8, 14, 4, 22, 24, 21, 7, 10, 6, 20, 23, 12, 15, 2, 17, 18, 13, 11, 19, 16, 3, 25, 5, 9, 1]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_57.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_402",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[16, 4, 11, 2, 12, 1, 10, 7, 3, 5, 15, 8, 13, 6, 14, 9]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_25.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1037",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[7, 4, 9, 2, 8, 3, 1, 5, 6]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_52.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1158",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[1, 8, 11, 16, 15, 7, 4, 3, 10, 5, 12, 9, 13, 14, 6, 2]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_28.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_204",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[7, 6, 2, 4, 3, 9, 1, 5, 8]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_120.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_68",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[7, 34, 12, 31, 33, 19, 13, 16, 28, 4, 17, 36, 30, 15, 27, 1, 2, 5, 21, 3, 22, 18, 32, 29, 35, 25, 14, 9, 11, 20, 24, 26, 6, 8, 10, 23]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_47.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_558",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[7, 11, 5, 13, 12, 10, 15, 6, 4, 16, 2, 8, 14, 3, 1, 9]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_59.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_938",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[7, 16, 1, 11, 14, 6, 8, 9, 3, 4, 13, 10, 2, 5, 15, 12]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_20.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_147",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[8, 4, 6, 5, 2, 3, 7, 9, 1]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_75.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_495",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[24, 9, 8, 11, 4, 25, 14, 18, 15, 5, 17, 19, 20, 1, 13, 22, 21, 3, 12, 23, 6, 2, 16, 10, 7]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_2.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1208",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[7, 3, 1, 2, 4, 9, 5, 8, 6]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_40.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_417",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[4, 7, 14, 12, 1, 16, 2, 11, 6, 10, 9, 5, 3, 15, 13, 8]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_58.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_25",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[16, 10, 1, 8, 2, 7, 9, 12, 5, 3, 15, 14, 4, 6, 13, 11]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_50.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1060",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[6, 1, 4, 11, 3, 5, 9, 14, 10, 2, 12, 13, 8, 7, 15, 16]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_112.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_774",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[5, 25, 26, 12, 27, 24, 9, 10, 1, 15, 17, 35, 4, 30, 3, 34, 19, 23, 11, 31, 8, 32, 16, 33, 6, 7, 36, 18, 22, 28, 2, 14, 21, 13, 29, 20]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_105.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_784",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[18, 6, 21, 34, 1, 32, 31, 24, 11, 4, 2, 17, 36, 28, 8, 25, 35, 7, 22, 10, 14, 5, 30, 12, 20, 9, 26, 13, 27, 29, 15, 19, 23, 3, 16, 33]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_24.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_387",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[8, 6, 7, 4, 2, 1, 9, 3, 5]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_37.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_489",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[2, 6, 10, 15, 1, 3, 14, 8, 12, 7, 5, 4, 13, 16, 11, 9]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_92.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_389",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[9, 8, 18, 1, 29, 28, 12, 26, 35, 22, 13, 21, 27, 23, 34, 14, 19, 36, 24, 7, 5, 10, 16, 25, 11, 2, 6, 33, 32, 4, 30, 3, 15, 20, 17, 31]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_86.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_105",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[6, 24, 14, 4, 13, 2, 22, 15, 11, 18, 12, 23, 10, 19, 5, 1, 25, 3, 9, 7, 20, 16, 17, 21, 8]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_110.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_794",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[14, 20, 5, 9, 24, 17, 10, 1, 28, 25, 19, 6, 29, 34, 13, 16, 7, 4, 21, 36, 11, 22, 33, 35, 12, 3, 30, 18, 2, 27, 15, 23, 31, 8, 26, 32]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_85.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_128",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[21, 23, 6, 16, 19, 18, 25, 17, 2, 10, 5, 11, 14, 7, 13, 3, 24, 1, 12, 9, 4, 20, 15, 8, 22]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_26.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_590",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[3, 5, 2, 4, 7, 8, 6, 1, 9]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_53.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_52",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[4, 2, 13, 14, 7, 9, 6, 8, 10, 5, 16, 12, 1, 3, 15, 11]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_49.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_300",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[9, 6, 15, 11, 5, 13, 14, 16, 4, 2, 12, 7, 1, 8, 10, 3]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_116.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_463",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[28, 19, 31, 2, 21, 6, 8, 22, 30, 27, 15, 12, 23, 3, 24, 26, 7, 5, 29, 18, 36, 33, 20, 25, 11, 16, 17, 34, 4, 35, 1, 13, 10, 9, 32, 14]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_17.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_480",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[3, 1, 6, 7, 9, 2, 8, 5, 4]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_43.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_112",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[13, 7, 4, 12, 8, 16, 15, 2, 11, 14, 6, 9, 1, 3, 5, 10]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_74.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_494",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[12, 18, 21, 14, 10, 8, 20, 19, 4, 24, 9, 3, 23, 1, 13, 7, 11, 25, 2, 17, 16, 22, 15, 6, 5]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_87.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1043",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[18, 7, 8, 15, 24, 10, 6, 13, 20, 11, 12, 1, 23, 2, 19, 5, 17, 16, 21, 22, 25, 9, 3, 4, 14]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_10.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1141",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[6, 4, 5, 2, 8, 9, 7, 1, 3]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_72.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1211",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[9, 1, 18, 13, 25, 20, 10, 16, 2, 19, 8, 23, 5, 4, 11, 24, 6, 7, 15, 12, 3, 21, 22, 14, 17]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_79.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1040",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[6, 2, 11, 12, 14, 24, 4, 18, 3, 19, 23, 25, 17, 8, 10, 20, 22, 21, 1, 7, 9, 5, 16, 15, 13]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_71.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_152",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[21, 11, 15, 2, 7, 6, 18, 9, 3, 19, 16, 20, 14, 25, 10, 4, 1, 23, 12, 24, 22, 8, 13, 5, 17]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_102.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_894",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[29, 2, 8, 32, 13, 20, 10, 6, 33, 27, 31, 14, 18, 1, 26, 24, 11, 23, 34, 36, 28, 3, 30, 22, 25, 15, 19, 16, 4, 9, 17, 7, 35, 5, 12, 21]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_107.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_419",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[15, 19, 26, 20, 35, 17, 9, 22, 1, 16, 4, 7, 29, 27, 21, 14, 34, 2, 8, 11, 25, 31, 30, 5, 3, 23, 33, 28, 10, 36, 18, 13, 12, 6, 32, 24]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_106.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1067",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[27, 11, 31, 36, 21, 9, 17, 28, 7, 25, 34, 14, 19, 8, 6, 4, 20, 12, 16, 26, 24, 33, 13, 30, 35, 3, 29, 15, 32, 22, 23, 10, 2, 5, 18, 1]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_9.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_154",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[9, 1, 5, 6, 3, 2, 4, 7, 8]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_3.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_8",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[4, 1, 8, 9, 3, 6, 2, 7, 5]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_38.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1176",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[13, 11, 12, 5, 9, 16, 1, 4, 7, 15, 14, 3, 10, 6, 2, 8]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_61.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1074",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[11, 10, 21, 23, 13, 24, 9, 17, 25, 5, 18, 1, 22, 6, 8, 20, 4, 14, 2, 19, 15, 7, 12, 3, 16]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_67.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_588",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[8, 19, 24, 13, 9, 15, 14, 16, 17, 18, 5, 2, 11, 3, 10, 7, 21, 4, 23, 20, 6, 12, 22, 25, 1]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_101.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1166",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[22, 32, 11, 34, 23, 16, 3, 6, 12, 31, 1, 28, 13, 25, 2, 14, 10, 35, 17, 19, 4, 33, 27, 8, 21, 26, 7, 18, 15, 9, 36, 24, 20, 5, 29, 30]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_65.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_530",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[22, 16, 23, 9, 21, 17, 20, 25, 12, 1, 19, 3, 18, 24, 4, 2, 11, 6, 15, 7, 8, 10, 5, 13, 14]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_18.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1123",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[3, 7, 8, 2, 5, 9, 1, 4, 6]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_5.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_937",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[9, 1, 6, 8, 7, 2, 5, 3, 4]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_104.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_885",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[23, 2, 17, 7, 14, 34, 10, 35, 25, 5, 20, 24, 18, 12, 15, 6, 19, 8, 31, 13, 29, 3, 1, 4, 30, 33, 26, 32, 28, 21, 11, 16, 22, 9, 36, 27]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_48.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_955",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[4, 8, 6, 12, 2, 16, 15, 7, 5, 1, 14, 13, 9, 3, 10, 11]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_62.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_206",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[5, 9, 19, 22, 20, 21, 13, 8, 16, 7, 3, 1, 25, 2, 15, 14, 17, 10, 12, 23, 24, 6, 18, 11, 4]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_33.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_750",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[2, 16, 14, 8, 6, 15, 3, 1, 12, 9, 5, 10, 13, 4, 11, 7]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_21.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1049",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[1, 2, 5, 6, 7, 3, 9, 4, 8]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_63.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_828",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[23, 16, 1, 10, 9, 13, 25, 4, 18, 7, 2, 21, 6, 8, 12, 11, 24, 5, 19, 15, 20, 3, 17, 14, 22]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_1.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_676",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[9, 8, 2, 4, 6, 1, 7, 3, 5]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_96.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_257",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[14, 1, 21, 6, 22, 10, 5, 15, 7, 12, 24, 34, 23, 11, 31, 13, 8, 17, 19, 3, 35, 28, 30, 32, 9, 25, 4, 27, 20, 2, 29, 16, 33, 26, 18, 36]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_19.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_251",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[3, 4, 6, 8, 7, 9, 5, 2, 1]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_32.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1080",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[13, 16, 15, 2, 5, 1, 10, 9, 7, 4, 11, 6, 3, 12, 8, 14]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_30.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1202",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[7, 8, 2, 5, 3, 4, 1, 9, 6]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_11.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_38",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[1, 2, 5, 9, 8, 4, 7, 3, 6]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_55.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_538",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[8, 16, 14, 1, 6, 13, 15, 4, 11, 9, 5, 12, 7, 2, 3, 10]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_81.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_824",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[7, 21, 24, 11, 22, 17, 18, 15, 5, 20, 4, 9, 14, 6, 10, 8, 3, 2, 19, 25, 23, 1, 13, 16, 12]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_14.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_108",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[1, 7, 9, 6, 3, 2, 8, 5, 4]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_70.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_709",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[2, 10, 20, 9, 18, 13, 4, 17, 19, 23, 3, 11, 14, 5, 12, 22, 7, 25, 15, 21, 24, 8, 16, 1, 6]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_119.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1143",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[9, 27, 36, 14, 10, 4, 13, 31, 33, 20, 18, 34, 2, 8, 17, 30, 25, 7, 22, 1, 6, 23, 21, 16, 19, 32, 12, 5, 11, 3, 15, 24, 35, 28, 29, 26]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_42.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_904",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[13, 5, 10, 9, 1, 11, 3, 2, 7, 8, 14, 15, 4, 12, 6, 16]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_83.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_114",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[9, 14, 20, 24, 3, 10, 18, 13, 23, 7, 11, 17, 1, 19, 2, 6, 12, 5, 16, 22, 4, 21, 15, 8, 25]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_114.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_1190",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[28, 15, 9, 30, 14, 2, 8, 33, 24, 10, 23, 32, 26, 4, 21, 12, 13, 5, 27, 29, 11, 16, 6, 22, 34, 17, 25, 20, 19, 31, 1, 36, 7, 35, 3, 18]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_23.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_146",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[5, 3, 8, 7, 2, 4, 1, 6, 9]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_100.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_252",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[31, 20, 18, 25, 28, 6, 30, 10, 11, 1, 33, 24, 16, 23, 19, 8, 2, 22, 13, 17, 29, 32, 4, 5, 35, 34, 3, 14, 12, 21, 26, 36, 15, 7, 9, 27]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_73.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_294",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[17, 6, 1, 16, 15, 25, 20, 23, 11, 22, 8, 13, 21, 4, 18, 19, 10, 5, 9, 3, 14, 24, 12, 7, 2]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_88.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_375",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[23, 5, 15, 21, 16, 4, 13, 20, 12, 14, 1, 18, 10, 7, 3, 22, 8, 6, 25, 24, 9, 11, 19, 17, 2]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_64.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_986",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[10, 18, 17, 12, 3, 21, 6, 4, 20, 25, 13, 1, 14, 5, 2, 8, 23, 24, 15, 22, 9, 11, 19, 7, 16]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_95.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_31",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[11, 28, 4, 34, 17, 7, 19, 1, 13, 23, 29, 5, 22, 36, 33, 18, 32, 31, 12, 15, 6, 35, 20, 9, 14, 3, 24, 26, 25, 21, 27, 10, 2, 30, 8, 16]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_84.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_127",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[2, 12, 23, 3, 11, 1, 16, 4, 6, 19, 10, 13, 5, 14, 25, 22, 20, 8, 17, 18, 9, 24, 21, 7, 15]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/jigsaw/shuffled_puzzle_6.jpg"
+  ],
+  "doc_id": "tirbench_jigsaw_867",
+  "problem": "<image>\nInstructions: Please complete the jigsaw puzzle shown in the image. The original image has been divided into {n}×{n} pieces and scrambled. In the image, each piece is numbered from 1 to {n²}. Your task is to determine the correct arrangement to restore the original image.\n\nQuestion: In what order should the numbered pieces be arranged to reconstruct the original image?\n\nPlease provide your answer as a sequence indicating where each numbered piece should be placed in the final arrangement (reading from left to right, top to bottom).\nFor example, 1, 16, 15, 2, 14, 8, 13, 5, 6, 7, 3, 9, 10, 11, 4, 12.",
+  "solution": "[9, 2, 6, 8, 4, 7, 1, 3, 5]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "jigsaw",
+  "split": "test"
+ }
+]

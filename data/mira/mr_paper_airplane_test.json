@@ -1,0 +1,223 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__1.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_1",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "1",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__2.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_2",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__3.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_3",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__4.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_4",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "E",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__5.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_5",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__6.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_6",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__7.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_7",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__12.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_12",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "E",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__13.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_13",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "13",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__15.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_15",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__17.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_17",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "17",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__18.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_18",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__19.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_19",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "19",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__20.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_20",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__23.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_23",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "23",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__24.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_24",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__25.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_25",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "25",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "test"
+ }
+]

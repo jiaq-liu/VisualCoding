@@ -1,0 +1,2381 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/billiards__5.png"
+  ],
+  "doc_id": "mira_mr_billiards_5",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__6.png"
+  ],
+  "doc_id": "mira_mr_billiards_6",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__9.png"
+  ],
+  "doc_id": "mira_mr_billiards_9",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__12.png"
+  ],
+  "doc_id": "mira_mr_billiards_12",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__14.png"
+  ],
+  "doc_id": "mira_mr_billiards_14",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__20.png"
+  ],
+  "doc_id": "mira_mr_billiards_20",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__21.png"
+  ],
+  "doc_id": "mira_mr_billiards_21",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__0.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_0",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "3",
+  "data_source": "mira",
+  "uid": "0",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__2.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_2",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__4.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_4",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "5",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__7.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_7",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__16.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_16",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "7",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__17.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_17",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "17",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__18.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_18",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__20.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_20",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "7",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__25.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_25",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "3",
+  "data_source": "mira",
+  "uid": "25",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__28.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_28",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "28",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_count__5.png"
+  ],
+  "doc_id": "mira_mr_cubes_count_5",
+  "problem": "<image>\nWhat's the number of cubes presented in the image?",
+  "solution": "38",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_count__7.png"
+  ],
+  "doc_id": "mira_mr_cubes_count_7",
+  "problem": "<image>\nWhat's the number of cubes presented in the image?",
+  "solution": "38",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_count__9.png"
+  ],
+  "doc_id": "mira_mr_cubes_count_9",
+  "problem": "<image>\nWhat's the number of cubes presented in the image?",
+  "solution": "34",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_count__14.png"
+  ],
+  "doc_id": "mira_mr_cubes_count_14",
+  "problem": "<image>\nWhat's the number of cubes presented in the image?",
+  "solution": "23",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_count__15.png"
+  ],
+  "doc_id": "mira_mr_cubes_count_15",
+  "problem": "<image>\nWhat's the number of cubes presented in the image?",
+  "solution": "24",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_count__18.png"
+  ],
+  "doc_id": "mira_mr_cubes_count_18",
+  "problem": "<image>\nWhat's the number of cubes presented in the image?",
+  "solution": "75",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_count__20.png"
+  ],
+  "doc_id": "mira_mr_cubes_count_20",
+  "problem": "<image>\nWhat's the number of cubes presented in the image?",
+  "solution": "75",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_count__21.png"
+  ],
+  "doc_id": "mira_mr_cubes_count_21",
+  "problem": "<image>\nWhat's the number of cubes presented in the image?",
+  "solution": "64",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_count__24.png"
+  ],
+  "doc_id": "mira_mr_cubes_count_24",
+  "problem": "<image>\nWhat's the number of cubes presented in the image?",
+  "solution": "52",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_count__28.png"
+  ],
+  "doc_id": "mira_mr_cubes_count_28",
+  "problem": "<image>\nWhat's the number of cubes presented in the image?",
+  "solution": "48",
+  "data_source": "mira",
+  "uid": "28",
+  "dataset": "mira",
+  "family": "mr_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__5.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_5",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "22",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__7.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_7",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "26",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__9.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_9",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "14",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__14.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_14",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "13",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__15.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_15",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "24",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__18.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_18",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "50",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__20.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_20",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "50",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__21.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_21",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "32",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__24.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_24",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "20",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__28.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_28",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "27",
+  "data_source": "mira",
+  "uid": "28",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__3.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_3",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__5.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_5",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__11.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_11",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__12.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_12",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__14.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_14",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__18.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_18",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__20.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_20",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__21.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_21",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__3.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_3",
+  "problem": "<image>\nAnalyze the forces acting on the topmost positive charge (+Q) and indicate the direction of the net force on it. Note: the size of each sphere does not represent the charge magnitude; use the label inside each sphere to determine its charge.",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__6.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_6",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__10.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_10",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "10",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__11.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_11",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__16.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_15",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__18.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_17",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "17",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__20.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_19",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "19",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__2.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_2_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "2.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__19.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_19_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "19.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__9.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_9_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "9.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__18.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_18_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "18.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__17.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_17_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "17.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__8.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_8_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "8.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__1.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_1_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "1.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__2.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_2_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "2.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__19.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_19_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "19.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__9.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_9_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "9.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__18.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_18_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "18.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__17.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_17_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "17.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__8.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_8_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "8.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__1.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_1_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "1.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__3.png"
+  ],
+  "doc_id": "mira_mr_localizer_3",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,1)]; [2, (2,3)]; [3, (1,6)]; [4, (6,4)]",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__5.png"
+  ],
+  "doc_id": "mira_mr_localizer_5",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,1)]; [2, (5,3)]; [3, (1,6)]; [4, (4,1)]; [5, (4,6)]",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__6.png"
+  ],
+  "doc_id": "mira_mr_localizer_6",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,1)]; [2, (2,3)]; [3, (6,4)]; [4, (1,6)]; [6, (4,6)]",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__11.png"
+  ],
+  "doc_id": "mira_mr_localizer_11",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (7,1)]; [2, (5,5)]; [3, (2,1)]; [4, (7,3)]; [5, (2,3)]",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__15.png"
+  ],
+  "doc_id": "mira_mr_localizer_15",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,7)]; [2, (4,6)]; [3, (7,7)]; [4, (4,2)]",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__18.png"
+  ],
+  "doc_id": "mira_mr_localizer_18",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,7)]; [2, (3,3)]; [3, (6,7)]; [4, (1,5)]; [5, (6,5)]",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__21.png"
+  ],
+  "doc_id": "mira_mr_localizer_21",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,7)]; [2, (3,5)]; [3, (6,7)]; [4, (1,3)]; [5, (4,2)]; [6, (6,4)]",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__24.png"
+  ],
+  "doc_id": "mira_mr_localizer_24",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,7)]; [2, (3,5)]; [3, (6,7)]; [4, (1,3)]; [5, (4,2)]; [6, (6,1)]; [7, (6,4)]",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__2.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_2",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 8 hours and 10 minutes?",
+  "solution": "3:20",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__4.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_4",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 2 hours and 25 minutes?",
+  "solution": "10:40",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__5.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_5",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 3 hours and 40 minutes?",
+  "solution": "4:20",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__7.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_7",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 5 hours and 40 minutes?",
+  "solution": "10:20",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__11.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_11",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 8 hours and 25 minutes?",
+  "solution": "12:15",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__13.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_13",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 8 hours and 45 minutes?",
+  "solution": "11:25",
+  "data_source": "mira",
+  "uid": "13",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__18.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_18",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 9 hours and 35 minutes?",
+  "solution": "1:40",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__24.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_24",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 6 hours and 20 minutes?",
+  "solution": "4:50",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__25.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_25",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 12 hours and 10 minutes?",
+  "solution": "5:30",
+  "data_source": "mira",
+  "uid": "25",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__28.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_28",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 8 hours and 30 minutes?",
+  "solution": "7:20",
+  "data_source": "mira",
+  "uid": "28",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__0.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_0",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "0",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__2.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_2",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__3.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_3",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__16.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_16",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__17.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_17",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "17",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__20.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_20",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__22.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_22",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__24.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_24",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__26.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_26",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "26",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__27.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_27",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "27",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__3.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_3",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "2,4,5",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__7.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_7",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "4,7,9",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__8.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_8",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "6,7,8",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__9.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_9",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "2,4,8",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__13.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_13",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "3,6,7",
+  "data_source": "mira",
+  "uid": "13",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__20.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_20",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "3,7,8",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__22.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_22",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "2,4,6",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__25.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_25",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "2,8,9",
+  "data_source": "mira",
+  "uid": "25",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__27.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_27",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "2,3,7",
+  "data_source": "mira",
+  "uid": "27",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__29.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_29",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "7,8,9",
+  "data_source": "mira",
+  "uid": "29",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__0.png"
+  ],
+  "doc_id": "mira_mr_overlap_0",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "AB",
+  "data_source": "mira",
+  "uid": "0",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__1.png"
+  ],
+  "doc_id": "mira_mr_overlap_1",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "AC",
+  "data_source": "mira",
+  "uid": "1",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__2.png"
+  ],
+  "doc_id": "mira_mr_overlap_2",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "BC",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__3.png"
+  ],
+  "doc_id": "mira_mr_overlap_3",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "CD",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__7.png"
+  ],
+  "doc_id": "mira_mr_overlap_7",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "CD",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__8.png"
+  ],
+  "doc_id": "mira_mr_overlap_8",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "BC",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__10.png"
+  ],
+  "doc_id": "mira_mr_overlap_10",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "AC",
+  "data_source": "mira",
+  "uid": "10",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__11.png"
+  ],
+  "doc_id": "mira_mr_overlap_11",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "BC",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__12.png"
+  ],
+  "doc_id": "mira_mr_overlap_12",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "BD",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__22.png"
+  ],
+  "doc_id": "mira_mr_overlap_22",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "BC",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__8.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_8",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__9.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_9",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__10.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_10",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "E",
+  "data_source": "mira",
+  "uid": "10",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__11.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_11",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__14.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_14",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__16.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_16",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__21.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_21",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/paper_airplane__22.png"
+  ],
+  "doc_id": "mira_mr_paper_airplane_22",
+  "problem": "<image>\nBased on the partial folding steps shown at the top of the image (ordered from left to right, top to bottom), can you infer which of the paper airplanes below is the final result?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_paper_airplane",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle5.png"
+  ],
+  "doc_id": "mira_mr_puzzle_5",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "E",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle8.png"
+  ],
+  "doc_id": "mira_mr_puzzle_8",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle10.png"
+  ],
+  "doc_id": "mira_mr_puzzle_10",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "E",
+  "data_source": "mira",
+  "uid": "10",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle12.png"
+  ],
+  "doc_id": "mira_mr_puzzle_12",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle14.png"
+  ],
+  "doc_id": "mira_mr_puzzle_14",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle15.png"
+  ],
+  "doc_id": "mira_mr_puzzle_15",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle20.png"
+  ],
+  "doc_id": "mira_mr_puzzle_20",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle22.png"
+  ],
+  "doc_id": "mira_mr_puzzle_22",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "E",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle24.png"
+  ],
+  "doc_id": "mira_mr_puzzle_24",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__2.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_2",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "14",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__8.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_8",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "16",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__9.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_9",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "22",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__12.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_12",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "24",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__14.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_14",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "28",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__16.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_16",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "23",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__18.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_18",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "21",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__20.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_20",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "17",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__26.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_26",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "17",
+  "data_source": "mira",
+  "uid": "26",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__2.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_2",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__8.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_8",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__9.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_9",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__12.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_12",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__14.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_14",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "3",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__16.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_16",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__18.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_18",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__20.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_20",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__26.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_26",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "26",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__6.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_6",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "red, 19",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__7.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_7",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "red, 22",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__11.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_11",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "same, 24",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__14.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_14",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "black, 28",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__16.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_16",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "red, 24",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__20.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_20",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "black, 17",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__21.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_21",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "red, 22",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__22.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_22",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "black, 24",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__24.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_24",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "red, 24",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__4.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_4",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "33",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__5.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_5",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "32",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__11.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_11",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "52",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__13.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_13",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "48",
+  "data_source": "mira",
+  "uid": "13",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__18.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_18",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "42",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__20.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_20",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "32",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__23.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_23",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "43",
+  "data_source": "mira",
+  "uid": "23",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__24.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_24",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "36",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__4.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_4",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "18",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__5.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_5",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "22",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__11.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_11",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "16",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__13.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_13",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "30",
+  "data_source": "mira",
+  "uid": "13",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__18.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_18",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "50",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__20.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_20",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "50",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__23.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_23",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "21",
+  "data_source": "mira",
+  "uid": "23",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__24.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_24",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "20",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__0.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_0",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, moon); (2, triangle); (3, heart); (4, star); (5, circle)",
+  "data_source": "mira",
+  "uid": "0",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__1.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_1",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, triangle); (2, star); (3, circle); (4, arrow); (5, moon)",
+  "data_source": "mira",
+  "uid": "1",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__8.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_8",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, circle); (2, triangle); (3, heart); (4, star); (5, arrow)",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__9.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_9",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, moon); (2, star); (3, arrow); (4, circle); (5, heart)",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__12.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_12",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, moon); (2, arrow); (3, circle); (4, triangle); (5, heart)",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__19.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_19",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, arrow); (2, heart); (3, star); (4, circle); (5, moon)",
+  "data_source": "mira",
+  "uid": "19",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__23.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_23",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, moon); (2, heart); (3, triangle); (4, star); (5, circle)",
+  "data_source": "mira",
+  "uid": "23",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__24.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_24",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, star); (2, circle); (3, heart); (4, arrow); (5, moon)",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/unfolded_cube__25.png"
+  ],
+  "doc_id": "mira_mr_unfolded_cube_25",
+  "problem": "<image>\nGiven three different perspectives of a cube (top left, top right, and bottom left in the left image) and the patterns on its six faces (bottom right in the left image), please fill in the corresponding patterns in its unfolded view (right image). Note that only the outer surface of the cube has patterns; the inner surface does not. That is, the unfolded view on the right represents the outer surface of the cube. The six patterns are represented by 'heart, 'circle,' 'moon,' 'arrow,' 'triangle,' and 'star,' respectively. The output format is '(number, shape),' with different correspondences separated by semicolons.",
+  "solution": "(1, moon); (2, heart); (3, triangle); (4, arrow); (5, circle)",
+  "data_source": "mira",
+  "uid": "25",
+  "dataset": "mira",
+  "family": "mr_unfolded_cube",
+  "split": "train"
+ }
+]

@@ -1,0 +1,119 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__2.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_2",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "14",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__8.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_8",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "16",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__9.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_9",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "22",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__12.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_12",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "24",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__14.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_14",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "28",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__16.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_16",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "23",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__18.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_18",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "21",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__20.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_20",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "17",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_sum__26.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_sum_26",
+  "problem": "<image>\nIf the die is rolled along the shown path, what is the total sum of the numbers on the bottom face that touches the path at each step?",
+  "solution": "17",
+  "data_source": "mira",
+  "uid": "26",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_sum",
+  "split": "train"
+ }
+]

@@ -1,0 +1,806 @@
+[
+ {
+  "images": [
+   "tirbench/data/word_search/90.jpg"
+  ],
+  "doc_id": "tirbench_word_search_852",
+  "problem": "<image>\n图中坷字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[9, 14]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/44.jpg"
+  ],
+  "doc_id": "tirbench_word_search_909",
+  "problem": "<image>\nIn the figure, in which row and column does the letter v appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[7, 12]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/50.jpg"
+  ],
+  "doc_id": "tirbench_word_search_569",
+  "problem": "<image>\n图中有多少个吃字？回答一个数字，例如1，2，3。",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/26.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1212",
+  "problem": "<image>\n图中有多少个凤字？回答一个数字，例如1，2，3。",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/47.jpg"
+  ],
+  "doc_id": "tirbench_word_search_687",
+  "problem": "<image>\nIn the figure, in which row and column does the letter t appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[39, 42]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/2.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1088",
+  "problem": "<image>\nHow many times does the number 8 appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/51.jpg"
+  ],
+  "doc_id": "tirbench_word_search_111",
+  "problem": "<image>\n图中有多少个卅字？回答一个数字，例如1，2，3。",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/37.jpg"
+  ],
+  "doc_id": "tirbench_word_search_459",
+  "problem": "<image>\nHow many times does the letter z appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/79.jpg"
+  ],
+  "doc_id": "tirbench_word_search_269",
+  "problem": "<image>\n图中士字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[15, 20]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/13.jpg"
+  ],
+  "doc_id": "tirbench_word_search_517",
+  "problem": "<image>\nHow many times does the letter V appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/93.jpg"
+  ],
+  "doc_id": "tirbench_word_search_519",
+  "problem": "<image>\n图中鬼字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[9, 9]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/18.jpg"
+  ],
+  "doc_id": "tirbench_word_search_208",
+  "problem": "<image>\nHow many times does the letter G appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "13",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/29.jpg"
+  ],
+  "doc_id": "tirbench_word_search_862",
+  "problem": "<image>\n图中有多少个夭字？回答一个数字，例如1，2，3。",
+  "solution": "11",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/41.jpg"
+  ],
+  "doc_id": "tirbench_word_search_801",
+  "problem": "<image>\nHow many times does the letter l appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "12",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/4.jpg"
+  ],
+  "doc_id": "tirbench_word_search_792",
+  "problem": "<image>\nHow many times does the number 9 appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "8",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/67.jpg"
+  ],
+  "doc_id": "tirbench_word_search_77",
+  "problem": "<image>\nIn the figure, in which row and column does the letter R appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[19, 7]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/42.jpg"
+  ],
+  "doc_id": "tirbench_word_search_449",
+  "problem": "<image>\nHow many times does the letter V appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "14",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/12.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1215",
+  "problem": "<image>\nIn the figure, in which row and column does the number 9 appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[5, 64]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/34.jpg"
+  ],
+  "doc_id": "tirbench_word_search_607",
+  "problem": "<image>\n图中告字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[45, 1]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/49.jpg"
+  ],
+  "doc_id": "tirbench_word_search_44",
+  "problem": "<image>\n图中有多少个玉字？回答一个数字，例如1，2，3。",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/74.jpg"
+  ],
+  "doc_id": "tirbench_word_search_677",
+  "problem": "<image>\n图中有多少个合字？回答一个数字，例如1，2，3。",
+  "solution": "6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/80.jpg"
+  ],
+  "doc_id": "tirbench_word_search_187",
+  "problem": "<image>\n图中见字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[4, 1]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/65.jpg"
+  ],
+  "doc_id": "tirbench_word_search_500",
+  "problem": "<image>\nHow many times does the letter E appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "11",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/60.jpg"
+  ],
+  "doc_id": "tirbench_word_search_745",
+  "problem": "<image>\n图中告字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[68, 49]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/99.jpg"
+  ],
+  "doc_id": "tirbench_word_search_866",
+  "problem": "<image>\nHow many times does the number 8 appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/16.jpg"
+  ],
+  "doc_id": "tirbench_word_search_266",
+  "problem": "<image>\nHow many times does the letter Z appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "10",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/57.jpg"
+  ],
+  "doc_id": "tirbench_word_search_846",
+  "problem": "<image>\n图中正字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[24, 16]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/72.jpg"
+  ],
+  "doc_id": "tirbench_word_search_305",
+  "problem": "<image>\nIn the figure, in which row and column does the letter N appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[67, 53]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/15.jpg"
+  ],
+  "doc_id": "tirbench_word_search_66",
+  "problem": "<image>\nHow many times does the letter N appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/8.jpg"
+  ],
+  "doc_id": "tirbench_word_search_67",
+  "problem": "<image>\nIn the figure, in which row and column does the number 9 appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[19, 19]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/87.jpg"
+  ],
+  "doc_id": "tirbench_word_search_865",
+  "problem": "<image>\n图中有多少个犬字？回答一个数字，例如1，2，3。",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/20.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1023",
+  "problem": "<image>\nIn the figure, in which row and column does the letter R appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[25, 28]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/31.jpg"
+  ],
+  "doc_id": "tirbench_word_search_216",
+  "problem": "<image>\n图中比字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[14, 19]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/85.jpg"
+  ],
+  "doc_id": "tirbench_word_search_995",
+  "problem": "<image>\nHow many times does the number 5 appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/45.jpg"
+  ],
+  "doc_id": "tirbench_word_search_564",
+  "problem": "<image>\nIn the figure, in which row and column does the letter d appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[38, 23]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/10.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1106",
+  "problem": "<image>\nIn the figure, in which row and column does the number 9 appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[45, 10]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/101.jpg"
+  ],
+  "doc_id": "tirbench_word_search_234",
+  "problem": "<image>\nHow many times does the number 8 appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/38.jpg"
+  ],
+  "doc_id": "tirbench_word_search_7",
+  "problem": "<image>\nHow many times does the letter n appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/92.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1191",
+  "problem": "<image>\n图中话字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[7, 2]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/97.jpg"
+  ],
+  "doc_id": "tirbench_word_search_736",
+  "problem": "<image>\nIn the figure, in which row and column does the number 6 appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[2, 19]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/63.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1154",
+  "problem": "<image>\nHow many times does the letter R appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/62.jpg"
+  ],
+  "doc_id": "tirbench_word_search_691",
+  "problem": "<image>\nHow many times does the letter m appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/84.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1105",
+  "problem": "<image>\n图中吃字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[42, 47]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/64.jpg"
+  ],
+  "doc_id": "tirbench_word_search_327",
+  "problem": "<image>\nHow many times does the letter N appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "8",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/94.jpg"
+  ],
+  "doc_id": "tirbench_word_search_881",
+  "problem": "<image>\n图中木字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[3, 3]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/56.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1071",
+  "problem": "<image>\n图中今字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[15, 18]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/52.jpg"
+  ],
+  "doc_id": "tirbench_word_search_963",
+  "problem": "<image>\n图中有多少个见字？回答一个数字，例如1，2，3。",
+  "solution": "10",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/86.jpg"
+  ],
+  "doc_id": "tirbench_word_search_860",
+  "problem": "<image>\n图中力字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[8, 3]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/78.jpg"
+  ],
+  "doc_id": "tirbench_word_search_418",
+  "problem": "<image>\n图中有多少个鲤字？回答一个数字，例如1，2，3。",
+  "solution": "12",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/11.jpg"
+  ],
+  "doc_id": "tirbench_word_search_368",
+  "problem": "<image>\nIn the figure, in which row and column does the number 9 appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[54, 50]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/5.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1104",
+  "problem": "<image>\nHow many times does the number 9 appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "14",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/19.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1201",
+  "problem": "<image>\nIn the figure, in which row and column does the letter a appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[11, 8]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/6.jpg"
+  ],
+  "doc_id": "tirbench_word_search_55",
+  "problem": "<image>\nHow many times does the number 8 appear in this image? Answer with an integer, such as 1,2,3.",
+  "solution": "11",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/48.jpg"
+  ],
+  "doc_id": "tirbench_word_search_697",
+  "problem": "<image>\nIn the figure, in which row and column does the letter O appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[56, 5]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/59.jpg"
+  ],
+  "doc_id": "tirbench_word_search_928",
+  "problem": "<image>\n图中犬字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[14, 16]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/35.jpg"
+  ],
+  "doc_id": "tirbench_word_search_107",
+  "problem": "<image>\n图中东字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[19, 41]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/22.jpg"
+  ],
+  "doc_id": "tirbench_word_search_874",
+  "problem": "<image>\nIn the figure, in which row and column does the letter z appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[41, 8]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/100.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1093",
+  "problem": "<image>\n图中情字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[11, 9]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/9.jpg"
+  ],
+  "doc_id": "tirbench_word_search_129",
+  "problem": "<image>\nIn the figure, in which row and column does the number 7 appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[18, 27]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/98.jpg"
+  ],
+  "doc_id": "tirbench_word_search_198",
+  "problem": "<image>\n图中小字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[13, 4]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/71.jpg"
+  ],
+  "doc_id": "tirbench_word_search_405",
+  "problem": "<image>\nIn the figure, in which row and column does the letter Z appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[36, 23]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/81.jpg"
+  ],
+  "doc_id": "tirbench_word_search_428",
+  "problem": "<image>\n图中佑字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[35, 22]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/68.jpg"
+  ],
+  "doc_id": "tirbench_word_search_456",
+  "problem": "<image>\nIn the figure, in which row and column does the letter K appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[22, 16]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/33.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1172",
+  "problem": "<image>\n图中晶字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[12, 8]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/43.jpg"
+  ],
+  "doc_id": "tirbench_word_search_46",
+  "problem": "<image>\nIn the figure, in which row and column does the letter q appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[2, 3]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/69.jpg"
+  ],
+  "doc_id": "tirbench_word_search_150",
+  "problem": "<image>\nIn the figure, in which row and column does the letter t appear? The final answer should output two number list. The first number represents the row count from top to bottom, and the second number represents the column count from left to right. For example, [1, 2] means the first row and the second column.",
+  "solution": "[2, 13]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/word_search/88.jpg"
+  ],
+  "doc_id": "tirbench_word_search_1011",
+  "problem": "<image>\n图中丹字在出现在第几行第几列？最后答案输出两个数字，第一个数字代表从上往下多少行，第二个数字代表从左往右列。例如[1, 2]代表第一行第二列",
+  "solution": "[16, 8]",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "word_search",
+  "split": "test"
+ }
+]

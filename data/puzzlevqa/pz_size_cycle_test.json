@@ -1,0 +1,806 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1046.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1046",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/332.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_332",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1861.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1861",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1467.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1467",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1391.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1391",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1055.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1055",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1208.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1208",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1150.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1150",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/986.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_986",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/128.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_128",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/551.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_551",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1549.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1549",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1232.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1232",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1365.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1365",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/905.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_905",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/987.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_987",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/315.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_315",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1219.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1219",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1561.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1561",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/930.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_930",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1520.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1520",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/431.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_431",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1551.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1551",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1468.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1468",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/645.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_645",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1636.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1636",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/401.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_401",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1361.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1361",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/687.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_687",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1699.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1699",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/646.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_646",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/651.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_651",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/906.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_906",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1155.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1155",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/638.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_638",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1519.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1519",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1862.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1862",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1806.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1806",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1466.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1466",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/175.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_175",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/988.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_988",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/436.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_436",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1550.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1550",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/635.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_635",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/314.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_314",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1747.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1747",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/174.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_174",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1280.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1280",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1392.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1392",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/650.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_650",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1958.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1958",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/649.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_649",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1518.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1518",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1538.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1538",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1077.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1077",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1539.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1539",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1220.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1220",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/634.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_634",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/127.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_127",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/843.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_843",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1540.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1540",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/907.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_907",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1045.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1045",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1897.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1897",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1698.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1698",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/500.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_500",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_cycle/1569.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_cycle_1569",
+  "problem": "<image>\nWhat is the size of the missing circle denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_cycle",
+  "split": "test"
+ }
+]

@@ -1,0 +1,702 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00001.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1001",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00001_04",
+  "image": "games_images_test/maze/image_00001.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00002.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1002",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00002_04",
+  "image": "games_images_test/maze/image_00002.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00004.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1004",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00004_04",
+  "image": "games_images_test/maze/image_00004.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00010.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1010",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00010_04",
+  "image": "games_images_test/maze/image_00010.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00011.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1011",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00011_04",
+  "image": "games_images_test/maze/image_00011.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00012.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1012",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00012_04",
+  "image": "games_images_test/maze/image_00012.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00013.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1013",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00013_04",
+  "image": "games_images_test/maze/image_00013.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00016.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1016",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00016_04",
+  "image": "games_images_test/maze/image_00016.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00020.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1020",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00020_04",
+  "image": "games_images_test/maze/image_00020.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00021.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1021",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00021_04",
+  "image": "games_images_test/maze/image_00021.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00030.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1030",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00030_04",
+  "image": "games_images_test/maze/image_00030.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00031.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1031",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00031_04",
+  "image": "games_images_test/maze/image_00031.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00033.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1033",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00033_04",
+  "image": "games_images_test/maze/image_00033.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00036.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1036",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00036_04",
+  "image": "games_images_test/maze/image_00036.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00037.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1037",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00037_04",
+  "image": "games_images_test/maze/image_00037.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00039.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1039",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00039_04",
+  "image": "games_images_test/maze/image_00039.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00041.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1041",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "9",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00041_04",
+  "image": "games_images_test/maze/image_00041.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00044.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1044",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00044_04",
+  "image": "games_images_test/maze/image_00044.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00046.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1046",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "11",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00046_04",
+  "image": "games_images_test/maze/image_00046.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00047.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1047",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00047_04",
+  "image": "games_images_test/maze/image_00047.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00053.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1053",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00053_04",
+  "image": "games_images_test/maze/image_00053.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00054.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1054",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00054_04",
+  "image": "games_images_test/maze/image_00054.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00056.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1056",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "8",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00056_04",
+  "image": "games_images_test/maze/image_00056.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00063.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1063",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "16",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00063_04",
+  "image": "games_images_test/maze/image_00063.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00065.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1065",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00065_04",
+  "image": "games_images_test/maze/image_00065.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00066.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1066",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "8",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00066_04",
+  "image": "games_images_test/maze/image_00066.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00067.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1067",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00067_04",
+  "image": "games_images_test/maze/image_00067.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00069.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1069",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00069_04",
+  "image": "games_images_test/maze/image_00069.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00070.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1070",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "8",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00070_04",
+  "image": "games_images_test/maze/image_00070.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00071.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1071",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00071_04",
+  "image": "games_images_test/maze/image_00071.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00074.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1074",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "10",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00074_04",
+  "image": "games_images_test/maze/image_00074.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00075.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1075",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "10",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00075_04",
+  "image": "games_images_test/maze/image_00075.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00076.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1076",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00076_04",
+  "image": "games_images_test/maze/image_00076.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00078.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1078",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "14",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00078_04",
+  "image": "games_images_test/maze/image_00078.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/maze__image_00082.png"
+  ],
+  "doc_id": "gameqa_gq_maze_q4_1082",
+  "problem": "<image>\n**Rules:**\n1. This is a maze mini-game.The player needs to navigate around obstacles to reach the destination and achieve victory.\n2. The red circle represents the player, the green block is the goal and the blue blocks are obstacles.\n3. The player can only move within the white blocks.\n\n**Question:** Find the path to the finish and count the number of turns it takes to get there. You only need to provide one number.",
+  "solution": "10",
+  "data_source": "gameqa",
+  "game": "maze",
+  "question_id": 4,
+  "data_id": "maze_00082_04",
+  "image": "games_images_test/maze/image_00082.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Count how many turns it takes to reach the finish.",
+  "dataset": "gameqa",
+  "family": "gq_maze_q4",
+  "split": "test"
+ }
+]

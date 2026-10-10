@@ -1,0 +1,262 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__1.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_1",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "3,4,6",
+  "data_source": "mira",
+  "uid": "1",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__2.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_2",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "1,3,9",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__4.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_4",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "5,6,7",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__5.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_5",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "1,4,8",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__6.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_6",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "2,4,5",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__10.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_10",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "2,3,9",
+  "data_source": "mira",
+  "uid": "10",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__11.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_11",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "1,3,4",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__12.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_12",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "1,4,6",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__14.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_14",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "1,2,8",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__15.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_15",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "1,4,5",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__16.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_16",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "6,7,9",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__17.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_17",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "5,8,9",
+  "data_source": "mira",
+  "uid": "17",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__18.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_18",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "1,3,9",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__19.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_19",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "5,6,8",
+  "data_source": "mira",
+  "uid": "19",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__21.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_21",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "2,5,6",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__23.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_23",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "3,4,9",
+  "data_source": "mira",
+  "uid": "23",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__24.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_24",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "1,2,6",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__26.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_26",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "7,8,9",
+  "data_source": "mira",
+  "uid": "26",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__28.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_28",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "1,6,8",
+  "data_source": "mira",
+  "uid": "28",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/multi_piece_puzzle__30.png"
+  ],
+  "doc_id": "mira_mr_multi_piece_puzzle_30",
+  "problem": "<image>\nWhich three of the nine pieces on the right can be combined to exactly match the shape on the left? Please list the three piece numbers (comma‑separated, ascending order).",
+  "solution": "2,4,8",
+  "data_source": "mira",
+  "uid": "30",
+  "dataset": "mira",
+  "family": "mr_multi_piece_puzzle",
+  "split": "test"
+ }
+]

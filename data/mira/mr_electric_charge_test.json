@@ -1,0 +1,184 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__1.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_1",
+  "problem": "<image>\nAnalyze the forces acting on the topmost positive charge (+Q) and indicate the direction of the net force on it. Note: the size of each sphere does not represent the charge magnitude; use the label inside each sphere to determine its charge.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "1",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__2.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_2",
+  "problem": "<image>\nAnalyze the forces acting on the topmost positive charge (+Q) and indicate the direction of the net force on it. Note: the size of each sphere does not represent the charge magnitude; use the label inside each sphere to determine its charge.",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__4.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_4",
+  "problem": "<image>\nAnalyze the forces acting on the topmost positive charge (+Q) and indicate the direction of the net force on it. Note: the size of each sphere does not represent the charge magnitude; use the label inside each sphere to determine its charge.",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__5.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_5",
+  "problem": "<image>\nAnalyze the forces acting on the topmost positive charge (+Q) and indicate the direction of the net force on it. Note: the size of each sphere does not represent the charge magnitude; use the label inside each sphere to determine its charge.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__7.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_7",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__8.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_8",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__9.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_9",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__12.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_12",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__13.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_13",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "13",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__15.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_14",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__17.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_16",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__19.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_18",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__21.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_20",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/electric_charge__22.png"
+  ],
+  "doc_id": "mira_mr_electric_charge_21",
+  "problem": "<image>\nAnalyze the forces acting on the top-right positive charge (+Q) and determine the direction of its net force. Note: sphere size does not indicate charge magnitude; use the label inside each sphere to identify the charge.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_electric_charge",
+  "split": "test"
+ }
+]

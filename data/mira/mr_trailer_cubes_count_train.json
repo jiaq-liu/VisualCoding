@@ -1,0 +1,106 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__4.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_4",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "33",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__5.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_5",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "32",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__11.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_11",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "52",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__13.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_13",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "48",
+  "data_source": "mira",
+  "uid": "13",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__18.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_18",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "42",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__20.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_20",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "32",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__23.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_23",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "43",
+  "data_source": "mira",
+  "uid": "23",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_count__24.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_count_24",
+  "problem": "<image>\nBased on the three views, what's the maximum number of cubes that could be present?",
+  "solution": "36",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_count",
+  "split": "train"
+ }
+]

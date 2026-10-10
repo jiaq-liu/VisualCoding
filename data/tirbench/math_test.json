@@ -1,0 +1,962 @@
+[
+ {
+  "images": [
+   "tirbench/data/math/7.png"
+  ],
+  "doc_id": "tirbench_math_542",
+  "problem": "<image>\nApproximately how many times the value of Deep Pink is compared to Black?\nA. 4\nB. 5\nC. 7\nD. 9\nE. 11\nF. 13",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/78.png"
+  ],
+  "doc_id": "tirbench_math_471",
+  "problem": "<image>\nThe x-coordinate of maximum point of the function in figure is closest to ( )\nA. 1.1\nB. 1.3\nC. 1.5\nD. 1.7\nE. 2\nF. 2.2",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/86.png"
+  ],
+  "doc_id": "tirbench_math_714",
+  "problem": "<image>\nWhen x=48, Rebecca Purple - samon is about ( )\nA. 7\nB. 7.5\nC. 8\nD. 8.5\nE. 9\nF. 9.5\nG. 10",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/2.png"
+  ],
+  "doc_id": "tirbench_math_199",
+  "problem": "<image>\nWhich of the following values is closest to the point where purple and coral intersect?\nA. 60\nB. 64\nC. 68\nD. 72\nE. 76\nF. 80",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/51.png"
+  ],
+  "doc_id": "tirbench_math_575",
+  "problem": "<image>\nConnect points A and B, extend the line segment AB in the direction of point B, and let the intersection of the extended line with the function be denoted as T. Then, the x-coordinate of T belongs to which of the following intervals?\nA. [2, 3]\nB. [3, 3.5]\nC. [3.5, 4]\nD. [4, 4.5]\nE. [4.5, 5]\nF. [5, 5.5]\nG. [5.5, 6]",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/71.png"
+  ],
+  "doc_id": "tirbench_math_589",
+  "problem": "<image>\nThe line is about (_) centimeters long. Answer with a single number, such as 1, 2, 3.",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/82.png"
+  ],
+  "doc_id": "tirbench_math_217",
+  "problem": "<image>\nThe distance between point (4, f(4)) and A is approximately ( ):\nA. 5.75\nB. 6\nC. 6.25\nD. 6.5\nE. 6.75\nF. 7\nG. 7.25",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/136.png"
+  ],
+  "doc_id": "tirbench_math_340",
+  "problem": "<image>\nAs shown in the figure, draw a perpendicular from point A to BC, with the intersection point being D. Then draw a perpendicular from point D to AB, with the intersection point being E, and another from point D to AC, with the intersection point being F. Measure and determine: which of the following triangles has the largest area?\nA. ADE\nB. BDE\nC. ADF\nD. CDF\nE. No answer",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/132.png"
+  ],
+  "doc_id": "tirbench_math_947",
+  "problem": "<image>\nAs shown in the figure, how many intersection points are there between the extension of EF and the trigonometric function f?",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/84.png"
+  ],
+  "doc_id": "tirbench_math_1036",
+  "problem": "<image>\nWhen x = 12, Dark Cyan - Rebecca Purple is closest to ( )\nA. 7.\nB. 7.6\nC. 7.2\nD. 8\nE. 6.2\nF. 8.4",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/106.png"
+  ],
+  "doc_id": "tirbench_math_231",
+  "problem": "<image>\nThe foot of the perpendicular from point D to CE is mostly like:\nA. point M\nB. point G\nC. point H\nD. point I\nE. point J\nF. No answer",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/70.png"
+  ],
+  "doc_id": "tirbench_math_62",
+  "problem": "<image>\nWhen x=82, Olive Drab - Burlywood is approximately ( )\nA. 2\nB. 4\nC. 6\nD. 8\nE. 10\nF. 12",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/9.png"
+  ],
+  "doc_id": "tirbench_math_486",
+  "problem": "<image>\nWhat is the limit as x approaches -2? Answer with a single number, such as 1, 2, 3.",
+  "solution": "2",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/134.png"
+  ],
+  "doc_id": "tirbench_math_884",
+  "problem": "<image>\nAs shown in the figure, with C as the center and CD as the radius, how many intersection points does this circle have with EF and GH, respectively?\nA. 1, 1\nB. 0, 2\nC. 0, 0\nD. 1, 0\nE. 1, 2\nF. 2, 2",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/124.png"
+  ],
+  "doc_id": "tirbench_math_180",
+  "problem": "<image>\nAs shown in the figure, the point symmetric to point C with respect to line segment AB is:\nA. point H\nB. point E\nC. point D\nD. point F\nE. point G\nF. point I",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/140.png"
+  ],
+  "doc_id": "tirbench_math_408",
+  "problem": "<image>\nAs shown in the figure, use a compass and straightedge to construct the perpendicular bisector of segment AB. Which of the following line segments lies on the perpendicular bisector of AB?\nA. CD\nB. EF\nC. GH\nD. IJ\nE. KL",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/85.png"
+  ],
+  "doc_id": "tirbench_math_1187",
+  "problem": "<image>\nThe line is about (_) centimeters long. Answer with a single number, such as 1, 2, 3.",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/77.png"
+  ],
+  "doc_id": "tirbench_math_343",
+  "problem": "<image>\nWhat number is shown? Answer with a single number, such as 1, 2, 3.",
+  "solution": "34",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/11.png"
+  ],
+  "doc_id": "tirbench_math_15",
+  "problem": "<image>\nWhen Pretrain Loss=1.75, SFT minus SFT 1/2 is about ()\nA. 2\nB. 5\nC. 7\nD. 10\nE. 14\nF. 17\nG. -1",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/20.png"
+  ],
+  "doc_id": "tirbench_math_981",
+  "problem": "<image>\nSky Blue and Chartreuse intersect at approximately x= ()\nA. 100\nB. 42\nC. 90\nD. 76\nE. 87\nF. 57",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/65.png"
+  ],
+  "doc_id": "tirbench_math_666",
+  "problem": "<image>\nWhen x=16, Yellow Green - Dark Periwinkle is approximately ( )\nA. 10\nB. 11.1\nC. 11.6\nD. 12\nE. 12.2\nF. 9.6\nG. 12.4",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/56.png"
+  ],
+  "doc_id": "tirbench_math_671",
+  "problem": "<image>\n量一量，根据比例尺，学校到汽车站的实际距离是（ ）m\nA. 700\nB. 600\nC. 650\nD. 600\nE. 500\nF. 400\nG. 550",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/138.png"
+  ],
+  "doc_id": "tirbench_math_299",
+  "problem": "<image>\nAs shown in the figure, using a compass and straightedge, draw a segment on CD through point C that is equal in length to AB. Then this segment is:\nA. CE\nB. CF\nC. CG\nD. CH\nE. CI\nF. CJ",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/68.png"
+  ],
+  "doc_id": "tirbench_math_372",
+  "problem": "<image>\nThe minute hand has been erased in the picture. Based on the hour hand, the minute hand should approxemately point to the number ( ). Answer with a single number, such as 1, 2, 3.",
+  "solution": "6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/114.png"
+  ],
+  "doc_id": "tirbench_math_330",
+  "problem": "<image>\nThe length of segment OC is about ( ).\nA. 3.7\nB. 3.2\nC. 2.5\nD. 4.2\nE. 4.7\nF. 2.7",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/64.png"
+  ],
+  "doc_id": "tirbench_math_102",
+  "problem": "<image>\nWhen m=15, N_m = ( )\nA. 60\nB. 63\nC. 65\nD. 67\nE. 70\nF. 73\nG. 75",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/74.png"
+  ],
+  "doc_id": "tirbench_math_689",
+  "problem": "<image>\nIn year 2012, difference between export time and import time is about ( )\nA. 3\nB. 2.8\nC. 3.2\nD. 2.6\nE. 3.4\nF. 2.4\nG. 3.6",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/143.png"
+  ],
+  "doc_id": "tirbench_math_166",
+  "problem": "<image>\n张庄A（图中C点）、李庄B（图中E点）位于河沿L的同侧，现在河沿L上修一泵站C向张庄A、李庄B供水，如果图中AD距离是2km，问所用水管最少大约是多少km？\nA. 8.5km\nB. 9.5km\nC. 10.5km\nD. 11.5km\nE. 12.5km\nF. 13.5km",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/141.png"
+  ],
+  "doc_id": "tirbench_math_537",
+  "problem": "<image>\nAs shown in the figure, use a compass and straightedge to construct the angle bisector of angle ABC. Which of the following line segments lies on the angle bisector of angle ABC?\nA. BD\nB. BE\nC. BF\nD. BG\nE. BH\nF. BI",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/103.png"
+  ],
+  "doc_id": "tirbench_math_35",
+  "problem": "<image>\n峨眉山到重庆的实地距离约为( )km\nA. 280\nB. 290\nC. 300\nD. 310\nE. 320\nF. 330\nG. 340",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/145.png"
+  ],
+  "doc_id": "tirbench_math_275",
+  "problem": "<image>\nIn the open field, a person rides a horse starting from point A. He first goes to the riverside at point N to let the horse drink water, then to the meadow at point M to graze the horse, and finally returns to point A. As shown in the figure, if line segment HI is 20 meters, what is the approximate shortest distance he travels in total? ( ) meters.\nA. 90m\nB. 100m\nC. 110m\nD. 120m\nE. 130m\nF. 140m",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/110.png"
+  ],
+  "doc_id": "tirbench_math_363",
+  "problem": "<image>\nIf the real straight-line distance between location A and C is 300m, Disregarding elevation differences, then the real straight-line distance between location A and C is about ( )m\nA. 625\nB. 675\nC. 575\nD. 525\nE. 725 \nF. 775\nG. 825",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/108.png"
+  ],
+  "doc_id": "tirbench_math_365",
+  "problem": "<image>\n根据比例尺，图中篮球场的东西实际距离大约是（ ）\nA. 25\nB. 35\nC. 45\nD. 55\nE. 65\nF. 75",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/133.png"
+  ],
+  "doc_id": "tirbench_math_118",
+  "problem": "<image>\nAs shown in the figure, with C as the center and CD as the radius, how many intersection points does the circle have with EF and GH, respectively?\nA. 1, 1\nB. 0, 2\nC. 0, 0\nD. 1, 0\nE. 1, 2\nF. 2, 2",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/19.png"
+  ],
+  "doc_id": "tirbench_math_379",
+  "problem": "<image>\nWhat is the difference between the highest and the lowest value of blue bar? ( )% Answer with a single number, such as 1, 2, 3.",
+  "solution": "64",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/127.png"
+  ],
+  "doc_id": "tirbench_math_974",
+  "problem": "<image>\nAs shown in the figure, how many intersection points are there between the extension of AB and the function f?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/67.png"
+  ],
+  "doc_id": "tirbench_math_1013",
+  "problem": "<image>\nThe line is about (_) centimeters long. Answer with a single number, such as 1, 2, 3.",
+  "solution": "8",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/122.png"
+  ],
+  "doc_id": "tirbench_math_1188",
+  "problem": "<image>\nThe length of the segment KL is about ( )cm\nA. 15\nB. 20\nC. 25\nD. 30\nE. 10\nF. 35",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/13.png"
+  ],
+  "doc_id": "tirbench_math_973",
+  "problem": "<image>\nThe value of wish is about () times of the value of heap\nA. 6\nB. 7\nC. 8\nD. 9\nE. 10\nF. 12",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/54.png"
+  ],
+  "doc_id": "tirbench_math_182",
+  "problem": "<image>\nThe minute hand has been erased in the picture. Based on the hour hand, the minute hand should approxemately point to the number ( ). Answer with a single number, such as 1, 2, 3.",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/60.png"
+  ],
+  "doc_id": "tirbench_math_809",
+  "problem": "<image>\n慧源书店到明乐小学的距离约为（）米。\nA. 1200\nB.  1000\nC.  800\nD.  600\nE.  400\nF.  200\nG.  1400",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/126.png"
+  ],
+  "doc_id": "tirbench_math_362",
+  "problem": "<image>\nWhich of the five circles in the figure has the smallest area?\nA. circle A\nB. circle B \nC. circle C\nD. circle D\nE. circle E\nF. all equal",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/41.png"
+  ],
+  "doc_id": "tirbench_math_982",
+  "problem": "<image>\nExtend the following six vector lines in figure, which vector is the shortest distance from point D? (From left to right)\nA. First vector\nB. Second vector\nC. Third vector\nD. Fourth vector\nE. Fifth vector\nF. Sixth vector",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/35.png"
+  ],
+  "doc_id": "tirbench_math_183",
+  "problem": "<image>\nWhen x=56, Periwinkle - Aqua = ()\nA. 1\nB. 1.5\nC. 2\nD. 2.5\nE. 3\nF. 3.5\nG. 4\nH. 4.5",
+  "solution": "G",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/88.png"
+  ],
+  "doc_id": "tirbench_math_5",
+  "problem": "<image>\nWhen x = 2.5, y \\in \nA. [2, 2.5]\nB. [1.5, 2]\nC. [2.5, 3]\nD. [3, 3.5]\nE. [3.5, 4]\nF. [1, 1.5]",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/96.png"
+  ],
+  "doc_id": "tirbench_math_1097",
+  "problem": "<image>\n如果图书馆到学校的距离是400m，则按照比例，学校到体育馆的距离是（ ）m。\nA. 900\nB. 800\nC. 700\nD. 600\nE. 500\nF. 400\nG. 300",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/14.png"
+  ],
+  "doc_id": "tirbench_math_997",
+  "problem": "<image>\nThe minute hand has been erased in the picture. Based on the hour hand, the minute hand should approxemately point to the number ( ). Answer with a single number, such as 1, 2, 3.",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/95.png"
+  ],
+  "doc_id": "tirbench_math_493",
+  "problem": "<image>\n如图，河西村和汽车站之间的真实距离最接近（ ）。\nA. 300m\nB. 600m\nC. 900m\nD. 1200m\nE. 1500m\nF. 1800m\nG. 2100m",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/135.png"
+  ],
+  "doc_id": "tirbench_math_1051",
+  "problem": "<image>\nAs shown in the figure, with C as the center and CD as the radius, how many intersection points does this circle have with EF and GH, respectively?\nA. 1, 1\nB. 0, 2\nC. 0, 0\nD. 1, 0\nE. 1, 2\nF. 2, 2",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/79.png"
+  ],
+  "doc_id": "tirbench_math_429",
+  "problem": "<image>\nThe minute hand has been erased in the picture. Based on the hour hand, the minute hand should approxemately point to the number ( ). Answer with a single number, such as 1, 2, 3.",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/4.png"
+  ],
+  "doc_id": "tirbench_math_1000",
+  "problem": "<image>\nIf the length of AB is 1, what is the length of BC? Provide your answer as an integer.",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/130.png"
+  ],
+  "doc_id": "tirbench_math_855",
+  "problem": "<image>\nAs shown in the figure, how many intersection points are there between the extension of CD and the function f?",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/75.png"
+  ],
+  "doc_id": "tirbench_math_775",
+  "problem": "<image>\nWhen x = 3, y is closest to ( )\nA. 7\nB. 7.5\nC. 8\nD. 8.5\nE. 9\nF. 6.5",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/58.png"
+  ],
+  "doc_id": "tirbench_math_887",
+  "problem": "<image>\n根据比例尺，停车场与博物馆之间的距离大约是（ ）m.\nA. 400\nB.  500\nC.  550\nD.  600\nE.  650\nF.  700\nG.  450",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/72.png"
+  ],
+  "doc_id": "tirbench_math_232",
+  "problem": "<image>\nIn the second plot, when time = 50hrs, Current is approximately ( )uA.\nA. 0\nB. -0.01\nC. 0.01\nD. 0.005\nE. 0.02\nF. 0.015\nG. -0.005",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/66.png"
+  ],
+  "doc_id": "tirbench_math_648",
+  "problem": "<image>\nWhat is the central angle of the sector in the circle of Periwinkle?\nA. 7\nB. 10\nC. 12\nD. 17\nE. 22\nF. 25\nG. 27",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/55.png"
+  ],
+  "doc_id": "tirbench_math_977",
+  "problem": "<image>\n图中橡皮长度大约是：\nA. 3 cm\nB. 2.5 cm\nC. 2.75 cm\nD. 3.25 cm\nE. 2.25 cm\nF. 3.5 cm",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/59.png"
+  ],
+  "doc_id": "tirbench_math_716",
+  "problem": "<image>\nMeasure the distances of AC and CB according to the scale. Driving from point A to point C and then from point C to point B, with a speed of 60 km/h, how many hours are needed? Answer with a single number, such as 1, 2, 3.",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/40.png"
+  ],
+  "doc_id": "tirbench_math_580",
+  "problem": "<image>\nConnecting points A, D, and E, the shape formed by points A, E, and D is most likely:\nA. Right triangle\nB. Obtuse triangle\nC. Acute triangle\nD. Straight line",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/101.png"
+  ],
+  "doc_id": "tirbench_math_247",
+  "problem": "<image>\nDraw a line through point C that is parallel to the y-axis. The y-coordinate of the intersection point between this line and the graph of the function is closest to which of the following numbers?\nA. 6.7\nB. 7.0\nC. 7.3\nD. 7.6\nE. 6.4\nF. 6.1\nG. 7.9",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/115.png"
+  ],
+  "doc_id": "tirbench_math_240",
+  "problem": "<image>\nThe distance between point R and P is about ( ).\nA. 6.2\nB. 6.7\nC. 7.3\nD. 8\nE. 8.3\nF. 5.8",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/129.png"
+  ],
+  "doc_id": "tirbench_math_998",
+  "problem": "<image>\nAs shown in the figure, how many intersection points are there between the extension of CD and the function f?",
+  "solution": "1",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/111.png"
+  ],
+  "doc_id": "tirbench_math_1180",
+  "problem": "<image>\nThe real straight-line distance between center of location 1 and center of location 2 is about ( )\nA. 100\nB. 125\nC. 150\nD. 175\nE. 200\nF. 225\nG. 75",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/29.png"
+  ],
+  "doc_id": "tirbench_math_27",
+  "problem": "<image>\nWhich point in the options below is closest to point C in the diagram in terms of straight-line distance?\nA. Point D\nB. Point O\nC. Point B\nD. Point A\nE. No answer",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/109.png"
+  ],
+  "doc_id": "tirbench_math_443",
+  "problem": "<image>\nThe real straight-line distance between location C and Beijing is about ( )km.\nA. 1400\nB. 1500\nC. 1600\nD. 1700\nE. 1800\nF. 1900",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/47.png"
+  ],
+  "doc_id": "tirbench_math_704",
+  "problem": "<image>\nThe difference between the value of Pale Green and the value of Crimson is most close to ( ) below\nA. 0 \nB. 2\nC. 4\nD. 8\nE. 10\nF. 12",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/42.png"
+  ],
+  "doc_id": "tirbench_math_103",
+  "problem": "<image>\nHow many columns contain a value greater than 44? Answer with a single number, such as 1, 2, 3.",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/38.png"
+  ],
+  "doc_id": "tirbench_math_614",
+  "problem": "<image>\nWhat is the difference between genres of tv shows watched by highest female and lowest female?\nA. 31\nB. 35\nC. 39\nD. 43\nE. 47\nF. 51",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/6.png"
+  ],
+  "doc_id": "tirbench_math_1025",
+  "problem": "<image>\nwhich arch is the longest?\nA. AB\nB. BC\nC. CD \nD. DE \nE. EG\nF. GA",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/139.png"
+  ],
+  "doc_id": "tirbench_math_811",
+  "problem": "<image>\nAs shown in the figure, using a compass and straightedge, construct an angle EDX equal to angle BAC. Which of the following angles is most likely to be equal to angle BAC?\nA. EDF\nB. EDG\nC. EDH\nD. EDI\nE. EDJ",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/119.png"
+  ],
+  "doc_id": "tirbench_math_133",
+  "problem": "<image>\nThe area of the white part in the square on the right is how many times the area of the white part in the square on the left?\nA. 3\nB. 3.3\nC. 3.6\nD. 3.9\nE. 4.2\nF. 4.5\nG. 5",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/90.png"
+  ],
+  "doc_id": "tirbench_math_1129",
+  "problem": "<image>\nThe value of Firebrick and Dark Green is closest at about x = ( )\nA. 74\nB. 70\nC. 42\nD. 92\nE. 26\nF. 6\nG. 84",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/43.png"
+  ],
+  "doc_id": "tirbench_math_176",
+  "problem": "<image>\nAt stage 1, when Env Steps=500k, the score of Dynalang minus the score of IMPALA is approximately ( )\nA.  0.75\nB. 1\nC. 1.35\nD. 1.6\nE. 0.6\nF. 1.9",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/116.png"
+  ],
+  "doc_id": "tirbench_math_245",
+  "problem": "<image>\nThe width of the eraser is about ( ).\nA. 0.25\nB. 0.5\nC. 0.75\nD. 1\nE. 1.25\nF. 1.5",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/16.png"
+  ],
+  "doc_id": "tirbench_math_256",
+  "problem": "<image>\nApproximately how long is it from the leaf to the leftmost end of the branch?\nA. 3.5\nB. 3.25\nC. 3\nD. 2.75\nE. 2.5\nF. 2.25\nG. 2",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/48.png"
+  ],
+  "doc_id": "tirbench_math_288",
+  "problem": "<image>\nThe value of Urban WhatsApp bar minus the value of Urban Google+ bar in this figure is approximately ( )\nA. 5\nB. 8\nC. 17\nD. 11\nE. 22\nF. 25",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/131.png"
+  ],
+  "doc_id": "tirbench_math_901",
+  "problem": "<image>\nAs shown in the figure, how many intersection points are there between the extension of CD and the trigonometric function f?",
+  "solution": "2",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/112.png"
+  ],
+  "doc_id": "tirbench_math_21",
+  "problem": "<image>\nThe straight-line distance between the two locations below of the image is the greatest?\nA. ①②\nB. ①③\nC. ①④\nD. ②④\nE. ③④",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/25.png"
+  ],
+  "doc_id": "tirbench_math_164",
+  "problem": "<image>\nWhen x=100, the value of Dark Slate minus Yellow is () (Answer with an integer).",
+  "solution": "13",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/math/102.png"
+  ],
+  "doc_id": "tirbench_math_770",
+  "problem": "<image>\nDraw a line through point C that is parallel to the x-axis. The x-coordinate of the intersection point between this line and the graph of the function is closest to which of the following numbers?\nA. 2.8\nB. 3.1\nC. 3.4\nD. 3.7\nE. 4.1\nF. 2.5\nG. 4.4",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "test"
+ }
+]

@@ -1,0 +1,402 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0004.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1003",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the up-right side of the frog? The direction 'up-right' refers to the region 22.5 degrees ~ 67.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'up-right' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "0",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00017",
+  "image": "games_images_test/zuma/0004.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the up-right side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0007.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1006",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the right side of the frog? The direction 'right' refers to the region -22.5 degrees ~ 22.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'right' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00032",
+  "image": "games_images_test/zuma/0007.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the right side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0011.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1010",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down-right side of the frog? The direction 'down-right' refers to the region -67.5 degrees ~ -22.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down-right' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00052",
+  "image": "games_images_test/zuma/0011.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down-right side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0017.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1016",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down side of the frog? The direction 'down' refers to the region -112.5 degrees ~ -67.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00082",
+  "image": "games_images_test/zuma/0017.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0018.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1017",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down-right side of the frog? The direction 'down-right' refers to the region -67.5 degrees ~ -22.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down-right' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "0",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00087",
+  "image": "games_images_test/zuma/0018.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down-right side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0021.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1020",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down-left side of the frog? The direction 'down-left' refers to the region -157.5 degrees ~ -112.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down-left' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00102",
+  "image": "games_images_test/zuma/0021.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down-left side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0024.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1023",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down side of the frog? The direction 'down' refers to the region -112.5 degrees ~ -67.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00117",
+  "image": "games_images_test/zuma/0024.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0049.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1048",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down side of the frog? The direction 'down' refers to the region -112.5 degrees ~ -67.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00242",
+  "image": "games_images_test/zuma/0049.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0053.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1052",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down-left side of the frog? The direction 'down-left' refers to the region -157.5 degrees ~ -112.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down-left' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00262",
+  "image": "games_images_test/zuma/0053.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down-left side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0055.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1054",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the up-left side of the frog? The direction 'up-left' refers to the region 112.5 degrees ~ 157.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'up-left' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00272",
+  "image": "games_images_test/zuma/0055.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the up-left side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0060.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1059",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down side of the frog? The direction 'down' refers to the region -112.5 degrees ~ -67.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00297",
+  "image": "games_images_test/zuma/0060.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0061.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1060",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down-right side of the frog? The direction 'down-right' refers to the region -67.5 degrees ~ -22.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down-right' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "0",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00302",
+  "image": "games_images_test/zuma/0061.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down-right side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0065.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1064",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down-right side of the frog? The direction 'down-right' refers to the region -67.5 degrees ~ -22.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down-right' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "0",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00322",
+  "image": "games_images_test/zuma/0065.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down-right side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0067.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1066",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the left side of the frog? The direction 'left' refers to the region 157.5 degrees ~ 180 degrees or -180 degrees ~ -157.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'left' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00332",
+  "image": "games_images_test/zuma/0067.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the left side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0069.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1068",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the up side of the frog? The direction 'up' refers to the region 67.5 degrees ~ 112.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'up' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00342",
+  "image": "games_images_test/zuma/0069.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the up side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0075.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1074",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the up-right side of the frog? The direction 'up-right' refers to the region 22.5 degrees ~ 67.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'up-right' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "0",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00372",
+  "image": "games_images_test/zuma/0075.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the up-right side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0086.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1085",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down-left side of the frog? The direction 'down-left' refers to the region -157.5 degrees ~ -112.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down-left' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "0",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00427",
+  "image": "games_images_test/zuma/0086.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down-left side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0094.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1093",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the down-right side of the frog? The direction 'down-right' refers to the region -67.5 degrees ~ -22.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'down-right' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "0",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00467",
+  "image": "games_images_test/zuma/0094.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the down-right side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0095.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1094",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the right side of the frog? The direction 'right' refers to the region -22.5 degrees ~ 22.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'right' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00472",
+  "image": "games_images_test/zuma/0095.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the right side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0097.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q3_1096",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. How many marble groups of two or more same-colored marbles are there at the up-left side of the frog? The direction 'up-left' refers to the region 112.5 degrees ~ 157.5 degrees, which is already divided by dashed lines. Any marble group with at least one marble in this region is considered to be in the 'up-left' direction. Answer as a non-negative integer, such as '0', '1', '2', etc.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 3,
+  "data_id": "zuma-fill-00482",
+  "image": "games_images_test/zuma/0097.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Number of the groups of adjacent marbles with the same color at the up-left side of the frog.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q3",
+  "split": "train"
+ }
+]

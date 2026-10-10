@@ -1,0 +1,398 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1582.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1582",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 2\nC. 3\nD. 4",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1032.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1032",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 9\nC. 4\nD. 5",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1885.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1885",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 5\nB. 8\nC. 4\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/61.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_61",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 1\nC. 3\nD. 8",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1852.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1852",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 2\nC. 1\nD. 4",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/834.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_834",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 7\nC. 2\nD. 6",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/445.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_445",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 2\nC. 4\nD. 9",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/111.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_111",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 9\nC. 8\nD. 5",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/442.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_442",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 2\nC. 6\nD. 5",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/141.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_141",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 9\nC. 1\nD. 4",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1986.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1986",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 8\nC. 7\nD. 9",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/78.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_78",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 7\nC. 9\nD. 6",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1141.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1141",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 6\nD. 7",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/100.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_100",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 7\nC. 6\nD. 4",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1015.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1015",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 4\nC. 1\nD. 9",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1170.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1170",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 5\nC. 2\nD. 1",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/261.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_261",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 7\nC. 5\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1740.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1740",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 8\nC. 6\nD. 7",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/502.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_502",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 2\nC. 8\nD. 7",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1911.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1911",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 7\nC. 1\nD. 9",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/980.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_980",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 4\nC. 1\nD. 5",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1657.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1657",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 8\nC. 4\nD. 7",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1984.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1984",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 7\nC. 3\nD. 1",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1655.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1655",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 9\nC. 4\nD. 6",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1808.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1808",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 5\nB. 8\nC. 1\nD. 2",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1204.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1204",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 6\nC. 1\nD. 5",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1607.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1607",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 5\nC. 8\nD. 7",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1648.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1648",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 5\nC. 4\nD. 2",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1326.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1326",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 2\nC. 7\nD. 6",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1703.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1703",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 2\nC. 1\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1131.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1131",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 8\nC. 9\nD. 7",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/997.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_997",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 5\nB. 7\nC. 1\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number/1818.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_1818",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 1\nC. 2\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number",
+  "split": "train"
+ }
+]

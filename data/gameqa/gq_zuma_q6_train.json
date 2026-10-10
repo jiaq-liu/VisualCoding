@@ -1,0 +1,402 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0001.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1000",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 3, 1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00005",
+  "image": "games_images_test/zuma/0001.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0002.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1001",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 3, 1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00010",
+  "image": "games_images_test/zuma/0002.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0005.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1004",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 2, 2",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00025",
+  "image": "games_images_test/zuma/0005.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0028.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1027",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 2, 3",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00140",
+  "image": "games_images_test/zuma/0028.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0029.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1028",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "No, 0, 0",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00145",
+  "image": "games_images_test/zuma/0029.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0030.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1029",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 2, 1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00150",
+  "image": "games_images_test/zuma/0030.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0034.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1033",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 2, 3",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00170",
+  "image": "games_images_test/zuma/0034.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0047.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1046",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 3, 2",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00235",
+  "image": "games_images_test/zuma/0047.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0052.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1051",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 3, 1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00260",
+  "image": "games_images_test/zuma/0052.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0056.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1055",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 2, 2",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00280",
+  "image": "games_images_test/zuma/0056.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0057.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1056",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 2, 1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00285",
+  "image": "games_images_test/zuma/0057.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0060.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1059",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 4, 1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00300",
+  "image": "games_images_test/zuma/0060.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0072.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1071",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 3, 1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00360",
+  "image": "games_images_test/zuma/0072.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0076.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1075",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "No, 0, 0",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00380",
+  "image": "games_images_test/zuma/0076.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0080.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1079",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 2, 1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00400",
+  "image": "games_images_test/zuma/0080.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0084.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1083",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 2, 3",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00420",
+  "image": "games_images_test/zuma/0084.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0085.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1084",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 3, 1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00425",
+  "image": "games_images_test/zuma/0085.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0093.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1092",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 2, 2",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00465",
+  "image": "games_images_test/zuma/0093.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0098.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1097",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 3, 1",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00490",
+  "image": "games_images_test/zuma/0098.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/zuma__0099.png"
+  ],
+  "doc_id": "gameqa_gq_zuma_q6_1098",
+  "problem": "<image>\nThis is a Zuma game. You need to control a frog to shoot colored marbles from its mouth toward a winding track of approaching marbles. Your goal is to clear all marbles before they reach the black hole at the end of the track. The marbles roll steadily along the track, and the player must fire marbles to create groups of three or more of the same color. These groups will disappear, reducing the number of marbles on the track. The frog will shoot marbles in a straight line, if there is no marble on the track, the shooted marble will pass through the track. However, the marble it shoots cannot bypass marbles already in its direct line of fire. In the offered pictures, the frog is often represented as a long triangle, with the circle on it representing the next marble it will shoot. The colored marbles are positioned on a gray track. Any directions or angles mentioned in questions are relative to the center of the circle on the frog, with its positive x-axis as the 0-degree reference line. Can the frog eliminate some marbles on the track by shooting the marble? If yes, how many marbles (excluding the one being shot) can be eliminated in the best case? How many distinct optimal solutions (counting different groups in the same direction separately) exist? Answer in the format: '<Yes/No>, <number of eliminated marbles>, <number of optimal solutions>'. For example, 'Yes, 3, 2' or 'No, 0, 0'.",
+  "solution": "Yes, 2, 3",
+  "data_source": "gameqa",
+  "game": "zuma",
+  "question_id": 6,
+  "data_id": "zuma-fill-00495",
+  "image": "games_images_test/zuma/0099.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "The optimal strategy for eliminating marbles in one step.",
+  "dataset": "gameqa",
+  "family": "gq_zuma_q6",
+  "split": "train"
+ }
+]

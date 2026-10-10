@@ -1,0 +1,806 @@
+[
+ {
+  "images": [
+   "tirbench/data/color/70.png"
+  ],
+  "doc_id": "tirbench_color_760",
+  "problem": "<image>\nWhat is the RGB value of the given color in the image? Select from the following choices. (A) [255, 187, 86] (B) [255, 189, 90] (C) [255, 195, 91] (D) [181, 178, 193]",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/167.png"
+  ],
+  "doc_id": "tirbench_color_932",
+  "problem": "<image>\nWhat is closest to the proportion of the color orange in the image? Select from the following choices. (A) 2% (B) 5% (C) 10% (D) 15%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/18.png"
+  ],
+  "doc_id": "tirbench_color_514",
+  "problem": "<image>\nHow many colors are there in this image? Select from the following choices. (A) 10 (B) 11 (C) 12 (D) 13",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/125.png"
+  ],
+  "doc_id": "tirbench_color_1192",
+  "problem": "<image>\nHow many half red items can be counted in this image? Select from the following choices. (A) 26 (B) 27 (C) 24 (D) 28 (E) 29",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/12.png"
+  ],
+  "doc_id": "tirbench_color_619",
+  "problem": "<image>\nHow many colors are there in this image? Select from the following choices. (A) 8 (B) 9 (C) 10 (D) 11",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/144.png"
+  ],
+  "doc_id": "tirbench_color_1047",
+  "problem": "<image>\nWhat is closest to the proportion of the color red in the flag? Select from the following choices. (A) 25% (B) 30% (C) 35% (D) 40%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/141.png"
+  ],
+  "doc_id": "tirbench_color_163",
+  "problem": "<image>\nWhat color in the pie chart has the proportion closest to 15%? Select from the following choices. (A) light purple (B) dark purple (C) purple (D) dark blue",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/152.png"
+  ],
+  "doc_id": "tirbench_color_376",
+  "problem": "<image>\nWhat is closest to the proportion of the color red in the flag? Select from the following choices. (A) 30% (B) 35% (C) 40% (D) 45%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/64.png"
+  ],
+  "doc_id": "tirbench_color_229",
+  "problem": "<image>\nWhat is the HSV value of the given color in the image? Select from the following choices. (A) [31, 48, 80] (B) [112, 54, 90] (C) [114, 54, 90] (D) [112, 56, 90]",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/51.png"
+  ],
+  "doc_id": "tirbench_color_401",
+  "problem": "<image>\nThere are two strings in the image. What are the strings in the center of this image? Select from the following choices. (A) ao (B) co (C) mo (D) no",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/26.png"
+  ],
+  "doc_id": "tirbench_color_441",
+  "problem": "<image>\nWhat is the number in the center of this image? Select from the following choices. (A) 15 (B) 16 (C) 18 (D) 19",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/101.png"
+  ],
+  "doc_id": "tirbench_color_212",
+  "problem": "<image>\nWhich circles has the darkest color? The circles are numbered left to right starting from 1. Select from the following choices. (A) All the same (B) 1 (C) 2 (D) 3",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/81.png"
+  ],
+  "doc_id": "tirbench_color_773",
+  "problem": "<image>\nWhat is closest to the proportion of the color white in the image? Select from the following choices. (A) 10% (B) 20% (C) 30% (D) 40%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/121.png"
+  ],
+  "doc_id": "tirbench_color_740",
+  "problem": "<image>\nHow many people are wearing red striped shirts in this image? Select from the following choices. (A) 10 (B) 15 (C) 12 (D) 14 (E) 13",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/149.png"
+  ],
+  "doc_id": "tirbench_color_715",
+  "problem": "<image>\nWhat is closest to the proportion of the color red in the flag? Select from the following choices. (A) 85% (B) 90% (C) 95% (D) 100%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/146.png"
+  ],
+  "doc_id": "tirbench_color_100",
+  "problem": "<image>\nWhat is closest to the proportion of the color yellow in the flag? Select from the following choices. (A) 35% (B) 45% (C) 55% (D) 65%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/8.png"
+  ],
+  "doc_id": "tirbench_color_361",
+  "problem": "<image>\nHow many colors are there in this image? Select from the following choices. (A) 7 (B) 8 (C) 9 (D) 10",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/15.png"
+  ],
+  "doc_id": "tirbench_color_1213",
+  "problem": "<image>\nExcluding white, background, border, and font colors, how many colors are in this image? Select from the following choices. (A) 10 (B) 11 (C) 12 (D) 13",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/136.png"
+  ],
+  "doc_id": "tirbench_color_549",
+  "problem": "<image>\nWhat percentage most closely matches the proportion of red in the pie chart? Select from the following choices. (A) 10% (B) 12.5% (C) 15% (D) 17.5%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/83.png"
+  ],
+  "doc_id": "tirbench_color_58",
+  "problem": "<image>\nWhat is closest to the proportion of the color black in the image? Select from the following choices. (A) 10% (B) 20% (C) 30% (D) 40%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/68.png"
+  ],
+  "doc_id": "tirbench_color_592",
+  "problem": "<image>\nWhat is the RGB value of the given color in the image? Select from the following choices. (A) [158, 109, 237] (B) [33, 116, 128] (C) [34, 119, 127] (D) [36, 116, 127]",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/84.png"
+  ],
+  "doc_id": "tirbench_color_194",
+  "problem": "<image>\nWhat is closest to the proportion of the color red in the image? Select from the following choices. (A) 10% (B) 20% (C) 30% (D) 40%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/38.png"
+  ],
+  "doc_id": "tirbench_color_395",
+  "problem": "<image>\nWhat is the number in the center of this image? Select from the following choices. (A) 26 (B) 28 (C) 38 (D) 58",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/122.png"
+  ],
+  "doc_id": "tirbench_color_711",
+  "problem": "<image>\nHow many fruits have a deep purple arils in this image? Select from the following choices. (A) 9 (B) 10 (C) 12 (D) 15 (E) 11",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/69.png"
+  ],
+  "doc_id": "tirbench_color_829",
+  "problem": "<image>\nWhat is the RGB value of the given color in the image? Select from the following choices. (A) [80, 221, 0] (B) [115, 142, 150] (C) [83, 219, 4] (D) [73, 219, 0]",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/89.png"
+  ],
+  "doc_id": "tirbench_color_226",
+  "problem": "<image>\nDoes the color A and color B have the same color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/119.png"
+  ],
+  "doc_id": "tirbench_color_755",
+  "problem": "<image>\nDo the blocks labeled \"a\" and \"b\" have the same color or shade? Select from the following choices. (A) No, a is darker (B) Hard to tell without more context (C) Yes, one appears darker due to how our eyes perceive shadows (D) No, b is darker",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/164.png"
+  ],
+  "doc_id": "tirbench_color_237",
+  "problem": "<image>\nWhat is closest to the proportion of the color white in the image? Select from the following choices. (A) 5% (B) 10% (C) 20% (D) 30%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/155.png"
+  ],
+  "doc_id": "tirbench_color_81",
+  "problem": "<image>\nWhat is the closest to the proportion of the color yellow in the flag? Select from the following choices. (A) 15% (B) 20% (C) 25% (D) 30%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/73.png"
+  ],
+  "doc_id": "tirbench_color_85",
+  "problem": "<image>\nWhat is the RGB value of the given color in the image? Select from the following choices. (A) [22, 165, 3] (B) [17, 167, 0] (C) [24, 165, 0] (D) [109, 89, 95]",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/159.png"
+  ],
+  "doc_id": "tirbench_color_826",
+  "problem": "<image>\nWhat is closest to the proportion of the color black in the image? Select from the following choices. (A) 2% (B) 5% (C) 10% (D) 15%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/156.png"
+  ],
+  "doc_id": "tirbench_color_975",
+  "problem": "<image>\nWhat is closest to the proportion of the color black in the flag? Select from the following choices. (A) 15% (B) 20% (C) 25% (D) 30%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/72.png"
+  ],
+  "doc_id": "tirbench_color_215",
+  "problem": "<image>\nWhat is the RGB value of the given color in the image? Select from the following choices. (A) [214, 255, 120] (B) [216, 255, 127] (C) [22, 61, 37] (D) [219, 255, 122]",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/126.png"
+  ],
+  "doc_id": "tirbench_color_964",
+  "problem": "<image>\nHow many all red items can be seen in this image? Select from the following choices. (A) 12 (B) 11 (C) 13 (D) 14 (E) 16",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/10.png"
+  ],
+  "doc_id": "tirbench_color_482",
+  "problem": "<image>\nHow many colors are there in this image? Select from the following choices. (A) 10 (B) 11 (C) 12 (D) 13",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/65.png"
+  ],
+  "doc_id": "tirbench_color_1069",
+  "problem": "<image>\nWhat is the HSV value of the given color in the image? Select from the following choices. (A) [22, 61, 3] (B) [78, 52, 100] (C) [78, 54, 100] (D) [76, 52, 100]",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/90.png"
+  ],
+  "doc_id": "tirbench_color_218",
+  "problem": "<image>\nDoes the color A and color B have the same color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/109.png"
+  ],
+  "doc_id": "tirbench_color_23",
+  "problem": "<image>\nDoes the horizontal bar have a uniform color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/85.png"
+  ],
+  "doc_id": "tirbench_color_1181",
+  "problem": "<image>\nWhat is closest to the proportion of the color chartreuse green in the image? Select from the following choices. (A) 50% (B) 80% (C) 60% (D) 70%",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/107.png"
+  ],
+  "doc_id": "tirbench_color_706",
+  "problem": "<image>\nDoes the horizontal bar have a uniform color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/110.png"
+  ],
+  "doc_id": "tirbench_color_1151",
+  "problem": "<image>\nDoes the horizontal bar have a uniform color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/157.png"
+  ],
+  "doc_id": "tirbench_color_642",
+  "problem": "<image>\nWhat is closest to the proportion of the color azure in the flag? Select from the following choices. (A) 20% (B) 30% (C) 40% (D) 50%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/76.png"
+  ],
+  "doc_id": "tirbench_color_1065",
+  "problem": "<image>\nWhat is the HEX value of the given color in the image? Select from the following choices. (A) #BC004E (B) #2D191D (C) #BC034A (D) #BD0048",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/153.png"
+  ],
+  "doc_id": "tirbench_color_258",
+  "problem": "<image>\nWhat is closest to the proportion of the color red in the flag? Select from the following choices. (A) 40% (B) 50% (C) 60% (D) 70%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/1.png"
+  ],
+  "doc_id": "tirbench_color_912",
+  "problem": "<image>\nHow many colors are there in this flag? Select from the following choices. (A) 8 (B) 9 (C) 10 (D) 11",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/71.png"
+  ],
+  "doc_id": "tirbench_color_1044",
+  "problem": "<image>\nWhat is the RGB value of the given color in the image? Select from the following choices. (A) [126, 229, 105] (B) [119, 229, 105] (C) [126, 229, 110] (D) [132, 132, 132]",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/42.png"
+  ],
+  "doc_id": "tirbench_color_957",
+  "problem": "<image>\nWhat is the number in the center of this image? Select from the following choices. (A) 25 (B) 29 (C) 34 (D) 75",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/123.png"
+  ],
+  "doc_id": "tirbench_color_763",
+  "problem": "<image>\nHow many white grapes are on the table in this image? Select from the following choices. (A) 12 (B) 10 (C) 11 (D) 15 (E) 0",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/128.png"
+  ],
+  "doc_id": "tirbench_color_333",
+  "problem": "<image>\nWhich color is the second largest color in this image? Select from the following choices. (A) Yellow (B) Green (C) Orange (D) Red",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/75.png"
+  ],
+  "doc_id": "tirbench_color_309",
+  "problem": "<image>\nWhat is the HEX value of the given color in the image? Select from the following choices. (A) #E50444 (B) #040D44 (C) #E50048 (D) #E5003D",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/31.png"
+  ],
+  "doc_id": "tirbench_color_1055",
+  "problem": "<image>\nWhat is the number in the center of this image? Select from the following choices. (A) 25 (B) 28 (C) 34 (D) 38",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/44.png"
+  ],
+  "doc_id": "tirbench_color_1189",
+  "problem": "<image>\nWhat is the number in the center of this image? Select from the following choices. (A) 85 (B) 86 (C) 89 (D) 91",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/29.png"
+  ],
+  "doc_id": "tirbench_color_64",
+  "problem": "<image>\nWhat is the number in the center of this image? Select from the following choices. (A) 2 (B) 7 (C) 22 (D) 26",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/99.png"
+  ],
+  "doc_id": "tirbench_color_656",
+  "problem": "<image>\nWhich circles has the darkest color? The circles are numbered left to right starting from 1. Select from the following choices. (A) All the same (B) 1 (C) 2 (D) 3",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/160.png"
+  ],
+  "doc_id": "tirbench_color_935",
+  "problem": "<image>\nWhat is the closest proportion of the color white in the image? Select from the following choices. (A) 5% (B) 10% (C) 20% (D) 30%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/127.png"
+  ],
+  "doc_id": "tirbench_color_139",
+  "problem": "<image>\nWhich color takes the largest proportion of the image? Select from the following choices. (A) Yellow (B) Green (C) Orange (D) Red",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/98.png"
+  ],
+  "doc_id": "tirbench_color_845",
+  "problem": "<image>\nWhich circles has the darkest color? The circles are numbered left to right starting from 1. Select from the following choices. (A) All the same (B) 1 (C) 2 (D) 3",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/80.png"
+  ],
+  "doc_id": "tirbench_color_1050",
+  "problem": "<image>\nWhat is the closest to the proportion add-up of the colors orange and yellow in the image? Select from the following choices. (A) 50% (B) 60% (C) 70% (D) 80%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/143.png"
+  ],
+  "doc_id": "tirbench_color_168",
+  "problem": "<image>\nWhat is closest to the proportion of the color green in the flag? Select from the following choices. (A) 25% (B) 30% (C) 35% (D) 40%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/106.png"
+  ],
+  "doc_id": "tirbench_color_210",
+  "problem": "<image>\nDoes the horizontal bar have a uniform color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/4.png"
+  ],
+  "doc_id": "tirbench_color_323",
+  "problem": "<image>\nHow many colors are there in this flag? Select from the following choices. (A) 6 (B) 7 (C) 8 (D) 9",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/97.png"
+  ],
+  "doc_id": "tirbench_color_347",
+  "problem": "<image>\nDoes the color A and color B have the same color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/139.png"
+  ],
+  "doc_id": "tirbench_color_371",
+  "problem": "<image>\nWhat color in the pie chart has the proportion closest to 10%? Select from the following choices. (A) dark blue (B) gray (C) dark purple (D) light purple",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/151.png"
+  ],
+  "doc_id": "tirbench_color_1171",
+  "problem": "<image>\nWhat is closest to the proportion of the color white in the flag? Select from the following choices. (A) 5% (B) 10% (C) 15% (D) 20%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/78.png"
+  ],
+  "doc_id": "tirbench_color_63",
+  "problem": "<image>\nWhat is closest to the proportion of the color green in the image? Select from the following choices. (A) 9% (B) 13% (C) 17% (D) 21%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/91.png"
+  ],
+  "doc_id": "tirbench_color_172",
+  "problem": "<image>\nDoes the color A and color B have the same color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/color/95.png"
+  ],
+  "doc_id": "tirbench_color_970",
+  "problem": "<image>\nDoes the color A and color B have the same color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "test"
+ }
+]

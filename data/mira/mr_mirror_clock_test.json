@@ -1,0 +1,262 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__0.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_0",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 1 hours and 40 minutes?",
+  "solution": "1:10",
+  "data_source": "mira",
+  "uid": "0",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__1.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_1",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 1 hours and 40 minutes?",
+  "solution": "8:00",
+  "data_source": "mira",
+  "uid": "1",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__3.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_3",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 10 hours and 25 minutes?",
+  "solution": "4:00",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__6.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_6",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 8 hours and 0 minutes?",
+  "solution": "2:05",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__8.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_8",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 6 hours and 25 minutes?",
+  "solution": "8:10",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__9.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_9",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 9 hours and 50 minutes?",
+  "solution": "7:55",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__10.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_10",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 5 hours and 35 minutes?",
+  "solution": "8:50",
+  "data_source": "mira",
+  "uid": "10",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__12.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_12",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 4 hours and 30 minutes?",
+  "solution": "4:05",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__14.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_14",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 5 hours and 45 minutes?",
+  "solution": "7:25",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__15.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_15",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 10 hours and 10 minutes?",
+  "solution": "9:35",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__16.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_16",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 8 hours and 20 minutes?",
+  "solution": "9:15",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__17.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_17",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 7 hours and 0 minutes?",
+  "solution": "3:45",
+  "data_source": "mira",
+  "uid": "17",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__19.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_19",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 12 hours and 20 minutes?",
+  "solution": "11:30",
+  "data_source": "mira",
+  "uid": "19",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__20.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_20",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 4 hours and 5 minutes?",
+  "solution": "9:30",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__21.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_21",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 2 hours and 20 minutes?",
+  "solution": "10:45",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__22.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_22",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 3 hours and 55 minutes?",
+  "solution": "6:25",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__23.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_23",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 10 hours and 40 minutes?",
+  "solution": "8:00",
+  "data_source": "mira",
+  "uid": "23",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__26.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_26",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 12 hours and 55 minutes?",
+  "solution": "7:20",
+  "data_source": "mira",
+  "uid": "26",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__27.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_27",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 3 hours and 5 minutes?",
+  "solution": "10:50",
+  "data_source": "mira",
+  "uid": "27",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_clock__29.png"
+  ],
+  "doc_id": "mira_mr_mirror_clock_29",
+  "problem": "<image>\nThis is what a clock looks like in a mirror. What time will it be in 7 hours and 50 minutes?",
+  "solution": "1:45",
+  "data_source": "mira",
+  "uid": "29",
+  "dataset": "mira",
+  "family": "mr_mirror_clock",
+  "split": "test"
+ }
+]

@@ -1,0 +1,194 @@
+[
+ {
+  "images": [
+   "tirbench/data/contrast/39_low.png"
+  ],
+  "doc_id": "tirbench_contrast_603",
+  "problem": "<image>\nHow many people are holding the first banner?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/23_low.png"
+  ],
+  "doc_id": "tirbench_contrast_586",
+  "problem": "<image>\nHow many large metal barrels are visible on the right side of the image?",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/7_low.png"
+  ],
+  "doc_id": "tirbench_contrast_503",
+  "problem": "<image>\nHow many national flags are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/43_low.png"
+  ],
+  "doc_id": "tirbench_contrast_281",
+  "problem": "<image>\nHow many clothes hangers with clothes are on the left?",
+  "solution": "8",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/30_low.png"
+  ],
+  "doc_id": "tirbench_contrast_79",
+  "problem": "<image>\nHow many large pillars are in the image?",
+  "solution": "6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/5_low.png"
+  ],
+  "doc_id": "tirbench_contrast_1027",
+  "problem": "<image>\nHow many ducks are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/47_low.png"
+  ],
+  "doc_id": "tirbench_contrast_615",
+  "problem": "<image>\nHow many pillows are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/48_low.png"
+  ],
+  "doc_id": "tirbench_contrast_213",
+  "problem": "<image>\n图中酒瓶上面的字是 \nA 茅台酒\nB 劲酒\nC 政府招待酒 \nD 汾酒 \nE 其他酒",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/52_low.png"
+  ],
+  "doc_id": "tirbench_contrast_692",
+  "problem": "<image>\nHow many chairs are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/16_low.png"
+  ],
+  "doc_id": "tirbench_contrast_448",
+  "problem": "<image>\nHow many people can be seen on the soccer field in the image?",
+  "solution": "17",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/20_low.png"
+  ],
+  "doc_id": "tirbench_contrast_756",
+  "problem": "<image>\nHow many semicircular holes are on the stone bench?",
+  "solution": "1",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/13_low.png"
+  ],
+  "doc_id": "tirbench_contrast_533",
+  "problem": "<image>\nHow many posters with people are in the image?",
+  "solution": "2",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/51_low.png"
+  ],
+  "doc_id": "tirbench_contrast_298",
+  "problem": "<image>\nHow many bowls are placed vertically in the image?",
+  "solution": "9",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/38_low.png"
+  ],
+  "doc_id": "tirbench_contrast_56",
+  "problem": "<image>\nHow many people are sitting on chairs in the image?",
+  "solution": "1",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/34_low.png"
+  ],
+  "doc_id": "tirbench_contrast_907",
+  "problem": "<image>\nHow many people are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/36_low.png"
+  ],
+  "doc_id": "tirbench_contrast_873",
+  "problem": "<image>\nHow many windows can be seen on the house on the right side?",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "train"
+ }
+]

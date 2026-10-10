@@ -1,0 +1,410 @@
+[
+ {
+  "images": [
+   "tirbench/data/contrast/14_low.png"
+  ],
+  "doc_id": "tirbench_contrast_227",
+  "problem": "<image>\nAbout what time is the hour hand pointing to?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/15_low.png"
+  ],
+  "doc_id": "tirbench_contrast_601",
+  "problem": "<image>\nHow many windows can be seen on the house on the right side of the image?",
+  "solution": "9",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/42_low.png"
+  ],
+  "doc_id": "tirbench_contrast_813",
+  "problem": "<image>\n左侧电饭煲上的是一行字的最后四个字是什么？\nA 蒸煮技术\nB 营养技术\nC 烹饪技术\nD 厚釜技术\nE 其他技术",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/6_low.png"
+  ],
+  "doc_id": "tirbench_contrast_39",
+  "problem": "<image>\nHow many balloons are in the image?",
+  "solution": "2",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/31_low.png"
+  ],
+  "doc_id": "tirbench_contrast_978",
+  "problem": "<image>\nHow many large pillars are in the image?",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/3_low.png"
+  ],
+  "doc_id": "tirbench_contrast_481",
+  "problem": "<image>\nHow many ducks are in the image?",
+  "solution": "2",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/8_low.png"
+  ],
+  "doc_id": "tirbench_contrast_790",
+  "problem": "<image>\nHow many people are in the image?",
+  "solution": "1",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/12_low.png"
+  ],
+  "doc_id": "tirbench_contrast_1095",
+  "problem": "<image>\nHow many people are in the image?",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/32_low.png"
+  ],
+  "doc_id": "tirbench_contrast_953",
+  "problem": "<image>\nHow many balconies are in the image?",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/33_low.png"
+  ],
+  "doc_id": "tirbench_contrast_749",
+  "problem": "<image>\nHow many small statues are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/17_low.png"
+  ],
+  "doc_id": "tirbench_contrast_627",
+  "problem": "<image>\nHow many cans of paint are on the table in the image?",
+  "solution": "6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/4_low.png"
+  ],
+  "doc_id": "tirbench_contrast_512",
+  "problem": "<image>\nHow many glasses of beer are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/25_low.png"
+  ],
+  "doc_id": "tirbench_contrast_547",
+  "problem": "<image>\nHow many chairs are in the image?",
+  "solution": "6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/37_low.png"
+  ],
+  "doc_id": "tirbench_contrast_968",
+  "problem": "<image>\nHow many people are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/28_low.png"
+  ],
+  "doc_id": "tirbench_contrast_1035",
+  "problem": "<image>\nHow many cars are not blocked by the iron fence and closer to camera than the first crosswalk?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/2_low.png"
+  ],
+  "doc_id": "tirbench_contrast_858",
+  "problem": "<image>\nHow many people are in the image?",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/29_low.png"
+  ],
+  "doc_id": "tirbench_contrast_788",
+  "problem": "<image>\nHow many boats and small vessels can be seen in the image?",
+  "solution": "9",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/26_low.png"
+  ],
+  "doc_id": "tirbench_contrast_1021",
+  "problem": "<image>\nHow many objects are on the upper first shelf inside the cabinet?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/50_low.png"
+  ],
+  "doc_id": "tirbench_contrast_335",
+  "problem": "<image>\nHow many pipes are attached to the water heater in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/18_low.png"
+  ],
+  "doc_id": "tirbench_contrast_1174",
+  "problem": "<image>\nHow many people are in the image?",
+  "solution": "6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/9_low.png"
+  ],
+  "doc_id": "tirbench_contrast_1048",
+  "problem": "<image>\nHow many birds are on the railing in the picture?",
+  "solution": "6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/40_low.png"
+  ],
+  "doc_id": "tirbench_contrast_53",
+  "problem": "<image>\nWhat is the total score on the first row of the scoreboard on the right side?",
+  "solution": "8",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/54_low.png"
+  ],
+  "doc_id": "tirbench_contrast_618",
+  "problem": "<image>\nHow many bottles are in the image?",
+  "solution": "6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/53_low.png"
+  ],
+  "doc_id": "tirbench_contrast_871",
+  "problem": "<image>\nHow many cans are in the image?",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/49_low.png"
+  ],
+  "doc_id": "tirbench_contrast_121",
+  "problem": "<image>\nHow many computer mice are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/19_low.png"
+  ],
+  "doc_id": "tirbench_contrast_803",
+  "problem": "<image>\nWhere is the ladder located in the image?\nA. Left\nB. Center\nC. Right\nD. No ladder",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/46_low.png"
+  ],
+  "doc_id": "tirbench_contrast_161",
+  "problem": "<image>\nHow many Apple computers are in the image?",
+  "solution": "2",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/11_low.png"
+  ],
+  "doc_id": "tirbench_contrast_211",
+  "problem": "<image>\nHow many windows in the image have white curtains hanging from the top?",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/35_low.png"
+  ],
+  "doc_id": "tirbench_contrast_367",
+  "problem": "<image>\nHow many portraits are on top of the cabinet?",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/10_low.png"
+  ],
+  "doc_id": "tirbench_contrast_446",
+  "problem": "<image>\nHow many people are in the image?",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/21_low.png"
+  ],
+  "doc_id": "tirbench_contrast_451",
+  "problem": "<image>\nWhat is the most likely license plate number of the yellow car?\nA. 56S 1597\nB. 66S 1123\nC. 78S 8234\nD. 89S 9921\nE. 00S 9834",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/44_low.png"
+  ],
+  "doc_id": "tirbench_contrast_50",
+  "problem": "<image>\nHow many chairs are in the image?",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/22_low.png"
+  ],
+  "doc_id": "tirbench_contrast_203",
+  "problem": "<image>\nHow many people are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/contrast/56_low.png"
+  ],
+  "doc_id": "tirbench_contrast_924",
+  "problem": "<image>\nHow many water faucets are in the image?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "contrast",
+  "split": "test"
+ }
+]

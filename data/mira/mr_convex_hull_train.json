@@ -1,0 +1,132 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__0.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_0",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "3",
+  "data_source": "mira",
+  "uid": "0",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__2.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_2",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__4.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_4",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "5",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__7.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_7",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__16.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_16",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "7",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__17.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_17",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "17",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__18.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_18",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__20.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_20",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "7",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__25.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_25",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "3",
+  "data_source": "mira",
+  "uid": "25",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/convex_hull__28.png"
+  ],
+  "doc_id": "mira_mr_convex_hull_28",
+  "problem": "<image>\nGiven 10 blue points, they form a blue convex hull. Given 10 green points, they form a green convex hull. How many red points fall in the overlapping portion of the blue and green convex hulls? Answer with only one digit.",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "28",
+  "dataset": "mira",
+  "family": "mr_convex_hull",
+  "split": "train"
+ }
+]

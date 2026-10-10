@@ -1,0 +1,314 @@
+[
+ {
+  "images": [
+   "tirbench/data/instrument/71.jpg"
+  ],
+  "doc_id": "tirbench_instrument_915",
+  "problem": "<image>\nTo what integer is the second-hand closest in the image? Provide an integer (e.g., 1,2,3).",
+  "solution": "32",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/51.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1056",
+  "problem": "<image>\nThe ammeter reading in the image is () mA.\nA 7.5-8\nB 8-8.5\nC 8.5-9\nD 9-9.5\nE 9.5-10\nF 6.5-7",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/82.jpg"
+  ],
+  "doc_id": "tirbench_instrument_452",
+  "problem": "<image>\nThe reading of the measuring cylinder in the image is:\nA 59.6\nB 59.8\nC 60\nD 60.2\nE 60.4\nF 60.6",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/38.jpg"
+  ],
+  "doc_id": "tirbench_instrument_917",
+  "problem": "<image>\nThe small circle hand of the black stopwatch is pointing to what number? Answer as an integer like 1,2,3.",
+  "solution": "57",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/4.jpg"
+  ],
+  "doc_id": "tirbench_instrument_613",
+  "problem": "<image>\nWhich Celsius number on the thermometer scale is covered by the pointer in the image?\nA 10\nB 11\nC 12 \nD 13\nE 14\nF 15",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/9.jpg"
+  ],
+  "doc_id": "tirbench_instrument_971",
+  "problem": "<image>\nWhich number is the pointer indicating on the instrument?",
+  "solution": "10",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/55.jpg"
+  ],
+  "doc_id": "tirbench_instrument_155",
+  "problem": "<image>\nWhat is the reading on the total duct airflow meter? Answer as an integer like 1,2,3.\nA 500\nB 530\nC 540\nD 550\nE 560\nF 570\nG 580",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/66.jpg"
+  ],
+  "doc_id": "tirbench_instrument_868",
+  "problem": "<image>\nWhat is the stopwatch second reading in the image? Provide one decimal place (e.g., 1.1).",
+  "solution": "13.6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/52.jpg"
+  ],
+  "doc_id": "tirbench_instrument_992",
+  "problem": "<image>\nAccording to the image, the pressure gauge reading is approximately within which of the following ranges () psi?\nA 10000-11000\nB 11000-11500\nC 11500-12000\nD 12000-12500\nE 12500-13000\nF 13000-14000",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/77.jpg"
+  ],
+  "doc_id": "tirbench_instrument_748",
+  "problem": "<image>\nIn which of the following intervals does the gauge reading fall?\nA 0-1\nB 1-2\nC 0-2\nD 2-4\nE 4-6",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/64.jpg"
+  ],
+  "doc_id": "tirbench_instrument_271",
+  "problem": "<image>\nWhat is the stopwatch second reading in the image? Provide an integer.",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/36.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1147",
+  "problem": "<image>\nAccording to the image, the clinical thermometer reading is approximately:\nA 38.3-38.4\nB 38.4-38.5\nC 38.5-38.6\nD 38.6-38.7\nE 38.7-38.8\nF 38.8-38.9\nG 38.9-39",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/35.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1042",
+  "problem": "<image>\nAccording to the image, the clinical thermometer reading is approximately:\nA 36.3\nB 36.4\nC 36.5\nD 36.6\nE 36.7\nF 36.8\nG 36.9",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/30.jpg"
+  ],
+  "doc_id": "tirbench_instrument_731",
+  "problem": "<image>\nAccording to the image, what is the reading on the clinical thermometer?\nA 36.3-36.4\nB 36.4-36.5\nC 36.5-36.6\nD 36.6-36.7\nE 36.7-36.8",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/31.jpg"
+  ],
+  "doc_id": "tirbench_instrument_836",
+  "problem": "<image>\nAccording to the image, what is the reading in Celsius of the third thermometer from the left? Answer as an integer.",
+  "solution": "15",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/53.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1052",
+  "problem": "<image>\nThe reading on the pressure gauge in the image is closest to which number below?\nA 150\nB 165\nC 175\nD 185\nE 170\nF 200\nG 180",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/45.jpg"
+  ],
+  "doc_id": "tirbench_instrument_559",
+  "problem": "<image>\nThe reading in the measuring cylinder in the image is approximately () ml.\nA 60-61\nB 61-62\nC 62-63\nD 63-64\nE 64-65\nF 65-66",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/80.jpg"
+  ],
+  "doc_id": "tirbench_instrument_983",
+  "problem": "<image>\nWhat is the reading of the second gauge from the left in kg/cm²? Provide one decimal place (e.g., 1.1).",
+  "solution": "12",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/18.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1179",
+  "problem": "<image>\nAccording to the thermometer in the image, approximately what is the current room temperature in Celsius?\nA 37\nB 38\nC 39\nD 40\nE 41",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/48.jpg"
+  ],
+  "doc_id": "tirbench_instrument_9",
+  "problem": "<image>\nWhat is the voltmeter reading in kV in the image?\nA 200-205\nB 205-210\nC 210-215\nD 215-220\nE 220-225\nF 225-230\nG 230-235",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/54.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1140",
+  "problem": "<image>\nThe reading on the instrument in the image is (). Answer as an integer like 1,2,3.",
+  "solution": "80",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/20.jpg"
+  ],
+  "doc_id": "tirbench_instrument_934",
+  "problem": "<image>\nAccording to the image, approximately what is the current room temperature in Fahrenheit?\nA 28-30\nB 80-81\nC 81-82\nD 82-83\nE 83-84\nF 84-85",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/68.jpg"
+  ],
+  "doc_id": "tirbench_instrument_354",
+  "problem": "<image>\nWhat is the stopwatch second reading in the image? Provide one decimal place (e.g., 1.1).",
+  "solution": "5.6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/25.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1100",
+  "problem": "<image>\nAccording to the image, the reading of the second instrument from the right in the second row is approximately () bar.\nA 0\nB 0.1\nC 0.2\nD 0.3\nE 0.4\nF 0.5",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/14.jpg"
+  ],
+  "doc_id": "tirbench_instrument_378",
+  "problem": "<image>\nAccording to the Vernier caliper in the image, the width of the nut is:\nA 1.25 cm\nB 1.26 cm\nC 1.27 cm\nD 1.28 cm\nE 1.29 cm",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/44.jpg"
+  ],
+  "doc_id": "tirbench_instrument_381",
+  "problem": "<image>\nThe reading in the measuring cylinder in the image is approximately () ml.\nA 17.8-18\nB 18-18.2\nC 18.2-18.4\nD 18.4-18.6\nE 18.6-18.8",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "train"
+ }
+]

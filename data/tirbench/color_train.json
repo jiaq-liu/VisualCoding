@@ -1,0 +1,398 @@
+[
+ {
+  "images": [
+   "tirbench/data/color/61.png"
+  ],
+  "doc_id": "tirbench_color_469",
+  "problem": "<image>\nWhat is the HSV value of the given color in the image? Select from the following choices. (A) [31, 47, 89] (B) [296, 35, 96] (C) [33, 49, 89] (D) [31, 49, 89]",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/96.png"
+  ],
+  "doc_id": "tirbench_color_457",
+  "problem": "<image>\nDoes the color A and color B have the same color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/105.png"
+  ],
+  "doc_id": "tirbench_color_1075",
+  "problem": "<image>\nDoes the horizontal bar have a uniform color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/30.png"
+  ],
+  "doc_id": "tirbench_color_106",
+  "problem": "<image>\nWhat is the number in the center of this image? Select from the following choices. (A) 18 (B) 22 (C) 23 (D) 26",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/54.png"
+  ],
+  "doc_id": "tirbench_color_764",
+  "problem": "<image>\nThere are two strings in the image. What are the strings in the center of this image? Select from the following choices. (A) op (B) qa (C) qn (D) un",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/145.png"
+  ],
+  "doc_id": "tirbench_color_574",
+  "problem": "<image>\nWhat is the closest to the proportion of the color red in the flag? Select from the following choices. (A) 40% (B) 50% (C) 60% (D) 70%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/138.png"
+  ],
+  "doc_id": "tirbench_color_33",
+  "problem": "<image>\nWhat color in the pie chart has the proportion closest to 25%? Select from the following choices. (A) light blue (B) green (C) purple (D) cyan",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/129.png"
+  ],
+  "doc_id": "tirbench_color_900",
+  "problem": "<image>\nWhich color takes the largest proportion of the image? Select from the following choices. (A) Yellow (B) Green (C) Orange (D) Red",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/19.png"
+  ],
+  "doc_id": "tirbench_color_184",
+  "problem": "<image>\nHow many colors are there in this image? Select from the following choices. (A) 11 (B) 12 (C) 13 (D) 14",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/5.png"
+  ],
+  "doc_id": "tirbench_color_962",
+  "problem": "<image>\nHow many colors are there in this flag? Select from the following choices. (A) 6 (B) 7 (C) 8 (D) 9",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/2.png"
+  ],
+  "doc_id": "tirbench_color_920",
+  "problem": "<image>\nHow many colors are there in this flag? Select from the following choices. (A) 7 (B) 8 (C) 9 (D) 10",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/21.png"
+  ],
+  "doc_id": "tirbench_color_109",
+  "problem": "<image>\nHow many colors are there in this image? Select from the following choices. (A) 7 (B) 8 (C) 9 (D) 10",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/93.png"
+  ],
+  "doc_id": "tirbench_color_664",
+  "problem": "<image>\nDoes the color A and color B have the same color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/103.png"
+  ],
+  "doc_id": "tirbench_color_670",
+  "problem": "<image>\nWhich circles has the darkest color? The circles are numbered left to right starting from 1. Select from the following choices. (A) All the same (B) 1 (C) 2 (D) 3",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/45.png"
+  ],
+  "doc_id": "tirbench_color_916",
+  "problem": "<image>\nWhat is the number in the center of this image? Select from the following choices. (A) 23 (B) 25 (C) 27 (D) 87",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/163.png"
+  ],
+  "doc_id": "tirbench_color_548",
+  "problem": "<image>\nWhat is closest to the proportion of the color spring green in the image? Select from the following choices. (A) 50% (B) 20% (C) 30% (D) 40%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/100.png"
+  ],
+  "doc_id": "tirbench_color_567",
+  "problem": "<image>\nWhich circles has the darkest color? The circles are numbered left to right starting from 1. Select from the following choices. (A) All the same (B) 1 (C) 2 (D) 3",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/94.png"
+  ],
+  "doc_id": "tirbench_color_1083",
+  "problem": "<image>\nDoes the color A and color B have the same color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/79.png"
+  ],
+  "doc_id": "tirbench_color_943",
+  "problem": "<image>\nWhat is closest to the proportion of the color green in the image? Select from the following choices. (A) 15% (B) 20% (C) 25% (D) 30%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/13.png"
+  ],
+  "doc_id": "tirbench_color_394",
+  "problem": "<image>\nHow many colors are there in this image? Select from the following choices. (A) 6 (B) 7 (C) 8 (D) 9",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/3.png"
+  ],
+  "doc_id": "tirbench_color_345",
+  "problem": "<image>\nHow many colors are there in this flag? Select from the following choices. (A) 8 (B) 9 (C) 10 (D) 11",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/111.png"
+  ],
+  "doc_id": "tirbench_color_220",
+  "problem": "<image>\nDoes the horizontal bar have a uniform color? Select from the following choices. (A) Hard to tell (B) Yes (C) No",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/86.png"
+  ],
+  "doc_id": "tirbench_color_352",
+  "problem": "<image>\nWhat is closest to the proportion of the color white in the image? Select from the following choices. (A) 25% (B) 35% (C) 45% (D) 55%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/60.png"
+  ],
+  "doc_id": "tirbench_color_1183",
+  "problem": "<image>\nWhat is the HSV value of the given color in the image? Select from the following choices. (A) [47, 62, 100] (B) [107, 16, 22] (C) [45, 64, 100] (D) [45, 62, 100]",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/87.png"
+  ],
+  "doc_id": "tirbench_color_967",
+  "problem": "<image>\nWhat is closest to the proportion of the color cyan in the image? Select from the following choices. (A) 60% (B) 70% (C) 80% (D) 90%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/9.png"
+  ],
+  "doc_id": "tirbench_color_568",
+  "problem": "<image>\nExcluding background and border colors, how many colors are there in this image? Select from the following choices. (A) 11 (B) 12 (C) 13 (D) 14",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/20.png"
+  ],
+  "doc_id": "tirbench_color_1007",
+  "problem": "<image>\nHow many colors are there in this image? Select from the following choices. (A) 10 (B) 11 (C) 12 (D) 13",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/104.png"
+  ],
+  "doc_id": "tirbench_color_264",
+  "problem": "<image>\nWhich circles has the darkest color? The circles are numbered left to right starting from 1. Select from the following choices. (A) All the same (B) 1 (C) 2 (D) 3",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/124.png"
+  ],
+  "doc_id": "tirbench_color_1053",
+  "problem": "<image>\nHow many yellow strawberries are on the tree in this image? Select from the following choices. (A) 11 (B) 10 (C) 8 (D) 12 (E) 7",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/49.png"
+  ],
+  "doc_id": "tirbench_color_358",
+  "problem": "<image>\nThere are two strings in the image. What are the strings in the center of this image? Select from the following choices. (A) fj (B) ij (C) it (D) wj",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/27.png"
+  ],
+  "doc_id": "tirbench_color_104",
+  "problem": "<image>\nWhat is the number in the center of this image? Select from the following choices. (A) 18 (B) 19 (C) 21 (D) 24",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/43.png"
+  ],
+  "doc_id": "tirbench_color_553",
+  "problem": "<image>\nWhat is the number in the center of this image? Select from the following choices. (A) 25 (B) 28 (C) 52 (D) 78",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/color/6.png"
+  ],
+  "doc_id": "tirbench_color_712",
+  "problem": "<image>\nHow many colors are there in this image? Select from the following choices. (A) 5 (B) 6 (C) 7 (D) 8",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "color",
+  "split": "train"
+ }
+]

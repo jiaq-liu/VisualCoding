@@ -1,0 +1,410 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/886.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_886",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light red\nB. light green\nC. dark green\nD. dark red",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/743.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_743",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark purple\nB. light purple\nC. dark green\nD. dark orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/621.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_621",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light red\nB. light yellow\nC. light green\nD. dark red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/841.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_841",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark blue\nB. dark orange\nC. light purple\nD. light orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1523.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1523",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark yellow\nB. light yellow\nC. dark orange\nD. light blue",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1651.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1651",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark blue\nB. dark purple\nC. light green\nD. light purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/194.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_194",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light green\nB. light yellow\nC. dark yellow\nD. dark purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/797.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_797",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light green\nB. light orange\nC. dark red\nD. dark orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/300.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_300",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light purple\nB. dark purple\nC. dark blue\nD. light green",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/215.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_215",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark purple\nB. light blue\nC. light red\nD. dark red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/926.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_926",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light yellow\nB. light red\nC. light blue\nD. dark blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1081.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1081",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark yellow\nB. light green\nC. light red\nD. dark red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1452.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1452",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light orange\nB. dark blue\nC. light purple\nD. dark orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1533.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1533",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light blue\nB. dark blue\nC. dark green\nD. dark orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/150.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_150",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light blue\nB. dark blue\nC. dark yellow\nD. dark orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/34.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_34",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light green\nB. dark orange\nC. dark green\nD. dark blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/482.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_482",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark red\nB. light orange\nC. light green\nD. dark green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/785.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_785",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light purple\nB. dark yellow\nC. light blue\nD. dark blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1512.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1512",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light purple\nB. dark purple\nC. light yellow\nD. dark yellow",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/738.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_738",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark purple\nB. dark red\nC. light purple\nD. light red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/624.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_624",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark purple\nB. dark yellow\nC. light purple\nD. light green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/343.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_343",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark purple\nB. light purple\nC. light yellow\nD. dark red",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1851.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1851",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light blue\nB. dark blue\nC. light orange\nD. dark orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/375.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_375",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark blue\nB. light purple\nC. light blue\nD. light red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1103.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1103",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark yellow\nB. light blue\nC. dark red\nD. light yellow",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/941.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_941",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light green\nB. light blue\nC. dark green\nD. light red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/313.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_313",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark purple\nB. dark orange\nC. dark green\nD. light orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1757.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1757",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark red\nB. light orange\nC. dark green\nD. light red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1997.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1997",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark green\nB. dark orange\nC. light green\nD. light purple",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/925.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_925",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark red\nB. dark green\nC. light green\nD. light blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/1196.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_1196",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light orange\nB. dark purple\nC. light blue\nD. dark orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/921.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_921",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. light yellow\nB. light red\nC. light blue\nD. dark red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/824.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_824",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark purple\nB. light green\nC. dark green\nD. dark blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_size_circle/981.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_size_circle_981",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. dark blue\nB. dark yellow\nC. light orange\nD. dark orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_size_circle",
+  "split": "train"
+ }
+]

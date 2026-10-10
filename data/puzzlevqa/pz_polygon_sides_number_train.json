@@ -1,0 +1,398 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1588.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1588",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 5\nC. 8\nD. 9",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1082.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1082",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 3\nC. 8\nD. 9",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1903.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1903",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 4\nC. 7\nD. 3",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/74.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_74",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 8\nC. 6\nD. 3",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1844.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1844",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 5\nB. 4\nC. 7\nD. 6",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/814.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_814",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 3\nC. 9\nD. 5",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/454.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_454",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 5\nB. 9\nC. 7\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/214.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_214",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 9\nC. 7\nD. 3",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/450.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_450",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 8\nC. 6\nD. 7",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/219.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_219",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 4\nC. 6\nD. 7",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1970.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1970",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 9\nC. 4\nD. 8",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/142.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_142",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 4\nC. 8\nD. 9",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1156.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1156",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 4\nC. 8\nD. 9",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/208.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_208",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 4\nC. 8\nD. 7",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1057.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1057",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 5\nC. 9\nD. 4",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1166.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1166",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 5\nC. 6\nD. 7",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/287.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_287",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 8\nC. 7\nD. 6",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1797.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1797",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 4\nC. 3\nD. 9",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/457.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_457",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 5\nC. 6\nD. 3",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1907.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1907",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 5\nC. 7\nD. 8",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1026.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1026",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 7\nC. 4\nD. 8",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1714.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1714",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 9\nC. 3\nD. 8",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1931.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1931",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 3\nC. 9\nD. 4",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1710.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1710",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 7\nC. 5\nD. 8",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1805.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1805",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 5\nB. 8\nC. 3\nD. 7",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1269.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1269",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 3\nC. 6\nD. 8",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1673.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1673",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 4\nC. 7\nD. 6",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1697.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1697",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 8\nC. 5\nD. 7",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1287.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1287",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 6\nC. 9\nD. 7",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1790.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1790",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 5\nC. 9\nD. 3",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1136.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1136",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 7\nC. 8\nD. 4",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1054.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1054",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 4\nC. 5\nD. 3",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_number/1817.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_number_1817",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 5\nC. 4\nD. 6",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_number",
+  "split": "train"
+ }
+]

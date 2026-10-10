@@ -1,0 +1,650 @@
+[
+ {
+  "images": [
+   "tirbench/data/instrument/37.jpg"
+  ],
+  "doc_id": "tirbench_instrument_849",
+  "problem": "<image>\nAccording to the image, the thermometer reading in Celsius is:\nA 10-11\nB 11-12\nC 12-13\nD 13-14\nE 14-15",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/60.jpg"
+  ],
+  "doc_id": "tirbench_instrument_890",
+  "problem": "<image>\nWhat is the reading of the Vernier caliper in the image in centimeters?\nA 1.24\nB 1.244\nC 1.248\nD 1.25\nE 1.252\nF None of the above",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/42.jpg"
+  ],
+  "doc_id": "tirbench_instrument_637",
+  "problem": "<image>\nApproximately how many milliliters of liquid are in the leftmost measuring cylinder? Answer as an integer like 1,2,3.",
+  "solution": "16",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/56.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1046",
+  "problem": "<image>\nWhat is the reading of the Vernier caliper in the image in centimeters?",
+  "solution": "0.115",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/7.jpg"
+  ],
+  "doc_id": "tirbench_instrument_623",
+  "problem": "<image>\nApproximately what is the thermometer reading shown as a whole number?",
+  "solution": "18",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/62.jpg"
+  ],
+  "doc_id": "tirbench_instrument_142",
+  "problem": "<image>\nWhat is the reading of the Vernier caliper in the image in centimeters?\nA 9.2\nB 9.3\nC 9.31\nD 9.32\nE 9.33\nF 9.34",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/79.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1077",
+  "problem": "<image>\nWhat is the reading of the gauge at the far right of the second row? Provide one decimal place (e.g., 1.1).",
+  "solution": "1.3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/21.jpg"
+  ],
+  "doc_id": "tirbench_instrument_40",
+  "problem": "<image>\nAccording to the image, what is the current room temperature in Celsius as an integer?",
+  "solution": "16",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/81.jpg"
+  ],
+  "doc_id": "tirbench_instrument_289",
+  "problem": "<image>\nApproximately what is the thermometer reading in degrees in the image? Provide an integer (e.g., 1,2,3).",
+  "solution": "23",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/2.jpg"
+  ],
+  "doc_id": "tirbench_instrument_710",
+  "problem": "<image>\nWhat is the reading on the instrument in the image? Answer as an integer.",
+  "solution": "73",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/72.jpg"
+  ],
+  "doc_id": "tirbench_instrument_409",
+  "problem": "<image>\nWhat is the reading of the large-circle pointer in the image? Provide one decimal place (e.g., 1.1).",
+  "solution": "11.8",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/26.jpg"
+  ],
+  "doc_id": "tirbench_instrument_761",
+  "problem": "<image>\nAccording to the thermometer in the image, approximately what is the current room temperature in Celsius? Answer with one decimal place like 1.1.",
+  "solution": "-1.5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/13.jpg"
+  ],
+  "doc_id": "tirbench_instrument_545",
+  "problem": "<image>\nApproximately what is the width of the gear?\nA 1.20 cm\nB 1.22 cm\nC 1.24 cm\nD 1.26 cm\nE 1.28 cm",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/59.jpg"
+  ],
+  "doc_id": "tirbench_instrument_78",
+  "problem": "<image>\nWhat is the reading of the Vernier caliper in the image in centimeters?\nA 4.425\nB 4.435\nC 4.445\nD 4.455\nE 4.465\nF None of the above",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/28.jpg"
+  ],
+  "doc_id": "tirbench_instrument_135",
+  "problem": "<image>\nWhat integer is the large hand pointing to on the unobstructed green clock at the lower right in the image? Answer as an integer like 1,2,3.",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/34.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1045",
+  "problem": "<image>\nAccording to the image, what is the thermometer reading in Celsius?\nA 44-45\nB 45-46\nC 46-47\nD 47-48\nE 43-44",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/65.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1150",
+  "problem": "<image>\nThe second-hand reading on the stopwatch in the image falls within which of the following intervals?\nA 5-6\nB 6-7\nC 7-8\nD 8-9\nE 9-10",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/73.jpg"
+  ],
+  "doc_id": "tirbench_instrument_174",
+  "problem": "<image>\nWhat is the reading on the pressure gauge in the image? Provide one decimal place (e.g., 1.1).",
+  "solution": "30",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/40.jpg"
+  ],
+  "doc_id": "tirbench_instrument_929",
+  "problem": "<image>\nThe hour hand of the seventh clock from left to right, top to bottom, is pointing to what number? Answer as an integer like 1,2,3.",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/84.jpg"
+  ],
+  "doc_id": "tirbench_instrument_407",
+  "problem": "<image>\nThe reading of the measuring cylinder in the image is:\nA 9.3\nB 9.4\nC 9.5\nD 9.6\nE 9.7\nF 9.2",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/17.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1099",
+  "problem": "<image>\nApproximately what is the reading on the thermometer shown in Celsius?\nA 15-16\nB 16-17\nC 17-18\nD 18-19\nE 19-20",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/27.jpg"
+  ],
+  "doc_id": "tirbench_instrument_994",
+  "problem": "<image>\nAs shown, if the precision of the voltmeter is 0.1 V, then the reading in the image should be () V.\nA 0.5-0.6\nB 0.6-0.7\nC 0.7-0.8\nD 0.8-0.9\nE 0.9-1\nF 1-1.1",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/47.jpg"
+  ],
+  "doc_id": "tirbench_instrument_179",
+  "problem": "<image>\nAccording to the image, the voltmeter reading is how many volts? Answer as an integer like 1,2,3.",
+  "solution": "400",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/6.jpg"
+  ],
+  "doc_id": "tirbench_instrument_896",
+  "problem": "<image>\nApproximately what is the thermometer reading shown in Celsius?\nA 36.4-36.5\nB 36.5-36.6\nC 36.6-36.7\nD 36.7-36.8\nE 36.9-37\nF 37-37.1\nG 37.1-37.2",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/41.jpg"
+  ],
+  "doc_id": "tirbench_instrument_6",
+  "problem": "<image>\nAccording to the image, what is the thermometer reading in Fahrenheit? Answer as an integer like 1,2,3.",
+  "solution": "72",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/74.jpg"
+  ],
+  "doc_id": "tirbench_instrument_926",
+  "problem": "<image>\nApproximately what is the reading on the first pressure gauge? Provide an integer (e.g., 1,2,3).",
+  "solution": "15",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/22.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1153",
+  "problem": "<image>\nAccording to the image, the current room temperature and atmospheric pressure are respectively () Celsius, () bar.\nA 28 1.6\nB 30 1.6\nC 26 1.6\nD 28 1.8\nE 30 1.8 \nF 26 1.8",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/83.jpg"
+  ],
+  "doc_id": "tirbench_instrument_726",
+  "problem": "<image>\nThe reading of the measuring cylinder in the image is:\nA 4.6\nB 4.8\nC 5\nD 5.2\nE 5.4\nF 5.6",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/23.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1161",
+  "problem": "<image>\nAccording to the instrument in the image, approximately what is the current humidity?\nA 40-42\nB 42-44\nC 44-46\nD 46-48\nE 48-50",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/58.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1209",
+  "problem": "<image>\nWhat is the reading of the Vernier caliper in the image in centimeters?\nA 3.65\nB 3.66\nC 3.675\nD 3.68\nE 3.69\nF None of the above",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/76.jpg"
+  ],
+  "doc_id": "tirbench_instrument_570",
+  "problem": "<image>\nWhat is the reading of the leftmost gauge? Provide one decimal place (e.g., 1.1).",
+  "solution": "10.2",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/5.jpg"
+  ],
+  "doc_id": "tirbench_instrument_662",
+  "problem": "<image>\nApproximately what is the thermometer reading in Celsius shown in the image?\nA 37.4-37.5\nB 37.5-37.6\nC 37.6-37.7\nD 37.7-37.8\nE 37.9-38\nF 38-38.1\nG 38.1-38.2",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/12.jpg"
+  ],
+  "doc_id": "tirbench_instrument_853",
+  "problem": "<image>\nAccording to the thermometer in the image, approximately what is the current room temperature in Celsius?\nA 20-21\nB 21-22\nC 22-23\nD 23-24\nE 24-25",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/85.jpg"
+  ],
+  "doc_id": "tirbench_instrument_789",
+  "problem": "<image>\nThe reading of the measuring cylinder in the image is:\nA 6.6\nB 6.7\nC 6.8\nD 6.9\nE 6.5\nF 7",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/33.jpg"
+  ],
+  "doc_id": "tirbench_instrument_857",
+  "problem": "<image>\nAccording to the image, what is the reading on the clinical thermometer?\nA 37.4-37.5\nB 37.5-37.6\nC 37.6-37.7\nD 37.7-37.8\nE 37.9-38\nF 38-38.1\nG 38.1-38.2",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/67.jpg"
+  ],
+  "doc_id": "tirbench_instrument_239",
+  "problem": "<image>\nWhat is the reading of the second circle in the first row? Provide an integer (e.g., 1,2,3).",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/10.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1195",
+  "problem": "<image>\nApproximately what is the scale reading in the image?\nA 110-111\nB 111-112\nC 112-113\nD 113-114\nE 114-115",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/46.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1108",
+  "problem": "<image>\nThe volume of the red liquid in the image is approximately () ml.\nA 48-49\nB 49-50\nC 50-51\nD 51-52\nE 52-53\nF 47-48",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/49.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1057",
+  "problem": "<image>\nThe ammeter reading in the image is () A. Answer with one decimal place like 1.1.",
+  "solution": "9.6",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/70.jpg"
+  ],
+  "doc_id": "tirbench_instrument_599",
+  "problem": "<image>\nApproximately what is the stopwatch second reading in the image? Provide an integer (e.g., 1,2,3).",
+  "solution": "51",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/32.jpg"
+  ],
+  "doc_id": "tirbench_instrument_572",
+  "problem": "<image>\nAccording to the image, what is the thermometer reading in Celsius?\nA 28-29\nB 27-28\nC 29-30\nD 26-27\nE 30-31",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/29.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1142",
+  "problem": "<image>\nTo what integer is the second hand of the clock in the image closest? Answer as an integer like 1,2,3.",
+  "solution": "13",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/57.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1204",
+  "problem": "<image>\nWhat is the reading of the Vernier caliper in the image in centimeters?",
+  "solution": "1",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/19.jpg"
+  ],
+  "doc_id": "tirbench_instrument_75",
+  "problem": "<image>\nWhat is the approximate reading of the third gauge from the left in the image?\nA 80\nB 81\nC 82\nD 83\nE 84\nF 85",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/50.jpg"
+  ],
+  "doc_id": "tirbench_instrument_954",
+  "problem": "<image>\nThe ammeter reading in the image is () mA.\nA 0.6-0.65\nB 0.65-0.7\nC 0.7-0.75\nD 0.75-0.8\nE 0.6-0.625\nF 0.7-0.725",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/39.jpg"
+  ],
+  "doc_id": "tirbench_instrument_181",
+  "problem": "<image>\nWhat is the reading on the voltmeter in the image in volts? Answer with one decimal place like 1.1.",
+  "solution": "3.5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/43.jpg"
+  ],
+  "doc_id": "tirbench_instrument_1126",
+  "problem": "<image>\nApproximately how many milliliters of liquid are in the measuring cylinder? Answer as an integer like 1,2,3.",
+  "solution": "22",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/78.jpg"
+  ],
+  "doc_id": "tirbench_instrument_259",
+  "problem": "<image>\nWhat is the gauge reading in psi? Provide one decimal place (e.g., 1.1).",
+  "solution": "9",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/75.jpg"
+  ],
+  "doc_id": "tirbench_instrument_313",
+  "problem": "<image>\nThe reading of the pressure gauge on the far right of the second row is approximately () bar. Provide one decimal place (e.g., 1.1).",
+  "solution": "1.3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/69.jpg"
+  ],
+  "doc_id": "tirbench_instrument_591",
+  "problem": "<image>\nWhat is the stopwatch second reading in the image? Provide one decimal place (e.g., 1.1).",
+  "solution": "59.5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/63.jpg"
+  ],
+  "doc_id": "tirbench_instrument_617",
+  "problem": "<image>\nWhat is the reading of the Vernier caliper in the image in centimeters?\nA 5.9\nB 5.92\nC 5.94\nD 5.95\nE 5.96\nF 5.97\nG None of the above",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/11.jpg"
+  ],
+  "doc_id": "tirbench_instrument_701",
+  "problem": "<image>\nApproximately what is the height of the cactus?\nA 29 cm\nB 30 cm\nC 31 cm\nD 32 cm\nE 33 cm",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/15.jpg"
+  ],
+  "doc_id": "tirbench_instrument_51",
+  "problem": "<image>\nAccording to the thermometer in the image, approximately what is the current room temperature in Celsius?\nA 20-21\nB 21-22\nC 22-23\nD 23-24\nE 19-20",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/instrument/24.jpg"
+  ],
+  "doc_id": "tirbench_instrument_263",
+  "problem": "<image>\nApproximately what is the reading on the Fahrenheit scale?\nA 22-23\nB 69-70\nC 70-71\nD 71-72\nE 72-73",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "instrument",
+  "split": "test"
+ }
+]

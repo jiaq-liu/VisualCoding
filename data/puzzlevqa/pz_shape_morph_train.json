@@ -1,0 +1,398 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1595.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1595",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. square\nB. hexagon\nC. circle\nD. pentagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1102.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1102",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. pentagon\nD. square",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1829.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1829",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. circle\nB. hexagon\nC. triangle\nD. square",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/81.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_81",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. square\nC. hexagon\nD. circle",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1792.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1792",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. hexagon\nB. pentagon\nC. triangle\nD. square",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/833.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_833",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. circle\nD. square",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/485.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_485",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. pentagon\nB. circle\nC. square\nD. triangle",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/233.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_233",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. circle\nD. pentagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/471.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_471",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. circle\nB. pentagon\nC. square\nD. triangle",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/255.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_255",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. pentagon\nD. circle",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1936.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1936",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. circle\nB. pentagon\nC. square\nD. hexagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/143.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_143",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. square\nB. circle\nC. pentagon\nD. hexagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1138.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1138",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. square\nB. pentagon\nC. circle\nD. triangle",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/181.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_181",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. hexagon\nB. square\nC. pentagon\nD. triangle",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1086.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1086",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. square\nC. circle\nD. hexagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1202.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1202",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. square\nB. triangle\nC. pentagon\nD. circle",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/353.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_353",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. hexagon\nB. circle\nC. pentagon\nD. square",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1767.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1767",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. square\nB. circle\nC. triangle\nD. pentagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/501.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_501",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. circle\nC. pentagon\nD. hexagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1837.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1837",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. circle\nB. square\nC. triangle\nD. hexagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/996.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_996",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. triangle\nD. circle",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1727.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1727",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. circle\nB. square\nC. pentagon\nD. triangle",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1916.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1916",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. circle\nD. hexagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1726.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1726",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. pentagon\nB. hexagon\nC. circle\nD. square",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1770.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1770",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. pentagon\nB. triangle\nC. hexagon\nD. circle",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1216.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1216",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. pentagon\nB. square\nC. circle\nD. triangle",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1623.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1623",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. circle\nC. pentagon\nD. square",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1712.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1712",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. square\nD. pentagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1330.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1330",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. circle\nD. pentagon",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1760.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1760",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. hexagon\nB. square\nC. pentagon\nD. triangle",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1133.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1133",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. hexagon\nB. triangle\nC. square\nD. circle",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1036.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1036",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. hexagon\nC. circle\nD. pentagon",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_morph/1781.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_morph_1781",
+  "problem": "<image>\nWhat is the missing shape of the part denoted with a question mark?\n\nOptions:\nA. triangle\nB. square\nC. pentagon\nD. hexagon",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_morph",
+  "split": "train"
+ }
+]

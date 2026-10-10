@@ -1,0 +1,132 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/overlap__0.png"
+  ],
+  "doc_id": "mira_mr_overlap_0",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "AB",
+  "data_source": "mira",
+  "uid": "0",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__1.png"
+  ],
+  "doc_id": "mira_mr_overlap_1",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "AC",
+  "data_source": "mira",
+  "uid": "1",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__2.png"
+  ],
+  "doc_id": "mira_mr_overlap_2",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "BC",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__3.png"
+  ],
+  "doc_id": "mira_mr_overlap_3",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "CD",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__7.png"
+  ],
+  "doc_id": "mira_mr_overlap_7",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "CD",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__8.png"
+  ],
+  "doc_id": "mira_mr_overlap_8",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "BC",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__10.png"
+  ],
+  "doc_id": "mira_mr_overlap_10",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "AC",
+  "data_source": "mira",
+  "uid": "10",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__11.png"
+  ],
+  "doc_id": "mira_mr_overlap_11",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "BC",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__12.png"
+  ],
+  "doc_id": "mira_mr_overlap_12",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "BD",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/overlap__22.png"
+  ],
+  "doc_id": "mira_mr_overlap_22",
+  "problem": "<image>\nChoose two images from the four images A-D and overlay them according to the black coordinate axis borders of each image. This will produce the overlapping portion of the shapes in the image. Which combination has the largest overlapping area? Output only two letters to represent the combination, such as 'AC'.",
+  "solution": "BC",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_overlap",
+  "split": "train"
+ }
+]

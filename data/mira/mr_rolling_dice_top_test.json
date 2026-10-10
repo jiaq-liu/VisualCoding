@@ -1,0 +1,223 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__1.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_1",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "5",
+  "data_source": "mira",
+  "uid": "1",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__3.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_3",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__4.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_4",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "3",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__5.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_5",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "3",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__6.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_6",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "5",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__7.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_7",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "5",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__10.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_10",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "5",
+  "data_source": "mira",
+  "uid": "10",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__11.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_11",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__13.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_13",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "13",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__15.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_15",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__17.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_17",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "3",
+  "data_source": "mira",
+  "uid": "17",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__19.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_19",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "3",
+  "data_source": "mira",
+  "uid": "19",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__21.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_21",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__22.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_22",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__23.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_23",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "23",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__24.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_24",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_top__25.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_top_25",
+  "problem": "<image>\nIf the dice is rolled on the showed path, what will be the number on the top?",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "25",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_top",
+  "split": "test"
+ }
+]

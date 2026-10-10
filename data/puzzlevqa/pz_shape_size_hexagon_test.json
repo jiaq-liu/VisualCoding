@@ -1,0 +1,806 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/603.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_603",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/97.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_97",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1763.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1763",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1193.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1193",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1130.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1130",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/652.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_652",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/764.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_764",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/728.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_728",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/572.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_572",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/28.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_28",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/195.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_195",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1397.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1397",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/840.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_840",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1039.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1039",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/513.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_513",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/583.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_583",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/82.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_82",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/787.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_787",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1470.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1470",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/560.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_560",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1265.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1265",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/169.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_169",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1460.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1460",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1233.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1233",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/289.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_289",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1509.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1509",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/163.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_163",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/917.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_917",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/480.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_480",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1602.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1602",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/347.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_347",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/452.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_452",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/526.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_526",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/733.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_733",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/259.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_259",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1263.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1263",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1783.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1783",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1758.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1758",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1188.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1188",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/45.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_45",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/586.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_586",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/171.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_171",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1433.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1433",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/247.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_247",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/69.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_69",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1692.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1692",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/32.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_32",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/859.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_859",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1149.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1149",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/441.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_441",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1930.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1930",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/363.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_363",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1257.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1257",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1292.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1292",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/665.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_665",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1310.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1310",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/818.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_818",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/245.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_245",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/27.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_27",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/503.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_503",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1333.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1333",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a triangle?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/540.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_540",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/600.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_600",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1909.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1909",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1600.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1600",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a hexagon?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/193.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_193",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a pentagon?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/shape_size_hexagon/1479.png"
+  ],
+  "doc_id": "puzzlevqa_pz_shape_size_hexagon_1479",
+  "problem": "<image>\nWhat is the size of the missing shape denoted with a question mark if it is a square?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_shape_size_hexagon",
+  "split": "test"
+ }
+]

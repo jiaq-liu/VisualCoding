@@ -1,0 +1,545 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00004.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1003",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00004-00028",
+  "image": "games_images_test/rhythm_game/board_00004.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00009.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1008",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00009-00063",
+  "image": "games_images_test/rhythm_game/board_00009.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00013.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1012",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00013-00091",
+  "image": "games_images_test/rhythm_game/board_00013.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00014.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1013",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00014-00098",
+  "image": "games_images_test/rhythm_game/board_00014.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00015.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1014",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00015-00105",
+  "image": "games_images_test/rhythm_game/board_00015.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00017.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1016",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00017-00119",
+  "image": "games_images_test/rhythm_game/board_00017.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00023.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1022",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00023-00161",
+  "image": "games_images_test/rhythm_game/board_00023.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00028.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1027",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00028-00196",
+  "image": "games_images_test/rhythm_game/board_00028.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00029.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1028",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00029-00203",
+  "image": "games_images_test/rhythm_game/board_00029.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00031.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1030",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00031-00217",
+  "image": "games_images_test/rhythm_game/board_00031.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00032.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1031",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00032-00224",
+  "image": "games_images_test/rhythm_game/board_00032.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00033.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1032",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00033-00231",
+  "image": "games_images_test/rhythm_game/board_00033.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00036.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1035",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00036-00252",
+  "image": "games_images_test/rhythm_game/board_00036.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00038.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1037",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00038-00266",
+  "image": "games_images_test/rhythm_game/board_00038.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00039.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1038",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00039-00273",
+  "image": "games_images_test/rhythm_game/board_00039.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00043.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1042",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00043-00301",
+  "image": "games_images_test/rhythm_game/board_00043.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00049.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1048",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00049-00343",
+  "image": "games_images_test/rhythm_game/board_00049.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00051.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1050",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00051-00357",
+  "image": "games_images_test/rhythm_game/board_00051.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00052.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1051",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00052-00364",
+  "image": "games_images_test/rhythm_game/board_00052.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00053.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1052",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00053-00371",
+  "image": "games_images_test/rhythm_game/board_00053.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00055.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1054",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00055-00385",
+  "image": "games_images_test/rhythm_game/board_00055.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00056.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1055",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00056-00392",
+  "image": "games_images_test/rhythm_game/board_00056.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00058.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1057",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00058-00406",
+  "image": "games_images_test/rhythm_game/board_00058.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00059.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1058",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00059-00413",
+  "image": "games_images_test/rhythm_game/board_00059.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00065.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1064",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00065-00455",
+  "image": "games_images_test/rhythm_game/board_00065.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00066.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1065",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00066-00462",
+  "image": "games_images_test/rhythm_game/board_00066.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00070.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q7_1069",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: Now it takes 1 second to reverse the grid, during which the blocks will still be falling, but you can't cilck them. Which column(s) should I choose to click to get the highest final score? Options: 1. 1 2. 2 3. 3 4. 4 5. 5 6. 6\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 7,
+  "data_id": "rhythm_game-data-00070-00490",
+  "image": "games_images_test/rhythm_game/board_00070.png",
+  "qa_type": "Strategy Optimization",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Find choosing which column to click can get the highest score when it takes 1 second to reverse the grid.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q7",
+  "split": "test"
+ }
+]

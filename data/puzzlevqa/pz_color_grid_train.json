@@ -1,0 +1,398 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1541.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1541",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. blue\nB. green\nC. red\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1205.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1205",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. green\nD. yellow",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1932.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1932",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. orange\nD. green",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/172.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_172",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. blue\nB. green\nC. red\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1802.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1802",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. yellow\nC. green\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/864.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_864",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. green\nB. red\nC. yellow\nD. blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/632.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_632",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. green\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/290.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_290",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. green\nB. orange\nC. blue\nD. yellow",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/557.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_557",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. blue\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/297.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_297",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. red\nD. green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1993.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1993",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. blue\nB. orange\nC. yellow\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/235.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_235",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. red\nB. orange\nC. blue\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1244.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1244",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. red\nD. orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/266.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_266",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. green\nB. blue\nC. purple\nD. yellow",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1174.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1174",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. green\nB. red\nC. orange\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1246.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1246",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. green\nC. orange\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/366.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_366",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. red\nC. blue\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1752.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1752",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. blue\nB. purple\nC. green\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/676.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_676",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. yellow\nC. red\nD. blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1938.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1938",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. red\nB. orange\nC. blue\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1119.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1119",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. orange\nB. green\nC. blue\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1644.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1644",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. green\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1983.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1983",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. green\nC. blue\nD. orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1634.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1634",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. yellow\nB. orange\nC. purple\nD. blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1754.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1754",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. red\nB. blue\nC. purple\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1254.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1254",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. red\nB. blue\nC. green\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1578.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1578",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. green\nB. yellow\nC. orange\nD. purple",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1629.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1629",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. yellow\nD. blue",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1276.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1276",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. red\nB. green\nC. yellow\nD. blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1715.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1715",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. green\nB. orange\nC. yellow\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1235.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1235",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. blue\nB. red\nC. yellow\nD. green",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1140.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1140",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. red\nC. yellow\nD. orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_grid/1778.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_grid_1778",
+  "problem": "<image>\nWhat is the color of the missing part denoted with a question mark?\n\nOptions:\nA. purple\nB. orange\nC. red\nD. green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_grid",
+  "split": "train"
+ }
+]

@@ -1,0 +1,410 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00002.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1001",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves RIGHT 3 times, then RIGHT 2 times?\n\n**Options:**\nA. It will eat 5 beans, and the score will become 26\nB. It will eat 6 beans, and the score will become 28\nC. It will eat 7 beans, and the score will become 29\nD. It will eat 4 beans, and the score will become 26\nE. It will eat 3 beans, and the score will become 25\nF. It will eat 9 beans, and the score will become 31\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "D",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00002-4",
+  "image": "games_images_test/pacman/image_00002.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00003.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1002",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves UP 1 times, then UP 2 times?\n\n**Options:**\nA. It will eat 4 beans, and the score will become 26\nB. It will eat 3 beans, and the score will become 28\nC. It will eat 4 beans, and the score will become 29\nD. It will eat 6 beans, and the score will become 31\nE. It will eat 1 beans, and the score will become 26\nF. It will eat 2 beans, and the score will become 27\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "E",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00003-4",
+  "image": "games_images_test/pacman/image_00003.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00009.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1008",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves RIGHT 3 times, then DOWN 3 times?\n\n**Options:**\nA. It will eat 4 beans, and the score will become 20\nB. It will eat 2 beans, and the score will become 18\nC. It will eat 3 beans, and the score will become 19\nD. It will eat 1 beans, and the score will become 17\nE. It will eat 8 beans, and the score will become 24\nF. It will eat 9 beans, and the score will become 25\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "A",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00009-4",
+  "image": "games_images_test/pacman/image_00009.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00010.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1009",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves RIGHT 1 times, then LEFT 2 times?\n\n**Options:**\nA. It will eat 1 beans, and the score will become 23\nB. It will eat 4 beans, and the score will become 24\nC. It will eat 5 beans, and the score will become 25\nD. It will eat 2 beans, and the score will become 22\nE. It will eat 3 beans, and the score will become 23\nF. It will eat 1 beans, and the score will become 21\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "F",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00010-4",
+  "image": "games_images_test/pacman/image_00010.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00016.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1015",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves LEFT 3 times, then RIGHT 1 times?\n\n**Options:**\nA. It will eat 1 beans, and the score will become 23\nB. It will eat 3 beans, and the score will become 25\nC. It will eat 6 beans, and the score will become 28\nD. It will eat 2 beans, and the score will become 24\nE. It will eat 4 beans, and the score will become 26\nF. It will eat 5 beans, and the score will become 27\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "A",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00016-4",
+  "image": "games_images_test/pacman/image_00016.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00017.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1016",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves LEFT 2 times, then UP 2 times?\n\n**Options:**\nA. It will eat 3 beans, and the score will become 22\nB. It will eat 4 beans, and the score will become 23\nC. It will eat 7 beans, and the score will become 26\nD. It will eat 8 beans, and the score will become 27\nE. It will eat 9 beans, and the score will become 28\nF. It will eat 2 beans, and the score will become 21\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "G",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00017-4",
+  "image": "games_images_test/pacman/image_00017.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00020.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1019",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves LEFT 3 times, then RIGHT 2 times?\n\n**Options:**\nA. It will eat 3 beans, and the score will become 22\nB. It will eat 7 beans, and the score will become 26\nC. It will eat 5 beans, and the score will become 24\nD. It will eat 1 beans, and the score will become 20\nE. It will eat 2 beans, and the score will become 21\nF. It will eat 8 beans, and the score will become 27\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "A",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00020-4",
+  "image": "games_images_test/pacman/image_00020.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00022.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1021",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves UP 2 times, then DOWN 2 times?\n\n**Options:**\nA. It will eat 0 beans, and the score will become 26\nB. It will eat 5 beans, and the score will become 31\nC. It will eat 1 beans, and the score will become 27\nD. It will eat 2 beans, and the score will become 28\nE. It will eat 4 beans, and the score will become 30\nF. It will eat 3 beans, and the score will become 29\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "A",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00022-4",
+  "image": "games_images_test/pacman/image_00022.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00023.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1022",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves LEFT 2 times, then RIGHT 3 times?\n\n**Options:**\nA. It will eat 2 beans, and the score will become 26\nB. It will eat 8 beans, and the score will become 32\nC. It will eat 3 beans, and the score will become 27\nD. It will eat 4 beans, and the score will become 28\nE. It will eat 11 beans, and the score will become 35\nF. It will eat 9 beans, and the score will become 33\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "H",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00023-4",
+  "image": "games_images_test/pacman/image_00023.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00024.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1023",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves LEFT 2 times, then DOWN 1 times?\n\n**Options:**\nA. It will eat 1 beans, and the score will become 30\nB. It will eat 3 beans, and the score will become 31\nC. It will eat 4 beans, and the score will become 32\nD. It will eat 5 beans, and the score will become 33\nE. It will eat 6 beans, and the score will become 34\nF. It will eat 1 beans, and the score will become 29\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "F",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00024-4",
+  "image": "games_images_test/pacman/image_00024.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00025.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1024",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves UP 1 times, then UP 1 times?\n\n**Options:**\nA. It will eat 3 beans, and the score will become 32\nB. It will eat 1 beans, and the score will become 31\nC. It will eat 6 beans, and the score will become 36\nD. It will eat 4 beans, and the score will become 34\nE. It will eat 2 beans, and the score will become 32\nF. It will eat 5 beans, and the score will become 35\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "E",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00025-4",
+  "image": "games_images_test/pacman/image_00025.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00026.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1025",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves LEFT 3 times, then LEFT 2 times?\n\n**Options:**\nA. It will eat 6 beans, and the score will become 30\nB. It will eat 2 beans, and the score will become 26\nC. It will eat 3 beans, and the score will become 27\nD. It will eat 9 beans, and the score will become 33\nE. It will eat 4 beans, and the score will become 28\nF. It will eat 1 beans, and the score will become 25\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "H",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00026-4",
+  "image": "games_images_test/pacman/image_00026.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00031.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1030",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves RIGHT 2 times, then RIGHT 3 times?\n\n**Options:**\nA. It will eat 2 beans, and the score will become 25\nB. It will eat 3 beans, and the score will become 26\nC. It will eat 1 beans, and the score will become 24\nD. It will eat 4 beans, and the score will become 27\nE. It will eat 7 beans, and the score will become 30\nF. It will eat 6 beans, and the score will become 29\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "A",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00031-4",
+  "image": "games_images_test/pacman/image_00031.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00034.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1033",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves UP 2 times, then DOWN 3 times?\n\n**Options:**\nA. It will eat 3 beans, and the score will become 29\nB. It will eat 7 beans, and the score will become 31\nC. It will eat 3 beans, and the score will become 27\nD. It will eat 1 beans, and the score will become 25\nE. It will eat 8 beans, and the score will become 32\nF. It will eat 5 beans, and the score will become 29\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "C",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00034-4",
+  "image": "games_images_test/pacman/image_00034.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00037.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1036",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves UP 3 times, then LEFT 3 times?\n\n**Options:**\nA. It will eat 6 beans, and the score will become 30\nB. It will eat 9 beans, and the score will become 36\nC. It will eat 6 beans, and the score will become 33\nD. It will eat 11 beans, and the score will become 38\nE. It will eat 3 beans, and the score will become 30\nF. It will eat 2 beans, and the score will become 29\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "C",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00037-4",
+  "image": "games_images_test/pacman/image_00037.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00038.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1037",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves UP 1 times, then RIGHT 1 times?\n\n**Options:**\nA. It will eat 4 beans, and the score will become 30\nB. It will eat 3 beans, and the score will become 31\nC. It will eat 5 beans, and the score will become 33\nD. It will eat 1 beans, and the score will become 29\nE. It will eat 6 beans, and the score will become 34\nF. It will eat 2 beans, and the score will become 30\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "D",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00038-4",
+  "image": "games_images_test/pacman/image_00038.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00039.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1038",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves DOWN 2 times, then LEFT 2 times?\n\n**Options:**\nA. It will eat 10 beans, and the score will become 39\nB. It will eat 5 beans, and the score will become 34\nC. It will eat 1 beans, and the score will become 30\nD. It will eat 4 beans, and the score will become 33\nE. It will eat 2 beans, and the score will become 31\nF. It will eat 6 beans, and the score will become 35\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "H",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00039-4",
+  "image": "games_images_test/pacman/image_00039.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00042.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1041",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves LEFT 1 times, then DOWN 2 times?\n\n**Options:**\nA. It will eat 3 beans, and the score will become 36\nB. It will eat 8 beans, and the score will become 41\nC. It will eat 4 beans, and the score will become 37\nD. It will eat 1 beans, and the score will become 34\nE. It will eat 6 beans, and the score will become 39\nF. It will eat 2 beans, and the score will become 35\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "A",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00042-4",
+  "image": "games_images_test/pacman/image_00042.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00046.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1045",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves DOWN 2 times, then DOWN 1 times?\n\n**Options:**\nA. It will eat 1 beans, and the score will become 35\nB. It will eat 7 beans, and the score will become 40\nC. It will eat 1 beans, and the score will become 34\nD. It will eat 2 beans, and the score will become 35\nE. It will eat 6 beans, and the score will become 39\nF. It will eat 5 beans, and the score will become 38\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "D",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00046-4",
+  "image": "games_images_test/pacman/image_00046.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/pacman__image_00048.png"
+  ],
+  "doc_id": "gameqa_gq_pacman_q4_1047",
+  "problem": "<image>\n# Game Overview\nPac-Man is a maze arcade game where the player controls Pac-Man to eat as many beans as possible while avoiding ghosts. If a ghost catches Pac-Man, the game ends.\n\n# Basic Elements\n- **Pac-Man**: The yellow circular character that the player controls\n- **Beans**: Yellow dots that Pac-Man can eat to score points\n- **Walls**: Blue barriers that restrict movement\n- **Ghosts**: Two ghosts (Pinky and Blinky) that chase Pac-Man\n\n# Game Rules\n- Pac-Man must eat beans while avoiding ghosts\n- Each bean eaten adds 1 point to the score\n- The game ends if a ghost catches Pac-Man\n- Movement is restricted by walls\n\n# Movement and Direction\n- Pac-Man's mouth opening indicates its current direction\n- The direction can be UP, DOWN, LEFT, or RIGHT\n- Neither Pac-Man nor ghosts can move through walls\n\n# **Ghost Behavior**\n- **Pinky** (Pink Ghost): Targets up to 4 spaces ahead of Pac-Man's current position and direction (stops at walls)\n- **Blinky** (Red Ghost): Directly targets Pac-Man's current position\n- Both ghosts follow a movement priority system based on the direction they are trying to move:\n  - When moving in more than one direction is optimal, the priority order for both ghosts is **UP > DOWN > LEFT > RIGHT**.\n  - This means if a ghost has multiple possible directions to move in, it will first attempt to move **UP** if possible, then **DOWN**, followed by **LEFT**, and finally **RIGHT** if all other directions are blocked.\n\n# Board Layout\n- The board is surrounded by walls on all four sides\n- Position (0,0) is located at the top-left corner wall\n- Movement grid uses (row, column) coordinates\n\n# Scoring\nThe score equals the total number of beans eaten by Pac-Man\n\n\n**Question:** Assuming Pac-Man and both ghosts move one step at a time, what would happen if Pac-Man moves RIGHT 3 times, then UP 1 times?\n\n**Options:**\nA. It will eat 4 beans, and the score will become 29\nB. It will eat 4 beans, and the score will become 30\nC. It will eat 8 beans, and the score will become 34\nD. It will eat 2 beans, and the score will become 28\nE. It will eat 5 beans, and the score will become 31\nF. It will eat 3 beans, and the score will become 29\nG. It will be caught by Pinky (the pink ghost)\nH. It will be caught by Blinky (the red ghost)\n\nAnswer with the option letter.",
+  "solution": "F",
+  "data_source": "gameqa",
+  "game": "pacman",
+  "question_id": 4,
+  "data_id": "pacman-test-00048-4",
+  "image": "games_images_test/pacman/image_00048.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Predict Pacman's movement result",
+  "dataset": "gameqa",
+  "family": "gq_pacman_q4",
+  "split": "test"
+ }
+]

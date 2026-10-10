@@ -1,0 +1,806 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/776.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_776",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 1?\n\nOptions:\nA. yellow\nB. purple\nC. orange\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/243.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_243",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 8?\n\nOptions:\nA. blue\nB. red\nC. orange\nD. green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1901.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1901",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 3?\n\nOptions:\nA. blue\nB. purple\nC. yellow\nD. orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1338.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1338",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. purple\nB. blue\nC. yellow\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1256.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1256",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. blue\nB. yellow\nC. green\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/804.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_804",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 3?\n\nOptions:\nA. orange\nB. purple\nC. red\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/881.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_881",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. red\nB. green\nC. purple\nD. orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/835.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_835",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 7?\n\nOptions:\nA. green\nB. red\nC. blue\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/685.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_685",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 3?\n\nOptions:\nA. yellow\nB. red\nC. orange\nD. blue",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/31.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_31",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. orange\nB. red\nC. yellow\nD. green",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/359.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_359",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 7?\n\nOptions:\nA. red\nB. blue\nC. purple\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1526.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1526",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 1?\n\nOptions:\nA. purple\nB. blue\nC. green\nD. orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/963.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_963",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. blue\nB. purple\nC. red\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1217.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1217",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 8?\n\nOptions:\nA. orange\nB. blue\nC. yellow\nD. red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/642.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_642",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 7?\n\nOptions:\nA. orange\nB. yellow\nC. red\nD. blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/698.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_698",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 8?\n\nOptions:\nA. purple\nB. red\nC. blue\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/180.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_180",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 7?\n\nOptions:\nA. blue\nB. green\nC. yellow\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/928.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_928",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. green\nB. orange\nC. blue\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1647.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1647",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 2?\n\nOptions:\nA. yellow\nB. green\nC. purple\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/683.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_683",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. orange\nB. blue\nC. green\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1377.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1377",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 7?\n\nOptions:\nA. red\nB. orange\nC. green\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/257.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_257",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 7?\n\nOptions:\nA. red\nB. orange\nC. yellow\nD. purple",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1609.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1609",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 9?\n\nOptions:\nA. yellow\nB. orange\nC. red\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1340.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1340",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 8?\n\nOptions:\nA. orange\nB. red\nC. green\nD. yellow",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/522.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_522",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. purple\nB. red\nC. green\nD. blue",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1696.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1696",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. orange\nB. blue\nC. red\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/251.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_251",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. yellow\nB. red\nC. orange\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1093.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1093",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 3?\n\nOptions:\nA. red\nB. purple\nC. green\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/614.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_614",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 7?\n\nOptions:\nA. blue\nB. purple\nC. yellow\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1759.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1759",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 9?\n\nOptions:\nA. red\nB. orange\nC. purple\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/580.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_580",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 3?\n\nOptions:\nA. orange\nB. green\nC. purple\nD. blue",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/610.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_610",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. blue\nB. yellow\nC. green\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/675.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_675",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 8?\n\nOptions:\nA. blue\nB. purple\nC. yellow\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/876.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_876",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 8?\n\nOptions:\nA. green\nB. blue\nC. purple\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/398.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_398",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 3?\n\nOptions:\nA. orange\nB. blue\nC. red\nD. green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1375.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1375",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. purple\nB. green\nC. orange\nD. blue",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1908.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1908",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. red\nB. purple\nC. green\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1890.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1890",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 8?\n\nOptions:\nA. red\nB. green\nC. blue\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1296.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1296",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 9?\n\nOptions:\nA. purple\nB. blue\nC. orange\nD. yellow",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/73.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_73",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. purple\nB. blue\nC. red\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/701.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_701",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 9?\n\nOptions:\nA. purple\nB. red\nC. yellow\nD. orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/288.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_288",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. orange\nB. blue\nC. purple\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1579.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1579",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 1?\n\nOptions:\nA. blue\nB. red\nC. orange\nD. yellow",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/371.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_371",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 1?\n\nOptions:\nA. red\nB. blue\nC. orange\nD. green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/125.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_125",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 6?\n\nOptions:\nA. orange\nB. red\nC. purple\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1872.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1872",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. red\nB. orange\nC. green\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/41.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_41",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. yellow\nB. blue\nC. green\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/965.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_965",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 1?\n\nOptions:\nA. green\nB. blue\nC. yellow\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1260.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1260",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 9?\n\nOptions:\nA. orange\nB. yellow\nC. red\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/601.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_601",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 9?\n\nOptions:\nA. green\nB. yellow\nC. blue\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1972.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1972",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 9?\n\nOptions:\nA. red\nB. orange\nC. yellow\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/592.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_592",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 4?\n\nOptions:\nA. green\nB. blue\nC. yellow\nD. orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1367.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1367",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 8?\n\nOptions:\nA. red\nB. orange\nC. blue\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1450.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1450",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 6?\n\nOptions:\nA. yellow\nB. orange\nC. purple\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/810.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_810",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 2?\n\nOptions:\nA. green\nB. orange\nC. yellow\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1475.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1475",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 2?\n\nOptions:\nA. yellow\nB. blue\nC. orange\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/933.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_933",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 8?\n\nOptions:\nA. red\nB. purple\nC. yellow\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/360.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_360",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 7?\n\nOptions:\nA. blue\nB. red\nC. purple\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/30.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_30",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 3?\n\nOptions:\nA. red\nB. yellow\nC. green\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/633.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_633",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. green\nB. orange\nC. yellow\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1522.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1522",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. yellow\nB. blue\nC. green\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/682.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_682",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 7?\n\nOptions:\nA. blue\nB. purple\nC. green\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/774.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_774",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 3?\n\nOptions:\nA. blue\nB. orange\nC. purple\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1953.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1953",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. yellow\nB. green\nC. red\nD. blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1750.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1750",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 5?\n\nOptions:\nA. blue\nB. orange\nC. purple\nD. red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/348.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_348",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 7?\n\nOptions:\nA. purple\nB. red\nC. yellow\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/grid_number_color/1670.png"
+  ],
+  "doc_id": "puzzlevqa_pz_grid_number_color_1670",
+  "problem": "<image>\nWhat is the missing color if the part denoted with the question mark has the number 9?\n\nOptions:\nA. blue\nB. green\nC. red\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_grid_number_color",
+  "split": "test"
+ }
+]

@@ -1,0 +1,319 @@
+{
+ "tirbench": {
+  "families": {
+   "color": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "contrast": {
+    "n_train": 16,
+    "n_test": 34
+   },
+   "instrument": {
+    "n_train": 26,
+    "n_test": 54
+   },
+   "jigsaw": {
+    "n_train": 40,
+    "n_test": 80
+   },
+   "math": {
+    "n_train": 40,
+    "n_test": 80
+   },
+   "maze": {
+    "n_train": 40,
+    "n_test": 80
+   },
+   "ocr": {
+    "n_train": 20,
+    "n_test": 40
+   },
+   "refcoco": {
+    "n_train": 40,
+    "n_test": 80
+   },
+   "rotation_game": {
+    "n_train": 25,
+    "n_test": 50
+   },
+   "symbolic": {
+    "n_train": 16,
+    "n_test": 34
+   },
+   "visual_search": {
+    "n_train": 40,
+    "n_test": 80
+   },
+   "word_search": {
+    "n_train": 33,
+    "n_test": 67
+   }
+  },
+  "test_records_with_image_in_train": {
+   "same_family": 4
+  },
+  "n_families": 12,
+  "n_train": 369,
+  "n_test": 746,
+  "images_shared_between_train_and_test": 4
+ },
+ "puzzlevqa": {
+  "families": {
+   "pz_circle_size_number": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_color_grid": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_color_hexagon": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_color_number_hexagon": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_color_overlap_squares": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_color_size_circle": {
+    "n_train": 34,
+    "n_test": 66
+   },
+   "pz_grid_number": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_grid_number_color": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_polygon_sides_color": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_polygon_sides_number": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_rectangle_height_color": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_rectangle_height_number": {
+    "n_train": 34,
+    "n_test": 66
+   },
+   "pz_shape_morph": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_shape_reflect": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_shape_size_grid": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_shape_size_hexagon": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_size_cycle": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_size_grid": {
+    "n_train": 34,
+    "n_test": 66
+   },
+   "pz_triangle": {
+    "n_train": 33,
+    "n_test": 67
+   },
+   "pz_venn": {
+    "n_train": 33,
+    "n_test": 67
+   }
+  },
+  "test_records_with_image_in_train": {},
+  "n_families": 20,
+  "n_train": 663,
+  "n_test": 1337,
+  "images_shared_between_train_and_test": 0
+ },
+ "mira": {
+  "families": {
+   "mr_billiards": {
+    "n_train": 7,
+    "n_test": 14
+   },
+   "mr_convex_hull": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "mr_cubes_count": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "mr_cubes_missing": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "mr_defuse_a_bomb": {
+    "n_train": 8,
+    "n_test": 17
+   },
+   "mr_electric_charge": {
+    "n_train": 7,
+    "n_test": 14
+   },
+   "mr_gear_rotation": {
+    "n_train": 14,
+    "n_test": 26
+   },
+   "mr_localizer": {
+    "n_train": 8,
+    "n_test": 16
+   },
+   "mr_mirror_clock": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "mr_mirror_pattern": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "mr_multi_piece_puzzle": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "mr_overlap": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "mr_paper_airplane": {
+    "n_train": 8,
+    "n_test": 17
+   },
+   "mr_puzzle": {
+    "n_train": 9,
+    "n_test": 17
+   },
+   "mr_rolling_dice_sum": {
+    "n_train": 9,
+    "n_test": 17
+   },
+   "mr_rolling_dice_top": {
+    "n_train": 9,
+    "n_test": 17
+   },
+   "mr_rolling_dice_two": {
+    "n_train": 9,
+    "n_test": 17
+   },
+   "mr_trailer_cubes_count": {
+    "n_train": 8,
+    "n_test": 17
+   },
+   "mr_trailer_cubes_missing": {
+    "n_train": 8,
+    "n_test": 17
+   },
+   "mr_unfolded_cube": {
+    "n_train": 9,
+    "n_test": 17
+   }
+  },
+  "test_records_with_image_in_train": {},
+  "n_families": 20,
+  "n_train": 183,
+  "n_test": 363,
+  "images_shared_between_train_and_test": 0
+ },
+ "gameqa": {
+  "families": {
+   "gq_pacman_q1": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "gq_maze_q4": {
+    "n_train": 18,
+    "n_test": 35
+   },
+   "gq_tetris_q2": {
+    "n_train": 20,
+    "n_test": 40
+   },
+   "gq_ultra_tictactoe_q6": {
+    "n_train": 14,
+    "n_test": 27
+   },
+   "gq_rubiks_cube_q4": {
+    "n_train": 15,
+    "n_test": 31
+   },
+   "gq_pacman_q3": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "gq_pacman_q4": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "gq_rhythm_game_q2": {
+    "n_train": 14,
+    "n_test": 27
+   },
+   "gq_zuma_q3": {
+    "n_train": 20,
+    "n_test": 40
+   },
+   "gq_jewel2_q5": {
+    "n_train": 20,
+    "n_test": 40
+   },
+   "gq_rubiks_cube_q3": {
+    "n_train": 14,
+    "n_test": 27
+   },
+   "gq_sokoban_q2": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "gq_rhythm_game_q7": {
+    "n_train": 14,
+    "n_test": 27
+   },
+   "gq_zuma_q6": {
+    "n_train": 20,
+    "n_test": 40
+   },
+   "gq_jewel2_q6": {
+    "n_train": 10,
+    "n_test": 20
+   },
+   "gq_minesweeper_q5": {
+    "n_train": 20,
+    "n_test": 40
+   },
+   "gq_sokoban_q1": {
+    "n_train": 20,
+    "n_test": 40
+   }
+  },
+  "test_records_with_image_in_train": {
+   "other_family": 81,
+   "same_family": 14
+  },
+  "n_families": 17,
+  "n_train": 259,
+  "n_test": 514,
+  "images_shared_between_train_and_test": 82
+ }
+}

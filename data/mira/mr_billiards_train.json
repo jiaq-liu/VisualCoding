@@ -1,0 +1,93 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/billiards__5.png"
+  ],
+  "doc_id": "mira_mr_billiards_5",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__6.png"
+  ],
+  "doc_id": "mira_mr_billiards_6",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__9.png"
+  ],
+  "doc_id": "mira_mr_billiards_9",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__12.png"
+  ],
+  "doc_id": "mira_mr_billiards_12",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__14.png"
+  ],
+  "doc_id": "mira_mr_billiards_14",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "6",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__20.png"
+  ],
+  "doc_id": "mira_mr_billiards_20",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "4",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/billiards__21.png"
+  ],
+  "doc_id": "mira_mr_billiards_21",
+  "problem": "<image>\nIn the image, a billiards table is shown with its pockets numbered 1 – 6 in red. If the blue ball rolls in the direction indicated by the green arrow—without spin and with unlimited momentum—and is guaranteed to drop into a pocket, which pocket will it enter? Please answer with the single digit 1 – 6.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_billiards",
+  "split": "train"
+ }
+]

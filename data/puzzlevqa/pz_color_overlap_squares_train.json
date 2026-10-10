@@ -1,0 +1,398 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1464.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1464",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. yellow\nC. green\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1005.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1005",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. yellow\nC. blue\nD. orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1826.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1826",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. green\nC. orange\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/146.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_146",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. purple\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1801.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1801",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. orange\nC. yellow\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/762.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_762",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. red\nC. green\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/461.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_461",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. yellow\nC. orange\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/295.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_295",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. red\nC. yellow\nD. purple",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/451.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_451",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. yellow\nC. orange\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/304.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_304",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. green\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1985.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1985",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. blue\nC. orange\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/230.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_230",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. blue\nC. orange\nD. yellow",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1044.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1044",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. orange\nC. blue\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/291.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_291",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. yellow\nC. blue\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/992.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_992",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. orange\nC. red\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1073.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1073",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. yellow\nC. orange\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/374.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_374",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. orange\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1665.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1665",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. orange\nC. purple\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/488.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_488",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. green\nC. orange\nD. yellow",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1866.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1866",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. purple\nC. red\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/893.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_893",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. red\nC. yellow\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1567.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1567",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. green\nC. orange\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1902.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1902",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. red\nC. purple\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1505.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1505",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. orange\nC. yellow\nD. red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1721.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1721",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. blue\nC. green\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1111.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1111",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. orange\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1483.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1483",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. red\nC. purple\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1496.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1496",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. orange\nC. purple\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1145.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1145",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. purple\nC. yellow\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1640.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1640",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. yellow\nD. red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1018.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1018",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. purple\nC. blue\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/967.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_967",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. red\nD. orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_overlap_squares/1769.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_overlap_squares_1769",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. orange\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_overlap_squares",
+  "split": "train"
+ }
+]

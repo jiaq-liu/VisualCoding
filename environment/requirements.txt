@@ -1,0 +1,18 @@
+# Minimal dependency set of the visualcoding package (executor harness, acquisition loop, frozen programs, text skills, reports).
+# Pinned versions = the ones the experiments ran with (see requirements.freeze.txt for the full environment).
+google-genai==2.16.0
+openai==2.53.0
+numpy==2.2.6
+opencv-python-headless==5.0.0.93
+pillow==12.3.0
+scipy==1.15.3
+scikit-image==0.25.2
+ipykernel==7.3.0          # the executor sandbox is a Jupyter kernel
+jupyter_client==8.9.1
+requests==2.34.2
+openpyxl==3.1.5
+pyarrow==25.0.0
+huggingface_hub==0.36.2
+tqdm==4.70.0
+# detector primitives only (lib.detect / lib.count_objects; the refcoco program): torch + transformers, a GPU is recommended
+# torch==2.13.0 torchvision==0.28.0 transformers==4.55.0 timm==1.0.28   (install with --extra-index-url https://download.pytorch.org/whl/cu126)

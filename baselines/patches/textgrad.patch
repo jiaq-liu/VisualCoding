@@ -1,0 +1,201 @@
+diff --git a/textgrad/engine/__init__.py b/textgrad/engine/__init__.py
+index 2697faf..a93de48 100644
+--- a/textgrad/engine/__init__.py
++++ b/textgrad/engine/__init__.py
+@@ -1,5 +1,9 @@
++import os
+ from .base import EngineLM, CachedEngine
+-from textgrad.engine_experimental.litellm import LiteLLMEngine
++
++# litellm is imported lazily (inside get_engine): it is a heavy dependency that only the
++# "experimental:" engines need, and requiring it at import time would drag it into every
++# environment that merely wants a Gemini engine.
+ 
+ __ENGINE_NAME_SHORTCUTS__ = {
+     "opus": "claude-3-opus-20240229",
+@@ -12,6 +16,7 @@ __ENGINE_NAME_SHORTCUTS__ = {
+ 
+ # Any better way to do this?
+ __MULTIMODAL_ENGINES__ = ["gpt-4-turbo",
++                          "gemini-3.1-pro-preview",
+                           "gpt-4o",
+                           "claude-3-5-sonnet-20240620",
+                           "claude-3-opus-20240229",
+@@ -21,6 +26,9 @@ __MULTIMODAL_ENGINES__ = ["gpt-4-turbo",
+                           ]
+ 
+ def _check_if_multimodal(engine_name: str):
++    # gemini-3.x (google-genai engine) is multimodal by construction; the rest is the fixed list.
++    if engine_name.startswith("gemini-3"):
++        return True
+     return any([name == engine_name for name in __MULTIMODAL_ENGINES__])
+ 
+ def validate_multimodal_engine(engine):
+@@ -40,6 +48,7 @@ def get_engine(engine_name: str, **kwargs) -> EngineLM:
+ 
+     # check if engine_name starts with "experimental:"
+     if engine_name.startswith("experimental:"):
++        from textgrad.engine_experimental.litellm import LiteLLMEngine
+         engine_name = engine_name.split("experimental:")[1]
+         return LiteLLMEngine(model_string=engine_name, **kwargs)
+     if engine_name.startswith("azure"):
+@@ -54,8 +63,15 @@ def get_engine(engine_name: str, **kwargs) -> EngineLM:
+         from .anthropic import ChatAnthropic
+         return ChatAnthropic(model_string=engine_name, is_multimodal=_check_if_multimodal(engine_name), **kwargs)
+     elif "gemini" in engine_name:
+-        from .gemini import ChatGemini
+-        return ChatGemini(model_string=engine_name, **kwargs)
++        # google-genai path (multimodal, current SDK). The legacy `gemini.py` engine targets
++        # the deprecated google.generativeai package and is text-only; opt back in with
++        # TEXTGRAD_GEMINI_LEGACY=1.
++        if os.environ.get("TEXTGRAD_GEMINI_LEGACY") == "1":
++            from .gemini import ChatGemini
++            return ChatGemini(model_string=engine_name, **kwargs)
++        from .gemini_genai import ChatGeminiGenAI
++        return ChatGeminiGenAI(model_string=engine_name,
++                               is_multimodal=_check_if_multimodal(engine_name), **kwargs)
+     elif "together" in engine_name:
+         from .together import ChatTogether
+         engine_name = engine_name.replace("together-", "")
+diff --git a/textgrad/engine/gemini_genai.py b/textgrad/engine/gemini_genai.py
+new file mode 100644
+index 0000000..5ee3117
+--- /dev/null
++++ b/textgrad/engine/gemini_genai.py
+@@ -0,0 +1,136 @@
++"""Gemini through the google-genai SDK (multimodal), for TextGrad.
++
++The shipped `gemini.py` engine targets the deprecated `google.generativeai` package, is
++text-only and is not in `__MULTIMODAL_ENGINES__`, so it cannot serve a VQA experiment.
++This engine speaks the same EngineLM contract (`engine(content, system_prompt=...)` with
++content = str | list[str | bytes], bytes being an image) on top of `google.genai`.
++
++Cache: the disk cache key hashes the image bytes together with the prompts.  A text-only
++key (what `gemini.py` uses) would serve one image's answer for every other image of the
++same question — silently, and invisibly in the accuracy.
++
++Conventions match the rest of the study: gemini-3.x pro cannot disable thinking (floor is
++thinking_level="low") and thinking tokens are billed inside max_output_tokens, so the cap
++gets head-room.
++"""
++from __future__ import annotations
++
++import hashlib
++import os
++import random
++import time
++
++import platformdirs
++
++from .base import CachedEngine, EngineLM
++
++try:
++    from google import genai
++    from google.genai import types
++except ImportError:                                            # pragma: no cover
++    raise ImportError("pip install google-genai to use the gemini_genai engine")
++
++_MIME = {b"\x89PNG": "image/png", b"\xff\xd8\xff": "image/jpeg", b"RIFF": "image/webp",
++         b"GIF8": "image/gif"}
++
++
++def _mime_of(data: bytes) -> str:
++    for sig, mime in _MIME.items():
++        if data.startswith(sig):
++            return mime
++    return "image/png"
++
++
++def _thinking(model_string: str):
++    name = (model_string or "").lower()
++    if "gemini-3" not in name:
++        return None
++    if "pro" in name:
++        return types.ThinkingConfig(thinking_level=os.environ.get("GEMINI_THINKING_LEVEL", "low"))
++    return types.ThinkingConfig(thinking_budget=int(os.environ.get("GEMINI_THINKING_BUDGET", "0")))
++
++
++class ChatGeminiGenAI(EngineLM, CachedEngine):
++    DEFAULT_SYSTEM_PROMPT = "You are a helpful, creative, and smart assistant."
++
++    def __init__(self, model_string: str = "gemini-3.1-pro-preview",
++                 system_prompt: str = DEFAULT_SYSTEM_PROMPT, is_multimodal: bool = True,
++                 api_key: str | None = None, retries: int = 5, timeout_s: float = 600.0,
++                 cache: bool = True, **kwargs):
++        root = platformdirs.user_cache_dir("textgrad")
++        cache_path = os.path.join(root, f"cache_gemini_genai_{model_string}.db")
++        super().__init__(cache_path=cache_path)
++        key = api_key or os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
++        if not key:
++            raise ValueError("set GEMINI_API_KEY (or GOOGLE_API_KEY) to use Gemini models")
++        self.client = genai.Client(api_key=key)
++        self.model_string = model_string
++        self.system_prompt = system_prompt
++        self.is_multimodal = is_multimodal
++        self.retries = retries
++        self.timeout_s = timeout_s
++        self.use_cache = cache
++        self.n_calls = 0
++
++    # ------------------------------------------------------------------ EngineLM
++    def __call__(self, prompt, **kwargs):
++        return self.generate(prompt, **kwargs)
++
++    def generate(self, content, system_prompt: str | None = None, **kwargs):
++        if isinstance(content, str):
++            return self._generate([content], system_prompt=system_prompt, **kwargs)
++        if isinstance(content, list):
++            if any(isinstance(i, bytes) for i in content) and not self.is_multimodal:
++                raise NotImplementedError(f"{self.model_string} was not created as multimodal")
++            return self._generate(content, system_prompt=system_prompt, **kwargs)
++        raise TypeError(f"unsupported content type {type(content)}")
++
++    # ------------------------------------------------------------------ internals
++    def _cache_key(self, sys_prompt: str, content) -> str:
++        h = hashlib.sha256()
++        h.update((sys_prompt or "").encode())
++        for item in content:
++            h.update(b"\0")
++            h.update(item if isinstance(item, bytes) else str(item).encode())
++        return f"{self.model_string}|{h.hexdigest()}"
++
++    def _generate(self, content, system_prompt=None, temperature=0, max_tokens=4096, top_p=0.99):
++        sys_prompt_arg = system_prompt if system_prompt else self.system_prompt
++        key = self._cache_key(sys_prompt_arg, content)
++        if self.use_cache:
++            hit = self._check_cache(key)
++            if hit is not None:
++                return hit
++
++        parts = [types.Part.from_bytes(data=i, mime_type=_mime_of(i)) if isinstance(i, bytes)
++                 else types.Part.from_text(text=str(i)) for i in content]
++        think = _thinking(self.model_string)
++        cap = max_tokens + (int(os.environ.get("GEMINI_THINKING_HEADROOM", "4096"))
++                            if think is not None and "pro" in self.model_string.lower() else 0)
++        temp = temperature
++        text = ""
++        for attempt in range(self.retries + 1):
++            cfg = types.GenerateContentConfig(
++                temperature=temp, top_p=top_p, max_output_tokens=cap,
++                system_instruction=sys_prompt_arg, thinking_config=think,
++                http_options=types.HttpOptions(timeout=int(self.timeout_s * 1000)))
++            try:
++                resp = self.client.models.generate_content(
++                    model=self.model_string,
++                    contents=[types.Content(role="user", parts=parts)], config=cfg)
++                self.n_calls += 1
++                text = (getattr(resp, "text", None) or "").strip()
++                if text:
++                    break
++                temp = min(1.0, temp + 0.3)          # deterministic empty replies need a nudge
++            except Exception as e:                    # noqa: BLE001
++                if attempt == self.retries:
++                    raise
++                msg = f"{type(e).__name__}: {e}".lower()
++                if not any(k in msg for k in ("429", "resource_exhausted", "500", "503",
++                                              "unavailable", "deadline", "timeout", "internal")):
++                    raise
++            time.sleep(min(30.0, 2 ** attempt + random.random()))
++        if self.use_cache and text:
++            self._save_cache(key, text)
++        return text

@@ -1,0 +1,794 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1821.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1821",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 2\nC. 1\nD. 3",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/103.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_103",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 3\nC. 1\nD. 4",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1562.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1562",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 2\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1876.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1876",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 1\nC. 4\nD. 2",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1211.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1211",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 1\nC. 2\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/419.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_419",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 2\nC. 3\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1322.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1322",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 3\nC. 4\nD. 1",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/537.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_537",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 2\nC. 4\nD. 1",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1331.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1331",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 4\nD. 2",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1501.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1501",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 2\nC. 4\nD. 3",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/525.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_525",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 1\nC. 2\nD. 3",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1243.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1243",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 4\nC. 3\nD. 2",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1022.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1022",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 3\nC. 4\nD. 1",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/158.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_158",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 3\nC. 1\nD. 4",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/760.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_760",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 3\nC. 2\nD. 1",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/724.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_724",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 4\nC. 1\nD. 3",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1556.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1556",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 4\nC. 1\nD. 2",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/725.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_725",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 3\nC. 1\nD. 4",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1210.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1210",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 1\nC. 4\nD. 2",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1964.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1964",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 3\nC. 1\nD. 2",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1652.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1652",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 4\nC. 3\nD. 1",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/106.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_106",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 2\nC. 1\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/468.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_468",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 4\nC. 2\nD. 3",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/221.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_221",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 1\nC. 3\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/826.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_826",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 4\nC. 3\nD. 1",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1920.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1920",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 1\nC. 3\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1143.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1143",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 3\nC. 1\nD. 2",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1271.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1271",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 4\nC. 1\nD. 2",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1161.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1161",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 2\nC. 1\nD. 4",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1053.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1053",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 2\nD. 4",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/741.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_741",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 4\nC. 2\nD. 3",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/885.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_885",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 4\nC. 1\nD. 3",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1456.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1456",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 2\nC. 4\nD. 1",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/598.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_598",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 2\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/274.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_274",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 1\nC. 3\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1944.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1944",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 2\nC. 3\nD. 1",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/130.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_130",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 1\nC. 3\nD. 2",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1144.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1144",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 1\nC. 2\nD. 3",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1187.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1187",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 1\nC. 4\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/751.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_751",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 2\nC. 3\nD. 1",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1807.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1807",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 1\nC. 4\nD. 3",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1225.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1225",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 1\nC. 3\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/285.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_285",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 4\nC. 2\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/337.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_337",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 4\nC. 1\nD. 3",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/709.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_709",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 1\nC. 3\nD. 2",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/955.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_955",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 2\nC. 4\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/518.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_518",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 2\nC. 3\nD. 4",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1011.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1011",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 4\nD. 2",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/188.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_188",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 4\nD. 2",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1735.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1735",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 2\nC. 3\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1574.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1574",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 4\nC. 1\nD. 2",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1295.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1295",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 1\nC. 2\nD. 3",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/568.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_568",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 2\nD. 4",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1661.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1661",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 1\nC. 4\nD. 3",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1259.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1259",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 2\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/780.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_780",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 1\nC. 2\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1544.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1544",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 1\nC. 2\nD. 3",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1973.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1973",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 4\nD. 2",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/84.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_84",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 2\nC. 4\nD. 1",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1371.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1371",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 3\nC. 1\nD. 4",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/975.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_975",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 1\nC. 4\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1635.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1635",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 1\nC. 2\nD. 3",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1181.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1181",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 1\nC. 4\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1515.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1515",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 2\nC. 4\nD. 1",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1912.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1912",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 3\nC. 4\nD. 1",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_number/1068.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_number_1068",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 1\nC. 4\nD. 2",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_number",
+  "split": "test"
+ }
+]

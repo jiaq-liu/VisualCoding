@@ -1,0 +1,106 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__4.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_4",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "18",
+  "data_source": "mira",
+  "uid": "4",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__5.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_5",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "22",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__11.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_11",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "16",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__13.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_13",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "30",
+  "data_source": "mira",
+  "uid": "13",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__18.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_18",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "50",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__20.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_20",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "50",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__23.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_23",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "21",
+  "data_source": "mira",
+  "uid": "23",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/trailer_cubes_missing__24.png"
+  ],
+  "doc_id": "mira_mr_trailer_cubes_missing_24",
+  "problem": "<image>\nGiven the three views, what is the minimum number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "20",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_trailer_cubes_missing",
+  "split": "train"
+ }
+]

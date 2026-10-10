@@ -1,0 +1,122 @@
+diff --git a/eval/exskill/experience_retriever.py b/eval/exskill/experience_retriever.py
+index 6f05257..6a0e25e 100644
+--- a/eval/exskill/experience_retriever.py
++++ b/eval/exskill/experience_retriever.py
+@@ -195,6 +195,19 @@ class ExperienceRetriever:
+         """
+         POST to embedding API with retries. Returns response JSON body or None.
+         """
++
++        # google-genai path (this study): Gemini embeddings, returned in the OpenAI shape.
++        from . import gemini_bridge
++        if gemini_bridge.use_genai(self.embedding_endpoint):
++            texts = payload.get("input") or []
++            if isinstance(texts, str):
++                texts = [texts]
++            try:
++                vecs = gemini_bridge.embed(texts, self.embedding_model)
++            except Exception as e:  # noqa: BLE001
++                print(f"  Embedding via google-genai failed: {e}")
++                return None
++            return {"data": [{"embedding": v} for v in vecs]}
+         url = f"{self.embedding_endpoint}/embeddings"
+         headers = {
+             "Authorization": f"Bearer {self.embedding_api_key}",
+diff --git a/eval/exskill/gemini_bridge.py b/eval/exskill/gemini_bridge.py
+new file mode 100644
+index 0000000..69d8023
+--- /dev/null
++++ b/eval/exskill/gemini_bridge.py
+@@ -0,0 +1,63 @@
++"""Route XSkill's experience/skill LLM and embedding calls to Gemini (google-genai).
++
++Upstream XSkill talks to OpenAI-compatible endpoints over raw HTTP.  For this study every
++model call is gemini-3.1-pro through the google SDK, so the two chokepoints
++(`llm_client._call_with_fallback` and `experience_retriever._post_embedding_request`) route
++here whenever the configured endpoint is empty — the same convention the executor uses
++(`REASONING_END_POINT=""` -> SDK path).  Set EXPERIENCE_USE_GENAI=0 to force the HTTP path.
++"""
++from __future__ import annotations
++
++import os
++import sys
++from pathlib import Path
++
++_BASELINES = Path(__file__).resolve().parents[3]          # .../verifier/baselines
++if str(_BASELINES) not in sys.path:
++    sys.path.insert(0, str(_BASELINES))
++
++EMBED_MODEL = os.environ.get("EXPERIENCE_EMBEDDING_MODEL_GENAI", "gemini-embedding-001")
++
++
++def use_genai(endpoint: str | None) -> bool:
++    flag = os.environ.get("EXPERIENCE_USE_GENAI")
++    if flag is not None:
++        return flag == "1"
++    return not (endpoint or "").strip()
++
++
++def chat(user_content, system_prompt: str | None, model: str, max_tokens: int,
++         temperature: float, top_p: float) -> str:
++    """user_content is OpenAI-style: a string, or a list of {"type": "text"|"image_url", ...}."""
++    from common.gemini import Gemini
++    messages = []
++    if system_prompt:
++        messages.append({"role": "system", "content": system_prompt})
++    messages.append({"role": "user", "content": user_content})
++    return Gemini(model=model, temperature=temperature, top_p=top_p, max_tokens=max_tokens)(messages)
++
++
++EMBED_BATCH = int(os.environ.get("EXPERIENCE_EMBEDDING_BATCH", "100"))
++EMBED_MAX_CHARS = int(os.environ.get("EXPERIENCE_EMBEDDING_MAX_CHARS", "8000"))
++
++
++def embed(texts: list[str], model: str | None = None) -> list[list[float]]:
++    """OpenAI-shaped embedding values for a batch of texts.
++
++    Chunked because the API refuses more than 100 texts per request
++    ("BatchEmbedContentsRequest.requests: at most 100 requests can be in one batch",
++    probed 2026-09-19) while XSkill's `ExperienceManager._embed_texts` passes the whole
++    library in one call (`batch_size=len(texts)`).  Texts are also clipped to the model's
++    input window; an experience entry is a few sentences, so this never bites in practice.
++    """
++    from common.gemini import client
++    model = model or EMBED_MODEL
++    if model.startswith("text-embedding-"):          # an OpenAI name leaked in from the defaults
++        model = EMBED_MODEL
++    clipped = [(t or "")[:EMBED_MAX_CHARS] for t in texts]
++    out: list[list[float]] = []
++    c = client()
++    for i in range(0, len(clipped), EMBED_BATCH):
++        resp = c.models.embed_content(model=model, contents=clipped[i:i + EMBED_BATCH])
++        out.extend(list(e.values) for e in (resp.embeddings or []))
++    return out
+diff --git a/eval/exskill/llm_client.py b/eval/exskill/llm_client.py
+index 3cda972..a37d70c 100644
+--- a/eval/exskill/llm_client.py
++++ b/eval/exskill/llm_client.py
+@@ -6,6 +6,7 @@ from typing import Optional, Dict, List, Union, Any
+ from PIL import Image
+ 
+ from .experience_utils import image_to_base64
++from . import gemini_bridge
+ 
+ 
+ # --------- Constants ---------
+@@ -250,6 +251,16 @@ class ExperienceLLM:
+             "EXPERIENCE_API_KEY", "EXPERIENCE_END_POINT",
+             "EXPERIENCE_API_KEY_2", "EXPERIENCE_END_POINT_2"
+         )
++
++        # google-genai path (this study): no endpoint configured -> call Gemini through the SDK.
++        if gemini_bridge.use_genai(end_point_1):
++            try:
++                return gemini_bridge.chat(user_content, system_prompt, self.model_name,
++                                          max_tokens, temperature, top_p)
++            except Exception as e:  # noqa: BLE001
++                if return_placeholder_on_error:
++                    return f"[Failed: {e}]"
++                raise RuntimeError(f"Gemini SDK call failed: {e}")
+         
+         if not api_key_1 or not end_point_1:
+             if return_placeholder_on_error:

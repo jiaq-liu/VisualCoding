@@ -1,0 +1,119 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle5.png"
+  ],
+  "doc_id": "mira_mr_puzzle_5",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "E",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle8.png"
+  ],
+  "doc_id": "mira_mr_puzzle_8",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "8",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle10.png"
+  ],
+  "doc_id": "mira_mr_puzzle_10",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "E",
+  "data_source": "mira",
+  "uid": "10",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle12.png"
+  ],
+  "doc_id": "mira_mr_puzzle_12",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle14.png"
+  ],
+  "doc_id": "mira_mr_puzzle_14",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle15.png"
+  ],
+  "doc_id": "mira_mr_puzzle_15",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle20.png"
+  ],
+  "doc_id": "mira_mr_puzzle_20",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle22.png"
+  ],
+  "doc_id": "mira_mr_puzzle_22",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "E",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/puzzle__puzzle24.png"
+  ],
+  "doc_id": "mira_mr_puzzle_24",
+  "problem": "<image>\nGiven the object above. There is a missing piece in the white area. Which of the five pieces (A, B, C, D, or E) fits perfectly into the missing part of the object?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_puzzle",
+  "split": "train"
+ }
+]

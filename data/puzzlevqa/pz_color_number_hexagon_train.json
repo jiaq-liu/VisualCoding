@@ -1,0 +1,398 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1504.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1504",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 1\nC. 5\nD. 3",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1042.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1042",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 3\nC. 1\nD. 9",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1865.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1865",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 6\nC. 5\nD. 1",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/95.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_95",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 4\nC. 3\nD. 1",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1782.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1782",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 8\nC. 5\nD. 7",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/713.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_713",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 4\nC. 1\nD. 9",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/440.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_440",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 4\nC. 1\nD. 9",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/184.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_184",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 9\nC. 2\nD. 1",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/439.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_439",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 1\nC. 9\nD. 6",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/185.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_185",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 3\nC. 7\nD. 8",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1968.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1968",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 5\nB. 4\nC. 6\nD. 3",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/118.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_118",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 6\nC. 7\nD. 4",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1071.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1071",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 5\nB. 0\nC. 8\nD. 7",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/166.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_166",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 5\nB. 2\nC. 7\nD. 4",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1008.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1008",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 3\nB. 1\nC. 6\nD. 5",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1160.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1160",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 0\nB. 7\nC. 4\nD. 2",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/273.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_273",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 6\nC. 5\nD. 1",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1682.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1682",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 8\nC. 7\nD. 2",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/448.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_448",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 8\nC. 6\nD. 2",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1934.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1934",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 6\nC. 4\nD. 9",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/966.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_966",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 4\nB. 8\nC. 3\nD. 2",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1650.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1650",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 1\nB. 9\nC. 2\nD. 7",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1967.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1967",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 6\nC. 3\nD. 4",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1642.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1642",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 0\nB. 9\nC. 8\nD. 3",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1705.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1705",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 1\nC. 4\nD. 3",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1192.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1192",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 9\nC. 4\nD. 0",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1528.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1528",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 2\nC. 5\nD. 1",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1605.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1605",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 6\nB. 1\nC. 7\nD. 9",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1306.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1306",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 0\nC. 1\nD. 7",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1676.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1676",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 8\nB. 9\nC. 7\nD. 0",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1063.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1063",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 7\nB. 1\nC. 4\nD. 2",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1006.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1006",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 2\nB. 9\nC. 1\nD. 4",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/color_number_hexagon/1749.png"
+  ],
+  "doc_id": "puzzlevqa_pz_color_number_hexagon_1749",
+  "problem": "<image>\nWhat is the missing number of the part denoted with a question mark?\n\nOptions:\nA. 9\nB. 6\nC. 0\nD. 1",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_color_number_hexagon",
+  "split": "train"
+ }
+]

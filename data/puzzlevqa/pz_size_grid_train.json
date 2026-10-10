@@ -1,0 +1,410 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/803.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_803",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/535.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_535",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/346.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_346",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/731.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_731",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1430.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1430",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1611.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1611",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/93.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_93",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/582.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_582",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/132.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_132",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/102.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_102",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/945.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_945",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1088.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1088",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1390.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1390",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. small\nB. medium\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1480.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1480",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/35.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_35",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/20.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_20",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/279.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_279",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/575.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_575",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1405.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1405",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/479.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_479",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/382.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_382",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/182.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_182",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1779.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1779",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/228.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_228",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1163.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1163",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/960.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_960",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/134.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_134",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. large\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1743.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1743",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. medium\nB. small\nC. large",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1975.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1975",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/940.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_940",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/1247.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_1247",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. small\nB. large\nC. medium",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/879.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_879",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/629.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_629",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. medium\nC. small",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/size_grid/971.png"
+  ],
+  "doc_id": "puzzlevqa_pz_size_grid_971",
+  "problem": "<image>\nWhat is the size of the missing part denoted with a question mark?\n\nOptions:\nA. large\nB. small\nC. medium",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_size_grid",
+  "split": "train"
+ }
+]

@@ -1,0 +1,806 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/783.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_783",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. yellow\nC. green\nD. purple",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/167.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_167",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. blue\nC. red\nD. green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1791.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1791",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. blue\nC. yellow\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1284.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1284",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. orange\nC. yellow\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1223.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1223",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. purple\nC. orange\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/792.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_792",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. red\nC. yellow\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/874.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_874",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. blue\nC. green\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/839.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_839",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. purple\nC. green\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/664.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_664",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. yellow\nC. purple\nD. orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/21.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_21",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. green\nC. yellow\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/385.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_385",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. red\nC. green\nD. blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1350.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1350",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. orange\nC. green\nD. red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/969.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_969",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. purple\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1191.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1191",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. yellow\nC. purple\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/565.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_565",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. green\nC. blue\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/695.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_695",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. purple\nC. red\nD. blue",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/152.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_152",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. green\nD. blue",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/934.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_934",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. orange\nC. yellow\nD. blue",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1476.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1476",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. yellow\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/657.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_657",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. green\nD. yellow",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1315.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1315",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. red\nC. purple\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/320.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_320",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. purple\nC. green\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1442.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1442",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. purple\nC. green\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1291.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1291",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. blue\nC. green\nD. purple",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/494.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_494",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. yellow\nC. orange\nD. green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1506.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1506",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. red\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/307.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_307",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. yellow\nC. blue\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1079.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1079",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. green\nD. orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/546.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_546",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. orange\nC. purple\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1615.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1615",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. orange\nC. blue\nD. green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/496.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_496",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. blue\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/543.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_543",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. green\nC. red\nD. yellow",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/578.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_578",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. orange\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/850.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_850",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. orange\nC. red\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/459.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_459",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. purple\nC. yellow\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1303.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1303",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. orange\nC. blue\nD. green",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1803.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1803",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. orange\nD. purple",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1777.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1777",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. purple\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1270.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1270",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. green\nC. yellow\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/52.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_52",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. orange\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/700.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_700",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. green\nC. red\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/369.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_369",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. red\nC. green\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1387.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1387",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. blue\nC. purple\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/443.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_443",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. orange\nC. green\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/149.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_149",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. yellow\nC. purple\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1771.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1771",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. orange\nC. green\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/39.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_39",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. red\nC. blue\nD. green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/985.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_985",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. purple\nC. red\nD. green",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1236.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1236",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. purple\nC. blue\nD. red",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/514.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_514",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. green\nC. blue\nD. orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1928.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1928",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. orange\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/498.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_498",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. green\nC. purple\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1298.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1298",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. red\nC. green\nD. blue",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1320.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1320",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. purple\nC. green\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/796.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_796",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. yellow\nC. blue\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1332.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1332",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. blue\nC. purple\nD. yellow",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/939.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_939",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. orange\nC. green\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/391.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_391",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. purple\nC. orange\nD. red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/12.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_12",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. purple\nC. yellow\nD. blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/564.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_564",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. blue\nC. red\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1341.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1341",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. green\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/605.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_605",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. orange\nC. green\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/763.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_763",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. purple\nC. green\nD. blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1867.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1867",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. yellow\nC. green\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1575.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1575",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. yellow\nC. orange\nD. blue",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/378.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_378",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. blue\nC. orange\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/polygon_sides_color/1484.png"
+  ],
+  "doc_id": "puzzlevqa_pz_polygon_sides_color_1484",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. blue\nD. red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_polygon_sides_color",
+  "split": "test"
+ }
+]

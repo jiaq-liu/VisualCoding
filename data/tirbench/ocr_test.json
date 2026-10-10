@@ -1,0 +1,482 @@
+[
+ {
+  "images": [
+   "tirbench/data/ocr/34.jpg"
+  ],
+  "doc_id": "tirbench_ocr_571",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "RDSEEONS",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/90.jpg"
+  ],
+  "doc_id": "tirbench_ocr_291",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "9557",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/87.jpg"
+  ],
+  "doc_id": "tirbench_ocr_1198",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "52868",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/31.jpg"
+  ],
+  "doc_id": "tirbench_ocr_485",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "tpti",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/28.jpg"
+  ],
+  "doc_id": "tirbench_ocr_741",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "DOINVSDA",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/107.jpg"
+  ],
+  "doc_id": "tirbench_ocr_507",
+  "problem": "<image>\nwhat is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+  "solution": "AA PHARMACY",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/47.jpg"
+  ],
+  "doc_id": "tirbench_ocr_24",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "PEAEC",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/37.jpg"
+  ],
+  "doc_id": "tirbench_ocr_757",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "VESREE",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/66.jpg"
+  ],
+  "doc_id": "tirbench_ocr_511",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "their",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/42.jpg"
+  ],
+  "doc_id": "tirbench_ocr_1068",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "akwoksrit",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/30.jpg"
+  ],
+  "doc_id": "tirbench_ocr_427",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "OALFVR",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/3.jpg"
+  ],
+  "doc_id": "tirbench_ocr_554",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "Jasmine",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/86.jpg"
+  ],
+  "doc_id": "tirbench_ocr_685",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "38772",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/4.jpg"
+  ],
+  "doc_id": "tirbench_ocr_535",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "LOVE",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/33.jpg"
+  ],
+  "doc_id": "tirbench_ocr_882",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "Fzzu",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/62.jpg"
+  ],
+  "doc_id": "tirbench_ocr_314",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "AIRES",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/50.jpg"
+  ],
+  "doc_id": "tirbench_ocr_634",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "TAEST",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/35.jpg"
+  ],
+  "doc_id": "tirbench_ocr_753",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "fitnuf",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/43.jpg"
+  ],
+  "doc_id": "tirbench_ocr_620",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "hetha",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/81.jpg"
+  ],
+  "doc_id": "tirbench_ocr_1070",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "2590",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/83.jpg"
+  ],
+  "doc_id": "tirbench_ocr_325",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "1770",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/76.jpg"
+  ],
+  "doc_id": "tirbench_ocr_820",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "seemed",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/95.jpg"
+  ],
+  "doc_id": "tirbench_ocr_1156",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "1570",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/100.jpg"
+  ],
+  "doc_id": "tirbench_ocr_28",
+  "problem": "<image>\nwhat is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+  "solution": "UNIHAKKA INTERNATIONAL SDN BHD",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/77.jpg"
+  ],
+  "doc_id": "tirbench_ocr_541",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "beer",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/80.jpg"
+  ],
+  "doc_id": "tirbench_ocr_667",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "every",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/84.jpg"
+  ],
+  "doc_id": "tirbench_ocr_113",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "15950",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/73.jpg"
+  ],
+  "doc_id": "tirbench_ocr_632",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "vacuum",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/36.jpg"
+  ],
+  "doc_id": "tirbench_ocr_1015",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "TISPPIP",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/69.jpg"
+  ],
+  "doc_id": "tirbench_ocr_754",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "both",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/53.jpg"
+  ],
+  "doc_id": "tirbench_ocr_134",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "rcaihttnu",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/91.jpg"
+  ],
+  "doc_id": "tirbench_ocr_1128",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "6776",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/52.jpg"
+  ],
+  "doc_id": "tirbench_ocr_195",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "eergdanle",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/106.jpg"
+  ],
+  "doc_id": "tirbench_ocr_334",
+  "problem": "<image>\nwhen was this receipt issued? Answer this question using the text in the image directly.",
+  "solution": "06/03/18",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/82.jpg"
+  ],
+  "doc_id": "tirbench_ocr_337",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "3818",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/9.jpg"
+  ],
+  "doc_id": "tirbench_ocr_421",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "GAFFNER",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/88.jpg"
+  ],
+  "doc_id": "tirbench_ocr_833",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "5063",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/78.jpg"
+  ],
+  "doc_id": "tirbench_ocr_26",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "jump",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/70.jpg"
+  ],
+  "doc_id": "tirbench_ocr_165",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "seem",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/93.jpg"
+  ],
+  "doc_id": "tirbench_ocr_719",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "7936",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "test"
+ }
+]

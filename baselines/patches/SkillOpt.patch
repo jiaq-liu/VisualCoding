@@ -1,0 +1,697 @@
+diff --git a/configs/visqa/default.yaml b/configs/visqa/default.yaml
+new file mode 100644
+index 0000000..f19dba7
+--- /dev/null
++++ b/configs/visqa/default.yaml
+@@ -0,0 +1,58 @@
++# visqa: the data_split visual-QA families (this study).
++#   * rollouts come from the shared code-interpreter executor, not from a chat backend,
++#     so `model.target*` is unused here; the optimizer role runs gemini-3.1-pro over the SDK;
++#   * SINGLE PASS: `batch_size: 0` makes the family's train set one batch, so the run is
++#     exactly one rollout -> reflect -> aggregate -> rewrite -> accept.  The initial skill
++#     is empty, which makes that one rollout pass reusable from the acq pool (see
++#     skillopt/envs/visqa/skills/README.md);
++#   * no held-out validation set: the driver points val/ at the family's own train records,
++#     `use_gate: false` force-accepts every edit and `sel_env_num: 0` switches the selection
++#     rollouts off -- with the gate disabled they only produced a number nobody reads;
++#   * `env.split_dir` and `env.image_root` are set per family by drivers/run_skillopt.py.
++_base_: ../_base_/default.yaml
++
++model:
++  optimizer_backend: gemini_chat
++  target_backend: gemini_chat
++  optimizer: gemini-3.1-pro-preview
++  target: gemini-3.1-pro-preview
++  reasoning_effort: medium
++
++train:
++  num_epochs: 1            # one pass over the family = the study's per-family budget
++  batch_size: 0            # 0 = the whole train split in one step (single pass)
++  accumulation: 1
++  seed: 42
++
++gradient:
++  minibatch_size: 8
++  merge_batch_size: 8
++  analyst_workers: 8
++
++optimizer:
++  learning_rate: 4
++  # Both are epoch>=2 machinery and no-ops at num_epochs=1, but each costs 2 x 20 x 4 fresh
++  # agent rollouts per extra epoch (prev-skill vs current-skill on a resampled train batch).
++  # Pinned off so raising --epochs cannot quietly multiply the bill.
++  use_slow_update: false
++  use_meta_skill: false
++
++evaluation:
++  use_gate: false          # accept every edit
++  sel_env_num: 0           # 0 = no selection rollouts at all (the gate is off anyway)
++  test_env_num: 0
++  eval_test: false         # the held-out split is never scored from inside SkillOpt
++
++env:
++  name: visqa
++  skill_init: skillopt/envs/visqa/skills/initial.md
++  split_mode: split_dir
++  split_dir: ""
++  image_root: ""
++  data_path: ""
++  split_output_dir: ""
++  max_turns: 20
++  rollouts: 4              # protocol: 4 rollouts per task while training
++  max_completion_tokens: 8192
++  workers: 8
++  limit: 0
+diff --git a/scripts/eval_only.py b/scripts/eval_only.py
+index abe4490..c90b553 100644
+--- a/scripts/eval_only.py
++++ b/scripts/eval_only.py
+@@ -105,6 +105,14 @@ def _register_builtins() -> None:
+         _ENV_REGISTRY["docvqa"] = DocVQAAdapter
+     except ImportError:
+         pass
++    try:
++        from skillopt.envs.visqa.adapter import VisQAAdapter
++        _ENV_REGISTRY["visqa"] = VisQAAdapter
++    except ImportError as _e:
++        # Never swallow this one silently: visqa is THIS study's env, and a quiet
++        # unregister turns into "Unknown environment 'visqa'" 69 times in a row,
++        # one empty artifact per family.
++        print(f"[visqa] NOT REGISTERED: {type(_e).__name__}: {_e}", file=sys.stderr)
+     try:
+         from skillopt.envs.mathverse.adapter import MathVerseAdapter
+         _ENV_REGISTRY["mathverse"] = MathVerseAdapter
+diff --git a/scripts/train.py b/scripts/train.py
+index f8f6cbf..d750ec8 100644
+--- a/scripts/train.py
++++ b/scripts/train.py
+@@ -80,6 +80,14 @@ def _register_builtins() -> None:
+         _ENV_REGISTRY["docvqa"] = DocVQAAdapter
+     except ImportError:
+         pass
++    try:
++        from skillopt.envs.visqa.adapter import VisQAAdapter
++        _ENV_REGISTRY["visqa"] = VisQAAdapter
++    except ImportError as _e:
++        # Never swallow this one silently: visqa is THIS study's env, and a quiet
++        # unregister turns into "Unknown environment 'visqa'" 69 times in a row,
++        # one empty artifact per family.
++        print(f"[visqa] NOT REGISTERED: {type(_e).__name__}: {_e}", file=sys.stderr)
+     try:
+         from skillopt.envs.mathverse.adapter import MathVerseAdapter
+         _ENV_REGISTRY["mathverse"] = MathVerseAdapter
+diff --git a/skillopt/engine/trainer.py b/skillopt/engine/trainer.py
+index 520a90e..f0c9539 100644
+--- a/skillopt/engine/trainer.py
++++ b/skillopt/engine/trainer.py
+@@ -881,14 +881,19 @@ class ReflACTTrainer:
+         if rewrite_reasoning_effort == "":
+             rewrite_reasoning_effort = None
+         rewrite_max_completion_tokens = int(cfg.get("rewrite_max_completion_tokens", 64000))
+-        if batch_size <= 0:
+-            raise ValueError(f"batch_size must be positive, got {batch_size}")
+         if accumulation <= 0:
+             raise ValueError(f"accumulation must be positive, got {accumulation}")
+         if merge_bs < 2:
+             raise ValueError(f"merge_batch_size must be >= 2, got {merge_bs}")
+ 
+         train_size = _resolve_train_size(cfg, dataloader)
++        if batch_size <= 0:
++            # `train.batch_size: 0` = one step over the whole split. The visqa study runs a
++            # single pass (one rollout -> reflect -> rewrite -> accept), so the split IS the
++            # batch and there is nothing left to iterate over.
++            batch_size = max(1, train_size)
++            cfg["batch_size"] = batch_size
++            print(f"  [batch_size=0] resolved to the whole train split: {batch_size}")
+         steps_per_epoch = math.ceil(train_size / (batch_size * accumulation))
+         batches_per_epoch = steps_per_epoch * accumulation
+         total_steps = num_epochs * steps_per_epoch
+@@ -1050,6 +1055,13 @@ class ReflACTTrainer:
+         # scoring are unconditional below) but force-accepts every candidate
+         # instead of gating it; final skill is chosen manually afterwards.
+         use_gate = cfg.get("use_gate", True) is not False
++        # `evaluation.sel_env_num <= 0` switches the selection rollouts off altogether. They
++        # exist to feed the gate, and with use_gate=false the gate decides nothing, so they
++        # buy a number nobody reads. With selection off the newest skill is by definition
++        # the best one: the sentinel score below is the step index, so it always promotes.
++        selection_off = int(cfg.get("sel_env_num", 0) or 0) <= 0
++        if selection_off:
++            print("  [selection] sel_env_num<=0 -> selection rollouts DISABLED")
+         gate_metric = str(cfg.get("gate_metric", "hard")).strip().lower()
+         if gate_metric not in {"hard", "soft", "mixed"}:
+             raise ValueError(
+@@ -1090,7 +1102,12 @@ class ReflACTTrainer:
+                if slow_gate_with_selection
+                else "force-accept (unconditional)")
+         )
+-        if current_score < 0:
++        if current_score < 0 and selection_off:
++            current_score = best_score = 0.0
++            current_origin = best_origin = "initial_skill"
++            _persist_runtime_state(0)
++            print("\n  BASELINE skipped (selection disabled); initial skill scores 0.0")
++        elif current_score < 0:
+             print(f"\n{'='*60}")
+             print("  BASELINE — evaluate initial skill on Selection set (valid_seen)")
+             print(f"{'='*60}")
+@@ -1523,7 +1540,14 @@ class ReflACTTrainer:
+ 
+                 # ⑥ EVALUATE ───────────────────────────────────────────────
+                 t_phase = time.time()
+-                if cand_hash in sel_cache:
++                if selection_off:
++                    # No selection signal. The sentinel is the step index, so every new
++                    # candidate outranks the incumbent: "keep the most recent skill",
++                    # which is what a disabled gate already means.
++                    cand_hard = cand_soft = float(global_step)
++                    sel_cache[cand_hash] = (cand_hard, cand_soft)
++                    print("    [6/6 EVALUATE] skipped (selection disabled)")
++                elif cand_hash in sel_cache:
+                     cand_hard, cand_soft = sel_cache[cand_hash]
+                     print(
+                         f"    [6/6 EVALUATE] "
+@@ -1753,7 +1777,7 @@ class ReflACTTrainer:
+                         and epoch >= 2
+                     ):
+                         action = slow_saved.get("action")
+-                        if slow_gate_with_selection:
++                        if slow_gate_with_selection and not selection_off:
+                             # Gated mode (follow SkillReflection): re-apply the
+                             # guidance to current_skill only when it was accepted.
+                             if action in {"accept", "accept_new_best"}:
+@@ -1912,7 +1936,7 @@ class ReflACTTrainer:
+ 
+                         # Slow update acceptance — two modes selected via
+                         # `optimizer.slow_update_gate_with_selection`.
+-                        if slow_gate_with_selection:
++                        if slow_gate_with_selection and not selection_off:
+                             # ── Gated mode (follow SkillReflection) ──────────
+                             # Evaluate the slow-update candidate on the
+                             # selection set and accept/reject via the same
+diff --git a/skillopt/envs/visqa/__init__.py b/skillopt/envs/visqa/__init__.py
+new file mode 100644
+index 0000000..11e1cd4
+--- /dev/null
++++ b/skillopt/envs/visqa/__init__.py
+@@ -0,0 +1 @@
++"""visqa: the data_split visual-QA families, rolled out through the study's shared executor."""
+diff --git a/skillopt/envs/visqa/adapter.py b/skillopt/envs/visqa/adapter.py
+new file mode 100644
+index 0000000..79ab45f
+--- /dev/null
++++ b/skillopt/envs/visqa/adapter.py
+@@ -0,0 +1,67 @@
++from __future__ import annotations
++
++from skillopt.datasets.base import BatchSpec
++from skillopt.envs.base import EnvAdapter
++from skillopt.envs.visqa.dataloader import VisQADataLoader
++from skillopt.envs.visqa.rollout import run_batch
++
++
++class VisQAAdapter(EnvAdapter):
++    """Same shape as the built-in benchmarks; the rollout goes to the shared executor."""
++
++    def __init__(self, split_dir: str = "", data_path: str = "", split_mode: str = "split_dir",
++                 split_ratio: str = "2:1:7", split_seed: int = 42, split_output_dir: str = "",
++                 max_turns: int = 20, exec_timeout: int = 120, workers: int = 8,
++                 analyst_workers: int = 8, failure_only: bool = False, minibatch_size: int = 8,
++                 edit_budget: int = 4, seed: int = 42, limit: int = 0, rollouts: int = 4,
++                 model: str = "", image_root: str = "", max_completion_tokens: int = 8192) -> None:
++        self.max_turns = max_turns
++        self.exec_timeout = exec_timeout
++        self.workers = workers
++        self.rollouts = int(rollouts)
++        self.model = model or None
++        self.image_root = image_root
++        self.max_completion_tokens = int(max_completion_tokens)
++        self.analyst_workers = analyst_workers
++        self.failure_only = failure_only
++        self.minibatch_size = minibatch_size
++        self.edit_budget = edit_budget
++        self.dataloader = VisQADataLoader(
++            split_dir=split_dir, data_path=data_path, split_mode=split_mode,
++            split_ratio=split_ratio, split_seed=split_seed, split_output_dir=split_output_dir,
++            seed=seed, limit=limit)
++
++    def setup(self, cfg: dict) -> None:
++        cfg = dict(cfg or {})
++        if self.image_root:
++            cfg.setdefault("image_root", self.image_root)
++        super().setup(cfg)
++        self.dataloader.setup(cfg)
++
++    def get_dataloader(self):
++        return self.dataloader
++
++    def build_env_from_batch(self, batch: BatchSpec, **kwargs):
++        return list(batch.payload or [])
++
++    def build_train_env(self, batch_size: int, seed: int, **kwargs):
++        return self.build_env_from_batch(
++            self.dataloader.build_train_batch(batch_size=batch_size, seed=seed, **kwargs), **kwargs)
++
++    def build_eval_env(self, env_num: int, split: str, seed: int, **kwargs):
++        return self.build_env_from_batch(
++            self.dataloader.build_eval_batch(env_num=env_num, split=split, seed=seed, **kwargs), **kwargs)
++
++    def rollout(self, env_manager, skill_content: str, out_dir: str, **kwargs) -> list[dict]:
++        return run_batch(items=list(env_manager), out_root=out_dir, skill_content=skill_content,
++                         max_turns=self.max_turns, workers=self.workers, rollouts=self.rollouts,
++                         model=self.model, max_completion_tokens=self.max_completion_tokens)
++
++    def get_task_types(self) -> list[str]:
++        seen: list[str] = []
++        for item in (self.dataloader.train_items + self.dataloader.val_items
++                     + self.dataloader.test_items):
++            t = str(item.get("task_type") or "visqa")
++            if t not in seen:
++                seen.append(t)
++        return seen or ["visqa"]
+diff --git a/skillopt/envs/visqa/dataloader.py b/skillopt/envs/visqa/dataloader.py
+new file mode 100644
+index 0000000..04c4432
+--- /dev/null
++++ b/skillopt/envs/visqa/dataloader.py
+@@ -0,0 +1,46 @@
++from __future__ import annotations
++
++import json
++from pathlib import Path
++
++from skillopt.datasets.base import SplitDataLoader
++
++
++def _normalize(rec: dict, image_root: Path) -> dict:
++    """data_split record -> SkillOpt item (the raw record is kept for the executor)."""
++    question = str(rec.get("problem") or "").replace("<image>", "").strip()
++    images = [str(image_root / p) for p in rec.get("images", [])]
++    family = str(rec.get("family") or "visqa")
++    return {
++        "id": str(rec["doc_id"]),
++        "question": question,
++        "answer": str(rec.get("solution", "")),
++        "answers": [str(rec.get("solution", ""))],
++        "task_type": family,
++        "subtask": family,
++        "dataset": str(rec.get("dataset") or rec.get("data_source") or ""),
++        "image_paths": images,
++        "image_path": images[0] if images else "",
++        "record": rec,
++    }
++
++
++class VisQADataLoader(SplitDataLoader):
++    """Loads every data_split json in a split directory (train/ val/ test/)."""
++
++    def load_split_items(self, split_path: str) -> list[dict]:
++        path = Path(split_path)
++        files = sorted(path.glob("*.json"))
++        if not files:
++            raise FileNotFoundError(f"No .json file found in {split_path}")
++        image_root = Path(self._cfg.get("image_root")) if getattr(self, "_cfg", None) and \
++            self._cfg.get("image_root") else Path(path.parent / "image_root")
++        items: list[dict] = []
++        for f in files:
++            for rec in json.loads(f.read_text()):
++                items.append(_normalize(rec, image_root))
++        return items
++
++    def setup(self, cfg: dict) -> None:            # keep the config for image_root resolution
++        self._cfg = dict(cfg or {})
++        super().setup(cfg)
+diff --git a/skillopt/envs/visqa/evaluator.py b/skillopt/envs/visqa/evaluator.py
+new file mode 100644
+index 0000000..d64e066
+--- /dev/null
++++ b/skillopt/envs/visqa/evaluator.py
+@@ -0,0 +1,15 @@
++"""Scoring for visqa.
++
++Scores come from the study's judge (the same LLM judge every arm uses), applied inside the
++executor; a rollout's `accuracy_score` is already 0/1 per rollout.  `aggregate` turns the
++per-rollout scores of one task into SkillOpt's (hard, soft) pair.
++"""
++from __future__ import annotations
++
++
++def aggregate(scores: list[float]) -> tuple[int, float]:
++    """hard = the task is solved by the majority of its rollouts; soft = mean accuracy."""
++    if not scores:
++        return 0, 0.0
++    soft = sum(scores) / len(scores)
++    return int(soft >= 0.5), float(soft)
+diff --git a/skillopt/envs/visqa/rollout.py b/skillopt/envs/visqa/rollout.py
+new file mode 100644
+index 0000000..46a1937
+--- /dev/null
++++ b/skillopt/envs/visqa/rollout.py
+@@ -0,0 +1,76 @@
++"""visqa rollouts: the shared code-interpreter executor, not a chat call.
++
++`run_batch` keeps SkillOpt's contract (results.jsonl rows + a per-item conversation.json for
++the reflection stage) but produces the rollouts with `common.executor`, so SkillOpt's skill
++document is trained against exactly the agent, tool, turn budget and judge that XSkill,
++Trace2Skill and the main method use — and the empty-skill pass is reused from earlier runs.
++"""
++from __future__ import annotations
++
++import json
++import os
++import sys
++from pathlib import Path
++
++_BASELINES = Path(__file__).resolve().parents[4]                 # .../verifier/baselines
++if str(_BASELINES) not in sys.path:
++    sys.path.insert(0, str(_BASELINES))
++
++from common import executor, traj                                 # noqa: E402
++from skillopt.envs.visqa.evaluator import aggregate               # noqa: E402
++
++
++def _conversation(trajs: list) -> list[dict]:
++    """The reflection stage reads this: the agent's turns with the code it actually ran."""
++    out = []
++    for t in sorted(trajs, key=lambda x: x.rollout):
++        out.append({"type": "rollout", "rollout": t.rollout, "correct": bool(t.success),
++                    "final_answer": t.final_answer, "content": t.render(with_header=False)})
++    return out
++
++
++def run_batch(items: list[dict], out_root: str, skill_content: str, *, max_turns: int = 20,
++              exec_timeout: int = 120, workers: int = 8, rollouts: int = 4,
++              model: str | None = None, max_completion_tokens: int = 8192,
++              diagnostic_mode: bool = False, diagnostic_instruction: str = "",
++              task_timeout: int = 1800, **kwargs) -> list[dict]:
++    del exec_timeout, diagnostic_mode, diagnostic_instruction, task_timeout, kwargs
++    os.makedirs(out_root, exist_ok=True)
++    recs = [it["record"] for it in items]
++    spec = executor.ExecSpec(model=model or executor.MODEL, rollouts=rollouts, workers=workers,
++                             max_turns=max_turns, max_tokens=max_completion_tokens)
++    run_dir = Path(out_root) / "rollouts"
++    executor.run(recs, run_dir, skill_text=(skill_content or None), spec=spec)
++
++    by_task = traj.group_by_task(traj.load_run(run_dir))
++    rows = []
++    for it in items:
++        ts = by_task.get(it["id"], [])
++        hard, soft = aggregate([float(t.accuracy or 0.0) for t in ts])
++        pred = ts[0].final_answer if ts else ""
++        # `predictions/<task_id>/` is where the analyst looks (gradient/reflect.py:
++        # fmt_minibatch_trajectories reads <prediction_dir>/<id>/conversation.json, and the
++        # trainer passes <rollout_dir>/predictions).  Writing one level up means the analyst
++        # silently sees no trajectories, returns 0 edits without ever calling the model, and
++        # the step is skipped -- which is exactly how the first real run produced 33 empty
++        # skills.  Same layout as the shipped docvqa env.
++        pred_dir = Path(out_root) / "predictions" / it["id"]
++        pred_dir.mkdir(parents=True, exist_ok=True)
++        (pred_dir / "conversation.json").write_text(
++            json.dumps(_conversation(ts), ensure_ascii=False, indent=1))
++        (pred_dir / "target_system_prompt.txt").write_text(skill_content or "")
++        (pred_dir / "target_user_prompt.txt").write_text(it["question"])
++        rows.append({
++            "id": it["id"], "question": it["question"],
++            "task_type": it.get("subtask") or it.get("task_type") or "visqa",
++            "task_description": it["question"], "hard": hard, "soft": soft,
++            "predicted_answer": pred or "", "response": (ts[0].render(with_header=False) if ts else ""),
++            "fail_reason": "" if ts else "no-rollout", "agent_ok": bool(ts),
++            "n_turns": (len(ts[0].turns) if ts else 0), "image_paths": it.get("image_paths", []),
++            "gold_answer": it.get("answers", []), "phase": "done" if ts else "error",
++            "n_rollouts": len(ts),
++        })
++    with open(os.path.join(out_root, "results.jsonl"), "w", encoding="utf-8") as f:
++        for r in rows:
++            f.write(json.dumps(r, ensure_ascii=False) + "\n")
++    return rows
+diff --git a/skillopt/envs/visqa/skills/README.md b/skillopt/envs/visqa/skills/README.md
+new file mode 100644
+index 0000000..1ce9bc2
+--- /dev/null
++++ b/skillopt/envs/visqa/skills/README.md
+@@ -0,0 +1,11 @@
++`initial.md` is intentionally EMPTY.
++
++The env passes the skill straight through to the shared executor as
++`--system-prompt-extra`, and `common/executor.py` drops a falsy skill entirely.  An empty
++initial skill therefore makes step 1's system prompt byte-identical to the no-skill prompt
++of the acq runs, so the whole first (and, under the single-pass protocol, only) rollout pass
++is served from the existing rollout pool instead of being paid for again.  It also puts
++SkillOpt on the same cold start as XSkill and Trace2Skill, which begin with no skill.
++
++Put anything at all in this file and `store.prompt_sha` changes, reuse drops to zero, and
++one pass over the 76 families costs ~7,800 fresh agent rollouts.
+diff --git a/skillopt/envs/visqa/skills/initial.md b/skillopt/envs/visqa/skills/initial.md
+new file mode 100644
+index 0000000..e69de29
+diff --git a/skillopt/model/__init__.py b/skillopt/model/__init__.py
+index 9033bc9..951abe4 100644
+--- a/skillopt/model/__init__.py
++++ b/skillopt/model/__init__.py
+@@ -6,6 +6,7 @@ from typing import Any
+ 
+ from skillopt.model import azure_openai as _openai
+ from skillopt.model import claude_backend as _claude
++from skillopt.model import gemini_backend as _gemini
+ from skillopt.model import claude_code_backend as _claude_code
+ from skillopt.model import codex_backend as _codex
+ from skillopt.model import copilot_backend as _copilot
+@@ -88,6 +89,10 @@ def set_backend(name: str | None) -> str:
+         set_optimizer_backend("openai_compatible")
+         set_target_backend("openai_compatible")
+         return "openai_compatible"
++    if normalized == "gemini_chat":
++        set_optimizer_backend("gemini_chat")
++        set_target_backend("gemini_chat")
++        return "gemini_chat"
+     raise ValueError(f"Unsupported legacy backend: {name!r}")
+ 
+ 
+@@ -166,6 +171,16 @@ def chat_optimizer(
+             reasoning_effort=reasoning_effort,
+             timeout=timeout,
+         )
++    if get_optimizer_backend() == "gemini_chat":
++        return _gemini.chat_optimizer(
++            system=system,
++            user=user,
++            max_completion_tokens=max_completion_tokens,
++            retries=retries,
++            stage=stage,
++            reasoning_effort=reasoning_effort,
++            timeout=timeout,
++        )
+     if get_optimizer_backend() == "openai_compatible":
+         return _openai_compat.chat_optimizer(
+             system=system,
+@@ -243,6 +258,16 @@ def chat_target(
+             stage=stage,
+             reasoning_effort=reasoning_effort,
+         )
++    if get_target_backend() == "gemini_chat":
++        return _gemini.chat_target(
++            system=system,
++            user=user,
++            max_completion_tokens=max_completion_tokens,
++            retries=retries,
++            stage=stage,
++            reasoning_effort=reasoning_effort,
++            timeout=timeout,
++        )
+     if get_target_backend() == "openai_compatible":
+         return _openai_compat.chat_target(
+             system=system,
+@@ -337,6 +362,18 @@ def chat_optimizer_messages(
+             return_message=return_message,
+             timeout=timeout,
+         )
++    if get_optimizer_backend() == "gemini_chat":
++        return _gemini.chat_optimizer_messages(
++            messages,
++            max_completion_tokens,
++            retries,
++            stage,
++            reasoning_effort,
++            tools=tools,
++            tool_choice=tool_choice,
++            return_message=return_message,
++            timeout=timeout,
++        )
+     if get_optimizer_backend() == "openai_compatible":
+         return _openai_compat.chat_optimizer_messages(
+             messages=messages,
+@@ -442,6 +479,18 @@ def chat_target_messages(
+             tool_choice=tool_choice,
+             return_message=return_message,
+         )
++    if get_target_backend() == "gemini_chat":
++        return _gemini.chat_target_messages(
++            messages,
++            max_completion_tokens,
++            retries,
++            stage,
++            reasoning_effort,
++            tools=tools,
++            tool_choice=tool_choice,
++            return_message=return_message,
++            timeout=timeout,
++        )
+     if get_target_backend() == "openai_compatible":
+         return _openai_compat.chat_target_messages(
+             messages=messages,
+diff --git a/skillopt/model/backend_config.py b/skillopt/model/backend_config.py
+index 61a0ec2..0df65bb 100644
+--- a/skillopt/model/backend_config.py
++++ b/skillopt/model/backend_config.py
+@@ -145,6 +145,7 @@ def set_optimizer_backend(backend: str) -> None:
+         "qwen_chat",
+         "minimax_chat",
+         "openai_compatible",
++        "gemini_chat",
+         "copilot_chat",
+         "codex_exec",
+         "claude_code_exec",
+@@ -164,7 +165,7 @@ def get_optimizer_backend() -> str:
+ def set_target_backend(backend: str) -> None:
+     global TARGET_BACKEND
+     TARGET_BACKEND = normalize_backend_name(backend or "openai_chat")
+-    if TARGET_BACKEND not in {"openai_chat", "claude_chat", "qwen_chat", "minimax_chat", "openai_compatible", "copilot_chat", "codex_exec", "claude_code_exec", "cursor_exec", "copilot_exec"}:
++    if TARGET_BACKEND not in {"openai_chat", "claude_chat", "qwen_chat", "minimax_chat", "openai_compatible", "gemini_chat", "copilot_chat", "codex_exec", "claude_code_exec", "cursor_exec", "copilot_exec"}:
+         raise ValueError(
+             f"Unsupported target backend: {TARGET_BACKEND!r}. "
+             "Supported values are 'openai_chat', 'claude_chat', 'qwen_chat', 'minimax_chat', "
+@@ -189,6 +190,7 @@ def is_optimizer_chat_backend() -> bool:
+         "qwen_chat",
+         "minimax_chat",
+         "openai_compatible",
++        "gemini_chat",
+         "copilot_chat",
+         "codex_exec",
+         "claude_code_exec",
+@@ -196,7 +198,7 @@ def is_optimizer_chat_backend() -> bool:
+ 
+ 
+ def is_target_chat_backend() -> bool:
+-    return TARGET_BACKEND in {"openai_chat", "claude_chat", "qwen_chat", "minimax_chat", "openai_compatible", "copilot_chat"}
++    return TARGET_BACKEND in {"openai_chat", "claude_chat", "qwen_chat", "minimax_chat", "openai_compatible", "gemini_chat", "copilot_chat"}
+ 
+ 
+ _ALLOWED_CODEX_SANDBOXES = frozenset({"read-only", "workspace-write", "danger-full-access"})
+diff --git a/skillopt/model/gemini_backend.py b/skillopt/model/gemini_backend.py
+new file mode 100644
+index 0000000..a261924
+--- /dev/null
++++ b/skillopt/model/gemini_backend.py
+@@ -0,0 +1,113 @@
++"""Gemini chat backend (`gemini_chat`) on the google-genai SDK.
++
++SkillOpt ships OpenAI / Azure / Claude / Qwen / MiniMax / generic OpenAI-compatible
++backends.  This study runs every model call on gemini-3.1-pro through Google's own SDK, so
++this module implements the backend contract (`chat_optimizer`, `chat_target`, their
++`*_messages` variants, `count_tokens`) on top of the shared wrapper in
++`baselines/common/gemini.py`.
++
++In the visqa environment only the *optimizer* role goes through here: the target rollouts
++are produced by the shared executor (see `skillopt/envs/visqa/rollout.py`), so every method
++in the study shares one agent and one judge.  The target functions are implemented anyway,
++so the backend also works for text-only benchmarks.
++"""
++from __future__ import annotations
++
++import os
++import sys
++from pathlib import Path
++from typing import Any
++
++from skillopt.model.common import TokenTracker
++
++BACKEND_NAME = "gemini_chat"
++DEFAULT_MODEL = "gemini-3.1-pro-preview"
++
++tracker = TokenTracker()
++
++_BASELINES = Path(__file__).resolve().parents[3].parent          # .../verifier/baselines
++if str(_BASELINES) not in sys.path:
++    sys.path.insert(0, str(_BASELINES))
++
++
++def _lm(role: str, max_tokens: int, timeout: float | None):
++    from common.gemini import Gemini
++    model = (os.environ.get(f"{role.upper()}_GEMINI_MODEL")
++             or os.environ.get("GEMINI_MODEL") or DEFAULT_MODEL)
++    temp = float(os.environ.get("GEMINI_TEMPERATURE", "0.6"))
++    return Gemini(model=model, temperature=temp, max_tokens=max_tokens,
++                  timeout_s=float(timeout or 600.0))
++
++
++def _record(lm, stage: str) -> dict[str, int]:
++    u = lm.usage
++    tracker.record(stage, int(u.get("in_tokens", 0)), int(u.get("out_tokens", 0)))
++    return {"prompt_tokens": int(u.get("in_tokens", 0)),
++            "completion_tokens": int(u.get("out_tokens", 0)),
++            "total_tokens": int(u.get("in_tokens", 0)) + int(u.get("out_tokens", 0))}
++
++
++def _chat(messages: list[dict[str, Any]], max_completion_tokens: int, stage: str, role: str,
++          timeout: float | None = None) -> tuple[str, dict[str, int]]:
++    lm = _lm(role, max_completion_tokens, timeout)
++    text = lm.generate(messages)
++    return text, _record(lm, stage)
++
++
++def chat_optimizer(system: str, user: str, max_completion_tokens: int = 16384, retries: int = 5,
++                   stage: str = "optimizer", reasoning_effort: str | None = None,
++                   timeout: float | None = None) -> tuple[str, dict[str, int]]:
++    del retries, reasoning_effort
++    return _chat([{"role": "system", "content": system}, {"role": "user", "content": user}],
++                 max_completion_tokens, stage, "optimizer", timeout)
++
++
++def chat_target(system: str, user: str, max_completion_tokens: int = 16384, retries: int = 5,
++                stage: str = "target", reasoning_effort: str | None = None,
++                timeout: float | None = None) -> tuple[str, dict[str, int]]:
++    del retries, reasoning_effort
++    return _chat([{"role": "system", "content": system}, {"role": "user", "content": user}],
++                 max_completion_tokens, stage, "target", timeout)
++
++
++def chat_optimizer_messages(messages: list[dict[str, Any]], max_completion_tokens: int = 16384,
++                            retries: int = 5, stage: str = "optimizer",
++                            reasoning_effort: str | None = None, *,
++                            tools: list[dict[str, Any]] | None = None,
++                            tool_choice: Any = None, return_message: bool = False,
++                            timeout: float | None = None) -> tuple[Any, dict[str, int]]:
++    del retries, reasoning_effort, tool_choice
++    if tools:
++        raise NotImplementedError("gemini_chat does not expose provider tool calling; "
++                                  "the visqa environment gets its tools from the shared executor")
++    text, usage = _chat(messages, max_completion_tokens, stage, "optimizer", timeout)
++    if return_message:
++        from skillopt.model.common import CompatAssistantMessage
++        return CompatAssistantMessage(content=text, tool_calls=[]), usage
++    return text, usage
++
++
++def chat_target_messages(messages: list[dict[str, Any]], max_completion_tokens: int = 16384,
++                         retries: int = 5, stage: str = "target",
++                         reasoning_effort: str | None = None, *,
++                         tools: list[dict[str, Any]] | None = None, tool_choice: Any = None,
++                         return_message: bool = False,
++                         timeout: float | None = None) -> tuple[Any, dict[str, int]]:
++    del retries, reasoning_effort, tool_choice
++    if tools:
++        raise NotImplementedError("gemini_chat does not expose provider tool calling")
++    text, usage = _chat(messages, max_completion_tokens, stage, "target", timeout)
++    if return_message:
++        from skillopt.model.common import CompatAssistantMessage
++        return CompatAssistantMessage(content=text, tool_calls=[]), usage
++    return text, usage
++
++
++def count_tokens(text: str, model: str | None = None) -> int:
++    """Character-based estimate (the SDK's counter needs a call; this is only used for budgets)."""
++    del model
++    return max(1, len(str(text or "")) // 4)
++
++
++def get_max_tokens() -> int:
++    return int(os.environ.get("GEMINI_MAX_TOKENS", "16384"))

@@ -1,0 +1,482 @@
+[
+ {
+  "images": [
+   "tirbench/data/math/94.png"
+  ],
+  "doc_id": "tirbench_math_88",
+  "problem": "<image>\nThe curves of Salmon and Magenta intersect at approximately x = ( )\nA. 64\nB. 66\nC. 68\nD. 70\nE. 72\nF. 74\nG. 62",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/128.png"
+  ],
+  "doc_id": "tirbench_math_796",
+  "problem": "<image>\nAs shown in the figure, how many intersection points are there between the extension of CD and the function f?",
+  "solution": "2",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/12.png"
+  ],
+  "doc_id": "tirbench_math_903",
+  "problem": "<image>\nThe value of Dark Cyan and Medium Mint are closest at approximately x=()\nA. 80\nB. 84\nC. 88\nD. 92\nE. 96\nF. 100",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/21.png"
+  ],
+  "doc_id": "tirbench_math_1091",
+  "problem": "<image>\nWhen x=72, the value of Indigo minus the value of Web Green is about ()\nA. 0\nB. 0.25\nC. 0.5\nD. 0.75\nE. 1\nF. 1.25\nG. 1.5\nH. 1.75\nG. 2",
+  "solution": "G",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/144.png"
+  ],
+  "doc_id": "tirbench_math_895",
+  "problem": "<image>\n如图，工厂A和工厂B，位于两条公路OC、OD之间的地带，现要建一座货物中转站P．若要求中转站P到两条公路OC、OD的距离相等，且到工厂A和工厂B的距离之和最短。如果线段HI之间的距离是3km，该最短距离之和大约是（ ）。\nA. 3km\nB. 4km\nC. 5km\nD. 6km\nE. 7km\nF. 8km",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/118.png"
+  ],
+  "doc_id": "tirbench_math_254",
+  "problem": "<image>\nWhich triangle has a larger area?\nA. left one\nB. right one \nC. Equal",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/147.png"
+  ],
+  "doc_id": "tirbench_math_898",
+  "problem": "<image>\n如图，从家到学校，如果医院禁止通行的话，从家到学校的最短路径有多少条？回答一个数字，例如1，2，3.",
+  "solution": "26",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/81.png"
+  ],
+  "doc_id": "tirbench_math_817",
+  "problem": "<image>\nMeasure approximately how many times the length of AD is compared to the length of BC?\nA. 3\nB. 3.3\nC. 3.7\nD. 2.5\nE. 4\nF. 2.75",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/63.png"
+  ],
+  "doc_id": "tirbench_math_922",
+  "problem": "<image>\nThe maximum value of Coral appears at x = ( )\nA. 31\nB. 37\nC. 35\nD. 44\nE. 50\nF. 24",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/57.png"
+  ],
+  "doc_id": "tirbench_math_1012",
+  "problem": "<image>\n从志愿者小屋出发到甲地观鸟，步行最短距离约为（ ）km。\nA. 0.25\nB.  0.5\nC.  0.75\nD.  1\nE.  1.25\nF.  1.5\nG.  1.75",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/105.png"
+  ],
+  "doc_id": "tirbench_math_377",
+  "problem": "<image>\nThe minimum distance required to walk from point A to point B is ( )m\nA. 3600\nB. 3700\nC. 3800\nD. 3500\nE. 3900\nF. 4000",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/17.png"
+  ],
+  "doc_id": "tirbench_math_758",
+  "problem": "<image>\nHow many bars have value below 70? Answer with a single number, such as 1, 2, 3.",
+  "solution": "9",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/83.png"
+  ],
+  "doc_id": "tirbench_math_854",
+  "problem": "<image>\nIn week 4, the difference of the average increases between group A and group C is approximately ( )\nA. 250\nB. 300\nC. 200\nD. 310\nE. 340\nF. 390\nG. 430",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/125.png"
+  ],
+  "doc_id": "tirbench_math_273",
+  "problem": "<image>\nAs shown in the figure, with A as the center and AB as the radius, which of the following points will the circle pass through?\nA. point C\nB. point D\nC. point E\nD. point F\nE. point G\nF. point H",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/121.png"
+  ],
+  "doc_id": "tirbench_math_167",
+  "problem": "<image>\nPart of the voltmeter's needle is broken. Based on the remaining part of the needle, the measured voltage is:\nA. 4.7\nB.4.8\nC. 4.9\nD. 5.0\nE. 5.1",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/104.png"
+  ],
+  "doc_id": "tirbench_math_566",
+  "problem": "<image>\nThe real distance between location B and location C is closest to ( )m\nA. 1200\nB. 1300\nC. 1400\nD. 1500\nE. 1600\nF. 1100",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/107.png"
+  ],
+  "doc_id": "tirbench_math_771",
+  "problem": "<image>\nThe foot of the perpendicular from point D to AB is mostly like:\nA. point B\nB. point F\nC. point G\nD. point H\nE. point I\nF. point J\nG. point K",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/142.png"
+  ],
+  "doc_id": "tirbench_math_923",
+  "problem": "<image>\nAs shown in the figure, use the ruler to measure the length of segment EF. The length is ( ) cm.\nA. 3.9\nB. 4.1\nC. 4.3\nD. 4.5\nE. 4.7\nF. 4.9",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/62.png"
+  ],
+  "doc_id": "tirbench_math_414",
+  "problem": "<image>\nHow many columns contain a value greater than 46? Answer with a single number, such as 1, 2, 3.",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/61.png"
+  ],
+  "doc_id": "tirbench_math_609",
+  "problem": "<image>\nDark Violet and Dark Gray intersect at about x = ()\nA. 28\nB. 44\nC. 60\nD. 62\nE. 64\nF. 66\nG. 68",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/146.png"
+  ],
+  "doc_id": "tirbench_math_83",
+  "problem": "<image>\nWhat is the shortest distance the cat needs to travel to eat all the fish? Answer with a single number, such as 1, 2, 3.",
+  "solution": "11",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/22.png"
+  ],
+  "doc_id": "tirbench_math_565",
+  "problem": "<image>\nWhat number is shown? Answer with a single number, such as 1, 2, 3.",
+  "solution": "9335",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/98.png"
+  ],
+  "doc_id": "tirbench_math_941",
+  "problem": "<image>\n小明上学的路长是（ ）m。\nA. 600\nB. 500\nC. 400\nD. 300\nE. 200\nG. 100",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/52.png"
+  ],
+  "doc_id": "tirbench_math_1006",
+  "problem": "<image>\nWhen x= 68, the difference between Aqua and Cyan is about ( ) \n A. 20 \n B. 22 \n C. 24 \n D. 26 \n E. 28 \n F. 30",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/93.png"
+  ],
+  "doc_id": "tirbench_math_65",
+  "problem": "<image>\nWhen x = 4, f(x)-f'(x) is closest to ( )\nA. 8\nB. 7\nC. 6\nD. 5\nE. 4\nF. 3\nG. 2",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/5.png"
+  ],
+  "doc_id": "tirbench_math_14",
+  "problem": "<image>\nIf the length of AB is 2, what is the length of BC? Provide your answer as an integer.",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/137.png"
+  ],
+  "doc_id": "tirbench_math_739",
+  "problem": "<image>\nAs shown in the figure, draw a perpendicular from point A to BC, with the intersection point being D. Then draw a perpendicular from point D to AB, with the intersection point being E, and another from point D to AC, with the intersection point being F. Measure and determine: which of the following triangles has the smallest area?\nA. ADE\nB. BDE\nC. ADF\nD. CDF\nE. No answer",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/37.png"
+  ],
+  "doc_id": "tirbench_math_624",
+  "problem": "<image>\nf(4)-f(2) is approximately ( )\nA. 1.5\nB. 1.75\nC. 2\nD. 2.25\nE. 2.5\nF. 2.75\nG. 3",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/80.png"
+  ],
+  "doc_id": "tirbench_math_238",
+  "problem": "<image>\nTake a measurement, which line segment between is the longest?\nA. AN\nB. NM\nC. MC\nD. CB",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/99.png"
+  ],
+  "doc_id": "tirbench_math_767",
+  "problem": "<image>\nThe real distance between point A and B is about ( ).\nA. 1500m\nB. 2000m\nC. 1750m\nD. 2250m\nE. 2500m\nF. 2750m",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/120.png"
+  ],
+  "doc_id": "tirbench_math_193",
+  "problem": "<image>\nThe buoyant force acting on the iron block is approximately\nA. 0.8\nB. 0.9\nC. 1\nD. 1.1\nE. 1.2\nF. 1.3",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/100.png"
+  ],
+  "doc_id": "tirbench_math_416",
+  "problem": "<image>\nThe real distance between A and B is about ( )km.\nA. 1\nB. 2\nC. 3\nD. 4\nE. 5\nF. 6",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/87.png"
+  ],
+  "doc_id": "tirbench_math_342",
+  "problem": "<image>\nWhen x=36, the difference between Aqua and Midnight Blue is closest to ( )\nA. 0.8\nB. 1.\nC. 1.2\nD. 1.4\nE. 1.6\nF. 1.8\nG. 2",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/50.png"
+  ],
+  "doc_id": "tirbench_math_413",
+  "problem": "<image>\nThe distance from the black logo to the pencil tip is most close to ( ).\nA. 1.5\nB. 1.75\nC. 2\nD. 2.25\nE. 2.5\nF. 2.75",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/113.png"
+  ],
+  "doc_id": "tirbench_math_604",
+  "problem": "<image>\nThe length of AC is about ( ) according to ruler.\nA. 8\nB. 9\nC. 10\nD. 11\nE. 12\nF. 13",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/23.png"
+  ],
+  "doc_id": "tirbench_math_332",
+  "problem": "<image>\nWhat number is shown? Answer with a single number, such as 1, 2, 3.",
+  "solution": "7519",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/69.png"
+  ],
+  "doc_id": "tirbench_math_608",
+  "problem": "<image>\nThe line is about (_) centimeters long. Answer with a single number, such as 1, 2, 3.",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/53.png"
+  ],
+  "doc_id": "tirbench_math_279",
+  "problem": "<image>\nThe difference between the lowest blue bar and the lowest gray bar is at ( ).\nA. [300, 350]\nB. [350, 400]\nC. [400, 450]\nD. [450, 500]\nE. [500, 550]\nF. [550, 600]",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/97.png"
+  ],
+  "doc_id": "tirbench_math_551",
+  "problem": "<image>\nXiaohong went to the bookstore to buy books along the dotted line. She actually walked ( )m.\nA. 800\nB. 700\nC. 600\nD. 500\nE. 400\nF. 300",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/math/10.png"
+  ],
+  "doc_id": "tirbench_math_331",
+  "problem": "<image>\nThe difference of largest and smallest bar is approximately:\nA. 40\nB. 42.5\nC. 45\nD. 47.5\nE. 50\nF. 52.5",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "math",
+  "split": "train"
+ }
+]

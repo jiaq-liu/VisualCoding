@@ -1,0 +1,482 @@
+[
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000488127.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_123",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by short guy white shirt?\nA: 4%\nB: 28%\nC: 44%\nD: 12%\nE: 20%\nF: 36%",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000298983.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_839",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by right hrse?\nA: 7%\nB: 31%\nC: 39%\nD: 23%\nE: 15%\nF: 47%",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000425721.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_952",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by green table?\nA: 83%\nB: 75%\nC: 51%\nD: 59%\nE: 43%\nF: 67%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000031812.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_1175",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by cake in lower middle?\nA: 1%\nB: 17%\nC: 25%\nD: 41%\nE: 9%\nF: 33%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000328969.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_939",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by brown?\nA: 38%\nB: 46%\nC: 22%\nD: 14%\nE: 6%\nF: 30%",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000128136.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_286",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by front elephant?\nA: 35%\nB: 27%\nC: 19%\nD: 11%\nE: 43%\nF: 3%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000025515.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_944",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by right bird?\nA: 47%\nB: 39%\nC: 23%\nD: 15%\nE: 31%\nF: 7%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000385505.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_880",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by guy in white?\nA: 45%\nB: 21%\nC: 37%\nD: 13%\nE: 53%\nF: 29%",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000442461.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_958",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by guy?\nA: 33%\nB: 49%\nC: 41%\nD: 9%\nE: 17%\nF: 25%",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000386401.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_1131",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by woman?\nA: 37%\nB: 5%\nC: 29%\nD: 13%\nE: 45%\nF: 21%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000001958.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_483",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by chair in blue bottom right corner?\nA: 23%\nB: 47%\nC: 39%\nD: 15%\nE: 31%\nF: 7%",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000305267.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_800",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by man?\nA: 89%\nB: 49%\nC: 65%\nD: 73%\nE: 57%\nF: 81%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000263516.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_914",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by striped shirt behind little girl?\nA: 28%\nB: 4%\nC: 36%\nD: 12%\nE: 20%\nF: 44%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000379315.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_315",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by chair on left?\nA: 36%\nB: 12%\nC: 20%\nD: 44%\nE: 28%\nF: 4%",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000425721.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_205",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by green table?\nA: 51%\nB: 43%\nC: 59%\nD: 83%\nE: 67%\nF: 75%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000078836.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_649",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by man with red tie?\nA: 28%\nB: 20%\nC: 44%\nD: 36%\nE: 4%\nF: 12%",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000128599.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_821",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by guy in middle?\nA: 51%\nB: 75%\nC: 67%\nD: 35%\nE: 59%\nF: 43%",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000450457.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_959",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by nearest zebra?\nA: 33%\nB: 49%\nC: 9%\nD: 25%\nE: 17%\nF: 41%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000291493.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_522",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by the half in front?\nA: 44%\nB: 12%\nC: 28%\nD: 20%\nE: 4%\nF: 36%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000316557.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_699",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by man all the way left closest to us?\nA: 18%\nB: 42%\nC: 2%\nD: 26%\nE: 34%\nF: 10%",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000071399.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_117",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by bowl of carrots?\nA: 76%\nB: 52%\nC: 36%\nD: 68%\nE: 60%\nF: 44%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000103419.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_643",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by left laptop?\nA: 0%\nB: 40%\nC: 16%\nD: 24%\nE: 32%\nF: 8%",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000371486.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_965",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by pasta dish?\nA: 41%\nB: 65%\nC: 73%\nD: 81%\nE: 57%\nF: 49%",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000052109.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_1121",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by white shirt guy serving?\nA: 9%\nB: 1%\nC: 33%\nD: 17%\nE: 25%\nF: 41%",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000371486.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_95",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by pasta dish?\nA: 81%\nB: 49%\nC: 41%\nD: 57%\nE: 73%\nF: 65%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000438196.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_3",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by man in blakc shirt and jeans facing away from camera?\nA: 45%\nB: 29%\nC: 5%\nD: 37%\nE: 13%\nF: 21%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000218145.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_795",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by guy in hat?\nA: 41%\nB: 57%\nC: 65%\nD: 81%\nE: 73%\nF: 49%",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000268881.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_725",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by man?\nA: 65%\nB: 41%\nC: 73%\nD: 49%\nE: 57%\nF: 81%",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000017451.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_262",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by left meter?\nA: 47%\nB: 31%\nC: 7%\nD: 15%\nE: 39%\nF: 23%",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000238007.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_802",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by the vegis?\nA: 77%\nB: 61%\nC: 53%\nD: 93%\nE: 69%\nF: 85%",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000031418.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_224",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by lol maybe it was pizza on right?\nA: 7%\nB: 23%\nC: 31%\nD: 15%\nE: 47%\nF: 39%",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000142322.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_524",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by small toy?\nA: 15%\nB: 39%\nC: 47%\nD: 23%\nE: 31%\nF: 7%",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000184578.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_436",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by baby?\nA: 21%\nB: 45%\nC: 13%\nD: 5%\nE: 37%\nF: 29%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000162551.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_516",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by bread on right?\nA: 46%\nB: 78%\nC: 62%\nD: 54%\nE: 70%\nF: 38%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000428109.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_669",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by top third from left banana?\nA: 21%\nB: 45%\nC: 5%\nD: 13%\nE: 37%\nF: 29%",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000348302.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_392",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by women with umbrella?\nA: 38%\nB: 46%\nC: 22%\nD: 14%\nE: 6%\nF: 30%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000549347.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_684",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by front left chair?\nA: 45%\nB: 21%\nC: 37%\nD: 5%\nE: 29%\nF: 13%",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000562014.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_318",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by woman in purple standing up?\nA: 3%\nB: 27%\nC: 19%\nD: 43%\nE: 11%\nF: 35%",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000218145.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_631",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by guy in hat?\nA: 73%\nB: 49%\nC: 81%\nD: 65%\nE: 41%\nF: 57%",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/refcoco/COCO_train2014_000000168022.jpg"
+  ],
+  "doc_id": "tirbench_refcoco_374",
+  "problem": "<image>\nWhich of the following values is the closest to the proportion of the image occupied by right woman?\nA: 32%\nB: 56%\nC: 40%\nD: 48%\nE: 16%\nF: 24%",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "refcoco",
+  "split": "train"
+ }
+]

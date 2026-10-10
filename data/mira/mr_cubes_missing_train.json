@@ -1,0 +1,132 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__5.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_5",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "22",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__7.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_7",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "26",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__9.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_9",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "14",
+  "data_source": "mira",
+  "uid": "9",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__14.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_14",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "13",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__15.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_15",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "24",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__18.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_18",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "50",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__20.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_20",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "50",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__21.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_21",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "32",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__24.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_24",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "20",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/cubes_missing__28.png"
+  ],
+  "doc_id": "mira_mr_cubes_missing_28",
+  "problem": "<image>\nWhat is the number of cubes needed to fill in the structure so that it becomes a solid block with no internal gaps?",
+  "solution": "27",
+  "data_source": "mira",
+  "uid": "28",
+  "dataset": "mira",
+  "family": "mr_cubes_missing",
+  "split": "train"
+ }
+]

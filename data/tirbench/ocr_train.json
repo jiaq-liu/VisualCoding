@@ -1,0 +1,242 @@
+[
+ {
+  "images": [
+   "tirbench/data/ocr/92.jpg"
+  ],
+  "doc_id": "tirbench_ocr_673",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "8440",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/89.jpg"
+  ],
+  "doc_id": "tirbench_ocr_487",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "2072",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/75.jpg"
+  ],
+  "doc_id": "tirbench_ocr_1102",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "shock",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/38.jpg"
+  ],
+  "doc_id": "tirbench_ocr_304",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "yruo",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/79.jpg"
+  ],
+  "doc_id": "tirbench_ocr_398",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "tread",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/74.jpg"
+  ],
+  "doc_id": "tirbench_ocr_455",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "absence",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/94.jpg"
+  ],
+  "doc_id": "tirbench_ocr_1117",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "17100",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/41.jpg"
+  ],
+  "doc_id": "tirbench_ocr_1197",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "rievsec",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/24.jpg"
+  ],
+  "doc_id": "tirbench_ocr_626",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "CORNERS",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/51.jpg"
+  ],
+  "doc_id": "tirbench_ocr_434",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "eatst",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/55.jpg"
+  ],
+  "doc_id": "tirbench_ocr_219",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "CVREIENIG",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/45.jpg"
+  ],
+  "doc_id": "tirbench_ocr_638",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "anbk",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/60.jpg"
+  ],
+  "doc_id": "tirbench_ocr_597",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "MOBI",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/54.jpg"
+  ],
+  "doc_id": "tirbench_ocr_807",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "NGTGTIE",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/32.jpg"
+  ],
+  "doc_id": "tirbench_ocr_583",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "ANKBNIG",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/97.jpg"
+  ],
+  "doc_id": "tirbench_ocr_886",
+  "problem": "<image>\nwhat is the name of the company that issued this receipt? Answer this question using the text in the image directly.",
+  "solution": "UNIHAKKA INTERNATIONAL SDN BHD",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/27.jpg"
+  ],
+  "doc_id": "tirbench_ocr_101",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "caiognr",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/71.jpg"
+  ],
+  "doc_id": "tirbench_ocr_477",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "think",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/64.jpg"
+  ],
+  "doc_id": "tirbench_ocr_1008",
+  "problem": "<image>\nwhat is written in the image?",
+  "solution": "WONDERS",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/ocr/85.jpg"
+  ],
+  "doc_id": "tirbench_ocr_110",
+  "problem": "<image>\nwhat is the number in the image?",
+  "solution": "6262",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "ocr",
+  "split": "train"
+ }
+]

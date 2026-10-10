@@ -1,0 +1,106 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__3.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_3",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__5.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_5",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__11.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_11",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__12.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_12",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "12",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__14.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_14",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__18.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_18",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__20.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_20",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/defuse_a_bomb__21.png"
+  ],
+  "doc_id": "mira_mr_defuse_a_bomb_21",
+  "problem": "<image>\nBomb in a Box — which wire will you cut to defuse it? You can’t open the box or see beneath the metal slats, and the wires only change direction where they’re visible.",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_defuse_a_bomb",
+  "split": "train"
+ }
+]

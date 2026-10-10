@@ -1,0 +1,132 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__0.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_0",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "0",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__2.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_2",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "2",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__3.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_3",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__16.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_16",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__17.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_17",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "B",
+  "data_source": "mira",
+  "uid": "17",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__20.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_20",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__22.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_22",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__24.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_24",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "A",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__26.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_26",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "C",
+  "data_source": "mira",
+  "uid": "26",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/mirror_pattern__27.png"
+  ],
+  "doc_id": "mira_mr_mirror_pattern_27",
+  "problem": "<image>\nWhich option can be obtained by mirroring the original image once?",
+  "solution": "D",
+  "data_source": "mira",
+  "uid": "27",
+  "dataset": "mira",
+  "family": "mr_mirror_pattern",
+  "split": "train"
+ }
+]

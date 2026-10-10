@@ -1,0 +1,106 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/localizer__3.png"
+  ],
+  "doc_id": "mira_mr_localizer_3",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,1)]; [2, (2,3)]; [3, (1,6)]; [4, (6,4)]",
+  "data_source": "mira",
+  "uid": "3",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__5.png"
+  ],
+  "doc_id": "mira_mr_localizer_5",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,1)]; [2, (5,3)]; [3, (1,6)]; [4, (4,1)]; [5, (4,6)]",
+  "data_source": "mira",
+  "uid": "5",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__6.png"
+  ],
+  "doc_id": "mira_mr_localizer_6",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,1)]; [2, (2,3)]; [3, (6,4)]; [4, (1,6)]; [6, (4,6)]",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__11.png"
+  ],
+  "doc_id": "mira_mr_localizer_11",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (7,1)]; [2, (5,5)]; [3, (2,1)]; [4, (7,3)]; [5, (2,3)]",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__15.png"
+  ],
+  "doc_id": "mira_mr_localizer_15",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,7)]; [2, (4,6)]; [3, (7,7)]; [4, (4,2)]",
+  "data_source": "mira",
+  "uid": "15",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__18.png"
+  ],
+  "doc_id": "mira_mr_localizer_18",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,7)]; [2, (3,3)]; [3, (6,7)]; [4, (1,5)]; [5, (6,5)]",
+  "data_source": "mira",
+  "uid": "18",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__21.png"
+  ],
+  "doc_id": "mira_mr_localizer_21",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,7)]; [2, (3,5)]; [3, (6,7)]; [4, (1,3)]; [5, (4,2)]; [6, (6,4)]",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/localizer__24.png"
+  ],
+  "doc_id": "mira_mr_localizer_24",
+  "problem": "<image>\nTile the square on the right using the solid-outlined puzzle pieces on the left. Use all pieces; the final tiling must be exact—no leftovers, no gaps, and no overlaps. Each piece has a circle. After completing the tiling, return the coordinates of each circle in numerical order, using the format: [piece ID (e.g., 1), (x, y)]; separate entries with semicolons.",
+  "solution": "[1, (1,7)]; [2, (3,5)]; [3, (6,7)]; [4, (1,3)]; [5, (4,2)]; [6, (6,1)]; [7, (6,4)]",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_localizer",
+  "split": "train"
+ }
+]

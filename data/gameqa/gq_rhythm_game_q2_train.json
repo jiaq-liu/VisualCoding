@@ -1,0 +1,282 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00001.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1000",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.767",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00001-00002",
+  "image": "games_images_test/rhythm_game/board_00001.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Easy",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00008.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1007",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.700",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00008-00051",
+  "image": "games_images_test/rhythm_game/board_00008.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Easy",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00011.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1010",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.767",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00011-00072",
+  "image": "games_images_test/rhythm_game/board_00011.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Easy",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00018.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1017",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.767",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00018-00121",
+  "image": "games_images_test/rhythm_game/board_00018.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Easy",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00023.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1022",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.800",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00023-00156",
+  "image": "games_images_test/rhythm_game/board_00023.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Easy",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00024.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1023",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.800",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00024-00163",
+  "image": "games_images_test/rhythm_game/board_00024.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Easy",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00025.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1024",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.833",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00025-00170",
+  "image": "games_images_test/rhythm_game/board_00025.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00036.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1035",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.756",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00036-00247",
+  "image": "games_images_test/rhythm_game/board_00036.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00040.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1039",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.767",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00040-00275",
+  "image": "games_images_test/rhythm_game/board_00040.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00044.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1043",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.789",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00044-00303",
+  "image": "games_images_test/rhythm_game/board_00044.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00045.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1044",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.811",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00045-00310",
+  "image": "games_images_test/rhythm_game/board_00045.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Medium",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00050.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1049",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.750",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00050-00345",
+  "image": "games_images_test/rhythm_game/board_00050.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00058.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1057",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.717",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00058-00401",
+  "image": "games_images_test/rhythm_game/board_00058.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rhythm_game__board_00064.png"
+  ],
+  "doc_id": "gameqa_gq_rhythm_game_q2_1063",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of a rhythm game, in which there are operation blocks of various colors. In this game, the operation blocks will fall at a speed of 1 cell/second. At the same time, you can select a column to place your finger (you cannot move your finger after selecting it), and click the operation blocks in the column that fall to the first row to score points (of course, you can also choose not to click any column, which will not affect the falling of the operation blocks). \nFor the operation blocks, we divide them into 3 categories, including Click blocks, Reverse blocks, and Snake blocks, as follows: \n1. Click blocks are yellow, occupy 1 cell, and you can get 10 points by clicking them. \n2. Reverse blocks are green, occupy 1 cell, and you can get 15 points by clicking them. It should be noted that after you click the Reverse block, the entire game situation will **reverse left and right**, but your finger position **will not** change accordingly. \n3. A Snake block occupies 2 or more consecutive cells in a column, and its first cell (called Snake Head block) is pink, its last cell (called Snake Tail block) is grey, and the middle cells (called Snake Body blocks, if any) are blue. Only when you click on **all cells** occupied by the snake block can you score points. The score is related to the length $l$ (including the head and tail) of the snake block. The specific score is $l \\cdot (2l + 7)$. \nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason and answer: What percentage of the grid in the current image is occupied by the operation blocks? The answer is expressed as a decimal, retaining 3 significant figures.",
+  "solution": "0.767",
+  "data_source": "gameqa",
+  "game": "rhythm_game",
+  "question_id": 2,
+  "data_id": "rhythm_game-data-00064-00443",
+  "image": "games_images_test/rhythm_game/board_00064.png",
+  "qa_type": "Target Perception",
+  "plot_level": "Hard",
+  "qa_level": "Easy",
+  "description": "Find the percentage of cells with blocks, retaining 3 significant figures.",
+  "dataset": "gameqa",
+  "family": "gq_rhythm_game_q2",
+  "split": "train"
+ }
+]

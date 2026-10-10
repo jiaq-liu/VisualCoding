@@ -1,0 +1,302 @@
+[
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_43.png"
+  ],
+  "doc_id": "tirbench_rotation_game_797",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 175°\nB. 185°\nC. 145°\nD. 150°\nE. 165°\nF. 155°\n",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_9.png"
+  ],
+  "doc_id": "tirbench_rotation_game_329",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 300°\nB. 325°\nC. 320°\nD. 310°\nE. 315°\nF. 305°\n",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_16.png"
+  ],
+  "doc_id": "tirbench_rotation_game_672",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 280°\nB. 295°\nC. 290°\nD. 285°\nE. 305°\nF. 300°\n",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_68.png"
+  ],
+  "doc_id": "tirbench_rotation_game_137",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 120°\nB. 135°\nC. 105°\nD. 75°\nE. 90°\nF. 85°\n",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_37.png"
+  ],
+  "doc_id": "tirbench_rotation_game_124",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 195°\nB. 225°\nC. 205°\nD. 190°\nE. 215°\nF. 185°\n",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_15.png"
+  ],
+  "doc_id": "tirbench_rotation_game_1024",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 150°\nB. 125°\nC. 130°\nD. 135°\nE. 140°\nF. 145°\n",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_63.png"
+  ],
+  "doc_id": "tirbench_rotation_game_1157",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 345°\nB. 330°\nC. 0°\nD. 300°\nE. 310°\nF. 315°\n",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_20.png"
+  ],
+  "doc_id": "tirbench_rotation_game_1030",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 150°\nB. 165°\nC. 170°\nD. 155°\nE. 175°\nF. 160°\n",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_35.png"
+  ],
+  "doc_id": "tirbench_rotation_game_783",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 195°\nB. 215°\nC. 205°\nD. 185°\nE. 175°\nF. 180°\n",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_52.png"
+  ],
+  "doc_id": "tirbench_rotation_game_722",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 285°\nB. 330°\nC. 345°\nD. 300°\nE. 295°\nF. 315°\n",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_21.png"
+  ],
+  "doc_id": "tirbench_rotation_game_308",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 120°\nB. 105°\nC. 115°\nD. 130°\nE. 125°\nF. 110°\n",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_17.png"
+  ],
+  "doc_id": "tirbench_rotation_game_1087",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 130°\nB. 145°\nC. 140°\nD. 150°\nE. 155°\nF. 135°\n",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_70.png"
+  ],
+  "doc_id": "tirbench_rotation_game_980",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 285°\nB. 240°\nC. 255°\nD. 270°\nE. 235°\nF. 225°\n",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_51.png"
+  ],
+  "doc_id": "tirbench_rotation_game_552",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 25°\nB. 55°\nC. 85°\nD. 70°\nE. 35°\nF. 40°\n",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_8.png"
+  ],
+  "doc_id": "tirbench_rotation_game_946",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 345°\nB. 5°\nC. 0°\nD. 10°\nE. 355°\nF. 350°\n",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_33.png"
+  ],
+  "doc_id": "tirbench_rotation_game_523",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 330°\nB. 320°\nC. 325°\nD. 340°\nE. 0°\nF. 350°\n",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_31.png"
+  ],
+  "doc_id": "tirbench_rotation_game_823",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 115°\nB. 125°\nC. 105°\nD. 100°\nE. 135°\nF. 95°\n",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_34.png"
+  ],
+  "doc_id": "tirbench_rotation_game_893",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 320°\nB. 315°\nC. 350°\nD. 340°\nE. 310°\nF. 330°\n",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_66.png"
+  ],
+  "doc_id": "tirbench_rotation_game_1076",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 170°\nB. 140°\nC. 125°\nD. 155°\nE. 110°\nF. 120°\n",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_19.png"
+  ],
+  "doc_id": "tirbench_rotation_game_380",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 285°\nB. 280°\nC. 275°\nD. 265°\nE. 270°\nF. 290°\n",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_64.png"
+  ],
+  "doc_id": "tirbench_rotation_game_386",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 180°\nB. 195°\nC. 135°\nD. 150°\nE. 165°\nF. 145°\n",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_18.png"
+  ],
+  "doc_id": "tirbench_rotation_game_728",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 15°\nB. 30°\nC. 35°\nD. 25°\nE. 10°\nF. 20°\n",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_45.png"
+  ],
+  "doc_id": "tirbench_rotation_game_875",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 315°\nB. 350°\nC. 340°\nD. 310°\nE. 320°\nF. 330°\n",
+  "solution": "F",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_14.png"
+  ],
+  "doc_id": "tirbench_rotation_game_57",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 350°\nB. 325°\nC. 340°\nD. 335°\nE. 330°\nF. 345°\n",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/rotation_game/rotated_49.png"
+  ],
+  "doc_id": "tirbench_rotation_game_951",
+  "problem": "<image>\nHow many degrees should you rotate this image CLOCKWISE to restore it to its original orientation?\n\nA. 300°\nB. 330°\nC. 320°\nD. 290°\nE. 310°\nF. 295°\n",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "rotation_game",
+  "split": "train"
+ }
+]

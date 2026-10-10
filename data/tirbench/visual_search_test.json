@@ -1,0 +1,962 @@
+[
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_16.png"
+  ],
+  "doc_id": "tirbench_visual_search_650",
+  "problem": "<image>\nWhat are the hazard numbers displayed on the left side storage container's label?\nA. 1\nB. 1,2\nC. 2,3\nD. 1,3",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_13.png"
+  ],
+  "doc_id": "tirbench_visual_search_585",
+  "problem": "<image>\nWhat is the time shown on the clock?\nA. Approximately 12:15\nB. Approximately 11:00\nC. Approximately 11:10\nD. Approximately 12:00",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_5.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_827",
+  "problem": "<image>\nWhich description about the image is correct?\nA The man wearing white clothes did not violate traffic rules when crossing the road because he used the crosswalk.\nB It is sunny in the image, and no one is holding an umbrella.\nC The white car on the right has not crossed the zebra crossing.\nD There is a red fire hydrant in front of the black car.\nE None of the above are correct.",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_8.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_301",
+  "problem": "<image>\nWhat is the height limit for vehicles driving on the right-most lane?\nA. It cannot be determined\nB. 3.1 meters\nC. 3.5 meters\nD. 4.6 meters",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_26.png"
+  ],
+  "doc_id": "tirbench_visual_search_694",
+  "problem": "<image>\nWhat is the direction indicated on the sign pointing towards Zaragoza?\nA. Straight\nB. Right\nC. Downward\nD. Left",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_5.png"
+  ],
+  "doc_id": "tirbench_visual_search_717",
+  "problem": "<image>\nWhat is the number written on the sign visible in the background of the image?\nA. 09-27\nB. 08-28\nC. 08-26\nD. 07-25",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_10.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_306",
+  "problem": "<image>\nTo what number is the hour hand of the clock pointing closest?",
+  "solution": "8",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_16.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_445",
+  "problem": "<image>\nIn the fresco above the Pope, what is the color of the shirt/jacket worn by the figure on the right?\nA.red\nB.white\nC.yellow\nD.black",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-9.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1026",
+  "problem": "<image>\nWhat is the license plate number of the car parked on the roadside grass?\nA) CCG739\nB) CFG739\nC) CEG739\nD) GWH\nE) AYW13\nF) CFG738\n",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_32.png"
+  ],
+  "doc_id": "tirbench_visual_search_1132",
+  "problem": "<image>\n is the relative position of the white truck compared to the trams in the image?\nA. To the left of the trams\nB. To the right of the trams\nC. Bottom of the trams\nD. In top of the trams",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_0.png"
+  ],
+  "doc_id": "tirbench_visual_search_307",
+  "problem": "<image>\nWhat is written on the white board in front of the girl in purple shorts?\nA. ELEVATE\nB. ELEVATE.\nC. ELVTE\nD. CeVaY",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_18.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_122",
+  "problem": "<image>\nTo what number is the hour hand of the clock pointing closest? Answer 1-12.",
+  "solution": "9",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-38.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_593",
+  "problem": "<image>\nHow many people are there in the picture?\n",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-29.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_933",
+  "problem": "<image>\nWhat is the price of 空芯菜炒め in the shop shown in the picture? Answer with an integer (yen). (  yen)\n",
+  "solution": "950",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_27.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_268",
+  "problem": "<image>\nWhat is the destination of the bus?\nA. Cannot be determined\nB. Budapest\nC. Central Station\nD. Kazpomt",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_16.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_515",
+  "problem": "<image>\nTo what number is the minute hand of the clock pointing closest? Answer 1-12.",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_40.png"
+  ],
+  "doc_id": "tirbench_visual_search_1205",
+  "problem": "<image>\nHow many people are there in the boat?\nA. Four\nB. Three\nC. Two\nD. One",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-26.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_461",
+  "problem": "<image>\nWhat is the tax-excluded general price for フリータイム 月～木 during 17:00–CLOSE in the 19:00～CLOSE time slot? Answer with an integer (yen).\n",
+  "solution": "1170",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-20.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_54",
+  "problem": "<image>\nOn which floor is 白木屋 located in the picture? Answer with an integer.\n",
+  "solution": "5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_4.png"
+  ],
+  "doc_id": "tirbench_visual_search_1086",
+  "problem": "<image>\nWhat is the text written above the logo on the jacket's sleeve?\nA. epio MIX\nB. epig MIX\nC. epoc MIX\nD. epog MIX",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-23.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_798",
+  "problem": "<image>\nHow many electric heating wires are hanging on the wall rack beneath the knife switch?\n",
+  "solution": "21",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_11.png"
+  ],
+  "doc_id": "tirbench_visual_search_805",
+  "problem": "<image>\nWhat's color of the bike in the image?\nA. Yellow\nB. Black\nC. Red\nD. Blue",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_17.png"
+  ],
+  "doc_id": "tirbench_visual_search_415",
+  "problem": "<image>\nWhat's the color of the flag in the image?\nA. Black and white\nB. Blue, white and red\nC. Black and red\nD. Black, white and red",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-23.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_491",
+  "problem": "<image>\nWhat is the weekday price of ちょい飲みセット in the picture? Answer with an integer (yen). (  yen)\n",
+  "solution": "1200",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-17.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_422",
+  "problem": "<image>\nWhat is the price of ビートロ定食 in the picture? Answer with an integer (yen). (  yen)\n",
+  "solution": "550",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_4.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_157",
+  "problem": "<image>\nWhat color is the shirt of the person behind the double-decker bus?\nA.blue\nB.green\nC.white\nD.orange",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-30.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_806",
+  "problem": "<image>\nHow many horses are there in the picture?\n",
+  "solution": "1",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_14.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_197",
+  "problem": "<image>\nTo what number is the hour hand of the clock pointing closest? Answer 1-12.",
+  "solution": "10",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_47.png"
+  ],
+  "doc_id": "tirbench_visual_search_635",
+  "problem": "<image>\nWhat is the registration number of the boat?\nA. TN-03-00026\nB. TN-01-00026\nC. TN-02-00056\nD. TN-01-00216",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-18.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_89",
+  "problem": "<image>\nWhat is the price of LATTE? Answer with a number to two decimal places, e.g., 1.11.\n",
+  "solution": "4.30",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_38.png"
+  ],
+  "doc_id": "tirbench_visual_search_396",
+  "problem": "<image>\nHow many people are seated at the table on the right side of the image where a woman in a striped shirt is standing?\nA. Five people\nB. Four people\nC. Three people\nD. Two people",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_3.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_470",
+  "problem": "<image>\nWhich description of the person standing to the right of the girl wearing the yellow scarf is correct?\nA Not wearing a scarf\nB Wearing a red scarf\nC Wearing a white coat\nD Wearing a black coat\nE Wearing a green coat",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_4.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_479",
+  "problem": "<image>\nWhich description about the image is correct?\nA The woman riding the bicycle in the image is not wearing a mask.\nB The woman riding the bicycle is to the left of the man in a black short-sleeve shirt at the center of the image.\nC The \"no bicycles allowed\" sign is to the right of the man in a black short-sleeve shirt at the center of the image.\nD The woman riding the bicycle is further away from the camera than the man in the black short-sleeve shirt at the center.\nE None of the above are correct.",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_24.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_170",
+  "problem": "<image>\nWhat is the name of the book immediately above the book 'MOUNTAIN' on the center top shelf?\nA. FULL MOON\nB. BERT STERN ADVENTURES\nC. Cannot be determined\nD. I AM A CAMERA",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-16.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_505",
+  "problem": "<image>\nWhat is the price of 午後の紅茶 in the vending machine shown in the picture? Answer with an integer (yen). (  yen)\n",
+  "solution": "130",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_1.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1032",
+  "problem": "<image>\nHow many people are in the image?",
+  "solution": "9",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_28.png"
+  ],
+  "doc_id": "tirbench_visual_search_1127",
+  "problem": "<image>\nWhat is the name written on the boat?\nA. GENDALA\nB. GODOLA\nC. GENDOLA\nD. GONDOLA",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_23.png"
+  ],
+  "doc_id": "tirbench_visual_search_1207",
+  "problem": "<image>\nWhich building has a red and white striped antenna on its top?\nA. The building with the Helaba logo\nB. The building with the DB logo\nC. The building with the Commerzbank logo\nD. The building with the Deutsche Bank logo",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-4.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1029",
+  "problem": "<image>\nWhat is the license plate number of the small truck with the blue NTN logo?\nA) CH 678\nB) CH 828\nC) CH 268\nD) CH 628\nE) CH 668\n",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_31.png"
+  ],
+  "doc_id": "tirbench_visual_search_272",
+  "problem": "<image>\nWhat is the position of the Royal Albert Hall relative to the bus?\nA. Directly behind the bus\nB. In front of the bus\nC. To the right of the bus\nD. To the left of the bus",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_6.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_899",
+  "problem": "<image>\nIs the child sitting on the blue blanket in the picture with the white dog on its left or right?\nA.left\nB.right",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_22.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_466",
+  "problem": "<image>\nWhich lantern name listed below is furthest from the lantern labeled \"松山茂雄\"?\nA 原田昭子\nB 川崎英嗣\nC 柏木隆宏\nD 青松哲也\nE The leftmost lantern labeled 大和商会",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-27.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1107",
+  "problem": "<image>\n大江團鱼的价格是（）。填写一个整数。\n",
+  "solution": "368",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_13.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_292",
+  "problem": "<image>\nWhat are prices for the gas in this gas station?\nA. Cannot be determined\nB. 4.08/4.67\nC. 4.08/4.61\nD. 4.09/4.67",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_9.png"
+  ],
+  "doc_id": "tirbench_visual_search_22",
+  "problem": "<image>\nWhat is the name of the barge on the left side of the image?\nA. PETER LUND\nB. PETER LIND\nC. PETER LING\nD. PETER LEND",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-22.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1160",
+  "problem": "<image>\nHow many visible yellow lights are hanging on the pillars and ceiling in the picture?\n",
+  "solution": "10",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_28.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1109",
+  "problem": "<image>\nHow many chairs can you spot?\nA. 4\nB. 5\nC. 6\nD. 8",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_42.png"
+  ],
+  "doc_id": "tirbench_visual_search_622",
+  "problem": "<image>\nWhat is the position of the black car relative to the tram?\nA. In front of the tram\nB. To the right of the tram\nC. Behind the tram\nD. To the left of the tram",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_37.png"
+  ],
+  "doc_id": "tirbench_visual_search_1133",
+  "problem": "<image>\nWhich direction is the taller white building in relation to the National Textile Museum?\nA. Right\nB. Behind\nC. Above\nD. Left",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_39.png"
+  ],
+  "doc_id": "tirbench_visual_search_578",
+  "problem": "<image>\nWhat is the position of the car relative to the central tower of the building?\nA. Left\nB. Right\nC. In front of the building\nD. Behind the building",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_9.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1119",
+  "problem": "<image>\nIn the center of the picture, there is a person holding a starry ring. How many stars are on the ring?\nA.11\nB.12\nC.13\nD.14",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_20.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_930",
+  "problem": "<image>\nWhat is the number of the leftmost skier in the main group of racers?\nA. 65\nB. 63\nC. 269\nD. 64",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_5.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_888",
+  "problem": "<image>\nHow many people in the picture are wearing red hats and white clothes?",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-26.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_936",
+  "problem": "<image>\nHow many people are riding horses in the picture?\n",
+  "solution": "2",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_26.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_312",
+  "problem": "<image>\nWhat is the name of the hotel visible in this image?\nA. World hotel\nB. Fortune hotel\nC. Cannot be determined\nD. China Hotel",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_7.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_781",
+  "problem": "<image>\nIs a brown sheep present to the left of the central white horse?\nA.Yes\nB.No",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-30.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1079",
+  "problem": "<image>\n大勝冰室的爆款饮品的Top1是（）\nA 藍色妖姬\nB 芭樂檸檬茶\nC 手打檸檬茶\nD 水蜜桃檸檬茶\nE 其他\n",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_12.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_834",
+  "problem": "<image>\nIs Bulma above or below Luffy?\nA.above\nB.below",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_15.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_696",
+  "problem": "<image>\nHow many people are walking side by side in the farthest distance?",
+  "solution": "3",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-19.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_357",
+  "problem": "<image>\nWhat is the price of CRAFT BOSS COFFEE in the picture? Answer with an integer (yen).\n",
+  "solution": "120",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-35.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_350",
+  "problem": "<image>\nHow many horses are there in the picture?\n",
+  "solution": "17",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_7.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1110",
+  "problem": "<image>\nIn which country is this photo likely taken at?\nA. Czech Republic\nB. France\nC. Poland\nD. Germany",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_44.png"
+  ],
+  "doc_id": "tirbench_visual_search_1177",
+  "problem": "<image>\nWhat is the position of the wooden jewelry box relative to the clock?\nA. To the right of the clock\nB. To the left of the clock\nC. Below the clock\nD. Over the clock",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/other-1.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_82",
+  "problem": "<image>\nWhat is the price of Salade du Consulat? answer with a number.\n",
+  "solution": "16",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art_18.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_582",
+  "problem": "<image>\nHow many poultry are on the haystack at the center of the image?",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_30.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_810",
+  "problem": "<image>\nHow many elephants can you spot in this image?\nA. 6\nB. 7\nC. 8\nD. 9",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_18.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_162",
+  "problem": "<image>\nWill I be able to buy a sony camera here based on the information in the image?\nA. Cannot be determined\nB. Yes\nC. No, it is not sold anyhere nearby\nD. No, it is out of stock",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-24.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_778",
+  "problem": "<image>\nWhat is the price for 昼フリータイム お一人様 at カラオケ商店? Answer with an integer (yen).\n",
+  "solution": "980",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_20.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1130",
+  "problem": "<image>\nTo what number is the hour hand of the clock pointing closest? Answer 1-12.",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/hr_19.png"
+  ],
+  "doc_id": "tirbench_visual_search_906",
+  "problem": "<image>\nWhat's color of the flag?\nA. Red\nB. White\nC. Blue\nD. Yellow",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_11.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_185",
+  "problem": "<image>\nTo what number is the hour hand of the clock pointing closest? Answer 1-12.",
+  "solution": "12",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-11.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_1168",
+  "problem": "<image>\nWhat is the phone number of the refrigerated truck company shown in the picture?\nA) 02-3539-2322\nB) 03-3534-2322\nC) 02-3534-2322\nD) 03-3539-2322\nE) 02-3584-2322\nF) 03-3834-2322\n",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_1.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_230",
+  "problem": "<image>\nWhat is the registration of the Cathay Pacific plane that is taking off?\nA. B-KQY\nB. B-KPY\nC. B-KQI\nD. B-KPQ",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-31.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_355",
+  "problem": "<image>\nHow many people can be seen looking at the scenery from the window of the small earthen house on the right side of the river?\n",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_10.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_385",
+  "problem": "<image>\nWhat is the unit price for biologisch geen suiker\nA. 1.2\nB. 1.65\nC. 1.59\nD. 2.29",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/realworld-28.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_404",
+  "problem": "<image>\nFor how many hours per day is 本場四川料理 open? Answer with a one-decimal-place number, e.g., 1.2.\n",
+  "solution": "9.5",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_15.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_966",
+  "problem": "<image>\nWhat is the price of ginger based on the image?\nA. 4.66\nB. Cannot be determined\nC. 5.99\nD. 9.99",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/art-36.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_69",
+  "problem": "<image>\nHow many cows are there in the picture?\n",
+  "solution": "4",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/new_16.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_186",
+  "problem": "<image>\nWhat is the three main therapeutic benefits of lavender essential oil based on the image?\nA. Antiseptic, Anesthetic, Sedative\nB. Fragrance, Cleansing, Protecting\nC. Smooth, Cleansing, Sedative\nD. Fragrance, Antiseptic, Long-lasting",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/visual_search/temp_13.jpg"
+  ],
+  "doc_id": "tirbench_visual_search_864",
+  "problem": "<image>\nTo what number is the hour hand of the clock pointing closest? Answer 1-12.",
+  "solution": "7",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "visual_search",
+  "split": "test"
+ }
+]

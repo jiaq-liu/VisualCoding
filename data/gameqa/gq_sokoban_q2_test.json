@@ -1,0 +1,402 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00019.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1008",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves up, right, down, left, down, right, down, right, where will the box that started at position (4, 2) end up?\n\nOptions:\n[1] (5, 3)\n[2] (5, 5)\n[3] (5, 1)\n[4] (5, 6)\n[5] (6, 6)\n[6] (6, 5)\n[7] (2, 2)\n[8] (6, 3)\n\nAnswer with the option number.",
+  "solution": "8",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00019-00002",
+  "image": "games_images_test/sokoban/board_00019.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00023.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1010",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves left, left, right, up, right, left, up, up, right, down, left, up, where will the box that started at position (6, 9) end up?\n\nOptions:\n[1] (2, 8)\n[2] (9, 3)\n[3] (9, 8)\n[4] (4, 7)\n[5] (5, 6)\n[6] (2, 2)\n[7] (3, 4)\n[8] (10, 9)\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00023-00002",
+  "image": "games_images_test/sokoban/board_00023.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00033.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1015",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves right, down, down, right, down, where will the box that started at position (2, 1) end up?\n\nOptions:\n[1] (2, 1)\n[2] (2, 2)\n[3] (3, 1)\n[4] (3, 3)\n[5] (2, 3)\n[6] (1, 3)\n[7] (1, 1)\n[8] (1, 2)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00033-00002",
+  "image": "games_images_test/sokoban/board_00033.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00035.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1016",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves left, up, down, down, up, left, left, up, down, down, left, right, where will the box that started at position (5, 5) end up?\n\nOptions:\n[1] (5, 5)\n[2] (3, 10)\n[3] (6, 2)\n[4] (7, 9)\n[5] (7, 6)\n[6] (1, 10)\n[7] (4, 5)\n[8] (1, 3)\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00035-00002",
+  "image": "games_images_test/sokoban/board_00035.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00041.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1019",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves up, left, right, left, left, left, up, down, left, left, left, down, where will the box that started at position (4, 4) end up?\n\nOptions:\n[1] (7, 8)\n[2] (9, 1)\n[3] (8, 2)\n[4] (3, 10)\n[5] (1, 10)\n[6] (5, 7)\n[7] (1, 5)\n[8] (4, 3)\n\nAnswer with the option number.",
+  "solution": "8",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00041-00002",
+  "image": "games_images_test/sokoban/board_00041.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00049.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1023",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves right, right, right, left, right, up, up, left, where will the box that started at position (1, 3) end up?\n\nOptions:\n[1] (1, 5)\n[2] (5, 5)\n[3] (5, 3)\n[4] (5, 1)\n[5] (5, 2)\n[6] (2, 6)\n[7] (2, 3)\n[8] (6, 1)\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00049-00002",
+  "image": "games_images_test/sokoban/board_00049.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00051.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1024",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves down, right, left, up, left, where will the box that started at position (2, 2) end up?\n\nOptions:\n[1] (3, 1)\n[2] (1, 1)\n[3] (3, 2)\n[4] (2, 1)\n[5] (3, 3)\n[6] (2, 2)\n[7] (1, 2)\n[8] (1, 3)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00051-00002",
+  "image": "games_images_test/sokoban/board_00051.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00065.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1031",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves up, left, up, left, down, up, right, left, left, up, right, right, where will the box that started at position (9, 4) end up?\n\nOptions:\n[1] (7, 10)\n[2] (10, 9)\n[3] (5, 9)\n[4] (8, 1)\n[5] (3, 9)\n[6] (5, 1)\n[7] (5, 4)\n[8] (3, 6)\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00065-00002",
+  "image": "games_images_test/sokoban/board_00065.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00067.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1032",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves right, right, left, right, down, right, right, down, where will the box that started at position (4, 4) end up?\n\nOptions:\n[1] (6, 3)\n[2] (6, 6)\n[3] (3, 6)\n[4] (2, 6)\n[5] (4, 4)\n[6] (6, 5)\n[7] (6, 1)\n[8] (1, 1)\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00067-00002",
+  "image": "games_images_test/sokoban/board_00067.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00069.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1033",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves right, down, right, right, down, where will the box that started at position (2, 2) end up?\n\nOptions:\n[1] (2, 3)\n[2] (3, 2)\n[3] (2, 2)\n[4] (3, 3)\n[5] (1, 1)\n[6] (2, 1)\n[7] (3, 1)\n[8] (1, 3)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00069-00002",
+  "image": "games_images_test/sokoban/board_00069.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00071.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1034",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves up, right, down, down, left, right, right, right, up, left, up, down, where will the box that started at position (9, 7) end up?\n\nOptions:\n[1] (10, 9)\n[2] (10, 5)\n[3] (1, 10)\n[4] (5, 5)\n[5] (7, 1)\n[6] (6, 7)\n[7] (3, 2)\n[8] (1, 4)\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00071-00002",
+  "image": "games_images_test/sokoban/board_00071.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00077.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1037",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves down, left, left, down, down, down, right, right, up, up, right, up, where will the box that started at position (9, 3) end up?\n\nOptions:\n[1] (2, 6)\n[2] (7, 4)\n[3] (5, 8)\n[4] (8, 7)\n[5] (8, 1)\n[6] (1, 7)\n[7] (10, 4)\n[8] (4, 3)\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00077-00002",
+  "image": "games_images_test/sokoban/board_00077.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00079.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1038",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves down, up, down, right, up, right, left, up, where will the box that started at position (5, 5) end up?\n\nOptions:\n[1] (1, 2)\n[2] (4, 5)\n[3] (4, 2)\n[4] (4, 6)\n[5] (4, 4)\n[6] (6, 1)\n[7] (1, 1)\n[8] (3, 2)\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00079-00002",
+  "image": "games_images_test/sokoban/board_00079.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00091.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1043",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves up, left, up, up, left, left, up, left, where will the box that started at position (3, 5) end up?\n\nOptions:\n[1] (4, 3)\n[2] (3, 3)\n[3] (1, 1)\n[4] (6, 5)\n[5] (2, 6)\n[6] (3, 6)\n[7] (4, 6)\n[8] (5, 4)\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00091-00002",
+  "image": "games_images_test/sokoban/board_00091.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00103.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1047",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves up, up, up, down, right, up, down, down, where will the box that started at position (5, 3) end up?\n\nOptions:\n[1] (2, 5)\n[2] (4, 6)\n[3] (3, 3)\n[4] (4, 2)\n[5] (5, 1)\n[6] (3, 4)\n[7] (3, 1)\n[8] (5, 4)\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00103-00002",
+  "image": "games_images_test/sokoban/board_00103.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00105.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1048",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves down, up, down, down, left, where will the box that started at position (2, 1) end up?\n\nOptions:\n[1] (2, 2)\n[2] (2, 1)\n[3] (1, 1)\n[4] (3, 1)\n[5] (3, 3)\n[6] (2, 3)\n[7] (1, 3)\n[8] (1, 2)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00105-00002",
+  "image": "games_images_test/sokoban/board_00105.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00109.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1050",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves down, down, right, up, right, right, down, left, where will the box that started at position (2, 3) end up?\n\nOptions:\n[1] (1, 1)\n[2] (4, 5)\n[3] (1, 3)\n[4] (5, 6)\n[5] (6, 1)\n[6] (2, 5)\n[7] (6, 4)\n[8] (2, 4)\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00109-00002",
+  "image": "games_images_test/sokoban/board_00109.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00111.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1051",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves right, right, right, left, left, where will the box that started at position (2, 3) end up?\n\nOptions:\n[1] (2, 1)\n[2] (3, 3)\n[3] (3, 2)\n[4] (1, 3)\n[5] (1, 2)\n[6] (3, 1)\n[7] (2, 2)\n[8] (2, 3)\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00111-00002",
+  "image": "games_images_test/sokoban/board_00111.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00117.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1054",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves right, left, down, left, up, where will the box that started at position (2, 2) end up?\n\nOptions:\n[1] (2, 3)\n[2] (1, 1)\n[3] (2, 2)\n[4] (3, 1)\n[5] (3, 2)\n[6] (1, 3)\n[7] (3, 3)\n[8] (1, 2)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00117-00002",
+  "image": "games_images_test/sokoban/board_00117.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/sokoban__board_00121.png"
+  ],
+  "doc_id": "gameqa_gq_sokoban_q2_1056",
+  "problem": "<image>\nThis is a Sokoban puzzle where black figure is player, green X is target, brown box with X is box to push, brown tiles are walls, and light brown areas are movable spaces.The coordinates (x, y) in this puzzle represent the matrix format.Treat boxes as objects that can move by themselves, and treat people as floor (movable areas),After the moves down, down, down, down, left, down, right, right, where will the box that started at position (3, 2) end up?\n\nOptions:\n[1] (5, 1)\n[2] (5, 5)\n[3] (1, 1)\n[4] (6, 3)\n[5] (3, 2)\n[6] (6, 2)\n[7] (6, 1)\n[8] (4, 2)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "sokoban",
+  "question_id": 2,
+  "data_id": "sokoban-data-00121-00002",
+  "image": "games_images_test/sokoban/board_00121.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "Given a sequence of moves, predict the final position of the box",
+  "dataset": "gameqa",
+  "family": "gq_sokoban_q2",
+  "split": "test"
+ }
+]

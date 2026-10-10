@@ -1,0 +1,548 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00003.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1000",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Upper face face?Options: [1] 5, [2] 3, [3] 9, [4] 7, [5] 10, [6] 4, [7] 2, [8] 1\n\nAnswer with the option number.",
+  "solution": "8",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00003-00003",
+  "image": "games_images_test/rubiks_cube/cube_00003.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00006.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1002",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Down face face?Options: [1] 2, [2] 9, [3] 1, [4] 11, [5] 3, [6] 8, [7] 6, [8] 4\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00006-00003",
+  "image": "games_images_test/rubiks_cube/cube_00006.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00012.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1006",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Front face face?Options: [1] 9, [2] 2, [3] 10, [4] 6, [5] 1, [6] 7, [7] 8, [8] 11\n\nAnswer with the option number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00012-00003",
+  "image": "games_images_test/rubiks_cube/cube_00012.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00015.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1008",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Down face face?Options: [1] 4, [2] 3, [3] 7, [4] 10, [5] 5, [6] 9, [7] 1, [8] 8\n\nAnswer with the option number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00015-00003",
+  "image": "games_images_test/rubiks_cube/cube_00015.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00021.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1012",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Left face face?Options: [1] 1, [2] 9, [3] 4, [4] 8, [5] 2, [6] 3, [7] 7, [8] 11\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00021-00003",
+  "image": "games_images_test/rubiks_cube/cube_00021.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00027.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1015",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Down face face?Options: [1] 7, [2] 4, [3] 1, [4] 6, [5] 5, [6] 3, [7] 9, [8] 10\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00027-00003",
+  "image": "games_images_test/rubiks_cube/cube_00027.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00028.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1016",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Left face face?Options: [1] 2, [2] 1, [3] 9, [4] 8, [5] 10, [6] 11, [7] 3, [8] 7\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00028-00003",
+  "image": "games_images_test/rubiks_cube/cube_00028.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00030.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1017",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Left face face?Options: [1] 11, [2] 10, [3] 3, [4] 4, [5] 5, [6] 7, [7] 1, [8] 8\n\nAnswer with the option number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00030-00003",
+  "image": "games_images_test/rubiks_cube/cube_00030.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00037.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1022",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Upper face face?Options: [1] 12, [2] 2, [3] 8, [4] 10, [5] 7, [6] 11, [7] 3, [8] 1\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00037-00003",
+  "image": "games_images_test/rubiks_cube/cube_00037.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00042.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1025",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Down face face?Options: [1] 4, [2] 1, [3] 5, [4] 9, [5] 11, [6] 7, [7] 10, [8] 2\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00042-00003",
+  "image": "games_images_test/rubiks_cube/cube_00042.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00043.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1026",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Left face face?Options: [1] 1, [2] 4, [3] 6, [4] 2, [5] 8, [6] 12, [7] 7, [8] 10\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00043-00003",
+  "image": "games_images_test/rubiks_cube/cube_00043.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00046.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1028",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Down face face?Options: [1] 4, [2] 2, [3] 9, [4] 12, [5] 11, [6] 6, [7] 7, [8] 5\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00046-00003",
+  "image": "games_images_test/rubiks_cube/cube_00046.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00048.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1029",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Back face face?Options: [1] 1, [2] 11, [3] 2, [4] 10, [5] 4, [6] 9, [7] 3, [8] 6\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00048-00003",
+  "image": "games_images_test/rubiks_cube/cube_00048.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00049.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1030",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Back face face?Options: [1] 9, [2] 7, [3] 8, [4] 6, [5] 4, [6] 1, [7] 10, [8] 2\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00049-00003",
+  "image": "games_images_test/rubiks_cube/cube_00049.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00052.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1032",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Upper face face?Options: [1] 9, [2] 1, [3] 2, [4] 12, [5] 11, [6] 5, [7] 8, [8] 10\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00052-00003",
+  "image": "games_images_test/rubiks_cube/cube_00052.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00054.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1033",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Left face face?Options: [1] 7, [2] 1, [3] 10, [4] 6, [5] 4, [6] 9, [7] 2, [8] 3\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00054-00003",
+  "image": "games_images_test/rubiks_cube/cube_00054.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00055.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1034",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Left face face?Options: [1] 9, [2] 7, [3] 11, [4] 8, [5] 3, [6] 1, [7] 10, [8] 5\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00055-00003",
+  "image": "games_images_test/rubiks_cube/cube_00055.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00057.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1035",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Down face face?Options: [1] 1, [2] 2, [3] 9, [4] 7, [5] 10, [6] 8, [7] 6, [8] 5\n\nAnswer with the option number.",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00057-00003",
+  "image": "games_images_test/rubiks_cube/cube_00057.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00066.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1039",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Left face face?Options: [1] 5, [2] 6, [3] 7, [4] 8, [5] 1, [6] 11, [7] 9, [8] 4\n\nAnswer with the option number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00066-00003",
+  "image": "games_images_test/rubiks_cube/cube_00066.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00070.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1042",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Right face face?Options: [1] 8, [2] 6, [3] 9, [4] 5, [5] 2, [6] 4, [7] 12, [8] 1\n\nAnswer with the option number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00070-00003",
+  "image": "games_images_test/rubiks_cube/cube_00070.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00081.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1049",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Back face face?Options: [1] 6, [2] 5, [3] 3, [4] 10, [5] 11, [6] 8, [7] 1, [8] 9\n\nAnswer with the option number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00081-00003",
+  "image": "games_images_test/rubiks_cube/cube_00081.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00082.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1050",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Left face face?Options: [1] 11, [2] 12, [3] 4, [4] 9, [5] 3, [6] 2, [7] 5, [8] 7\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00082-00003",
+  "image": "games_images_test/rubiks_cube/cube_00082.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00087.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1053",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Front face face?Options: [1] 9, [2] 3, [3] 10, [4] 5, [5] 11, [6] 1, [7] 6, [8] 8\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00087-00003",
+  "image": "games_images_test/rubiks_cube/cube_00087.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00103.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1063",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Upper face face?Options: [1] 12, [2] 2, [3] 1, [4] 10, [5] 5, [6] 9, [7] 4, [8] 7\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00103-00003",
+  "image": "games_images_test/rubiks_cube/cube_00103.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00109.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1067",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Front face face?Options: [1] 6, [2] 7, [3] 3, [4] 2, [5] 11, [6] 12, [7] 10, [8] 9\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00109-00003",
+  "image": "games_images_test/rubiks_cube/cube_00109.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test",
+  "image_also_in_train": "other_family"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00112.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1069",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Upper face face?Options: [1] 11, [2] 7, [3] 5, [4] 2, [5] 4, [6] 12, [7] 6, [8] 3\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00112-00003",
+  "image": "games_images_test/rubiks_cube/cube_00112.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/rubiks_cube__cube_00114.png"
+  ],
+  "doc_id": "gameqa_gq_rubiks_cube_q3_1070",
+  "problem": "<image>\nRules: As shown in the figure, the Rubik's cube consists of both 3D views and an unfolded view. The 3D views show the cube from two angles: left-tilted 30 degrees looking down, and right-tilted ,30 degrees looking up. The cube has six faces: Upper (U), Down (D), Left (L), Right (R), Front (F), and Back (B). Each face can be rotated clockwise or counterclockwise.And for each face, the coordinates are determined based on the unfolded view: column number increases from left to right (0,1,2) and row number increases from bottom to top (0,1,2). Legend shown in the bottom left corner.Handedness issues in the 3D views can be ignored.An uppercase letter indicates which face to rotate ('F' for Front, 'B' for Back, 'L' for Left, 'R' for Right, 'U' for Upper, 'D' for Down), with a prime symbol (') denoting counterclockwise rotation and no prime symbol denoting clockwise rotation.How many moves are needed to solve the Upper face face?Options: [1] 9, [2] 11, [3] 8, [4] 1, [5] 6, [6] 10, [7] 4, [8] 2\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "rubiks_cube",
+  "question_id": 3,
+  "data_id": "rubiks_cube-data-00114-00003",
+  "image": "games_images_test/rubiks_cube/cube_00114.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Find the sequence of moves between two cube states",
+  "dataset": "gameqa",
+  "family": "gq_rubiks_cube_q3",
+  "split": "test"
+ }
+]

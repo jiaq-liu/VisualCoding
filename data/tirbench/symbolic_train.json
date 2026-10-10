@@ -1,0 +1,194 @@
+[
+ {
+  "images": [
+   "tirbench/data/symbolic/relation-of-line-1.png"
+  ],
+  "doc_id": "tirbench_symbolic_647",
+  "problem": "<image>\nWhich pair of lines are perpendicular?\nA.ab and cd\nB.ef and gh\nC.ab and ef\nD.cd and gh\n This is a multiple-choice question, and you need to select more than one option. Write your final answer using consecutive letters, such as ABC, CD, or BC.",
+  "solution": "AB",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/illusion-1.png"
+  ],
+  "doc_id": "tirbench_symbolic_587",
+  "problem": "<image>\nWhich orange circle in the middle is larger?\nA. The left one.\nB. The right one.\nC. Same size",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/subway-5.jpg"
+  ],
+  "doc_id": "tirbench_symbolic_492",
+  "problem": "<image>\nHow many connected single-colored paths go from A to B?\nA.0\nB.1\nC.2\nD.3\nE.4",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/grid_14x16_6.png"
+  ],
+  "doc_id": "tirbench_symbolic_287",
+  "problem": "<image>\nHow many grid cells are there in this image?\nA.224\nB.221\nC.238\nD.400\nE.306",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_square_8_2.png"
+  ],
+  "doc_id": "tirbench_symbolic_144",
+  "problem": "<image>\nHow many nested squares are there in this image?\nA.6\nB.8\nC.7\nD.9\nE.10",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_square_11_5.png"
+  ],
+  "doc_id": "tirbench_symbolic_1085",
+  "problem": "<image>\nHow many nested squares are there in this image?\nA.9\nB.11\nC.10\nD.12\nE.13",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_square_10_4.png"
+  ],
+  "doc_id": "tirbench_symbolic_657",
+  "problem": "<image>\nHow many nested squares are there in this image?\nA.8\nB.10\nC.9\nD.11\nE.12",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/relation-of-line-2.png"
+  ],
+  "doc_id": "tirbench_symbolic_282",
+  "problem": "<image>\nWhich pair of lines are perpendicular?\nA.ab and cd\nB.ef and gh\nC.ab and ef\nD.cd and gh",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/dot_shape_5.png"
+  ],
+  "doc_id": "tirbench_symbolic_723",
+  "problem": "<image>\nHow many shapes are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "25",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/illusion-5.png"
+  ],
+  "doc_id": "tirbench_symbolic_472",
+  "problem": "<image>\nwhich orange area is larger?\nA. The left one.\nB. The right one.\nC. Same size",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_circle_15_5.png"
+  ],
+  "doc_id": "tirbench_symbolic_777",
+  "problem": "<image>\nHow many nested circles are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "15",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/grid_13x17_7.png"
+  ],
+  "doc_id": "tirbench_symbolic_527",
+  "problem": "<image>\nHow many grid cells are there in this image?\nA.224\nB.221\nC.238\nD.400\nE.306",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/dot_shape_8.png"
+  ],
+  "doc_id": "tirbench_symbolic_293",
+  "problem": "<image>\nHow many shapes are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "25",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_circle_15_1.png"
+  ],
+  "doc_id": "tirbench_symbolic_90",
+  "problem": "<image>\nHow many nested circles are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "15",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_circle_16_3.png"
+  ],
+  "doc_id": "tirbench_symbolic_942",
+  "problem": "<image>\nHow many nested circles are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "16",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/subway-1.jpg"
+  ],
+  "doc_id": "tirbench_symbolic_889",
+  "problem": "<image>\nHow many connected single-colored paths go from A to C?\nA.0\nB.1\nC.2\nD.3\nE.4",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "train"
+ }
+]

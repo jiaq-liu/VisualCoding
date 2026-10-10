@@ -1,0 +1,402 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00006.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1000",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 8 rows and 8 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving right for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00006-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00006.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00096.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1018",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 8 rows and 8 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00096-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00096.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00113.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1023",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 8 rows and 8 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "-1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00113-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00113.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00134.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1028",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 8 rows and 8 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving right for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "-1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00134-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00134.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00142.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1030",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 8 rows and 8 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving right for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00142-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00142.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00145.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1032",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 8 rows and 8 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00145-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00145.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00163.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1034",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 8 rows and 8 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving right for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "-1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00163-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00163.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00165.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1036",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 8 rows and 8 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00165-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00165.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00166.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1037",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 12 rows and 12 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00166-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00166.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00197.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1045",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 12 rows and 12 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving right for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "0",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00197-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00197.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00227.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1053",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 12 rows and 12 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving right for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00227-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00227.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00229.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1054",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 12 rows and 12 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving right for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00229-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00229.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00248.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1060",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 12 rows and 12 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving right for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00248-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00248.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00252.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1062",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 12 rows and 12 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00252-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00252.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00277.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1070",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 12 rows and 12 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00277-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00277.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00351.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1089",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 16 rows and 16 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00351-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00351.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00374.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1094",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 16 rows and 16 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00374-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00374.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00412.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1100",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 16 rows and 16 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving right for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "1",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00412-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00412.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00439.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1108",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 16 rows and 16 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00439-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00439.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/tetris__tetris-00492.png"
+  ],
+  "doc_id": "gameqa_gq_tetris_q2_1121",
+  "problem": "<image>\nRules:\n1. The image shows a standard Tetris grid with 16 rows and 16 columns. \n2. The first number in a cell coordinate represents the row, and the second number represents the column.3. The action done to the falling tetromino is randomly selected between moved to left / right.\n4. The active tetromino falls one row every timestep.\n5. Collision means there is at least one cell around the falling tetromino taken by another tetromino or the boundary, which causes the falling tetromino can't continue falling or moving left/right.\n6. There may not be active tetromino(colored in red) falling in the image. If so, the answer should be -1. \n\n\nQuestion:\nIf the current active Tetrimino is only moved one step (After moving left for one column), how many timesteps will it take to collide with another block or the grid boundary?",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "tetris",
+  "question_id": 2,
+  "data_id": "tetris-00492-onestep-outcome",
+  "image": "games_images_test/tetris/tetris-00492.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Medium",
+  "description": "timesteps_until_collision",
+  "dataset": "gameqa",
+  "family": "gq_tetris_q2",
+  "split": "train"
+ }
+]

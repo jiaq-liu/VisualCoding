@@ -1,0 +1,282 @@
+[
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00001.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1000",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are Second Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "9",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00001-00006",
+  "image": "games_images_test/ultra_tictactoe/board_00001.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00003.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1002",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are First Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00003-00020",
+  "image": "games_images_test/ultra_tictactoe/board_00003.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00009.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1008",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are Second Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "2",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00009-00062",
+  "image": "games_images_test/ultra_tictactoe/board_00009.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00013.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1012",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are First Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "4",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00013-00090",
+  "image": "games_images_test/ultra_tictactoe/board_00013.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00017.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1016",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are First Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "5",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00017-00118",
+  "image": "games_images_test/ultra_tictactoe/board_00017.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00020.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1019",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are Second Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "7",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00020-00139",
+  "image": "games_images_test/ultra_tictactoe/board_00020.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00023.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1022",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are First Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00023-00160",
+  "image": "games_images_test/ultra_tictactoe/board_00023.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00024.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1023",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are First Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "3",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00024-00167",
+  "image": "games_images_test/ultra_tictactoe/board_00024.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Easy",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00035.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1034",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are Second Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "8",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00035-00244",
+  "image": "games_images_test/ultra_tictactoe/board_00035.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00041.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1040",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are First Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00041-00286",
+  "image": "games_images_test/ultra_tictactoe/board_00041.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00046.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1045",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are Second Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "9",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00046-00321",
+  "image": "games_images_test/ultra_tictactoe/board_00046.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Medium",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00056.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1055",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are First Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "9",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00056-00391",
+  "image": "games_images_test/ultra_tictactoe/board_00056.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00059.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1058",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are Second Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "9",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00059-00412",
+  "image": "games_images_test/ultra_tictactoe/board_00059.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/gameqa/img/ultra_tictactoe__board_00062.png"
+  ],
+  "doc_id": "gameqa_gq_ultra_tictactoe_q6_1061",
+  "problem": "<image>\nNow I'll give you a picture, which shows a screenshot of Ultra TicTacToe. The introduction of Ultra TicTacToe is as follows:\n1. Board and coordinate representation: In this game, the board is divided into 9 3*3 squares(called Nine-grids). At the same time, we use $(i, j, row, col)$ to represent the coordinates of a cell: $(i, j)$ represents the coordinates of the Nine-grid; $(row, col)$ represents the coordinate of the cell within the Nine-grid; $i, j, row, col$ all range from 1 to 3. Two players take turns placing pieces on the board to mark the cells on the board, with the first player using \"X\" and the second player using \"O\" (this is the same as traditional TicTacToe). \n2. Rules for placing chess pieces: After the game starts, the first player places a chess piece in any cell in the Nine-grid in the middle (i.e., the Nine-grid (2, 2)). After that, the coordinates of each chess piece placed in the Nine-grid are the same as the coordinates of the Nine-grid in which the opponent's last chess piece was placed; for example, if the first player places a chess piece at the coordinates (2, 2, 3, 1) in the first step, then the second player needs to choose a chess piece in the Nine-grid (3, 1) in the second step. \n3. Scoring rules: For each player, each \"Straight\" (i.e., three identical chess pieces connected in a line, such as in the same row, the same column, or a diagonal line) in each Nine-grid is counted as 1 point. More than 1 point can be counted in each Nine-grid. \n\nNow I will give you a question about the game. Please extract information from the picture I give you, think carefully, reason, and answer: If you are Second Player, from the image, we can see now it's your turn to place a piece. According to the rules of the game, in which Nine-grid should you place the next piece? Options: 1. Nine-grid (1, 1) 2. Nine-grid (1, 2) 3. Nine-grid (1, 3) 4. Nine-grid (2, 1) 5. Nine-grid (2, 2) 6. Nine-grid (2, 3) 7. Nine-grid (3, 1) 8. Nine-grid (3, 2) 9. Nine-grid (3, 3)\n\nAnswer with the option number.",
+  "solution": "6",
+  "data_source": "gameqa",
+  "game": "ultra_tictactoe",
+  "question_id": 6,
+  "data_id": "ultra_tictactoe-data-00062-00433",
+  "image": "games_images_test/ultra_tictactoe/board_00062.png",
+  "qa_type": "State Prediction",
+  "plot_level": "Hard",
+  "qa_level": "Hard",
+  "description": "Given the Player name, find in which Nine-grid to place the piece.",
+  "dataset": "gameqa",
+  "family": "gq_ultra_tictactoe_q6",
+  "split": "train"
+ }
+]

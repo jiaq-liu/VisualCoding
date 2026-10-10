@@ -1,0 +1,806 @@
+[
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/766.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_766",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. yellow\nC. green\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/187.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_187",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. green\nC. orange\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1900.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1900",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. purple\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1300.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1300",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. yellow\nC. orange\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1194.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1194",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. green\nC. red\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/778.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_778",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. blue\nC. red\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/847.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_847",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. orange\nC. green\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/822.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_822",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. green\nC. red\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/637.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_637",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. blue\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/36.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_36",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. purple\nC. yellow\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/275.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_275",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. red\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1372.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1372",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. red\nC. green\nD. orange",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/919.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_919",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. green\nC. blue\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1128.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1128",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. purple\nC. yellow\nD. orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/571.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_571",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. orange\nC. green\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/648.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_648",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. purple\nC. orange\nD. red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/164.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_164",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. yellow\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/870.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_870",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. blue\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1453.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1453",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. yellow\nC. green\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/619.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_619",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. purple\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1323.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1323",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. orange\nC. red\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/231.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_231",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. purple\nC. red\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1431.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1431",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. orange\nC. purple\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1304.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1304",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. green\nC. red\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/469.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_469",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. yellow\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1596.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1596",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. yellow\nC. purple\nD. green",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/229.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_229",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. purple\nC. yellow\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1051.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1051",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. green\nC. orange\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/528.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_528",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. orange\nD. green",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1784.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1784",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. green\nB. blue\nC. orange\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/477.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_477",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. green\nC. red\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/521.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_521",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. yellow\nC. blue\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/597.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_597",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. yellow\nC. blue\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/829.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_829",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. yellow\nC. green\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/368.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_368",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. purple\nC. red\nD. yellow",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1321.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1321",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. green\nC. red\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1915.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1915",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. green\nC. yellow\nD. purple",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1891.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1891",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. green\nC. red\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1299.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1299",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. blue\nC. yellow\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/50.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_50",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. yellow\nC. blue\nD. purple",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/680.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_680",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. orange\nC. blue\nD. purple",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/239.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_239",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. green\nC. blue\nD. orange",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1389.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1389",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. green\nC. purple\nD. red",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/322.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_322",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. orange\nC. purple\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/162.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_162",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. red\nC. green\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1864.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1864",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. yellow\nC. red\nD. orange",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/40.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_40",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. green\nC. yellow\nD. orange",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/944.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_944",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. blue\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1197.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1197",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. red\nC. purple\nD. yellow",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/512.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_512",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. orange\nC. red\nD. green",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1954.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1954",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. purple\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/497.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_497",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. green\nC. yellow\nD. purple",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1309.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1309",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. blue\nC. purple\nD. red",
+  "solution": "A",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1334.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1334",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. orange\nC. green\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/817.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_817",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. orange\nC. yellow\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1344.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1344",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. green\nD. red",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/878.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_878",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. blue\nC. green\nD. purple",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/281.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_281",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. blue\nC. red\nD. green",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/10.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_10",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. red\nC. blue\nD. yellow",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/569.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_569",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. red\nB. green\nC. purple\nD. blue",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1357.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1357",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. purple\nC. yellow\nD. red",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/612.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_612",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. blue\nB. green\nC. yellow\nD. purple",
+  "solution": "C",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/706.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_706",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. yellow\nC. orange\nD. green",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1923.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1923",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. blue\nC. red\nD. green",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1751.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1751",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. orange\nB. blue\nC. red\nD. green",
+  "solution": "B",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/254.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_254",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. purple\nB. orange\nC. red\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ },
+ {
+  "images": [
+   "_candidates/puzzlevqa/img/rectangle_height_color/1477.png"
+  ],
+  "doc_id": "puzzlevqa_pz_rectangle_height_color_1477",
+  "problem": "<image>\nWhat is the missing color of the part denoted with a question mark?\n\nOptions:\nA. yellow\nB. red\nC. purple\nD. blue",
+  "solution": "D",
+  "data_source": "puzzlevqa",
+  "dataset": "puzzlevqa",
+  "family": "pz_rectangle_height_color",
+  "split": "test"
+ }
+]

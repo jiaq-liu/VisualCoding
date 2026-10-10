@@ -1,0 +1,2567 @@
+diff --git a/analysis/run_error_analysis_llm.py b/analysis/run_error_analysis_llm.py
+index c3d4f9c..708b0db 100644
+--- a/analysis/run_error_analysis_llm.py
++++ b/analysis/run_error_analysis_llm.py
+@@ -1,39 +1,39 @@
+-#!/usr/bin/env python3
+-"""
+-LLM-only error analysis pipeline for failed spreadsheet agent runs.
+-
++#!/usr/bin/env python3
++"""
++LLM-only error analysis pipeline for failed spreadsheet agent runs.
++
+ Analyzes each failed agent log with a single LLM call — no ReAct agent,
+ no file-system access, no ground-truth comparison.
+-
+-  Map  : one LLM call per instance  (parallel via ThreadPoolExecutor)
+-  Write: per-instance Markdown report saved to --output_dir
+-
+-Usage:
+-    python analysis/run_error_analysis_llm.py \\
+-        --logs_dir agent_output/cli_only_logs \\
+-        --output_dir analysis/llm_error_analysis \\
+-        --model <model-name>
+-
+-    # Specific instances
+-    python analysis/run_error_analysis_llm.py \\
+-        --logs_dir agent_output/cli_only_logs \\
+-        --output_dir analysis/llm_error_analysis \\
+-        --model <model-name> --instance_ids 10452,10747
+-
+-    # Include all outcomes, not just FAILED
+-    python analysis/run_error_analysis_llm.py \\
+-        --logs_dir agent_output/cli_only_logs \\
+-        --output_dir analysis/llm_error_analysis \\
+-        --model <model-name> --all
+-
+-Environment variables:
+-    OPENAI_BASE_URL  - API endpoint (default: http://localhost:8000/v1)
+-    OPENAI_API_KEY   - API key (default: EMPTY for local vLLM)
+-    OPENAI_MODEL     - Model name (required if --model not given)
+-"""
+-
+-from __future__ import annotations
+-
++
++  Map  : one LLM call per instance  (parallel via ThreadPoolExecutor)
++  Write: per-instance Markdown report saved to --output_dir
++
++Usage:
++    python analysis/run_error_analysis_llm.py \\
++        --logs_dir agent_output/cli_only_logs \\
++        --output_dir analysis/llm_error_analysis \\
++        --model <model-name>
++
++    # Specific instances
++    python analysis/run_error_analysis_llm.py \\
++        --logs_dir agent_output/cli_only_logs \\
++        --output_dir analysis/llm_error_analysis \\
++        --model <model-name> --instance_ids 10452,10747
++
++    # Include all outcomes, not just FAILED
++    python analysis/run_error_analysis_llm.py \\
++        --logs_dir agent_output/cli_only_logs \\
++        --output_dir analysis/llm_error_analysis \\
++        --model <model-name> --all
++
++Environment variables:
++    OPENAI_BASE_URL  - API endpoint (default: http://localhost:8000/v1)
++    OPENAI_API_KEY   - API key (default: EMPTY for local vLLM)
++    OPENAI_MODEL     - Model name (required if --model not given)
++"""
++
++from __future__ import annotations
++
+ import argparse
+ import json
+ import os
+@@ -50,314 +50,325 @@ if str(ROOT_DIR) not in sys.path:
+     sys.path.insert(0, str(ROOT_DIR))
+ 
+ from analysis.report_parsing import collect_error_records
+-
+-SCRIPT_DIR = Path(__file__).resolve().parent
+-SYSTEM_PROMPT_PATH = SCRIPT_DIR / "error_analysis_system_llm.txt"
+-USER_PROMPT_PATH = SCRIPT_DIR / "error_analysis_user_llm.txt"
+-
+-
+-# ---------------------------------------------------------------------------
+-# Config helpers
+-# ---------------------------------------------------------------------------
+-
+-def parse_generation_config(value: str | None) -> dict:
+-    """Parse generation config from a JSON string or a path to a JSON file."""
+-    if not value:
+-        return {}
+-    if os.path.isfile(value):
+-        with open(value, "r", encoding="utf-8") as fh:
+-            parsed = json.load(fh)
+-    else:
+-        parsed = json.loads(value)
+-    if not isinstance(parsed, dict):
+-        raise ValueError("--generation_config must be a JSON object or path to one")
+-    return parsed
+-
+-
+-def build_generation_config(args) -> dict:
+-    cfg = parse_generation_config(args.generation_config)
+-    if args.seed is not None:
+-        cfg["seed"] = args.seed
+-    return cfg
+-
+-
+-# ---------------------------------------------------------------------------
+-# Log discovery
+-# ---------------------------------------------------------------------------
+-
+-def parse_log_filename(name: str) -> tuple[str, str] | None:
+-    """
+-    Extract (instance_id, outcome) from a log filename.
+-
+-    Expected pattern: <any_prefix><instance_id>_<SUCCEED|FAILED>.md
++
++SCRIPT_DIR = Path(__file__).resolve().parent
++SYSTEM_PROMPT_PATH = SCRIPT_DIR / "error_analysis_system_llm.txt"
++USER_PROMPT_PATH = SCRIPT_DIR / "error_analysis_user_llm.txt"
++
++
++# ---------------------------------------------------------------------------
++# Config helpers
++# ---------------------------------------------------------------------------
++
++def parse_generation_config(value: str | None) -> dict:
++    """Parse generation config from a JSON string or a path to a JSON file."""
++    if not value:
++        return {}
++    if os.path.isfile(value):
++        with open(value, "r", encoding="utf-8") as fh:
++            parsed = json.load(fh)
++    else:
++        parsed = json.loads(value)
++    if not isinstance(parsed, dict):
++        raise ValueError("--generation_config must be a JSON object or path to one")
++    return parsed
++
++
++def build_generation_config(args) -> dict:
++    cfg = parse_generation_config(args.generation_config)
++    if args.seed is not None:
++        cfg["seed"] = args.seed
++    return cfg
++
++
++# ---------------------------------------------------------------------------
++# Log discovery
++# ---------------------------------------------------------------------------
++
++def parse_log_filename(name: str) -> tuple[str, str] | None:
++    """
++    Extract (instance_id, outcome) from a log filename.
++
++    Expected pattern: <any_prefix><instance_id>_<SUCCEED|FAILED>.md
+     The instance_id is the last underscore-separated component before the outcome tag.
+     Examples:
+         cli_only_agent_10747_FAILED.md  -> ("10747", "FAILED")
+         cli_skill_preloaded_agent_105-24_SUCCEED.md -> ("105-24", "SUCCEED")
+-    """
+-    if not name.endswith(".md"):
+-        return None
+-    stem = name[: -len(".md")]
+-    match = re.match(r"^(.+)_(SUCCEED|FAILED)$", stem)
+-    if not match:
+-        return None
+-    # instance_id is the last _-separated part of the prefix
+-    parts = match.group(1).split("_")
+-    return parts[-1], match.group(2)
+-
+-
+-def find_logs(
+-    logs_dir: str,
+-    failed_only: bool = True,
+-) -> dict[str, str]:
+-    """
+-    Return a mapping of instance_id -> log_path for logs in logs_dir.
+-
+-    When failed_only=True (default), only FAILED logs are included.
+-    """
+-    result = {}
+-    for name in sorted(os.listdir(logs_dir)):
+-        parsed = parse_log_filename(name)
+-        if parsed is None:
+-            continue
+-        instance_id, outcome = parsed
+-        if failed_only and outcome != "FAILED":
+-            continue
+-        result[instance_id] = os.path.join(logs_dir, name)
+-    return result
+-
+-
+-def find_logs_repeat(
+-    logs_dir: str,
+-    failed_only: bool = True,
+-) -> dict[str, str]:
+-    """
+-    Return a mapping of composite_id -> log_path for all seed_* subdirectories.
+-
+-    composite_id = "{instance_id}_{seed_name}" (e.g. "10747_seed_42").
+-    When failed_only=True (default), only FAILED logs are included.
+-    """
+-    result = {}
+-    for entry in sorted(os.scandir(logs_dir)):
+-        if not (entry.is_dir() and entry.name.startswith("seed_")):
+-            continue
+-        seed_name = entry.name
+-        for name in sorted(os.listdir(entry.path)):
+-            parsed = parse_log_filename(name)
+-            if parsed is None:
+-                continue
+-            instance_id, outcome = parsed
+-            if failed_only and outcome != "FAILED":
+-                continue
+-            composite_id = f"{instance_id}_{seed_name}"
+-            result[composite_id] = os.path.join(entry.path, name)
+-    return result
+-
+-
+-# ---------------------------------------------------------------------------
+-# Log preprocessing
+-# ---------------------------------------------------------------------------
+-
+-def strip_log_metadata(text: str) -> str:
+-    """Remove markdown logger header/trailer sections from the agent log."""
+-    # Strip header: "# Chat History ...\n\n**Timestamp**: ...\n\n---\n\n"
+-    text = re.sub(
+-        r"\A# Chat History[^\n]*\n\n\*\*Timestamp\*\*:[^\n]*\n\n---\n\n",
+-        "",
+-        text,
+-        flags=re.DOTALL,
+-    )
+-    # Strip trailing RESULT section
+-    text = re.sub(r"\n---\n\n## RESULT\n.*\Z", "", text, flags=re.DOTALL)
+-    return text.strip()
+-
+-
+-def write_prompt_log(
+-    log_path: Path,
+-    input_messages: list[dict[str, str]],
+-    output_message: str,
+-) -> None:
+-    sections = ["# Input", ""]
+-    for message in input_messages:
+-        sections.extend([f"## {message['role'].title()}", message["content"], ""])
+-    sections.extend(["# Output", "", output_message, ""])
+-    log_path.write_text("\n".join(sections), encoding="utf-8")
+-
+-
+-# ---------------------------------------------------------------------------
+-# Single-instance analysis
+-# ---------------------------------------------------------------------------
+-
+-def analyze_instance(
+-    client: OpenAI,
+-    model: str,
+-    system_prompt: str,
+-    user_template: str,
+-    log_path: str,
+-    generation_config: dict | None = None,
+-) -> tuple[list[dict[str, str]], str]:
+-    """Make a single LLM call to analyze one failed agent log."""
+-    raw_log = Path(log_path).read_text(encoding="utf-8", errors="replace")
+-    agent_log = strip_log_metadata(raw_log)
+-
+-    user_message = user_template.replace("{agent_log}", agent_log)
+-    input_messages = [
+-        {"role": "system", "content": system_prompt},
+-        {"role": "user", "content": user_message},
+-    ]
+-
+-    request_kwargs = dict(generation_config or {})
+-    request_kwargs.pop("model", None)
+-    request_kwargs.pop("messages", None)
+-
+-    response = client.chat.completions.create(
+-        model=model,
+-        messages=input_messages,
+-        **request_kwargs,
+-    )
+-    return input_messages, response.choices[0].message.content
+-
+-
+-# ---------------------------------------------------------------------------
+-# Main
+-# ---------------------------------------------------------------------------
+-
+-def main():
+-    parser = argparse.ArgumentParser(
+-        description="LLM-only error analysis for failed spreadsheet agent runs."
+-    )
+-    parser.add_argument(
+-        "--logs_dir",
+-        required=True,
+-        help="Directory containing agent trajectory log files",
+-    )
+-    parser.add_argument(
+-        "--output_dir",
+-        required=True,
+-        help="Directory to save per-instance analysis reports",
+-    )
+-    parser.add_argument(
+-        "--model",
+-        default=None,
+-        help="LLM model name (default: OPENAI_MODEL env var)",
+-    )
+-    parser.add_argument(
+-        "--base_url",
+-        default=None,
+-        help="OpenAI-compatible API base URL (default: OPENAI_BASE_URL env var or http://localhost:8000/v1)",
+-    )
+-    parser.add_argument(
+-        "--api_key",
+-        default=None,
+-        help="API key (default: OPENAI_API_KEY env var or EMPTY)",
+-    )
+-    parser.add_argument(
+-        "--generation_config",
+-        default=None,
+-        help="Generation config as a JSON string or path to a JSON file",
+-    )
+-    parser.add_argument(
+-        "--seed",
+-        type=int,
+-        default=None,
+-        help="Seed merged into generation config",
+-    )
+-    parser.add_argument(
+-        "--instance_ids",
+-        default=None,
+-        help="Comma-separated instance IDs to analyze (default: all discovered)",
+-    )
+-    parser.add_argument(
+-        "--sample",
+-        type=int,
+-        default=None,
+-        help="Only analyze the first N instances",
+-    )
+-    parser.add_argument(
+-        "--all",
+-        dest="all_outcomes",
+-        action="store_true",
+-        help="Include all log outcomes, not just FAILED (default: FAILED only)",
+-    )
+-    parser.add_argument(
+-        "--max_workers",
+-        type=int,
+-        default=None,
+-        help="Max parallel LLM calls (default: min(32, cpu_count * 4))",
+-    )
+-    parser.add_argument(
+-        "--repeat",
+-        type=int,
+-        default=1,
+-        help="Number of seed runs. When > 1, discovers logs from seed_*/ subdirectories "
+-             "under --logs_dir and uses composite IDs like {id}_seed_{seed} (default: 1).",
+-    )
+-
+-    args = parser.parse_args()
+-    generation_config = build_generation_config(args)
+-
+-    # Resolve model
+-    model = args.model or os.getenv("OPENAI_MODEL")
+-    if not model:
+-        print("Error: model must be specified via --model or OPENAI_MODEL env var", file=sys.stderr)
+-        sys.exit(1)
+-
+-    base_url = args.base_url or os.getenv("OPENAI_BASE_URL", "http://localhost:8000/v1")
+-    api_key = args.api_key or os.getenv("OPENAI_API_KEY", "EMPTY")
+-    client = OpenAI(api_key=api_key, base_url=base_url)
+-
+-    system_prompt = SYSTEM_PROMPT_PATH.read_text(encoding="utf-8")
+-    user_template = USER_PROMPT_PATH.read_text(encoding="utf-8")
+-
+-    # Discover logs
+-    if args.repeat > 1:
+-        all_logs = find_logs_repeat(
+-            args.logs_dir,
+-            failed_only=not args.all_outcomes,
+-        )
+-    else:
+-        all_logs = find_logs(
+-            args.logs_dir,
+-            failed_only=not args.all_outcomes,
+-        )
+-
+-    # Apply --instance_ids filter
+-    if args.instance_ids:
+-        requested = {s.strip() for s in args.instance_ids.split(",")}
+-        missing = requested - set(all_logs)
+-        if missing:
+-            print(f"Warning: instance IDs not found: {sorted(missing)}", file=sys.stderr)
+-        all_logs = {iid: path for iid, path in all_logs.items() if iid in requested}
+-
+-    if not all_logs:
+-        print("No log files found to analyze.", file=sys.stderr)
+-        sys.exit(1)
+-
+-    # Apply --sample
+-    if args.sample is not None:
+-        all_logs = dict(list(all_logs.items())[: args.sample])
+-
+-    os.makedirs(args.output_dir, exist_ok=True)
+-
+-    # Separate already-done from pending
+-    tasks = []
+-    skipped = 0
+-    for iid, log_path in all_logs.items():
+-        out_path = os.path.join(args.output_dir, f"error_analysis_{iid}.md")
+-        if os.path.isfile(out_path):
+-            skipped += 1
+-        else:
+-            tasks.append((iid, log_path, out_path))
+-
+-    print(f"Logs discovered:  {len(all_logs)}")
+-    print(f"Model:            {model}")
+-    print(f"Endpoint:         {base_url}")
+-    print(f"Output dir:       {args.output_dir}")
+-    if skipped:
+-        print(f"Skipped (exists): {skipped}")
+-    print(f"To analyze:       {len(tasks)}")
+-    print("-" * 60)
+-
++    """
++    if not name.endswith(".md"):
++        return None
++    stem = name[: -len(".md")]
++    match = re.match(r"^(.+)_(SUCCEED|FAILED)$", stem)
++    if not match:
++        return None
++    # instance_id is the last _-separated part of the prefix
++    parts = match.group(1).split("_")
++    return parts[-1], match.group(2)
++
++
++def find_logs(
++    logs_dir: str,
++    failed_only: bool = True,
++) -> dict[str, str]:
++    """
++    Return a mapping of instance_id -> log_path for logs in logs_dir.
++
++    When failed_only=True (default), only FAILED logs are included.
++    """
++    result = {}
++    for name in sorted(os.listdir(logs_dir)):
++        parsed = parse_log_filename(name)
++        if parsed is None:
++            continue
++        instance_id, outcome = parsed
++        if failed_only and outcome != "FAILED":
++            continue
++        result[instance_id] = os.path.join(logs_dir, name)
++    return result
++
++
++def find_logs_repeat(
++    logs_dir: str,
++    failed_only: bool = True,
++) -> dict[str, str]:
++    """
++    Return a mapping of composite_id -> log_path for all seed_* subdirectories.
++
++    composite_id = "{instance_id}_{seed_name}" (e.g. "10747_seed_42").
++    When failed_only=True (default), only FAILED logs are included.
++    """
++    result = {}
++    for entry in sorted(os.scandir(logs_dir)):
++        if not (entry.is_dir() and entry.name.startswith("seed_")):
++            continue
++        seed_name = entry.name
++        for name in sorted(os.listdir(entry.path)):
++            parsed = parse_log_filename(name)
++            if parsed is None:
++                continue
++            instance_id, outcome = parsed
++            if failed_only and outcome != "FAILED":
++                continue
++            composite_id = f"{instance_id}_{seed_name}"
++            result[composite_id] = os.path.join(entry.path, name)
++    return result
++
++
++# ---------------------------------------------------------------------------
++# Log preprocessing
++# ---------------------------------------------------------------------------
++
++def strip_log_metadata(text: str) -> str:
++    """Remove markdown logger header/trailer sections from the agent log."""
++    # Strip header: "# Chat History ...\n\n**Timestamp**: ...\n\n---\n\n"
++    text = re.sub(
++        r"\A# Chat History[^\n]*\n\n\*\*Timestamp\*\*:[^\n]*\n\n---\n\n",
++        "",
++        text,
++        flags=re.DOTALL,
++    )
++    # Strip trailing RESULT section
++    text = re.sub(r"\n---\n\n## RESULT\n.*\Z", "", text, flags=re.DOTALL)
++    return text.strip()
++
++
++def write_prompt_log(
++    log_path: Path,
++    input_messages: list[dict[str, str]],
++    output_message: str,
++) -> None:
++    sections = ["# Input", ""]
++    for message in input_messages:
++        sections.extend([f"## {message['role'].title()}", message["content"], ""])
++    sections.extend(["# Output", "", output_message, ""])
++    log_path.write_text("\n".join(sections), encoding="utf-8")
++
++
++# ---------------------------------------------------------------------------
++# Single-instance analysis
++# ---------------------------------------------------------------------------
++
++def analyze_instance(
++    client: OpenAI,
++    model: str,
++    system_prompt: str,
++    user_template: str,
++    log_path: str,
++    generation_config: dict | None = None,
++) -> tuple[list[dict[str, str]], str]:
++    """Make a single LLM call to analyze one failed agent log."""
++    raw_log = Path(log_path).read_text(encoding="utf-8", errors="replace")
++    agent_log = strip_log_metadata(raw_log)
++
++    user_message = user_template.replace("{agent_log}", agent_log)
++    input_messages = [
++        {"role": "system", "content": system_prompt},
++        {"role": "user", "content": user_message},
++    ]
++
++    request_kwargs = dict(generation_config or {})
++    request_kwargs.pop("model", None)
++    request_kwargs.pop("messages", None)
++
++    response = client.chat.completions.create(
++        model=model,
++        messages=input_messages,
++        **request_kwargs,
++    )
++    return input_messages, response.choices[0].message.content
++
++
++# ---------------------------------------------------------------------------
++# Main
++# ---------------------------------------------------------------------------
++
++def main():
++    parser = argparse.ArgumentParser(
++        description="LLM-only error analysis for failed spreadsheet agent runs."
++    )
++    parser.add_argument(
++        "--logs_dir",
++        required=True,
++        help="Directory containing agent trajectory log files",
++    )
++    parser.add_argument(
++        "--output_dir",
++        required=True,
++        help="Directory to save per-instance analysis reports",
++    )
++    parser.add_argument(
++        "--model",
++        default=None,
++        help="LLM model name (default: OPENAI_MODEL env var)",
++    )
++    parser.add_argument(
++        "--base_url",
++        default=None,
++        help="OpenAI-compatible API base URL (default: OPENAI_BASE_URL env var or http://localhost:8000/v1)",
++    )
++    parser.add_argument(
++        "--api_key",
++        default=None,
++        help="API key (default: OPENAI_API_KEY env var or EMPTY)",
++    )
++    parser.add_argument(
++        "--llm_client",
++        default="openai",
++        choices=["openai", "gemini"],
++        help="LLM backend: openai-compatible endpoint, or gemini through google-genai",
++    )
++    parser.add_argument(
++        "--generation_config",
++        default=None,
++        help="Generation config as a JSON string or path to a JSON file",
++    )
++    parser.add_argument(
++        "--seed",
++        type=int,
++        default=None,
++        help="Seed merged into generation config",
++    )
++    parser.add_argument(
++        "--instance_ids",
++        default=None,
++        help="Comma-separated instance IDs to analyze (default: all discovered)",
++    )
++    parser.add_argument(
++        "--sample",
++        type=int,
++        default=None,
++        help="Only analyze the first N instances",
++    )
++    parser.add_argument(
++        "--all",
++        dest="all_outcomes",
++        action="store_true",
++        help="Include all log outcomes, not just FAILED (default: FAILED only)",
++    )
++    parser.add_argument(
++        "--max_workers",
++        type=int,
++        default=None,
++        help="Max parallel LLM calls (default: min(32, cpu_count * 4))",
++    )
++    parser.add_argument(
++        "--repeat",
++        type=int,
++        default=1,
++        help="Number of seed runs. When > 1, discovers logs from seed_*/ subdirectories "
++             "under --logs_dir and uses composite IDs like {id}_seed_{seed} (default: 1).",
++    )
++
++    args = parser.parse_args()
++    generation_config = build_generation_config(args)
++
++    # Resolve model
++    model = args.model or os.getenv("OPENAI_MODEL")
++    if not model:
++        print("Error: model must be specified via --model or OPENAI_MODEL env var", file=sys.stderr)
++        sys.exit(1)
++
++    base_url = args.base_url or os.getenv("OPENAI_BASE_URL", "http://localhost:8000/v1")
++    api_key = args.api_key or os.getenv("OPENAI_API_KEY", "EMPTY")
++    if getattr(args, "llm_client", "openai") == "gemini":
++        # google-genai path: same call shape, no OpenAI-compatible endpoint in the middle.
++        from src.react_agent.gemini_client import GeminiOpenAIShim
++        client = GeminiOpenAIShim(model=args.model, api_key=(None if api_key == "EMPTY" else api_key))
++    else:
++        client = OpenAI(api_key=api_key, base_url=base_url)
++
++    system_prompt = SYSTEM_PROMPT_PATH.read_text(encoding="utf-8")
++    user_template = USER_PROMPT_PATH.read_text(encoding="utf-8")
++
++    # Discover logs
++    if args.repeat > 1:
++        all_logs = find_logs_repeat(
++            args.logs_dir,
++            failed_only=not args.all_outcomes,
++        )
++    else:
++        all_logs = find_logs(
++            args.logs_dir,
++            failed_only=not args.all_outcomes,
++        )
++
++    # Apply --instance_ids filter
++    if args.instance_ids:
++        requested = {s.strip() for s in args.instance_ids.split(",")}
++        missing = requested - set(all_logs)
++        if missing:
++            print(f"Warning: instance IDs not found: {sorted(missing)}", file=sys.stderr)
++        all_logs = {iid: path for iid, path in all_logs.items() if iid in requested}
++
++    if not all_logs:
++        print("No log files found to analyze.", file=sys.stderr)
++        sys.exit(1)
++
++    # Apply --sample
++    if args.sample is not None:
++        all_logs = dict(list(all_logs.items())[: args.sample])
++
++    os.makedirs(args.output_dir, exist_ok=True)
++
++    # Separate already-done from pending
++    tasks = []
++    skipped = 0
++    for iid, log_path in all_logs.items():
++        out_path = os.path.join(args.output_dir, f"error_analysis_{iid}.md")
++        if os.path.isfile(out_path):
++            skipped += 1
++        else:
++            tasks.append((iid, log_path, out_path))
++
++    print(f"Logs discovered:  {len(all_logs)}")
++    print(f"Model:            {model}")
++    print(f"Endpoint:         {base_url}")
++    print(f"Output dir:       {args.output_dir}")
++    if skipped:
++        print(f"Skipped (exists): {skipped}")
++    print(f"To analyze:       {len(tasks)}")
++    print("-" * 60)
++
+     if not tasks:
+         print("Nothing to do.")
+         parsed_records, _, _ = collect_error_records(args.output_dir)
+@@ -365,31 +376,31 @@ def main():
+         parsed_output.write_text(json.dumps(parsed_records, indent=2), encoding="utf-8")
+         print(f"Parsed records:   {len(parsed_records)} -> {parsed_output}")
+         return
+-
+-    max_workers = args.max_workers or min(32, (os.cpu_count() or 1) * 4)
+-
+-    def run_one(iid: str, log_path: str, out_path: str) -> str:
+-        prompt_path = Path(args.output_dir) / f"error_analysis_{iid}_prompt.md"
+-        input_messages, report = analyze_instance(
+-            client, model, system_prompt, user_template, log_path, generation_config
+-        )
+-        Path(out_path).write_text(report, encoding="utf-8")
+-        write_prompt_log(prompt_path, input_messages, report)
+-        return out_path
+-
++
++    max_workers = args.max_workers or min(32, (os.cpu_count() or 1) * 4)
++
++    def run_one(iid: str, log_path: str, out_path: str) -> str:
++        prompt_path = Path(args.output_dir) / f"error_analysis_{iid}_prompt.md"
++        input_messages, report = analyze_instance(
++            client, model, system_prompt, user_template, log_path, generation_config
++        )
++        Path(out_path).write_text(report, encoding="utf-8")
++        write_prompt_log(prompt_path, input_messages, report)
++        return out_path
++
+     with ThreadPoolExecutor(max_workers=max_workers) as executor:
+         futures = {
+             executor.submit(run_one, iid, log_path, out_path): iid
+             for iid, log_path, out_path in tasks
+         }
+-        with tqdm(total=len(futures), unit="instance", desc="Analyzing") as pbar:
+-            for future in as_completed(futures):
+-                iid = futures[future]
+-                try:
+-                    out_path = future.result()
+-                    tqdm.write(f"{iid}: done -> {out_path}")
+-                except Exception as exc:
+-                    tqdm.write(f"{iid}: ERROR: {exc}")
++        with tqdm(total=len(futures), unit="instance", desc="Analyzing") as pbar:
++            for future in as_completed(futures):
++                iid = futures[future]
++                try:
++                    out_path = future.result()
++                    tqdm.write(f"{iid}: done -> {out_path}")
++                except Exception as exc:
++                    tqdm.write(f"{iid}: ERROR: {exc}")
+                 finally:
+                     pbar.update(1)
+ 
+diff --git a/analysis/run_success_analysis_llm.py b/analysis/run_success_analysis_llm.py
+index 71bce2d..b3e460c 100644
+--- a/analysis/run_success_analysis_llm.py
++++ b/analysis/run_success_analysis_llm.py
+@@ -1,42 +1,42 @@
+-#!/usr/bin/env python3
+-"""
+-LLM-only success analysis pipeline for successful spreadsheet agent runs.
+-
+-For each SUCCEED trajectory, makes a single LLM call that:
+-  1. Distills the lean solution path (failed attempts removed)
+-  2. Extracts generalizable Success Memory Items
+-
+-Follows the same MapReduce structure as run_error_analysis_llm.py:
+-
+-  Map  : one LLM call per instance  (parallel via ThreadPoolExecutor)
+-  Write: per-instance Markdown report saved to --output_dir
+-
+-Usage:
+-    python analysis/run_success_analysis_llm.py \\
+-        --logs_dir agent_output/cli_only_logs \\
+-        --output_dir analysis/llm_success_analysis \\
+-        --model <model-name>
+-
+-    # Specific instances
+-    python analysis/run_success_analysis_llm.py \\
+-        --logs_dir agent_output/cli_only_logs \\
+-        --output_dir analysis/llm_success_analysis \\
+-        --model <model-name> --instance_ids 10452,10747
+-
+-    # Include all outcomes, not just SUCCEED
+-    python analysis/run_success_analysis_llm.py \\
+-        --logs_dir agent_output/cli_only_logs \\
+-        --output_dir analysis/llm_success_analysis \\
+-        --model <model-name> --all
+-
+-Environment variables:
+-    OPENAI_BASE_URL  - API endpoint (default: http://localhost:8000/v1)
+-    OPENAI_API_KEY   - API key (default: EMPTY for local vLLM)
+-    OPENAI_MODEL     - Model name (required if --model not given)
+-"""
+-
+-from __future__ import annotations
+-
++#!/usr/bin/env python3
++"""
++LLM-only success analysis pipeline for successful spreadsheet agent runs.
++
++For each SUCCEED trajectory, makes a single LLM call that:
++  1. Distills the lean solution path (failed attempts removed)
++  2. Extracts generalizable Success Memory Items
++
++Follows the same MapReduce structure as run_error_analysis_llm.py:
++
++  Map  : one LLM call per instance  (parallel via ThreadPoolExecutor)
++  Write: per-instance Markdown report saved to --output_dir
++
++Usage:
++    python analysis/run_success_analysis_llm.py \\
++        --logs_dir agent_output/cli_only_logs \\
++        --output_dir analysis/llm_success_analysis \\
++        --model <model-name>
++
++    # Specific instances
++    python analysis/run_success_analysis_llm.py \\
++        --logs_dir agent_output/cli_only_logs \\
++        --output_dir analysis/llm_success_analysis \\
++        --model <model-name> --instance_ids 10452,10747
++
++    # Include all outcomes, not just SUCCEED
++    python analysis/run_success_analysis_llm.py \\
++        --logs_dir agent_output/cli_only_logs \\
++        --output_dir analysis/llm_success_analysis \\
++        --model <model-name> --all
++
++Environment variables:
++    OPENAI_BASE_URL  - API endpoint (default: http://localhost:8000/v1)
++    OPENAI_API_KEY   - API key (default: EMPTY for local vLLM)
++    OPENAI_MODEL     - Model name (required if --model not given)
++"""
++
++from __future__ import annotations
++
+ import argparse
+ import json
+ import os
+@@ -53,313 +53,324 @@ if str(ROOT_DIR) not in sys.path:
+     sys.path.insert(0, str(ROOT_DIR))
+ 
+ from analysis.report_parsing import collect_success_records
+-
+-SCRIPT_DIR = Path(__file__).resolve().parent
+-SYSTEM_PROMPT_PATH = SCRIPT_DIR / "success_analysis_system_llm.txt"
+-USER_PROMPT_PATH = SCRIPT_DIR / "success_analysis_user_llm.txt"
+-
+-
+-# ---------------------------------------------------------------------------
+-# Config helpers
+-# ---------------------------------------------------------------------------
+-
+-def parse_generation_config(value: str | None) -> dict:
+-    """Parse generation config from a JSON string or a path to a JSON file."""
+-    if not value:
+-        return {}
+-    if os.path.isfile(value):
+-        with open(value, "r", encoding="utf-8") as fh:
+-            parsed = json.load(fh)
+-    else:
+-        parsed = json.loads(value)
+-    if not isinstance(parsed, dict):
+-        raise ValueError("--generation_config must be a JSON object or path to one")
+-    return parsed
+-
+-
+-def build_generation_config(args) -> dict:
+-    cfg = parse_generation_config(args.generation_config)
+-    if args.seed is not None:
+-        cfg["seed"] = args.seed
+-    return cfg
+-
+-
+-# ---------------------------------------------------------------------------
+-# Log discovery
+-# ---------------------------------------------------------------------------
+-
+-def parse_log_filename(name: str) -> tuple[str, str] | None:
+-    """
+-    Extract (instance_id, outcome) from a log filename.
+-
+-    Expected pattern: <any_prefix><instance_id>_<SUCCEED|FAILED>.md
++
++SCRIPT_DIR = Path(__file__).resolve().parent
++SYSTEM_PROMPT_PATH = SCRIPT_DIR / "success_analysis_system_llm.txt"
++USER_PROMPT_PATH = SCRIPT_DIR / "success_analysis_user_llm.txt"
++
++
++# ---------------------------------------------------------------------------
++# Config helpers
++# ---------------------------------------------------------------------------
++
++def parse_generation_config(value: str | None) -> dict:
++    """Parse generation config from a JSON string or a path to a JSON file."""
++    if not value:
++        return {}
++    if os.path.isfile(value):
++        with open(value, "r", encoding="utf-8") as fh:
++            parsed = json.load(fh)
++    else:
++        parsed = json.loads(value)
++    if not isinstance(parsed, dict):
++        raise ValueError("--generation_config must be a JSON object or path to one")
++    return parsed
++
++
++def build_generation_config(args) -> dict:
++    cfg = parse_generation_config(args.generation_config)
++    if args.seed is not None:
++        cfg["seed"] = args.seed
++    return cfg
++
++
++# ---------------------------------------------------------------------------
++# Log discovery
++# ---------------------------------------------------------------------------
++
++def parse_log_filename(name: str) -> tuple[str, str] | None:
++    """
++    Extract (instance_id, outcome) from a log filename.
++
++    Expected pattern: <any_prefix><instance_id>_<SUCCEED|FAILED>.md
+     The instance_id is the last underscore-separated component before the outcome tag.
+     Examples:
+         cli_only_agent_10747_SUCCEED.md  -> ("10747", "SUCCEED")
+         cli_skill_preloaded_agent_105-24_FAILED.md -> ("105-24", "FAILED")
+-    """
+-    if not name.endswith(".md"):
+-        return None
+-    stem = name[: -len(".md")]
+-    match = re.match(r"^(.+)_(SUCCEED|FAILED)$", stem)
+-    if not match:
+-        return None
+-    parts = match.group(1).split("_")
+-    return parts[-1], match.group(2)
+-
+-
+-def find_logs(
+-    logs_dir: str,
+-    succeed_only: bool = True,
+-) -> dict[str, str]:
+-    """
+-    Return a mapping of instance_id -> log_path for logs in logs_dir.
+-
+-    When succeed_only=True (default), only SUCCEED logs are included.
+-    """
+-    result = {}
+-    for name in sorted(os.listdir(logs_dir)):
+-        parsed = parse_log_filename(name)
+-        if parsed is None:
+-            continue
+-        instance_id, outcome = parsed
+-        if succeed_only and outcome != "SUCCEED":
+-            continue
+-        result[instance_id] = os.path.join(logs_dir, name)
+-    return result
+-
+-
+-def find_logs_repeat(
+-    logs_dir: str,
+-    succeed_only: bool = True,
+-) -> dict[str, str]:
+-    """
+-    Return a mapping of composite_id -> log_path for all seed_* subdirectories.
+-
+-    composite_id = "{instance_id}_{seed_name}" (e.g. "10452_seed_42").
+-    When succeed_only=True (default), only SUCCEED logs are included.
+-    """
+-    result = {}
+-    for entry in sorted(os.scandir(logs_dir)):
+-        if not (entry.is_dir() and entry.name.startswith("seed_")):
+-            continue
+-        seed_name = entry.name
+-        for name in sorted(os.listdir(entry.path)):
+-            parsed = parse_log_filename(name)
+-            if parsed is None:
+-                continue
+-            instance_id, outcome = parsed
+-            if succeed_only and outcome != "SUCCEED":
+-                continue
+-            composite_id = f"{instance_id}_{seed_name}"
+-            result[composite_id] = os.path.join(entry.path, name)
+-    return result
+-
+-
+-# ---------------------------------------------------------------------------
+-# Log preprocessing
+-# ---------------------------------------------------------------------------
+-
+-def strip_log_metadata(text: str) -> str:
+-    """Remove markdown logger header/trailer sections from the agent log."""
+-    # Strip header: "# Chat History ...\n\n**Timestamp**: ...\n\n---\n\n"
+-    text = re.sub(
+-        r"\A# Chat History[^\n]*\n\n\*\*Timestamp\*\*:[^\n]*\n\n---\n\n",
+-        "",
+-        text,
+-        flags=re.DOTALL,
+-    )
+-    # Strip trailing RESULT section
+-    text = re.sub(r"\n---\n\n## RESULT\n.*\Z", "", text, flags=re.DOTALL)
+-    return text.strip()
+-
+-
+-def write_prompt_log(
+-    log_path: Path,
+-    input_messages: list[dict[str, str]],
+-    output_message: str,
+-) -> None:
+-    sections = ["# Input", ""]
+-    for message in input_messages:
+-        sections.extend([f"## {message['role'].title()}", message["content"], ""])
+-    sections.extend(["# Output", "", output_message, ""])
+-    log_path.write_text("\n".join(sections), encoding="utf-8")
+-
+-
+-# ---------------------------------------------------------------------------
+-# Single-instance analysis
+-# ---------------------------------------------------------------------------
+-
+-def analyze_instance(
+-    client: OpenAI,
+-    model: str,
+-    system_prompt: str,
+-    user_template: str,
+-    log_path: str,
+-    generation_config: dict | None = None,
+-) -> tuple[list[dict[str, str]], str]:
+-    """Make a single LLM call to analyze one successful agent log."""
+-    raw_log = Path(log_path).read_text(encoding="utf-8", errors="replace")
+-    agent_log = strip_log_metadata(raw_log)
+-
+-    user_message = user_template.replace("{agent_log}", agent_log)
+-    input_messages = [
+-        {"role": "system", "content": system_prompt},
+-        {"role": "user", "content": user_message},
+-    ]
+-
+-    request_kwargs = dict(generation_config or {})
+-    request_kwargs.pop("model", None)
+-    request_kwargs.pop("messages", None)
+-
+-    response = client.chat.completions.create(
+-        model=model,
+-        messages=input_messages,
+-        **request_kwargs,
+-    )
+-    return input_messages, response.choices[0].message.content
+-
+-
+-# ---------------------------------------------------------------------------
+-# Main
+-# ---------------------------------------------------------------------------
+-
+-def main():
+-    parser = argparse.ArgumentParser(
+-        description="LLM-only success analysis for successful spreadsheet agent runs."
+-    )
+-    parser.add_argument(
+-        "--logs_dir",
+-        required=True,
+-        help="Directory containing agent trajectory log files",
+-    )
+-    parser.add_argument(
+-        "--output_dir",
+-        required=True,
+-        help="Directory to save per-instance analysis reports",
+-    )
+-    parser.add_argument(
+-        "--model",
+-        default=None,
+-        help="LLM model name (default: OPENAI_MODEL env var)",
+-    )
+-    parser.add_argument(
+-        "--base_url",
+-        default=None,
+-        help="OpenAI-compatible API base URL (default: OPENAI_BASE_URL env var or http://localhost:8000/v1)",
+-    )
+-    parser.add_argument(
+-        "--api_key",
+-        default=None,
+-        help="API key (default: OPENAI_API_KEY env var or EMPTY)",
+-    )
+-    parser.add_argument(
+-        "--generation_config",
+-        default=None,
+-        help="Generation config as a JSON string or path to a JSON file",
+-    )
+-    parser.add_argument(
+-        "--seed",
+-        type=int,
+-        default=None,
+-        help="Seed merged into generation config",
+-    )
+-    parser.add_argument(
+-        "--instance_ids",
+-        default=None,
+-        help="Comma-separated instance IDs to analyze (default: all discovered)",
+-    )
+-    parser.add_argument(
+-        "--sample",
+-        type=int,
+-        default=None,
+-        help="Only analyze the first N instances",
+-    )
+-    parser.add_argument(
+-        "--all",
+-        dest="all_outcomes",
+-        action="store_true",
+-        help="Include all log outcomes, not just SUCCEED (default: SUCCEED only)",
+-    )
+-    parser.add_argument(
+-        "--max_workers",
+-        type=int,
+-        default=None,
+-        help="Max parallel LLM calls (default: min(32, cpu_count * 4))",
+-    )
+-    parser.add_argument(
+-        "--repeat",
+-        type=int,
+-        default=1,
+-        help="Number of seed runs. When > 1, discovers logs from seed_*/ subdirectories "
+-             "under --logs_dir and uses composite IDs like {id}_seed_{seed} (default: 1).",
+-    )
+-
+-    args = parser.parse_args()
+-    generation_config = build_generation_config(args)
+-
+-    # Resolve model
+-    model = args.model or os.getenv("OPENAI_MODEL")
+-    if not model:
+-        print("Error: model must be specified via --model or OPENAI_MODEL env var", file=sys.stderr)
+-        sys.exit(1)
+-
+-    base_url = args.base_url or os.getenv("OPENAI_BASE_URL", "http://localhost:8000/v1")
+-    api_key = args.api_key or os.getenv("OPENAI_API_KEY", "EMPTY")
+-    client = OpenAI(api_key=api_key, base_url=base_url)
+-
+-    system_prompt = SYSTEM_PROMPT_PATH.read_text(encoding="utf-8")
+-    user_template = USER_PROMPT_PATH.read_text(encoding="utf-8")
+-
+-    # Discover logs
+-    if args.repeat > 1:
+-        all_logs = find_logs_repeat(
+-            args.logs_dir,
+-            succeed_only=not args.all_outcomes,
+-        )
+-    else:
+-        all_logs = find_logs(
+-            args.logs_dir,
+-            succeed_only=not args.all_outcomes,
+-        )
+-
+-    # Apply --instance_ids filter
+-    if args.instance_ids:
+-        requested = {s.strip() for s in args.instance_ids.split(",")}
+-        missing = requested - set(all_logs)
+-        if missing:
+-            print(f"Warning: instance IDs not found: {sorted(missing)}", file=sys.stderr)
+-        all_logs = {iid: path for iid, path in all_logs.items() if iid in requested}
+-
+-    if not all_logs:
+-        print("No log files found to analyze.", file=sys.stderr)
+-        sys.exit(1)
+-
+-    # Apply --sample
+-    if args.sample is not None:
+-        all_logs = dict(list(all_logs.items())[: args.sample])
+-
+-    os.makedirs(args.output_dir, exist_ok=True)
+-
+-    # Separate already-done from pending
+-    tasks = []
+-    skipped = 0
+-    for iid, log_path in all_logs.items():
+-        out_path = os.path.join(args.output_dir, f"success_analysis_{iid}.md")
+-        if os.path.isfile(out_path):
+-            skipped += 1
+-        else:
+-            tasks.append((iid, log_path, out_path))
+-
+-    print(f"Logs discovered:  {len(all_logs)}")
+-    print(f"Model:            {model}")
+-    print(f"Endpoint:         {base_url}")
+-    print(f"Output dir:       {args.output_dir}")
+-    if skipped:
+-        print(f"Skipped (exists): {skipped}")
+-    print(f"To analyze:       {len(tasks)}")
+-    print("-" * 60)
+-
++    """
++    if not name.endswith(".md"):
++        return None
++    stem = name[: -len(".md")]
++    match = re.match(r"^(.+)_(SUCCEED|FAILED)$", stem)
++    if not match:
++        return None
++    parts = match.group(1).split("_")
++    return parts[-1], match.group(2)
++
++
++def find_logs(
++    logs_dir: str,
++    succeed_only: bool = True,
++) -> dict[str, str]:
++    """
++    Return a mapping of instance_id -> log_path for logs in logs_dir.
++
++    When succeed_only=True (default), only SUCCEED logs are included.
++    """
++    result = {}
++    for name in sorted(os.listdir(logs_dir)):
++        parsed = parse_log_filename(name)
++        if parsed is None:
++            continue
++        instance_id, outcome = parsed
++        if succeed_only and outcome != "SUCCEED":
++            continue
++        result[instance_id] = os.path.join(logs_dir, name)
++    return result
++
++
++def find_logs_repeat(
++    logs_dir: str,
++    succeed_only: bool = True,
++) -> dict[str, str]:
++    """
++    Return a mapping of composite_id -> log_path for all seed_* subdirectories.
++
++    composite_id = "{instance_id}_{seed_name}" (e.g. "10452_seed_42").
++    When succeed_only=True (default), only SUCCEED logs are included.
++    """
++    result = {}
++    for entry in sorted(os.scandir(logs_dir)):
++        if not (entry.is_dir() and entry.name.startswith("seed_")):
++            continue
++        seed_name = entry.name
++        for name in sorted(os.listdir(entry.path)):
++            parsed = parse_log_filename(name)
++            if parsed is None:
++                continue
++            instance_id, outcome = parsed
++            if succeed_only and outcome != "SUCCEED":
++                continue
++            composite_id = f"{instance_id}_{seed_name}"
++            result[composite_id] = os.path.join(entry.path, name)
++    return result
++
++
++# ---------------------------------------------------------------------------
++# Log preprocessing
++# ---------------------------------------------------------------------------
++
++def strip_log_metadata(text: str) -> str:
++    """Remove markdown logger header/trailer sections from the agent log."""
++    # Strip header: "# Chat History ...\n\n**Timestamp**: ...\n\n---\n\n"
++    text = re.sub(
++        r"\A# Chat History[^\n]*\n\n\*\*Timestamp\*\*:[^\n]*\n\n---\n\n",
++        "",
++        text,
++        flags=re.DOTALL,
++    )
++    # Strip trailing RESULT section
++    text = re.sub(r"\n---\n\n## RESULT\n.*\Z", "", text, flags=re.DOTALL)
++    return text.strip()
++
++
++def write_prompt_log(
++    log_path: Path,
++    input_messages: list[dict[str, str]],
++    output_message: str,
++) -> None:
++    sections = ["# Input", ""]
++    for message in input_messages:
++        sections.extend([f"## {message['role'].title()}", message["content"], ""])
++    sections.extend(["# Output", "", output_message, ""])
++    log_path.write_text("\n".join(sections), encoding="utf-8")
++
++
++# ---------------------------------------------------------------------------
++# Single-instance analysis
++# ---------------------------------------------------------------------------
++
++def analyze_instance(
++    client: OpenAI,
++    model: str,
++    system_prompt: str,
++    user_template: str,
++    log_path: str,
++    generation_config: dict | None = None,
++) -> tuple[list[dict[str, str]], str]:
++    """Make a single LLM call to analyze one successful agent log."""
++    raw_log = Path(log_path).read_text(encoding="utf-8", errors="replace")
++    agent_log = strip_log_metadata(raw_log)
++
++    user_message = user_template.replace("{agent_log}", agent_log)
++    input_messages = [
++        {"role": "system", "content": system_prompt},
++        {"role": "user", "content": user_message},
++    ]
++
++    request_kwargs = dict(generation_config or {})
++    request_kwargs.pop("model", None)
++    request_kwargs.pop("messages", None)
++
++    response = client.chat.completions.create(
++        model=model,
++        messages=input_messages,
++        **request_kwargs,
++    )
++    return input_messages, response.choices[0].message.content
++
++
++# ---------------------------------------------------------------------------
++# Main
++# ---------------------------------------------------------------------------
++
++def main():
++    parser = argparse.ArgumentParser(
++        description="LLM-only success analysis for successful spreadsheet agent runs."
++    )
++    parser.add_argument(
++        "--logs_dir",
++        required=True,
++        help="Directory containing agent trajectory log files",
++    )
++    parser.add_argument(
++        "--output_dir",
++        required=True,
++        help="Directory to save per-instance analysis reports",
++    )
++    parser.add_argument(
++        "--model",
++        default=None,
++        help="LLM model name (default: OPENAI_MODEL env var)",
++    )
++    parser.add_argument(
++        "--base_url",
++        default=None,
++        help="OpenAI-compatible API base URL (default: OPENAI_BASE_URL env var or http://localhost:8000/v1)",
++    )
++    parser.add_argument(
++        "--api_key",
++        default=None,
++        help="API key (default: OPENAI_API_KEY env var or EMPTY)",
++    )
++    parser.add_argument(
++        "--llm_client",
++        default="openai",
++        choices=["openai", "gemini"],
++        help="LLM backend: openai-compatible endpoint, or gemini through google-genai",
++    )
++    parser.add_argument(
++        "--generation_config",
++        default=None,
++        help="Generation config as a JSON string or path to a JSON file",
++    )
++    parser.add_argument(
++        "--seed",
++        type=int,
++        default=None,
++        help="Seed merged into generation config",
++    )
++    parser.add_argument(
++        "--instance_ids",
++        default=None,
++        help="Comma-separated instance IDs to analyze (default: all discovered)",
++    )
++    parser.add_argument(
++        "--sample",
++        type=int,
++        default=None,
++        help="Only analyze the first N instances",
++    )
++    parser.add_argument(
++        "--all",
++        dest="all_outcomes",
++        action="store_true",
++        help="Include all log outcomes, not just SUCCEED (default: SUCCEED only)",
++    )
++    parser.add_argument(
++        "--max_workers",
++        type=int,
++        default=None,
++        help="Max parallel LLM calls (default: min(32, cpu_count * 4))",
++    )
++    parser.add_argument(
++        "--repeat",
++        type=int,
++        default=1,
++        help="Number of seed runs. When > 1, discovers logs from seed_*/ subdirectories "
++             "under --logs_dir and uses composite IDs like {id}_seed_{seed} (default: 1).",
++    )
++
++    args = parser.parse_args()
++    generation_config = build_generation_config(args)
++
++    # Resolve model
++    model = args.model or os.getenv("OPENAI_MODEL")
++    if not model:
++        print("Error: model must be specified via --model or OPENAI_MODEL env var", file=sys.stderr)
++        sys.exit(1)
++
++    base_url = args.base_url or os.getenv("OPENAI_BASE_URL", "http://localhost:8000/v1")
++    api_key = args.api_key or os.getenv("OPENAI_API_KEY", "EMPTY")
++    if getattr(args, "llm_client", "openai") == "gemini":
++        # google-genai path: same call shape, no OpenAI-compatible endpoint in the middle.
++        from src.react_agent.gemini_client import GeminiOpenAIShim
++        client = GeminiOpenAIShim(model=args.model, api_key=(None if api_key == "EMPTY" else api_key))
++    else:
++        client = OpenAI(api_key=api_key, base_url=base_url)
++
++    system_prompt = SYSTEM_PROMPT_PATH.read_text(encoding="utf-8")
++    user_template = USER_PROMPT_PATH.read_text(encoding="utf-8")
++
++    # Discover logs
++    if args.repeat > 1:
++        all_logs = find_logs_repeat(
++            args.logs_dir,
++            succeed_only=not args.all_outcomes,
++        )
++    else:
++        all_logs = find_logs(
++            args.logs_dir,
++            succeed_only=not args.all_outcomes,
++        )
++
++    # Apply --instance_ids filter
++    if args.instance_ids:
++        requested = {s.strip() for s in args.instance_ids.split(",")}
++        missing = requested - set(all_logs)
++        if missing:
++            print(f"Warning: instance IDs not found: {sorted(missing)}", file=sys.stderr)
++        all_logs = {iid: path for iid, path in all_logs.items() if iid in requested}
++
++    if not all_logs:
++        print("No log files found to analyze.", file=sys.stderr)
++        sys.exit(1)
++
++    # Apply --sample
++    if args.sample is not None:
++        all_logs = dict(list(all_logs.items())[: args.sample])
++
++    os.makedirs(args.output_dir, exist_ok=True)
++
++    # Separate already-done from pending
++    tasks = []
++    skipped = 0
++    for iid, log_path in all_logs.items():
++        out_path = os.path.join(args.output_dir, f"success_analysis_{iid}.md")
++        if os.path.isfile(out_path):
++            skipped += 1
++        else:
++            tasks.append((iid, log_path, out_path))
++
++    print(f"Logs discovered:  {len(all_logs)}")
++    print(f"Model:            {model}")
++    print(f"Endpoint:         {base_url}")
++    print(f"Output dir:       {args.output_dir}")
++    if skipped:
++        print(f"Skipped (exists): {skipped}")
++    print(f"To analyze:       {len(tasks)}")
++    print("-" * 60)
++
+     if not tasks:
+         print("Nothing to do.")
+         parsed_records = collect_success_records(args.output_dir)
+@@ -367,31 +378,31 @@ def main():
+         parsed_output.write_text(json.dumps(parsed_records, indent=2), encoding="utf-8")
+         print(f"Parsed records:   {len(parsed_records)} -> {parsed_output}")
+         return
+-
+-    max_workers = args.max_workers or min(32, (os.cpu_count() or 1) * 4)
+-
+-    def run_one(iid: str, log_path: str, out_path: str) -> str:
+-        prompt_path = Path(args.output_dir) / f"success_analysis_{iid}_prompt.md"
+-        input_messages, report = analyze_instance(
+-            client, model, system_prompt, user_template, log_path, generation_config
+-        )
+-        Path(out_path).write_text(report, encoding="utf-8")
+-        write_prompt_log(prompt_path, input_messages, report)
+-        return out_path
+-
++
++    max_workers = args.max_workers or min(32, (os.cpu_count() or 1) * 4)
++
++    def run_one(iid: str, log_path: str, out_path: str) -> str:
++        prompt_path = Path(args.output_dir) / f"success_analysis_{iid}_prompt.md"
++        input_messages, report = analyze_instance(
++            client, model, system_prompt, user_template, log_path, generation_config
++        )
++        Path(out_path).write_text(report, encoding="utf-8")
++        write_prompt_log(prompt_path, input_messages, report)
++        return out_path
++
+     with ThreadPoolExecutor(max_workers=max_workers) as executor:
+         futures = {
+             executor.submit(run_one, iid, log_path, out_path): iid
+             for iid, log_path, out_path in tasks
+         }
+-        with tqdm(total=len(futures), unit="instance", desc="Analyzing") as pbar:
+-            for future in as_completed(futures):
+-                iid = futures[future]
+-                try:
+-                    out_path = future.result()
+-                    tqdm.write(f"{iid}: done -> {out_path}")
+-                except Exception as exc:
+-                    tqdm.write(f"{iid}: ERROR: {exc}")
++        with tqdm(total=len(futures), unit="instance", desc="Analyzing") as pbar:
++            for future in as_completed(futures):
++                iid = futures[future]
++                try:
++                    out_path = future.result()
++                    tqdm.write(f"{iid}: done -> {out_path}")
++                except Exception as exc:
++                    tqdm.write(f"{iid}: ERROR: {exc}")
+                 finally:
+                     pbar.update(1)
+ 
+diff --git a/skill_evolver/run_parallel_combined_skill_evolution.py b/skill_evolver/run_parallel_combined_skill_evolution.py
+index e35c4b0..8659bb4 100644
+--- a/skill_evolver/run_parallel_combined_skill_evolution.py
++++ b/skill_evolver/run_parallel_combined_skill_evolution.py
+@@ -106,7 +106,7 @@ def main() -> None:
+         dest="llm_client",
+         type=str,
+         default="openai",
+-        choices=["openai", "api_chat"],
++        choices=["openai", "api_chat", "gemini"],
+         help="LLM client backend to use",
+     )
+     parser.add_argument(
+@@ -310,7 +310,12 @@ def main() -> None:
+         client_kwargs["cache_path"] = str(args.cache_path)
+     if generation_config:
+         client_kwargs["generation_config"] = generation_config
+-    if args.llm_client == "api_chat":
++    if args.llm_client == "gemini":
++        # google-genai path (this study): OpenAIClient-shaped, no endpoint needed.
++        from src.react_agent.gemini_client import GeminiClient
++        client_kwargs.pop("base_url", None)
++        client = GeminiClient(**client_kwargs)
++    elif args.llm_client == "api_chat":
+         client_kwargs.pop("base_url", None)
+         client_kwargs.pop("api_key", None)
+         client_kwargs["config_path"] = args.api_chat_config
+diff --git a/skill_evolver/run_parallel_skill_evolution.py b/skill_evolver/run_parallel_skill_evolution.py
+index 1aa1633..bc69059 100644
+--- a/skill_evolver/run_parallel_skill_evolution.py
++++ b/skill_evolver/run_parallel_skill_evolution.py
+@@ -1,33 +1,33 @@
+-#!/usr/bin/env python3
+-"""
+-CLI runner for the Parallel Skill Evolving Agent.
+-
+-Uses a map-reduce pipeline: each error record batch independently proposes
+-a concise patch against the frozen original skill, patches are merged
+-hierarchically, and the final merged patch is applied.
+-
+-Usage:
+-    python -m skill_evolver.run_parallel_skill_evolution \
+-        --input-json skill_preloaded_error_skill_focused.json \
+-        --skill-dir spreadsheet_agent/skills/xlsx/ \
+-        --model gpt-4o \
+-        --api-key $OPENAI_API_KEY
+-
+-    # With intermediate artifacts saved:
+-    python -m skill_evolver.run_parallel_skill_evolution \
+-        --input-json skill_preloaded_error_skill_focused.json \
+-        --skill-dir spreadsheet_agent/skills/xlsx/ \
+-        --model gpt-4o \
+-        --save-intermediates \
+-        --intermediates-dir parallel_output/
+-"""
+-
+-from __future__ import annotations
+-
++#!/usr/bin/env python3
++"""
++CLI runner for the Parallel Skill Evolving Agent.
++
++Uses a map-reduce pipeline: each error record batch independently proposes
++a concise patch against the frozen original skill, patches are merged
++hierarchically, and the final merged patch is applied.
++
++Usage:
++    python -m skill_evolver.run_parallel_skill_evolution \
++        --input-json skill_preloaded_error_skill_focused.json \
++        --skill-dir spreadsheet_agent/skills/xlsx/ \
++        --model gpt-4o \
++        --api-key $OPENAI_API_KEY
++
++    # With intermediate artifacts saved:
++    python -m skill_evolver.run_parallel_skill_evolution \
++        --input-json skill_preloaded_error_skill_focused.json \
++        --skill-dir spreadsheet_agent/skills/xlsx/ \
++        --model gpt-4o \
++        --save-intermediates \
++        --intermediates-dir parallel_output/
++"""
++
++from __future__ import annotations
++
+ import argparse
+ import difflib
+ import json
+-import logging
++import logging
+ import random
+ import shutil
+ import sys
+@@ -38,7 +38,7 @@ from spreadsheetbench_support import load_dataset
+ from src.react_agent.models import ApiChatClient, OpenAIClient
+ from skill_evolver.skill_evolving_agent import PROMPT_VARIANTS, QUICK_VALIDATE_SCRIPT
+ from skill_evolver.parallel_evolving_agent import ParallelSkillEvolver
+-
++
+ log = logging.getLogger(__name__)
+ 
+ 
+@@ -164,8 +164,8 @@ def _filter_records_by_task_ids(
+ 
+ def backup_skill(skill_dir: Path) -> Path:
+     """Create a timestamped backup of the skill directory."""
+-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+-    backup_dir = skill_dir.parent / f"{skill_dir.name}_backup_{timestamp}"
++    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
++    backup_dir = skill_dir.parent / f"{skill_dir.name}_backup_{timestamp}"
+     shutil.copytree(skill_dir, backup_dir)
+     return backup_dir
+ 
+@@ -186,52 +186,52 @@ def _resolve_error_input_path(path: Path) -> Path:
+         f"Could not find parsed error records in {path}. Expected one of: "
+         + ", ".join(str(candidate.name) for candidate in candidates)
+     )
+-
+-
+-def _read_skill_files(skill_dir: Path) -> dict[str, str]:
+-    """Read SKILL.md + references/* into {rel_path: content}."""
+-    files: dict[str, str] = {}
+-    skill_md = skill_dir / "SKILL.md"
+-    if skill_md.exists():
+-        files["SKILL.md"] = skill_md.read_text(encoding="utf-8")
+-    refs_dir = skill_dir / "references"
+-    if refs_dir.is_dir():
+-        for ref_file in sorted(refs_dir.iterdir()):
+-            if ref_file.is_file():
+-                rel = f"references/{ref_file.name}"
+-                files[rel] = ref_file.read_text(encoding="utf-8")
+-    return files
+-
+-
+-def _compute_dir_diff(old_dir: Path, new_dir: Path) -> list[str]:
+-    """Compute unified diffs for SKILL.md + references/* between two dirs."""
+-    old_files = _read_skill_files(old_dir)
+-    new_files = _read_skill_files(new_dir)
+-    all_paths = sorted(set(old_files) | set(new_files))
+-    diffs: list[str] = []
+-    for rel in all_paths:
+-        old = old_files.get(rel, "")
+-        new = new_files.get(rel, "")
+-        if old == new:
+-            continue
+-        from_label = f"a/{rel}" if rel in old_files else "/dev/null"
+-        to_label = f"b/{rel}" if rel in new_files else "/dev/null"
+-        diff_lines = difflib.unified_diff(
+-            old.splitlines(keepends=True),
+-            new.splitlines(keepends=True),
+-            fromfile=from_label,
+-            tofile=to_label,
+-            lineterm="",
+-        )
+-        diffs.append("".join(diff_lines))
+-    return diffs
+-
+-
+-def main() -> None:
+-    parser = argparse.ArgumentParser(
+-        description="Evolve a skill using parallel map-reduce pipeline",
+-        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+-    )
++
++
++def _read_skill_files(skill_dir: Path) -> dict[str, str]:
++    """Read SKILL.md + references/* into {rel_path: content}."""
++    files: dict[str, str] = {}
++    skill_md = skill_dir / "SKILL.md"
++    if skill_md.exists():
++        files["SKILL.md"] = skill_md.read_text(encoding="utf-8")
++    refs_dir = skill_dir / "references"
++    if refs_dir.is_dir():
++        for ref_file in sorted(refs_dir.iterdir()):
++            if ref_file.is_file():
++                rel = f"references/{ref_file.name}"
++                files[rel] = ref_file.read_text(encoding="utf-8")
++    return files
++
++
++def _compute_dir_diff(old_dir: Path, new_dir: Path) -> list[str]:
++    """Compute unified diffs for SKILL.md + references/* between two dirs."""
++    old_files = _read_skill_files(old_dir)
++    new_files = _read_skill_files(new_dir)
++    all_paths = sorted(set(old_files) | set(new_files))
++    diffs: list[str] = []
++    for rel in all_paths:
++        old = old_files.get(rel, "")
++        new = new_files.get(rel, "")
++        if old == new:
++            continue
++        from_label = f"a/{rel}" if rel in old_files else "/dev/null"
++        to_label = f"b/{rel}" if rel in new_files else "/dev/null"
++        diff_lines = difflib.unified_diff(
++            old.splitlines(keepends=True),
++            new.splitlines(keepends=True),
++            fromfile=from_label,
++            tofile=to_label,
++            lineterm="",
++        )
++        diffs.append("".join(diff_lines))
++    return diffs
++
++
++def main() -> None:
++    parser = argparse.ArgumentParser(
++        description="Evolve a skill using parallel map-reduce pipeline",
++        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
++    )
+     parser.add_argument(
+         "--input-json",
+         required=True,
+@@ -256,7 +256,7 @@ def main() -> None:
+         dest="llm_client",
+         type=str,
+         default="openai",
+-        choices=["openai", "api_chat"],
++        choices=["openai", "api_chat", "gemini"],
+         help="LLM client backend to use",
+     )
+     parser.add_argument(
+@@ -282,36 +282,36 @@ def main() -> None:
+         default=None,
+         help="Seed merged into generation config",
+     )
+-    parser.add_argument(
+-        "--cache-path",
+-        type=Path,
+-        default=None,
+-        help="Disk cache path for LLM responses",
+-    )
+-    parser.add_argument(
+-        "--batch-size",
+-        type=int,
+-        default=1,
+-        help="Records per MAP phase LLM call",
+-    )
+-    parser.add_argument(
+-        "--merge-batch-size",
+-        type=int,
+-        default=5,
+-        help="Patches per MERGE phase LLM call",
+-    )
+-    parser.add_argument(
+-        "--max-workers",
+-        type=int,
+-        default=4,
+-        help="ThreadPoolExecutor parallelism",
+-    )
+-    parser.add_argument(
+-        "--max-merge-levels",
+-        type=int,
+-        default=5,
+-        help="Safety cap on hierarchical merge levels",
+-    )
++    parser.add_argument(
++        "--cache-path",
++        type=Path,
++        default=None,
++        help="Disk cache path for LLM responses",
++    )
++    parser.add_argument(
++        "--batch-size",
++        type=int,
++        default=1,
++        help="Records per MAP phase LLM call",
++    )
++    parser.add_argument(
++        "--merge-batch-size",
++        type=int,
++        default=5,
++        help="Patches per MERGE phase LLM call",
++    )
++    parser.add_argument(
++        "--max-workers",
++        type=int,
++        default=4,
++        help="ThreadPoolExecutor parallelism",
++    )
++    parser.add_argument(
++        "--max-merge-levels",
++        type=int,
++        default=5,
++        help="Safety cap on hierarchical merge levels",
++    )
+     parser.add_argument(
+         "--start-idx",
+         type=int,
+@@ -347,40 +347,40 @@ def main() -> None:
+         action="store_true",
+         help="Continue evolving without creating a backup",
+     )
+-    parser.add_argument(
+-        "--dry-run",
+-        action="store_true",
+-        help="Show changes without writing to disk",
+-    )
+-    parser.add_argument(
+-        "--max-skill-lines",
+-        type=int,
+-        default=500,
+-        help="Max SKILL.md lines",
+-    )
+-    parser.add_argument(
+-        "--temperature",
+-        type=float,
+-        default=0.6,
+-        help="LLM temperature",
+-    )
+-    parser.add_argument(
+-        "--max-tokens",
+-        type=int,
+-        default=None,
+-        help="Max generation tokens for LLM responses",
+-    )
+-    parser.add_argument(
+-        "--verbose",
+-        action="store_true",
+-        help="Print detailed progress",
+-    )
+-    parser.add_argument(
+-        "--output-dir",
+-        type=Path,
+-        default=None,
+-        help="Copy final skill here",
+-    )
++    parser.add_argument(
++        "--dry-run",
++        action="store_true",
++        help="Show changes without writing to disk",
++    )
++    parser.add_argument(
++        "--max-skill-lines",
++        type=int,
++        default=500,
++        help="Max SKILL.md lines",
++    )
++    parser.add_argument(
++        "--temperature",
++        type=float,
++        default=0.6,
++        help="LLM temperature",
++    )
++    parser.add_argument(
++        "--max-tokens",
++        type=int,
++        default=None,
++        help="Max generation tokens for LLM responses",
++    )
++    parser.add_argument(
++        "--verbose",
++        action="store_true",
++        help="Print detailed progress",
++    )
++    parser.add_argument(
++        "--output-dir",
++        type=Path,
++        default=None,
++        help="Copy final skill here",
++    )
+     parser.add_argument(
+         "--save-intermediates",
+         action="store_true",
+@@ -395,28 +395,28 @@ def main() -> None:
+     parser.add_argument(
+         "--intermediates-dir",
+         type=Path,
+-        default=None,
+-        help="Directory for intermediate artifacts (default: {skill-dir}_parallel_output/)",
+-    )
+-    parser.add_argument(
+-        "--changelog",
+-        type=Path,
+-        default=None,
+-        help="Write changelog to file",
+-    )
+-    parser.add_argument(
+-        "--patch-file",
+-        type=Path,
+-        default=None,
+-        help="Write cumulative unified diff to file",
+-    )
+-    parser.add_argument(
+-        "--prompt",
+-        type=str,
+-        default="skill",
+-        choices=list(PROMPT_VARIANTS.keys()),
+-        help="Prompt variant for MAP phase",
+-    )
++        default=None,
++        help="Directory for intermediate artifacts (default: {skill-dir}_parallel_output/)",
++    )
++    parser.add_argument(
++        "--changelog",
++        type=Path,
++        default=None,
++        help="Write changelog to file",
++    )
++    parser.add_argument(
++        "--patch-file",
++        type=Path,
++        default=None,
++        help="Write cumulative unified diff to file",
++    )
++    parser.add_argument(
++        "--prompt",
++        type=str,
++        default="skill",
++        choices=list(PROMPT_VARIANTS.keys()),
++        help="Prompt variant for MAP phase",
++    )
+     parser.add_argument(
+         "--input-mode",
+         type=str,
+@@ -450,19 +450,19 @@ def main() -> None:
+     )
+     args = parser.parse_args()
+     generation_config = _build_generation_config(args)
+-
+-    # Setup logging
+-    level = logging.DEBUG if args.verbose else logging.INFO
+-    logging.basicConfig(
+-        level=level,
+-        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+-        datefmt="%H:%M:%S",
+-    )
+-    if args.verbose:
+-        for noisy_logger in ("openai", "httpx", "httpcore", "urllib3"):
+-            logging.getLogger(noisy_logger).setLevel(logging.WARNING)
+-
+-    # Validate inputs
++
++    # Setup logging
++    level = logging.DEBUG if args.verbose else logging.INFO
++    logging.basicConfig(
++        level=level,
++        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
++        datefmt="%H:%M:%S",
++    )
++    if args.verbose:
++        for noisy_logger in ("openai", "httpx", "httpcore", "urllib3"):
++            logging.getLogger(noisy_logger).setLevel(logging.WARNING)
++
++    # Validate inputs
+     try:
+         args.input_json = _resolve_error_input_path(args.input_json)
+     except FileNotFoundError as exc:
+@@ -488,27 +488,27 @@ def main() -> None:
+     # Load input
+     with open(args.input_json, encoding="utf-8") as f:
+         raw_input = json.load(f)
+-
+-    # Detect input mode
+-    input_mode = args.input_mode
+-    if input_mode == "auto":
+-        if isinstance(raw_input, list):
+-            input_mode = "records"
+-        elif isinstance(raw_input, dict) and any(
+-            k in raw_input for k in ("failure_cause", "failure_memory")
+-        ):
+-            input_mode = "patterns"
+-        else:
+-            log.error(
+-                "Cannot auto-detect input format. Use --input-mode to specify."
+-            )
+-            sys.exit(1)
+-    log.info("Input mode: %s", input_mode)
+-
+-    # Prepare input data
+-    records = None
+-    patterns = None
+-
++
++    # Detect input mode
++    input_mode = args.input_mode
++    if input_mode == "auto":
++        if isinstance(raw_input, list):
++            input_mode = "records"
++        elif isinstance(raw_input, dict) and any(
++            k in raw_input for k in ("failure_cause", "failure_memory")
++        ):
++            input_mode = "patterns"
++        else:
++            log.error(
++                "Cannot auto-detect input format. Use --input-mode to specify."
++            )
++            sys.exit(1)
++    log.info("Input mode: %s", input_mode)
++
++    # Prepare input data
++    records = None
++    patterns = None
++
+     if input_mode == "records":
+         if not isinstance(raw_input, list):
+             log.error(
+@@ -530,11 +530,11 @@ def main() -> None:
+             records = records[start:end]
+             log.info(
+                 "Loaded %d error records from %s (slice %d:%d)",
+-                len(records),
+-                args.input_json,
+-                start,
+-                end,
+-            )
++                len(records),
++                args.input_json,
++                start,
++                end,
++            )
+         else:
+             log.info(
+                 "Loaded %d error records from %s", len(records), args.input_json
+@@ -573,77 +573,82 @@ def main() -> None:
+         total_pats = sum(
+             len(v) for v in patterns.values() if isinstance(v, list)
+         )
+-        log.info(
+-            "Loaded %d compressed patterns (%s) from %s",
+-            total_pats,
+-            ", ".join(
+-                f"{k}: {len(v)}" for k, v in patterns.items() if isinstance(v, list)
+-            ),
+-            args.input_json,
+-        )
+-
+-    # Auto-select prompt variant for patterns mode
+-    prompt_variant = args.prompt
+-    if input_mode == "patterns" and prompt_variant in ("skill", "generic"):
+-        prompt_variant = (
+-            "patterns" if args.prompt == "skill" else "patterns_generic"
+-        )
+-        log.info(
+-            "Auto-selected --prompt %s (override with --prompt explicitly)",
+-            prompt_variant,
+-        )
+-
+-    # Backup
+-    backup_path = None
+-    if args.continue_evolving:
+-        log.info("Continuing evolution without backup (--continue-evolving)")
+-    elif not args.dry_run:
+-        backup_path = backup_skill(args.skill_dir)
+-        log.info("Backed up skill to %s", backup_path)
+-    else:
+-        log.info("[DRY RUN] Skipping backup")
+-
+-    # Resolve intermediates directory
+-    intermediates_dir = None
+-    if args.save_intermediates:
+-        intermediates_dir = args.intermediates_dir
+-        if intermediates_dir is None:
+-            intermediates_dir = (
+-                args.skill_dir.parent / f"{args.skill_dir.name}_parallel_output"
+-            )
+-        intermediates_dir.mkdir(parents=True, exist_ok=True)
+-        log.info("Intermediate artifacts will be saved to %s", intermediates_dir)
+-
+-    # Create client
+-    client_kwargs: dict = {"model": args.model}
+-    if args.base_url:
+-        client_kwargs["base_url"] = args.base_url
++        log.info(
++            "Loaded %d compressed patterns (%s) from %s",
++            total_pats,
++            ", ".join(
++                f"{k}: {len(v)}" for k, v in patterns.items() if isinstance(v, list)
++            ),
++            args.input_json,
++        )
++
++    # Auto-select prompt variant for patterns mode
++    prompt_variant = args.prompt
++    if input_mode == "patterns" and prompt_variant in ("skill", "generic"):
++        prompt_variant = (
++            "patterns" if args.prompt == "skill" else "patterns_generic"
++        )
++        log.info(
++            "Auto-selected --prompt %s (override with --prompt explicitly)",
++            prompt_variant,
++        )
++
++    # Backup
++    backup_path = None
++    if args.continue_evolving:
++        log.info("Continuing evolution without backup (--continue-evolving)")
++    elif not args.dry_run:
++        backup_path = backup_skill(args.skill_dir)
++        log.info("Backed up skill to %s", backup_path)
++    else:
++        log.info("[DRY RUN] Skipping backup")
++
++    # Resolve intermediates directory
++    intermediates_dir = None
++    if args.save_intermediates:
++        intermediates_dir = args.intermediates_dir
++        if intermediates_dir is None:
++            intermediates_dir = (
++                args.skill_dir.parent / f"{args.skill_dir.name}_parallel_output"
++            )
++        intermediates_dir.mkdir(parents=True, exist_ok=True)
++        log.info("Intermediate artifacts will be saved to %s", intermediates_dir)
++
++    # Create client
++    client_kwargs: dict = {"model": args.model}
++    if args.base_url:
++        client_kwargs["base_url"] = args.base_url
+     if args.api_key:
+         client_kwargs["api_key"] = args.api_key
+     if args.cache_path:
+         client_kwargs["cache_path"] = str(args.cache_path)
+     if generation_config:
+         client_kwargs["generation_config"] = generation_config
+-    if args.llm_client == "api_chat":
++    if args.llm_client == "gemini":
++        # google-genai path (this study): OpenAIClient-shaped, no endpoint needed.
++        from src.react_agent.gemini_client import GeminiClient
++        client_kwargs.pop("base_url", None)
++        client = GeminiClient(**client_kwargs)
++    elif args.llm_client == "api_chat":
+         client_kwargs.pop("base_url", None)
+         client_kwargs.pop("api_key", None)
+         client_kwargs["config_path"] = args.api_chat_config
+         client = ApiChatClient(**client_kwargs)
+     else:
+         client = OpenAIClient(**client_kwargs)
+-
+-    # Create parallel evolver
++
++    # Create parallel evolver
+     evolver = ParallelSkillEvolver(
+         client=client,
+         skill_dir=args.skill_dir,
+-        batch_size=args.batch_size,
+-        merge_batch_size=args.merge_batch_size,
+-        max_workers=args.max_workers,
+-        max_merge_levels=args.max_merge_levels,
+-        temperature=args.temperature,
+-        max_tokens=args.max_tokens,
+-        verbose=args.verbose,
+-        dry_run=args.dry_run,
++        batch_size=args.batch_size,
++        merge_batch_size=args.merge_batch_size,
++        max_workers=args.max_workers,
++        max_merge_levels=args.max_merge_levels,
++        temperature=args.temperature,
++        max_tokens=args.max_tokens,
++        verbose=args.verbose,
++        dry_run=args.dry_run,
+         prompt_variant=prompt_variant,
+         output_dir=intermediates_dir,
+         parse_failure_dir=args.parse_failure_dir,
+@@ -653,97 +658,97 @@ def main() -> None:
+         semantic_item_marker_format=args.semantic_item_marker_format,
+         enable_json_format_self_fix=not args.disable_json_format_self_fix,
+     )
+-
+-    # Require the skill format checker for the apply/validate phase
+-    if not args.dry_run:
+-        if not QUICK_VALIDATE_SCRIPT.exists():
+-            log.error(
+-                "Skill format checker not found at %s. "
+-                "The consolidation step requires this script to validate edits.",
+-                QUICK_VALIDATE_SCRIPT,
+-            )
+-            sys.exit(1)
+-
+-    # Run pipeline
+-    if input_mode == "records":
+-        result = evolver.run(records, input_mode="records")
+-    else:
+-        result = evolver.run(patterns, input_mode="patterns")
+-
+-    # Print summary
+-    print("\n" + "=" * 60)
+-    print("PARALLEL EVOLUTION SUMMARY")
+-    print("=" * 60)
+-    n_patches = len(result.get("patches", []))
+-    print(f"MAP patches produced:  {n_patches}")
+-    print(f"LLM calls (est):      {result.get('total_llm_calls', 0)}")
+-    print(f"Edits applied:         {len(result.get('edits', []))}")
+-    print(f"Reasoning:             {result.get('reasoning', '')[:200]}")
+-
+-    changelog = result.get("changelog", [])
+-    if changelog:
+-        print("\nChangelog:")
+-        for entry in changelog:
+-            print(f"  - {entry}")
+-
+-    # Print diffs
+-    diffs = result.get("diffs", [])
+-    if diffs:
+-        print("\nDiffs:")
+-        for d in diffs:
+-            if d.unified_diff:
+-                print(f"\n--- {d.relative_path} ({d.action}) ---")
+-                print(d.unified_diff)
+-    else:
+-        print("\nDiffs: (no changes)")
+-
+-    # Print final vs original diff if backup exists
+-    if backup_path and not args.dry_run:
+-        final_diffs = _compute_dir_diff(backup_path, args.skill_dir)
+-        if final_diffs:
+-            print("\nFinal vs Original Diff:")
+-            for diff_text in final_diffs:
+-                print(diff_text)
+-
+-    # Optionally write cumulative patch
+-    cumulative_patch = result.get("cumulative_patch", "")
+-    if args.patch_file and cumulative_patch:
+-        args.patch_file.write_text(cumulative_patch, encoding="utf-8")
+-        log.info("Patch written to %s", args.patch_file)
+-
+-    # Optionally write changelog
+-    if args.changelog:
+-        if backup_path is None:
+-            diff_blob = "(diff unavailable: no backup)"
+-        else:
+-            final_diffs = _compute_dir_diff(backup_path, args.skill_dir)
+-            diff_blob = "\n".join(final_diffs) if final_diffs else "(no changes)"
+-        lines: list[str] = []
+-        lines.append("Change Log (Parallel Evolution):")
+-        lines.append(f"MAP patches: {n_patches}")
+-        lines.append(f"LLM calls: {result.get('total_llm_calls', 0)}")
+-        if changelog:
+-            lines.append("\nChanges:")
+-            for entry in changelog:
+-                lines.append(f"  - {entry}")
+-        lines.append("")
+-        lines.append("Overall Diff (final vs original):")
+-        lines.append("```diff")
+-        lines.append(diff_blob)
+-        lines.append("```")
+-        args.changelog.write_text("\n".join(lines), encoding="utf-8")
+-        log.info("Changelog written to %s", args.changelog)
+-
+-    # Optionally copy to output-dir
+-    if args.output_dir:
+-        if args.output_dir.exists():
+-            shutil.rmtree(args.output_dir)
+-        shutil.copytree(args.skill_dir, args.output_dir)
+-        log.info("Final skill copied to %s", args.output_dir)
+-
+-    if intermediates_dir:
+-        print(f"\nIntermediate artifacts: {intermediates_dir}")
+-
+-
+-if __name__ == "__main__":
+-    main()
++
++    # Require the skill format checker for the apply/validate phase
++    if not args.dry_run:
++        if not QUICK_VALIDATE_SCRIPT.exists():
++            log.error(
++                "Skill format checker not found at %s. "
++                "The consolidation step requires this script to validate edits.",
++                QUICK_VALIDATE_SCRIPT,
++            )
++            sys.exit(1)
++
++    # Run pipeline
++    if input_mode == "records":
++        result = evolver.run(records, input_mode="records")
++    else:
++        result = evolver.run(patterns, input_mode="patterns")
++
++    # Print summary
++    print("\n" + "=" * 60)
++    print("PARALLEL EVOLUTION SUMMARY")
++    print("=" * 60)
++    n_patches = len(result.get("patches", []))
++    print(f"MAP patches produced:  {n_patches}")
++    print(f"LLM calls (est):      {result.get('total_llm_calls', 0)}")
++    print(f"Edits applied:         {len(result.get('edits', []))}")
++    print(f"Reasoning:             {result.get('reasoning', '')[:200]}")
++
++    changelog = result.get("changelog", [])
++    if changelog:
++        print("\nChangelog:")
++        for entry in changelog:
++            print(f"  - {entry}")
++
++    # Print diffs
++    diffs = result.get("diffs", [])
++    if diffs:
++        print("\nDiffs:")
++        for d in diffs:
++            if d.unified_diff:
++                print(f"\n--- {d.relative_path} ({d.action}) ---")
++                print(d.unified_diff)
++    else:
++        print("\nDiffs: (no changes)")
++
++    # Print final vs original diff if backup exists
++    if backup_path and not args.dry_run:
++        final_diffs = _compute_dir_diff(backup_path, args.skill_dir)
++        if final_diffs:
++            print("\nFinal vs Original Diff:")
++            for diff_text in final_diffs:
++                print(diff_text)
++
++    # Optionally write cumulative patch
++    cumulative_patch = result.get("cumulative_patch", "")
++    if args.patch_file and cumulative_patch:
++        args.patch_file.write_text(cumulative_patch, encoding="utf-8")
++        log.info("Patch written to %s", args.patch_file)
++
++    # Optionally write changelog
++    if args.changelog:
++        if backup_path is None:
++            diff_blob = "(diff unavailable: no backup)"
++        else:
++            final_diffs = _compute_dir_diff(backup_path, args.skill_dir)
++            diff_blob = "\n".join(final_diffs) if final_diffs else "(no changes)"
++        lines: list[str] = []
++        lines.append("Change Log (Parallel Evolution):")
++        lines.append(f"MAP patches: {n_patches}")
++        lines.append(f"LLM calls: {result.get('total_llm_calls', 0)}")
++        if changelog:
++            lines.append("\nChanges:")
++            for entry in changelog:
++                lines.append(f"  - {entry}")
++        lines.append("")
++        lines.append("Overall Diff (final vs original):")
++        lines.append("```diff")
++        lines.append(diff_blob)
++        lines.append("```")
++        args.changelog.write_text("\n".join(lines), encoding="utf-8")
++        log.info("Changelog written to %s", args.changelog)
++
++    # Optionally copy to output-dir
++    if args.output_dir:
++        if args.output_dir.exists():
++            shutil.rmtree(args.output_dir)
++        shutil.copytree(args.skill_dir, args.output_dir)
++        log.info("Final skill copied to %s", args.output_dir)
++
++    if intermediates_dir:
++        print(f"\nIntermediate artifacts: {intermediates_dir}")
++
++
++if __name__ == "__main__":
++    main()
+diff --git a/skills/skill-creator/scripts/quick_validate.py b/skills/skill-creator/scripts/quick_validate.py
+new file mode 100644
+index 0000000..98a0b4a
+--- /dev/null
++++ b/skills/skill-creator/scripts/quick_validate.py
+@@ -0,0 +1,63 @@
++#!/usr/bin/env python3
++"""
++Minimal skill format checker used by the skill evolver's apply/validate phase.
++
++Validates that a skill directory contains a SKILL.md with YAML frontmatter
++declaring `name` and `description`. Prints issues and exits non-zero on
++failure, mirroring the interface of the upstream skill-creator validator.
++"""
++
++from __future__ import annotations
++
++import re
++import sys
++from pathlib import Path
++
++
++def validate(skill_dir: Path) -> list[str]:
++    errors = []
++    skill_md = skill_dir / "SKILL.md"
++    if not skill_md.is_file():
++        return [f"SKILL.md not found in {skill_dir}"]
++
++    content = skill_md.read_text(encoding="utf-8", errors="replace")
++    if not content.strip():
++        return ["SKILL.md is empty"]
++
++    frontmatter_match = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)", content, re.DOTALL)
++    if not frontmatter_match:
++        return ["SKILL.md must start with YAML frontmatter delimited by ---"]
++
++    frontmatter, body = frontmatter_match.group(1), frontmatter_match.group(2)
++
++    name_match = re.search(r'^name:\s*["\']?([^"\'\n]+)["\']?\s*$', frontmatter, re.MULTILINE)
++    if not name_match:
++        errors.append("frontmatter is missing a `name:` field")
++    elif not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", name_match.group(1).strip()):
++        errors.append(f"skill name should be kebab-case, got: {name_match.group(1).strip()!r}")
++
++    if not re.search(r"^description:\s*\S", frontmatter, re.MULTILINE):
++        errors.append("frontmatter is missing a `description:` field")
++
++    if not body.strip():
++        errors.append("SKILL.md has no body content after the frontmatter")
++
++    return errors
++
++
++def main() -> int:
++    if len(sys.argv) != 2:
++        print("Usage: quick_validate.py <skill_dir>", file=sys.stderr)
++        return 2
++    skill_dir = Path(sys.argv[1])
++    errors = validate(skill_dir)
++    if errors:
++        for err in errors:
++            print(f"ERROR: {err}")
++        return 1
++    print(f"OK: {skill_dir / 'SKILL.md'} passed format checks")
++    return 0
++
++
++if __name__ == "__main__":
++    sys.exit(main())
+diff --git a/src/react_agent/gemini_client.py b/src/react_agent/gemini_client.py
+new file mode 100644
+index 0000000..ece1aa9
+--- /dev/null
++++ b/src/react_agent/gemini_client.py
+@@ -0,0 +1,101 @@
++"""Gemini (google-genai) clients for Trace2Skill's analysis and skill-evolution stages.
++
++Upstream Trace2Skill talks to OpenAI-compatible endpoints: the skill evolver through
++`OpenAIClient.chat(messages, settings)` and the LLM analysis scripts through the raw
++`openai` SDK (`client.chat.completions.create`).  This module provides both shapes on top
++of the shared google-genai wrapper, so `--llm-client gemini` / `--llm_client gemini` runs
++the published pipeline with gemini-3.1-pro and no OpenAI-compatible endpoint in the middle.
++"""
++from __future__ import annotations
++
++import sys
++from dataclasses import dataclass
++from pathlib import Path
++from typing import Any
++
++_BASELINES = Path(__file__).resolve().parents[3]          # .../verifier/baselines
++if str(_BASELINES) not in sys.path:
++    sys.path.insert(0, str(_BASELINES))
++
++from common.gemini import Gemini                           # noqa: E402
++
++DEFAULT_MAX_TOKENS = 16384
++
++
++class GeminiClient:
++    """`OpenAIClient`-shaped client for the skill evolver."""
++
++    def __init__(self, model: str = "gemini-3.1-pro-preview", api_key: str | None = None,
++                 base_url: str | None = None, cache_path: str | None = None,
++                 use_cache: bool = False, generation_config: dict | None = None,
++                 retry_times: tuple[int, ...] = (5, 10, 30), timeout: float | None = 600.0,
++                 **kwargs):
++        self.model = model
++        self.generation_config = dict(generation_config or {})
++        self.n_calls = 0
++        self._lm = Gemini(model=model, api_key=api_key, retries=len(retry_times) + 1,
++                          timeout_s=timeout or 600.0,
++                          temperature=float(self.generation_config.get("temperature", 0.6)),
++                          top_p=float(self.generation_config.get("top_p", 1.0)),
++                          max_tokens=int(self.generation_config.get("max_tokens", DEFAULT_MAX_TOKENS)))
++
++    def chat(self, messages, settings=None, return_reasoning: bool = False):
++        msgs = [{"role": getattr(m, "role", None) or m["role"],
++                 "content": getattr(m, "content", None) or m["content"]} for m in messages]
++        temp = getattr(settings, "temperature", None) if settings else None
++        max_tokens = getattr(settings, "max_tokens", None) if settings else None
++        # The evolver's ModelSettings defaults (temperature 0.7) are overridden by an explicit
++        # generation_config, matching how the OpenAI client is configured for these runs.
++        if "temperature" in self.generation_config:
++            temp = self.generation_config["temperature"]
++        if "max_tokens" in self.generation_config:
++            max_tokens = self.generation_config["max_tokens"]
++        self.n_calls += 1
++        text = self._lm.generate(msgs, temperature=temp, max_tokens=max_tokens or DEFAULT_MAX_TOKENS)
++        return (text, "") if return_reasoning else text
++
++    async def chat_async(self, messages, settings=None):
++        return self.chat(messages, settings)
++
++
++# --------------------------------------------------------------------------- openai shim
++@dataclass
++class _Message:
++    content: str
++
++
++@dataclass
++class _Choice:
++    message: _Message
++
++
++@dataclass
++class _Response:
++    choices: list
++
++
++class _Completions:
++    def __init__(self, lm: Gemini):
++        self._lm = lm
++
++    def create(self, model: str | None = None, messages: list | None = None, **kwargs) -> _Response:
++        lm = self._lm if not model or model == self._lm.model else Gemini(
++            model=model, temperature=self._lm.temperature, max_tokens=self._lm.max_tokens)
++        text = lm.generate(messages or [],
++                           temperature=kwargs.get("temperature"),
++                           max_tokens=kwargs.get("max_tokens"))
++        return _Response(choices=[_Choice(message=_Message(content=text))])
++
++
++class _Chat:
++    def __init__(self, lm: Gemini):
++        self.completions = _Completions(lm)
++
++
++class GeminiOpenAIShim:
++    """Minimal `openai.OpenAI`-shaped object: `.chat.completions.create(...)`."""
++
++    def __init__(self, model: str = "gemini-3.1-pro-preview", api_key: str | None = None,
++                 temperature: float = 0.6, max_tokens: int = DEFAULT_MAX_TOKENS, **kwargs):
++        self._lm = Gemini(model=model, api_key=api_key, temperature=temperature, max_tokens=max_tokens)
++        self.chat = _Chat(self._lm)
+diff --git a/vqa_skill_seed/SKILL.md b/vqa_skill_seed/SKILL.md
+new file mode 100644
+index 0000000..353816b
+--- /dev/null
++++ b/vqa_skill_seed/SKILL.md
+@@ -0,0 +1,16 @@
++---
++name: visual-question-answering
++description: Answering a question about an image with a Python code interpreter available.
++---
++
++# Visual question answering
++
++Answer the question about the image. Look at the image carefully before deciding, use the
++code interpreter when a measurement would settle the question, and put the final answer
++inside `<answer></answer>` tags.
++
++## Workflow
++
++1. Read the question and decide what has to be true of the image for each answer.
++2. Inspect the image; measure with code when the eye is unreliable.
++3. Commit to one answer and write it inside `<answer></answer>`.

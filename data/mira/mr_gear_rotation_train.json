@@ -1,0 +1,184 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__2.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_2_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "2.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__19.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_19_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "19.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__9.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_9_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "9.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__18.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_18_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "18.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__17.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_17_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "17.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__8.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_8_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "8.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__1.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_1_1",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction of the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "1.1",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__2.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_2_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "2.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__19.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_19_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "19.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__9.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_9_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "9.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__18.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_18_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "18.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__17.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_17_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "2",
+  "data_source": "mira",
+  "uid": "17.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__8.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_8_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "8.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/gear_rotation__1.png"
+  ],
+  "doc_id": "mira_mr_gear_rotation_1_2",
+  "problem": "<image>\nIf the first gear in the image rotates slightly in the direction opposite to the arrow, will the arrow on the final gear point to 1 or 2? Please answer with a number.",
+  "solution": "1",
+  "data_source": "mira",
+  "uid": "1.2",
+  "dataset": "mira",
+  "family": "mr_gear_rotation",
+  "split": "train"
+ }
+]

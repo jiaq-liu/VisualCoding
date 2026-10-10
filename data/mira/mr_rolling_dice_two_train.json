@@ -1,0 +1,119 @@
+[
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__6.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_6",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "red, 19",
+  "data_source": "mira",
+  "uid": "6",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__7.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_7",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "red, 22",
+  "data_source": "mira",
+  "uid": "7",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__11.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_11",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "same, 24",
+  "data_source": "mira",
+  "uid": "11",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__14.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_14",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "black, 28",
+  "data_source": "mira",
+  "uid": "14",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__16.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_16",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "red, 24",
+  "data_source": "mira",
+  "uid": "16",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__20.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_20",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "black, 17",
+  "data_source": "mira",
+  "uid": "20",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__21.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_21",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "red, 22",
+  "data_source": "mira",
+  "uid": "21",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__22.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_22",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "black, 24",
+  "data_source": "mira",
+  "uid": "22",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ },
+ {
+  "images": [
+   "_candidates/mira/img/rolling_dice_two__24.png"
+  ],
+  "doc_id": "mira_mr_rolling_dice_two_24",
+  "problem": "<image>\nWhen the die is rolled along the black and red paths respectively, which path yields a higher total sum of the numbers on the bottom face at each step (answer with \"red\", \"black\" or \"same\")? What is the total sum for that path? Note: both paths have the same length.\n\nAnswer in the form \"<red|black|same>, <sum>\", e.g. \"red, 18\".",
+  "solution": "red, 24",
+  "data_source": "mira",
+  "uid": "24",
+  "dataset": "mira",
+  "family": "mr_rolling_dice_two",
+  "split": "train"
+ }
+]

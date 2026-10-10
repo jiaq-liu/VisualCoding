@@ -1,0 +1,411 @@
+[
+ {
+  "images": [
+   "tirbench/data/symbolic/dot_3.png"
+  ],
+  "doc_id": "tirbench_symbolic_284",
+  "problem": "<image>\nHow many dots are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "28",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_circle_13_6.png"
+  ],
+  "doc_id": "tirbench_symbolic_602",
+  "problem": "<image>\nHow many nested circles are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "13",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_circle_15_9.png"
+  ],
+  "doc_id": "tirbench_symbolic_832",
+  "problem": "<image>\nHow many nested circles are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "15",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/edge-count-6.png"
+  ],
+  "doc_id": "tirbench_symbolic_36",
+  "problem": "<image>\nHow many edges are there in this polygon?\nA.12\nB.13\nC.14\nD.15\nE.16",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/illusion-2.png"
+  ],
+  "doc_id": "tirbench_symbolic_1072",
+  "problem": "<image>\nWhich blue circle in the middle is larger?\nA. The left one.\nB. The right one.\nC. Same size",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/relation-of-line-3.png"
+  ],
+  "doc_id": "tirbench_symbolic_478",
+  "problem": "<image>\nWhich pair of lines are perpendicular?\nA.ab and cd\nB.ef and gh\nC.ab and ef\nD.none of the above",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/dot_8.png"
+  ],
+  "doc_id": "tirbench_symbolic_814",
+  "problem": "<image>\nHow many dots are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "27",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/illusion-4.png"
+  ],
+  "doc_id": "tirbench_symbolic_1182",
+  "problem": "<image>\nWhich of these three arrows has the longest horizontal part?\nA. The upper one.\nB. The middle one.\nC. The lower one.",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/edge-count-8.png"
+  ],
+  "doc_id": "tirbench_symbolic_1061",
+  "problem": "<image>\nHow many edges are there in this polygon?\nA.15\nB.16\nC.17\nD.18\nE.19",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/grid_17x18_10.png"
+  ],
+  "doc_id": "tirbench_symbolic_746",
+  "problem": "<image>\nHow many grid cells are there in this image?\nA.224\nB.221\nC.238\nD.400\nE.306",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_circle_12_10.png"
+  ],
+  "doc_id": "tirbench_symbolic_690",
+  "problem": "<image>\nHow many nested circles are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "12",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/grid_20x19_3.png"
+  ],
+  "doc_id": "tirbench_symbolic_513",
+  "problem": "<image>\nHow many grid cells are there in this image?\nA.300\nB.210\nC.380\nD.176\nE.169",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/edge-count-2.png"
+  ],
+  "doc_id": "tirbench_symbolic_529",
+  "problem": "<image>\nHow many edges are there in this polygon?\nA.10\nB.13\nC.15\nD.17\nE.19",
+  "solution": "C",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/dot_shape_7.png"
+  ],
+  "doc_id": "tirbench_symbolic_1063",
+  "problem": "<image>\nHow many shapes are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "25",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_square_12_6.png"
+  ],
+  "doc_id": "tirbench_symbolic_1090",
+  "problem": "<image>\nHow many nested squares are there in this image?\nA.10\nB.12\nC.11\nD.13\nE.14",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_circle_14_2.png"
+  ],
+  "doc_id": "tirbench_symbolic_847",
+  "problem": "<image>\nHow many nested circles are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "14",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/edge-count-9.png"
+  ],
+  "doc_id": "tirbench_symbolic_787",
+  "problem": "<image>\nHow many edges are there in this polygon?\nA.16\nB.20\nC.24\nD.28\nE.32",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_circle_8_8.png"
+  ],
+  "doc_id": "tirbench_symbolic_1081",
+  "problem": "<image>\nHow many nested circles are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "8",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/dot_shape_4.png"
+  ],
+  "doc_id": "tirbench_symbolic_302",
+  "problem": "<image>\nHow many shapes are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "21",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_circle_15_7.png"
+  ],
+  "doc_id": "tirbench_symbolic_1186",
+  "problem": "<image>\nHow many nested circles are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "15",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/dot_5.png"
+  ],
+  "doc_id": "tirbench_symbolic_1096",
+  "problem": "<image>\nHow many dots are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "27",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/edge-count-5.png"
+  ],
+  "doc_id": "tirbench_symbolic_72",
+  "problem": "<image>\nHow many edges are there in this polygon?\nA.12\nB.13\nC.14\nD.15\nE.16",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/grid_14x15_2.png"
+  ],
+  "doc_id": "tirbench_symbolic_661",
+  "problem": "<image>\nHow many grid cells are there in this image?\nA.300\nB.210\nC.380\nD.176\nE.169",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/dot_6.png"
+  ],
+  "doc_id": "tirbench_symbolic_869",
+  "problem": "<image>\nHow many dots are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "28",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/subway-2.jpg"
+  ],
+  "doc_id": "tirbench_symbolic_175",
+  "problem": "<image>\nHow many connected single-colored paths go from A to C?\nA.0\nB.1\nC.2\nD.3\nE.4",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/subway-1.jpg"
+  ],
+  "doc_id": "tirbench_symbolic_831",
+  "problem": "<image>\nHow many connected single-colored paths go from D to B?\nA.0\nB.1\nC.2\nD.3\nE.4",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test",
+  "image_also_in_train": "same_family"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/edge-count-7.png"
+  ],
+  "doc_id": "tirbench_symbolic_196",
+  "problem": "<image>\nHow many edges are there in this polygon?\nA.12\nB.13\nC.14\nD.15\nE.16",
+  "solution": "A",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/subway-4.jpg"
+  ],
+  "doc_id": "tirbench_symbolic_248",
+  "problem": "<image>\nHow many connected single-colored paths go from D to C?\nA.0\nB.1\nC.2\nD.3\nE.4",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_square_15_9.png"
+  ],
+  "doc_id": "tirbench_symbolic_383",
+  "problem": "<image>\nHow many nested squares are there in this image?\nA.13\nB.15\nC.14\nD.16\nE.17",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_square_13_7.png"
+  ],
+  "doc_id": "tirbench_symbolic_420",
+  "problem": "<image>\nHow many nested squares are there in this image?\nA.11\nB.13\nC.12\nD.14\nE.15",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/nested_square_14_8.png"
+  ],
+  "doc_id": "tirbench_symbolic_476",
+  "problem": "<image>\nHow many nested squares are there in this image?\nA.12\nB.14\nC.13\nD.15\nE.16",
+  "solution": "B",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/edge-count-4.png"
+  ],
+  "doc_id": "tirbench_symbolic_41",
+  "problem": "<image>\nHow many edges are there in this polygon?\nA.12\nB.13\nC.14\nD.15\nE.16",
+  "solution": "E",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/dot_shape_3.png"
+  ],
+  "doc_id": "tirbench_symbolic_241",
+  "problem": "<image>\nHow many shapes are there in this image? Provide your final answer as an integer, such as 1, 2, 3.",
+  "solution": "21",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ },
+ {
+  "images": [
+   "tirbench/data/symbolic/grid_16x11_4.png"
+  ],
+  "doc_id": "tirbench_symbolic_984",
+  "problem": "<image>\nHow many grid cells are there in this image?\nA.300\nB.210\nC.380\nD.176\nE.169",
+  "solution": "D",
+  "data_source": "tirbench",
+  "dataset": "tirbench",
+  "family": "symbolic",
+  "split": "test"
+ }
+]
