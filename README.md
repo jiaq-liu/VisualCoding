@@ -1,4 +1,4 @@
-# VisualCoding — Learning executable skills for reliable agentic visual reasoning
+## VisualCoding — Learning executable skills for reliable agentic visual reasoning [[paper]](https://arxiv.org/abs/2610.14403)
 **VisualCoding reduces hallucination errors in visual reasoning by composing visual primitives into executable programs.**
 
 ![VisualCoding overview](assets/overview.png)
